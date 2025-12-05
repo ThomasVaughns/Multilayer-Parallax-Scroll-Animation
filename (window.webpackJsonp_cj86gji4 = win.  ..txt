@@ -1,0 +1,1361 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[16], {
+    130: function(e, t, r) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapperSearchDropDownMenu: "HeaderSearchDropDownMenu__wrapperSearchDropDownMenu__31mT8",
+            headerSearchDropDownMenu: "HeaderSearchDropDownMenu__headerSearchDropDownMenu__TfL4d",
+            innerWeaper: "HeaderSearchDropDownMenu__innerWeaper__1jtC7",
+            searchResultContainer: "HeaderSearchDropDownMenu__searchResultContainer__dGgeR",
+            searchResultFont: "HeaderSearchDropDownMenu__searchResultFont__CKK4A",
+            searchInput: "HeaderSearchDropDownMenu__searchInput__2r0So",
+            closeMenu: "HeaderSearchDropDownMenu__closeMenu__3ZdlT",
+            searchHistory: "HeaderSearchDropDownMenu__searchHistory__gRkFS",
+            searchHistoryContent: "HeaderSearchDropDownMenu__searchHistoryContent__3EONL",
+            searchHistoryItem: "HeaderSearchDropDownMenu__searchHistoryItem__fjVd6",
+            searchHistoryMenu: "HeaderSearchDropDownMenu__searchHistoryMenu__2OmzV",
+            clearAll: "HeaderSearchDropDownMenu__clearAll__3twIG",
+            title: "HeaderSearchDropDownMenu__title__14Ge-",
+            name: "HeaderSearchDropDownMenu__name__2kRqT",
+            fontItem: "HeaderSearchDropDownMenu__fontItem__18sa4",
+            active: "HeaderSearchDropDownMenu__active__e5IKF",
+            searchInputContainerBox: "HeaderSearchDropDownMenu__searchInputContainerBox__3Baaj",
+            addPaddingBottom: "HeaderSearchDropDownMenu__addPaddingBottom__30yov",
+            delPaddingBottom: "HeaderSearchDropDownMenu__delPaddingBottom__2XLEd",
+            searchInputContainer: "HeaderSearchDropDownMenu__searchInputContainer__2NlT1",
+            fadeIn: "HeaderSearchDropDownMenu__fadeIn__2jMIS",
+            searchIcon: "HeaderSearchDropDownMenu__searchIcon__3_Q_f",
+            noKeyWord: "HeaderSearchDropDownMenu__noKeyWord__1MjlB",
+            closeSearchIcon: "HeaderSearchDropDownMenu__closeSearchIcon__31ILF",
+            divider: "HeaderSearchDropDownMenu__divider__2iuHu",
+            overlayer: "HeaderSearchDropDownMenu__overlayer__3nIPD",
+            tabletHead: "HeaderSearchDropDownMenu__tabletHead__Qzcvr"
+        }
+    },
+    131: function(e, t, r) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapperMenuPopup: "HeaderDesktopMenuPopup__wrapperMenuPopup__1dLVc",
+            themeWhite: "HeaderDesktopMenuPopup__themeWhite__25oLf"
+        }
+    },
+    132: function(e, t, r) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            memberFeaturefloatBox: "HeaderMiniCart__memberFeaturefloatBox__RvlMT",
+            totalBox: "HeaderMiniCart__totalBox__lSV3i",
+            miniCartItemCheckOut: "HeaderMiniCart__miniCartItemCheckOut__1Ag9B",
+            checkOutBtn: "HeaderMiniCart__checkOutBtn__2FR4L",
+            miniCartItemTotalTitle: "HeaderMiniCart__miniCartItemTotalTitle__UuK1h",
+            itemBox: "HeaderMiniCart__itemBox__33hB8",
+            itemBoxFlow: "HeaderMiniCart__itemBoxFlow__1HoIx",
+            miniCartItems: "HeaderMiniCart__miniCartItems__2xbXQ",
+            miniCartItemContent: "HeaderMiniCart__miniCartItemContent__2ODzr",
+            miniCartItemInfo: "HeaderMiniCart__miniCartItemInfo__10nXt",
+            miniCartItemNum: "HeaderMiniCart__miniCartItemNum__2hXHm",
+            miniCartItemprice: "HeaderMiniCart__miniCartItemprice__3oQwm",
+            miniCartItem: "HeaderMiniCart__miniCartItem__2x0ug",
+            additionalMessage: "HeaderMiniCart__additionalMessage__Mzi5C",
+            memberFeaturefloat: "HeaderMiniCart__memberFeaturefloat__3dsKZ",
+            floatBoxLink: "HeaderMiniCart__floatBoxLink__w_ATv",
+            miniCartEmpty: "HeaderMiniCart__miniCartEmpty__gVZoG",
+            CarNoItemUrl: "HeaderMiniCart__CarNoItemUrl__3jQKL",
+            miniCartItemName: "HeaderMiniCart__miniCartItemName__2P2GI",
+            miniCartTitle: "HeaderMiniCart__miniCartTitle__1ZncF",
+            CarNoItem: "HeaderMiniCart__CarNoItem__26BKj",
+            miniCartItemSubTotal: "HeaderMiniCart__miniCartItemSubTotal__2n7CA",
+            Tablet: "HeaderMiniCart__Tablet__3pqkJ",
+            closeCartMenu: "HeaderMiniCart__closeCartMenu__chGTj",
+            touchRange: "HeaderMiniCart__touchRange__3y3we",
+            miniCartItemsUrl: "HeaderMiniCart__miniCartItemsUrl__3N9nW",
+            miniCartItemImg: "HeaderMiniCart__miniCartItemImg__n8CFJ",
+            miniCartEdit: "HeaderMiniCart__miniCartEdit__attYT",
+            HeaderMiniCart: "HeaderMiniCart__HeaderMiniCart__2OLLY"
+        }
+    },
+    329: function(e, t, r) {
+        "use strict";
+        var n = r(130)
+          , o = r.n(n);
+        t.default = o.a
+    },
+    330: function(e, t, r) {
+        "use strict";
+        var n = r(131)
+          , o = r.n(n);
+        t.default = o.a
+    },
+    331: function(e, t, r) {
+        "use strict";
+        var n = r(132)
+          , o = r.n(n);
+        t.default = o.a
+    },
+    432: function(e, t, r) {
+        "use strict";
+        r(36),
+        r(43),
+        r(11),
+        r(68),
+        r(14),
+        r(37);
+        var n, o = r(4), c = r(0), l = r(140), d = r(420);
+        !function(e) {
+            e.es = "es-ES",
+            e.it = "it-IT",
+            e.fr = "fr-FR",
+            e.se = "sv-SE",
+            e.dk = "da-DK",
+            e.fi = "fi-FI",
+            e.cz = "cs-CZ",
+            e.pl = "pl-PL",
+            e.hu = "hu-HU",
+            e.de = "de-DE",
+            e.nl = "nl-NL",
+            e.pt = "pt-PT",
+            e.in = "en-IN",
+            e.kr = "ko-KR",
+            e.id = "id-ID",
+            e.uk = "en-UK",
+            e.au = "en-AU",
+            e.tw = "zh-TW",
+            e.us = "en-US",
+            e["be-nl"] = "nl-BE",
+            e["be-fr"] = "fr-BE",
+            e["ca-en"] = "en-CA",
+            e["ca-fr"] = "fr-CA",
+            e.cl = "es-CL",
+            e.co = "es-CO",
+            e.br = "pt-BR",
+            e.pe = "es-PE",
+            e.jp = "jp-JP",
+            e.vn = "vi-VN",
+            e.th = "th-TH",
+            e.ro = "ro-RO",
+            e["ua-ua"] = "ua-UA",
+            e["me-en"] = "en-ME",
+            e["me-ar"] = "ar-ME",
+            e.ru = "ru-RU",
+            e.za = "en-ZA",
+            e.sg = "en-SG",
+            e.my = "ms-MY",
+            e.mx = "es-MX",
+            e.hk = "zh-HK"
+        }(n || (n = {}));
+        var h, y = r(32), _ = (h = function(e, b) {
+            return (h = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            h(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), m = function(e, t, r, desc) {
+            var n, c = arguments.length, l = c < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, r) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(o.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                l = Reflect.decorate(e, t, r, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (n = e[i]) && (l = (c < 3 ? n(l) : c > 3 ? n(t, r, l) : n(t, r)) || l);
+            return c > 3 && l && Object.defineProperty(t, r, l),
+            l
+        }, f = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.websiteCode = "",
+                t.isShowIncludingTax = !0,
+                t.indexNumber = 0,
+                t.urlTarget = !1,
+                t.locale = n,
+                t
+            }
+            return _(t, e),
+            t.prototype.created = function() {
+                this.ecConfig = this.priceConfigGetter,
+                this.isShowIncludingTax = this.ecConfig.withTax
+            }
+            ,
+            t.prototype.mounted = function() {
+                document.querySelectorAll(".miniCartTab").length && document.querySelectorAll(".miniCartTab").forEach((function(e, t) {
+                    e.setAttribute("tabNumber", t)
+                }
+                )),
+                this.isShowIncludingTax = this.ecConfig.withTax
+            }
+            ,
+            t.prototype.setWebsiteCode = function() {
+                this.websiteCode = this.websiteCodeGetter
+            }
+            ,
+            t.prototype.closeCartMenu = function() {
+                this.$emit("closeCartMenu")
+            }
+            ,
+            t.prototype.keydownCart = function(e) {
+                var t = e.currentTarget.getAttribute("tabNumber")
+                  , r = 0;
+                document.querySelectorAll(".miniCartTab").length && (document.querySelectorAll(".miniCartTab").forEach((function(e, n) {
+                    e.getAttribute("tabNumber") === t && (r = n)
+                }
+                )),
+                r + 1 < document.querySelectorAll(".miniCartTab").length && document.querySelectorAll(".miniCartTab").forEach((function(e, t) {
+                    t === r + 1 && e.focus()
+                }
+                )),
+                r + 1 === document.querySelectorAll(".miniCartTab").length && document.querySelectorAll(".miniCartTab").forEach((function(e, t) {
+                    0 === t && e.focus()
+                }
+                )))
+            }
+            ,
+            t.prototype.keyupCart = function(e) {
+                var t = e.currentTarget.getAttribute("tabNumber")
+                  , r = 0;
+                document.querySelectorAll(".miniCartTab").length && (document.querySelectorAll(".miniCartTab").forEach((function(e, n) {
+                    e.getAttribute("tabNumber") === t && (r = n)
+                }
+                )),
+                r - 1 < document.querySelectorAll(".miniCartTab").length && document.querySelectorAll(".miniCartTab").forEach((function(e, t) {
+                    t === r - 1 && e.focus()
+                }
+                )),
+                0 === r && document.querySelectorAll(".miniCartTab").forEach((function(e, t) {
+                    t + 1 === document.querySelectorAll(".miniCartTab").length && e.focus()
+                }
+                )))
+            }
+            ,
+            t.prototype.setAIStatus = function() {
+                "undefined" != typeof window && !0 === this.AIStatusGetter && (-1 !== window.location.origin.indexOf("shopstage.asus.com") || -1 !== window.location.origin.indexOf("shop.asus.com") ? this.urlTarget = "_top" : this.urlTarget = "_self")
+            }
+            ,
+            t.prototype.setWebsiteInfo = function() {
+                (this.$nuxt || this.websiteInfoDataGetter && Object.keys(this.websiteInfoDataGetter).length > 0) && (this.websiteInfo = this.websiteInfoDataGetter)
+            }
+            ,
+            t.prototype.setPriceConfig = function() {
+                this.ecConfig = this.priceConfigGetter,
+                this.isShowIncludingTax = this.ecConfig.withTax
+            }
+            ,
+            m([Object(c.Getter)("websiteCodeGetter")], t.prototype, "websiteCodeGetter", void 0),
+            m([Object(c.Getter)("priceConfigGetter")], t.prototype, "priceConfigGetter", void 0),
+            m([Object(c.Getter)("AIStatusGetter")], t.prototype, "AIStatusGetter", void 0),
+            m([Object(c.Getter)("websiteInfoDataGetter")], t.prototype, "websiteInfoDataGetter", void 0),
+            m([Object(c.Prop)()], t.prototype, "miniCartList", void 0),
+            m([Object(c.Prop)()], t.prototype, "classType", void 0),
+            m([Object(c.Prop)()], t.prototype, "ShoppingCarNoItem", void 0),
+            m([Object(c.Watch)("websiteCodeGetter", {
+                immediate: !0
+            })], t.prototype, "setWebsiteCode", null),
+            m([Object(c.Watch)("AIStatusGetter", {
+                immediate: !0
+            })], t.prototype, "setAIStatus", null),
+            m([Object(c.Watch)("websiteInfoDataGetter", {
+                immediate: !0
+            })], t.prototype, "setWebsiteInfo", null),
+            m([Object(c.Watch)("priceConfigGetter")], t.prototype, "setPriceConfig", null),
+            t = m([Object(c.Component)({
+                components: {}
+            })], t)
+        }(Object(c.mixins)(l.a, y.a, d.a)), v = r(331), k = r(10);
+        var component = Object(k.a)(f, (function() {
+            var e, t = this, r = t.$createElement, n = t._self._c || r;
+            return n("div", {
+                staticClass: "miniCart",
+                class: [t.$style.memberFeaturefloat, t.$style.floatCart, t.$style[t.classType], t.$style["theme" + t.websiteCode], (e = {},
+                e[t.$style.miniCartEmpty] = null === t.miniCartList || "" === t.miniCartList || !t.miniCartList.items || 0 === t.miniCartList.items.length,
+                e)],
+                attrs: {
+                    role: "dialog",
+                    "aria-modal": "true"
+                }
+            }, [null !== t.miniCartList && "" !== t.miniCartList && t.miniCartList.items && 0 !== t.miniCartList.items.length ? t._e() : n("div", {
+                staticClass: "miniCartTab",
+                class: [t.$style.memberFeaturefloatBox, t.$style.miniCartEmpty],
+                on: {
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keyupCart(e))
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keydownCart(e))
+                    }
+                    ]
+                }
+            }, [n("div", {
+                class: [t.$style.CarNoItem]
+            }, [t._v(t._s(t.ShoppingCarNoItem))]), t._v(" "), t.websiteInfo && t.websiteInfo.StoreURL && "" !== t.websiteInfo.StoreURL ? n("a", {
+                class: [t.$style.CarNoItemUrl],
+                attrs: {
+                    href: t.websiteInfo.StoreURL,
+                    "aria-label": t.websiteInfo.ShoponASUSstore
+                }
+            }, [t._v("\n      " + t._s(t.websiteInfo.ShoponASUSstore) + "\n    ")]) : t._e()]), t._v(" "), t.miniCartList && t.miniCartList.items && 0 !== t.miniCartList.items.length ? n("div", {
+                class: [t.$style.memberFeaturefloatBox]
+            }, [t.miniCartList.translate ? n("div", {
+                staticClass: "miniCartTab",
+                class: [t.$style.miniCartTitle],
+                attrs: {
+                    alt: t.miniCartList.translate.items_in_cart
+                },
+                on: {
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keyupCart(e))
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keydownCart(e))
+                    }
+                    ]
+                }
+            }, [t._v("\n      " + t._s(t.miniCartList.translate.items_in_cart) + "\n    ")]) : t._e(), t._v(" "), n("div", {
+                class: t.$style.itemBox
+            }, [n("div", {
+                class: t.$style.itemBoxFlow
+            }, [t._l(t.miniCartList.items, (function(e, r) {
+                return [n("a", {
+                    key: r,
+                    class: [t.$style.miniCartItemsUrl],
+                    attrs: {
+                        tabindex: "-1",
+                        href: e.buy_page_url,
+                        target: t.urlTarget
+                    }
+                }, [n("div", {
+                    class: [t.$style.miniCartItems]
+                }, [n("div", {
+                    class: [t.$style.miniCartItemImg]
+                }, [n("img", {
+                    attrs: {
+                        src: e.product.small_image.url,
+                        alt: e.product.name,
+                        role: "presentation"
+                    }
+                })]), t._v(" "), n("div", {
+                    class: t.$style.miniCartItemContent
+                }, [n("div", {
+                    class: [t.$style.miniCartItem]
+                }, [n("div", {
+                    staticClass: "miniCartTab",
+                    class: [t.$style.miniCartItemName],
+                    attrs: {
+                        alt: e.product.name + e.additional_message,
+                        "aria-label": e.product.name,
+                        role: "link",
+                        tabindex: "0"
+                    },
+                    on: {
+                        keydown: [function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                            e.stopPropagation(),
+                            t.keyupCart(e))
+                        }
+                        , function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                            e.stopPropagation(),
+                            t.keydownCart(e))
+                        }
+                        ]
+                    }
+                }, [t._v("\n                    " + t._s(e.product.name) + "\n                  ")]), t._v(" "), e.additional_message && null !== e.additional_message ? n("div", {
+                    class: [t.$style.additionalMessage],
+                    attrs: {
+                        alt: e.additional_message
+                    }
+                }, [t._v("\n                    " + t._s(e.additional_message) + "\n                  ")]) : t._e()]), t._v(" "), n("div", {
+                    class: t.$style.miniCartItemInfo
+                }, [n("span", {
+                    staticClass: "miniCartTab",
+                    class: t.$style.miniCartItemNum,
+                    attrs: {
+                        alt: e.quantity
+                    },
+                    on: {
+                        keydown: [function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                            e.stopPropagation(),
+                            t.keyupCart(e))
+                        }
+                        , function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                            e.stopPropagation(),
+                            t.keydownCart(e))
+                        }
+                        ]
+                    }
+                }, [t._v("\n                  x" + t._s(e.quantity) + "\n                  ")]), t._v(" "), n("span", {
+                    staticClass: "miniCartTab",
+                    class: t.$style.miniCartItemprice,
+                    attrs: {
+                        alt: t.isShowIncludingTax ? t.formatMoney(e.prices.row_total_including_tax.value) : t.formatMoney(e.prices.row_total.value)
+                    },
+                    on: {
+                        keydown: [function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                            e.stopPropagation(),
+                            t.keyupCart(e))
+                        }
+                        , function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                            e.stopPropagation(),
+                            t.keydownCart(e))
+                        }
+                        ]
+                    }
+                }, [t.isShowIncludingTax ? [t._v("\n                      " + t._s(t.formatMoney(e.prices.row_total_including_tax.value)) + "\n                    ")] : t._e(), t._v(" "), t.isShowIncludingTax ? t._e() : [t._v("\n                      " + t._s(t.formatMoney(e.prices.row_total.value)) + "\n                    ")]], 2)])])])])]
+            }
+            ))], 2)]), t._v(" "), n("div", {
+                class: t.$style.totalBox
+            }, [t.miniCartList.translate ? n("div", {
+                staticClass: "miniCartTab",
+                class: t.$style.miniCartItemTotalTitle,
+                attrs: {
+                    alt: t.miniCartList.translate.cart_subtotal
+                },
+                on: {
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keyupCart(e))
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keydownCart(e))
+                    }
+                    ]
+                }
+            }, [t._v("\n        " + t._s(t.miniCartList.translate.cart_subtotal) + "\n      ")]) : t._e(), t._v(" "), n("div", {
+                staticClass: "miniCartTab",
+                class: t.$style.miniCartItemSubTotal,
+                attrs: {
+                    alt: t.isShowIncludingTax ? t.formatMoney(t.miniCartList.prices.subtotal_including_tax.value) : t.formatMoney(t.miniCartList.prices.subtotal_excluding_tax.value)
+                },
+                on: {
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keyupCart(e))
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keydownCart(e))
+                    }
+                    ]
+                }
+            }, [t.isShowIncludingTax ? [t._v("\n          " + t._s(t.formatMoney(t.miniCartList.prices.subtotal_including_tax.value)) + "\n        ")] : t._e(), t._v(" "), t.isShowIncludingTax ? t._e() : [t._v("\n          " + t._s(t.formatMoney(t.miniCartList.prices.subtotal_excluding_tax.value)) + "\n        ")]], 2), t._v(" "), t.miniCartList.translate && t.miniCartList.checkout_url && t.miniCartList.translate.checkout ? n("div", {
+                class: t.$style.miniCartItemCheckOut
+            }, [n("a", {
+                staticClass: "miniCartTab",
+                class: t.$style.checkOutBtn,
+                attrs: {
+                    href: t.miniCartList.checkout_url,
+                    "aria-label": t.miniCartList.translate.checkout,
+                    target: t.urlTarget
+                },
+                on: {
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "up", 38, e.key, ["Up", "ArrowUp"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keyupCart(e))
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "down", 40, e.key, ["Down", "ArrowDown"]) ? null : (e.preventDefault(),
+                        e.stopPropagation(),
+                        t.keydownCart(e))
+                    }
+                    ],
+                    click: function(e) {
+                        return t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_category_DL: "header-mini_cart-L2",
+                            event_action_DL: "clicked",
+                            event_label_DL: "View and Edit Cart -" + t.miniCartList.translate.checkout,
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            }, [t._v("\n          " + t._s(t.miniCartList.translate.checkout) + "\n        ")])]) : t._e()])]) : t._e(), t._v(" "), n("div", {
+                class: t.$style.closeCartMenu
+            }, [n("div", {
+                staticClass: "canTabFocus",
+                class: t.$style.touchRange,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "close mini cart menu"
+                },
+                on: {
+                    keydown: function(e) {
+                        if (!e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter"))
+                            return null;
+                        e.stopPropagation(),
+                        t.closeCartMenu(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "header_close_mini_cart",
+                            event_category_DL: "header-mini_cart-L2",
+                            event_action_DL: "clicked",
+                            event_label_DL: "close",
+                            event_value_DL: "0"
+                        })
+                    },
+                    click: function(e) {
+                        e.stopPropagation(),
+                        t.closeCartMenu(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "header_close_mini_cart",
+                            event_category_DL: "header-mini_cart-L2",
+                            event_action_DL: "clicked",
+                            event_label_DL: "close",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            }), t._v(" "), n("svg", {
+                class: "svg-icon",
+                attrs: {
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [n("path", {
+                attrs: {
+                    d: "M14 2L2 14M2 2l12 12",
+                    stroke: "#666",
+                    "stroke-linecap": "round"
+                }
+            })])])])
+        }
+        ), [], !1, (function(e) {
+            this.$style = v.default.locals || v.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    436: function(e, t, r) {
+        "use strict";
+        r(55),
+        r(43),
+        r(108),
+        r(62),
+        r(11),
+        r(14),
+        r(113),
+        r(16),
+        r(28),
+        r(38),
+        r(27);
+        var n, o = r(4), c = r(0), l = r(30), d = r.n(l), h = r(40), y = r.n(h), _ = r(349), m = r.n(_), f = r(32), v = r(2), k = r.n(v), C = r(350), w = (n = function(e, b) {
+            return (n = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            n(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), D = function(e, t, r, desc) {
+            var n, c = arguments.length, l = c < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, r) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(o.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                l = Reflect.decorate(e, t, r, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (n = e[i]) && (l = (c < 3 ? n(l) : c > 3 ? n(t, r, l) : n(t, r)) || l);
+            return c > 3 && l && Object.defineProperty(t, r, l),
+            l
+        }, S = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.breakPointMedium = 1279,
+                t.breakPointSmall = 731,
+                t.windowWidth = 0,
+                t.websiteCode = "",
+                t.resultData = [],
+                t.inputSearchKeyWord = "",
+                t.searchQuickLink = [],
+                t.searchKeyWordArray = [],
+                t.searchBarMaxHeight = 0,
+                t.activeSearchFlag = !1,
+                t
+            }
+            return w(t, e),
+            t.prototype.mounted = function() {
+                this.getSearchResultWording({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode
+                    }
+                }),
+                this.getSearchQuickLink({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode
+                    }
+                }),
+                void 0 !== k.a.get("searchKeyWordArray") && "" !== k.a.get("searchKeyWordArray") && (this.searchKeyWordArray = k.a.get("searchKeyWordArray").split(",")),
+                window.addEventListener("resize", y()(this.setWindowWidth, 100, {
+                    trailing: !0
+                })),
+                this.setWindowWidth()
+            }
+            ,
+            Object.defineProperty(t.prototype, "searchSuggestion", {
+                get: function() {
+                    return this.$store.getters.topMenuDataGetter.ProductLine.SearchSuggestion
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "ariaLabel", {
+                get: function() {
+                    return this.$store.getters.topMenuDataGetter.ProductLine.AriaLabel
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.setTopMenuSearchData = function() {
+                this.resultData = d()(this.topMenuSearchDataGetter)
+            }
+            ,
+            t.prototype.setSearchQuickLink = function() {
+                this.searchQuickLinkGetter && this.searchQuickLinkGetter.QuickLinkList && this.searchQuickLinkGetter.QuickLinkList.length > 0 && (this.searchQuickLink = d()(this.searchQuickLinkGetter.QuickLinkList))
+            }
+            ,
+            t.prototype.onToggleScroll = function() {
+                if ("object" == ("undefined" == typeof document ? "undefined" : Object(o.a)(document))) {
+                    var e = document.querySelector("html")
+                      , t = document.querySelector("body");
+                    this.displaySearchFlag ? (e.style.overflow = "",
+                    t.style.overflow = "",
+                    e.classList.add("noscroll", "noscrollLong"),
+                    t.classList.add("noscroll")) : (e.classList.remove("noscroll", "noscrollLong"),
+                    t.classList.remove("noscroll")),
+                    this.onSearchFocus(),
+                    void 0 === k.a.get("searchKeyWordArray") && (this.searchKeyWordArray = ""),
+                    void 0 !== k.a.get("searchKeyWordArray") && "" !== k.a.get("searchKeyWordArray") && (this.searchKeyWordArray = k.a.get("searchKeyWordArray").split(","))
+                }
+            }
+            ,
+            t.prototype.inputChange = function() {
+                this.inputSearchKeyWord && this.inputSearchKeyWord.length > 2 ? this.getSearchData(this.inputSearchKeyWord) : this.resultData = []
+            }
+            ,
+            t.prototype.setWebsiteCode = function() {
+                this.websiteCode = this.websiteCodeGetter
+            }
+            ,
+            t.prototype.setWindowWidth = function() {
+                this.windowWidth = window.innerWidth,
+                this.getSearchBarMaxHeight()
+            }
+            ,
+            t.prototype.getSearchData = function(e) {
+                this.getTopMenuSearchData({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode,
+                        SearchKey: e,
+                        SearchType: "Products,Support,FAQ,News",
+                        RowLimit: "3,3,3,3"
+                    }
+                })
+            }
+            ,
+            t.prototype.searchHistoryClear = function() {
+                k.a.remove("searchKeyWordArray");
+                var e = new Date(+new Date - 2592e5);
+                "cn" === this.websiteCode ? k.a.set("searchKeyWordArray", "searchKeyWordArray", {
+                    domain: ".asus.com.cn",
+                    expires: e,
+                    secure: !0
+                }) : k.a.set("searchKeyWordArray", "searchKeyWordArray", {
+                    domain: ".asus.com",
+                    expires: e,
+                    secure: !0
+                }),
+                this.searchKeyWordArray = ""
+            }
+            ,
+            t.prototype.searchHistoryAdd = function(e) {
+                var t = []
+                  , r = new Date(+new Date + 864e5);
+                if (void 0 === k.a.get("searchKeyWordArray"))
+                    t.unshift(e),
+                    "cn" === this.websiteCode ? k.a.set("searchKeyWordArray", t.join(","), {
+                        domain: ".asus.com.cn",
+                        expires: r,
+                        secure: !0
+                    }) : (k.a.set("searchKeyWordArray", t.join(","), {
+                        domain: ".asus.com",
+                        expires: r,
+                        secure: !0
+                    }),
+                    k.a.set("searchKeyWordArray", t.join(","), {
+                        domain: "localhost",
+                        expires: r,
+                        secure: !0
+                    }));
+                else {
+                    var n = k.a.get("searchKeyWordArray").split(",");
+                    "" !== e && n.unshift(e);
+                    var o = n.filter((function(element, e, t) {
+                        return t.indexOf(element) === e
+                    }
+                    )).slice(0, 10).join(",");
+                    "cn" === this.websiteCode ? k.a.set("searchKeyWordArray", o, {
+                        domain: ".asus.com.cn",
+                        expires: r,
+                        secure: !0
+                    }) : (k.a.set("searchKeyWordArray", o, {
+                        domain: ".asus.com",
+                        expires: r,
+                        secure: !0
+                    }),
+                    k.a.set("searchKeyWordArray", o, {
+                        domain: "localhost",
+                        expires: r,
+                        secure: !0
+                    }))
+                }
+                this.searchKeyWordInit()
+            }
+            ,
+            t.prototype.searchHistoryRedirect = function(e) {
+                "" !== e && (this.searchHistoryAdd(e),
+                this.inputSearchKeyWord = e,
+                this.searchKeyWordInit(),
+                this.redirect())
+            }
+            ,
+            t.prototype.inputSearchKeyWordClean = function() {
+                this.inputSearchKeyWord = ""
+            }
+            ,
+            t.prototype.searchKeyWordInit = function() {
+                void 0 !== k.a.get("searchKeyWordArray") && "" !== k.a.get("searchKeyWordArray") && (this.searchKeyWordArray = k.a.get("searchKeyWordArray").split(","))
+            }
+            ,
+            t.prototype.getSearchBarMaxHeight = function() {
+                if (window) {
+                    var e = document.getElementById("OfficialHeaderWrapper")
+                      , t = e ? e.offsetHeight : 0;
+                    this.windowWidth > 960 || this.windowWidth <= 960 && this.windowWidth > this.breakPointSmall ? this.searchBarMaxHeight = .7 * (window.innerHeight - t) : this.searchBarMaxHeight = .9 * window.innerHeight
+                }
+            }
+            ,
+            t.prototype.keyWordFilter = function(pattern, text) {
+                var e = new RegExp(pattern,"gi");
+                return text.replace(e, (function(e) {
+                    return "<font>" + e + "</font>"
+                }
+                ))
+            }
+            ,
+            t.prototype.onSearchClickActive = function() {
+                this.$set(this, "activeSearchFlag", !0),
+                this.getSearchBarMaxHeight()
+            }
+            ,
+            t.prototype.onSearchClick = function() {
+                this.$emit("onSearchClick", !1),
+                this.$set(this, "activeSearchFlag", !1)
+            }
+            ,
+            t.prototype.handleMobileTouchStart = function(e) {
+                var input = this.$refs.inputSearch;
+                input && input.blur()
+            }
+            ,
+            t.prototype.ClearDataChild = function() {
+                this.resultData = [],
+                this.inputSearchKeyWord = ""
+            }
+            ,
+            t.prototype.removeSearchKeyError = function() {
+                sessionStorage.removeItem("searchKeyError")
+            }
+            ,
+            t.prototype.redirect = function() {
+                var e = this.inputSearchKeyWord;
+                "" !== this.inputSearchKeyWord && (e = encodeURIComponent(this.inputSearchKeyWord),
+                this.searchHistoryAdd(this.inputSearchKeyWord));
+                try {
+                    var t = "";
+                    t = "http://localhost:3000" === origin || "https://dev2-asgard.asus.com" === origin || "https://test2-asgard.asus.com" === origin || "https://dev-asgard.asus.com" === origin || "https://test-asgard.asus.com" === origin || "https://stage-asgard.asus.com" === origin || "https://asgard.asus.com" === origin || "https://odinview.asus.com" === origin || "https://www.asus.com" === origin || "https://w3.asus.com.cn" === origin || "https://www.asus.com.cn" === origin ? origin : "https://www.asus.com";
+                    var r = "https://w3.asus.com.cn" === window.location.origin || "https://www.asus.com.cn" === window.location.origin;
+                    "" !== e && (window.location.href = t + ("global" == this.websiteCode || r ? "" : "/" + this.websiteCode) + "/searchresult?searchType=&searchKey=" + e + "&page=1")
+                } catch (t) {
+                    r = "https://w3.asus.com.cn" === window.location.origin || "https://www.asus.com.cn" === window.location.origin;
+                    window.location.href = r ? "https://www.asus.com.cn/searchresult?searchType=&searchKey=" + e + "&page=1" : "https://www.asus.com" + ("global" == this.websiteCode ? "" : "/" + this.websiteCode) + "/searchresult?searchType=&searchKey=" + e + "&page=1"
+                }
+            }
+            ,
+            t.prototype.onSearchFocus = function() {
+                var e = this;
+                this.$nextTick((function() {
+                    e.$refs.inputSearch && e.$refs.inputSearch.focus()
+                }
+                ))
+            }
+            ,
+            D([Object(c.Getter)("topMenuSearchDataGetter")], t.prototype, "topMenuSearchDataGetter", void 0),
+            D([Object(c.Getter)("searchQuickLinkGetter")], t.prototype, "searchQuickLinkGetter", void 0),
+            D([Object(c.Getter)("websiteCodeGetter")], t.prototype, "websiteCodeGetter", void 0),
+            D([Object(c.Prop)()], t.prototype, "displaySearchFlag", void 0),
+            D([Object(c.Prop)()], t.prototype, "headerType", void 0),
+            D([Object(c.Action)("getTopMenuSearchData")], t.prototype, "getTopMenuSearchData", void 0),
+            D([Object(c.Action)("getSearchQuickLink")], t.prototype, "getSearchQuickLink", void 0),
+            D([Object(c.Action)("getSearchResultWording")], t.prototype, "getSearchResultWording", void 0),
+            D([Object(c.Watch)("topMenuSearchDataGetter")], t.prototype, "setTopMenuSearchData", null),
+            D([Object(c.Watch)("searchQuickLinkGetter")], t.prototype, "setSearchQuickLink", null),
+            D([Object(c.Watch)("displaySearchFlag", {
+                immediate: !0
+            })], t.prototype, "onToggleScroll", null),
+            D([Object(c.Watch)("inputSearchKeyWord", {
+                immediate: !0
+            }), m()(250)], t.prototype, "inputChange", null),
+            D([Object(c.Watch)("websiteCodeGetter", {
+                immediate: !0
+            })], t.prototype, "setWebsiteCode", null),
+            t = D([Object(c.Component)({})], t)
+        }(Object(c.mixins)(C.a, f.a)), L = r(329), x = r(10);
+        var component = Object(x.a)(S, (function() {
+            var e, t, r, n, o, c, l, d, h = this, y = h.$createElement, _ = h._self._c || y;
+            return _("div", {
+                class: [h.$style.wrapperSearchDropDownMenu, (e = {},
+                e[h.$style.tabletHead] = !0 === h.headerType,
+                e)]
+            }, [_("div", {
+                class: [h.$style.headerSearchDropDownMenu, (t = {},
+                t[h.$style.active] = h.displaySearchFlag,
+                t)],
+                style: !0 === h.displaySearchFlag ? {
+                    "max-height": h.searchBarMaxHeight + "px"
+                } : {},
+                on: {
+                    click: function(e) {
+                        e.stopPropagation()
+                    }
+                }
+            }, [_("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: h.displaySearchFlag,
+                    expression: "displaySearchFlag"
+                }],
+                class: [h.$style.innerWeaper, (r = {},
+                r[h.$style.active] = h.displaySearchFlag,
+                r)]
+            }, [_("div", {
+                class: [h.$style.searchInputContainerBox, (n = {},
+                n[h.$style.addPaddingBottom] = h.inputSearchKeyWord && h.inputSearchKeyWord.length > 0,
+                n), (o = {},
+                o[h.$style.delPaddingBottom] = h.displaySearchFlag && (h.resultData && h.resultData.length > 0 && "" !== h.inputSearchKeyWord || (h.searchKeyWordArray && h.searchKeyWordArray.length > 0 || h.searchQuickLink && h.searchQuickLink.length > 0) && "" === h.inputSearchKeyWord),
+                o)]
+            }, [_("div", {
+                class: h.$style.searchInputContainer
+            }, [h.inputSearchKeyWord && h.inputSearchKeyWord.length > 0 ? _("div", {
+                class: h.$style.searchIcon,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Start search"
+                },
+                on: {
+                    click: function(e) {
+                        h.redirect(),
+                        h.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "submit_search_official",
+                            event_category_DL: "search_official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "submit/search_official",
+                            event_value_DL: ""
+                        })
+                    },
+                    keypress: function(e) {
+                        if (!e.type.indexOf("key") && h._k(e.keyCode, "enter", 13, e.key, "Enter"))
+                            return null;
+                        h.redirect(),
+                        h.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "submit_search_official",
+                            event_category_DL: "search_official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "submit/search_official",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("circle", {
+                attrs: {
+                    cx: "11.286",
+                    cy: "11.286",
+                    r: "5.786",
+                    stroke: "#181818"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M15.607 15.607l3.143 3.143",
+                    stroke: "#181818",
+                    "stroke-linecap": "round"
+                }
+            })])]) : h._e(), h._v(" "), _("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: h.inputSearchKeyWord,
+                    expression: "inputSearchKeyWord"
+                }],
+                ref: "inputSearch",
+                class: [h.$style.searchInput, (c = {},
+                c[h.$style.noKeyWord] = "" === h.inputSearchKeyWord,
+                c)],
+                attrs: {
+                    type: "text",
+                    maxlength: "250",
+                    role: "combobox",
+                    "aria-label": h.searchSuggestion,
+                    "aria-autocomplete": "list",
+                    "aria-owns": "Quick links suggestion",
+                    "aria-expanded": h.displaySearchFlag ? "true" : "false",
+                    placeholder: h.searchSuggestion
+                },
+                domProps: {
+                    value: h.inputSearchKeyWord
+                },
+                on: {
+                    keydown: function(e) {
+                        return e.type.indexOf("key") || 46 === e.keyCode ? (e.preventDefault(),
+                        h.inputSearchKeyWordClean()) : null
+                    },
+                    click: function(e) {
+                        h.removeSearchKeyError(),
+                        h.onSearchClickActive()
+                    },
+                    keypress: function(e) {
+                        if (!e.type.indexOf("key") && h._k(e.keyCode, "enter", 13, e.key, "Enter"))
+                            return null;
+                        h.removeSearchKeyError(),
+                        h.redirect(),
+                        h.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "submit_search_official",
+                            event_category_DL: "search_official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "submit/search_official",
+                            event_value_DL: ""
+                        })
+                    },
+                    input: function(e) {
+                        e.target.composing || (h.inputSearchKeyWord = e.target.value)
+                    }
+                }
+            }), h._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: h.inputSearchKeyWord && h.inputSearchKeyWord.length > 0,
+                    expression: "inputSearchKeyWord && inputSearchKeyWord.length > 0"
+                }],
+                class: h.$style.closeSearchIcon,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Clear search term"
+                },
+                on: {
+                    click: function(e) {
+                        h.ClearDataChild(),
+                        h.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "clear_search_official",
+                            event_category_DL: "search_official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "clear/search_official",
+                            event_value_DL: ""
+                        })
+                    },
+                    keydown: function(e) {
+                        if (!e.type.indexOf("key") && h._k(e.keyCode, "enter", 13, e.key, "Enter"))
+                            return null;
+                        h.ClearDataChild(),
+                        h.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "clear_search_official",
+                            event_category_DL: "search_official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "clear/search_official",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M18 6L6 18M6 6l12 12",
+                    stroke: "#181818",
+                    "stroke-linecap": "round"
+                }
+            })])])]), h._v(" "), 0 !== h.windowWidth && h.windowWidth < h.breakPointSmall ? _("div", {
+                class: h.$style.closeMenu,
+                on: {
+                    click: h.onSearchClick,
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && h._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : h.onSearchClick(e)
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && h._k(e.keyCode, "space", 32, e.key, [" ", "Spacebar"]) ? null : (e.preventDefault(),
+                        h.onSearchClick(e))
+                    }
+                    ]
+                }
+            }, [h._v("\n          " + h._s(h.getWording("Search-Close")) + "\n        ")]) : h._e()]), h._v(" "), h.displaySearchFlag && (h.resultData && h.resultData.length > 0 && "" !== h.inputSearchKeyWord || (h.searchKeyWordArray && h.searchKeyWordArray.length > 0 || h.searchQuickLink && h.searchQuickLink.length > 0) && "" === h.inputSearchKeyWord) ? _("div", {
+                class: [h.$style.searchResultContainer, (l = {},
+                l[h.$style.active] = h.resultData && h.resultData.length > 0,
+                l)],
+                style: !0 === h.displaySearchFlag ? h.windowWidth > h.breakPointSmall ? {
+                    "max-height": h.searchBarMaxHeight - 120 + "px"
+                } : {
+                    "max-height": h.searchBarMaxHeight - 80 + "px"
+                } : {}
+            }, [h._l(h.resultData, (function(e, t) {
+                return _("section", {
+                    key: e.Type
+                }, [t > 0 ? _("div", {
+                    class: h.$style.divider
+                }) : h._e(), h._v(" "), _("div", {
+                    class: h.$style.title
+                }, [h._v("\n            " + h._s(e.Type) + "\n          ")]), h._v(" "), h._l(e.Content, (function(t, r) {
+                    return _("div", {
+                        key: r,
+                        on: {
+                            click: function(r) {
+                                return h.gaDataLayerPush({
+                                    event: "data_layer_event",
+                                    event_category_DL: "site search dynamic list",
+                                    event_action_DL: "clicked",
+                                    event_label_DL: h.inputSearchKeyWord + "-" + e.Type + "-" + t.Title
+                                })
+                            }
+                        }
+                    }, [_("a", {
+                        class: h.$style.searchResultFont,
+                        attrs: {
+                            href: t.Url,
+                            target: t.Url && -1 !== t.Url.search("rog.asus") ? "_blank" : "_self",
+                            rel: "noreferrer noopener"
+                        },
+                        domProps: {
+                            innerHTML: h._s(h.keyWordFilter(h.inputSearchKeyWord, t.Title))
+                        }
+                    })])
+                }
+                ))], 2)
+            }
+            )), h._v(" "), h.searchQuickLink && h.searchQuickLink.length > 0 && "" === h.inputSearchKeyWord ? _("section", [_("div", {
+                class: h.$style.title
+            }, [h._v("\n            " + h._s(h.getWording("Search-QuickLink")) + "\n          ")]), h._v(" "), h._l(h.searchQuickLink, (function(e, t) {
+                return _("div", {
+                    key: t
+                }, [_("a", {
+                    class: h.$style.searchHistoryItem,
+                    attrs: {
+                        href: e.Link,
+                        target: e.LinkTarget,
+                        rel: "_blank" === e.LinkTarget ? "noreferrer noopener" : "",
+                        role: "link",
+                        "aria-label": "Search " + e.DisplayName,
+                        "aria-describedby": t + 1 + "/" + h.searchQuickLink.length
+                    },
+                    on: {
+                        click: function(r) {
+                            return h.gaDataLayerPush({
+                                event: "gtm.historyChange-v2",
+                                event_category_DL: "site search dynamic list",
+                                event_action_DL: "clicked",
+                                event_label_DL: "Quick Links/" + e.DisplayName + "/" + t
+                            })
+                        },
+                        keyup: function(r) {
+                            return !r.type.indexOf("key") && h._k(r.keyCode, "enter", 13, r.key, "Enter") ? null : h.gaDataLayerPush({
+                                event: "gtm.historyChange-v2",
+                                event_category_DL: "site search dynamic list",
+                                event_action_DL: "clicked",
+                                event_label_DL: "Quick Links/" + e.DisplayName + "/" + t
+                            })
+                        }
+                    }
+                }, [_("div", [h._v(h._s(e.DisplayName))])])])
+            }
+            ))], 2) : h._e(), h._v(" "), h.searchQuickLink && h.searchQuickLink.length > 0 && h.searchKeyWordArray && h.searchKeyWordArray.length > 0 && "" === h.inputSearchKeyWord ? _("div", {
+                key: h.index,
+                class: h.$style.divider
+            }) : h._e(), h._v(" "), h.searchKeyWordArray.length > 0 && "" === h.inputSearchKeyWord ? _("section", {
+                class: h.$style.searchHistory
+            }, [_("div", {
+                class: h.$style.searchHistoryMenu
+            }, [_("div", {
+                class: h.$style.name
+            }, [h._v("\n              " + h._s(h.getWording("Search-History")) + "\n            ")]), h._v(" "), _("div", {
+                class: h.$style.clearAll,
+                attrs: {
+                    tabindex: "0",
+                    role: "button"
+                },
+                on: {
+                    click: function(e) {
+                        return h.searchHistoryClear()
+                    },
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && h._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : h.searchHistoryClear()
+                    }
+                }
+            }, [h._v("\n              " + h._s(h.getWording("Search-ClearAll")) + "\n            ")])]), h._v(" "), _("div", {
+                class: h.$style.searchHistoryContent
+            }, h._l(h.searchKeyWordArray, (function(e, t) {
+                return _("div", {
+                    key: t,
+                    class: h.$style.searchHistoryItem,
+                    attrs: {
+                        tabindex: "0",
+                        role: "link",
+                        "aria-label": "Search " + e,
+                        "aria-describedby": t + 1 + "/" + h.searchKeyWordArray.length
+                    },
+                    on: {
+                        click: function(r) {
+                            h.searchHistoryRedirect(e),
+                            h.gaDataLayerPush({
+                                event: "Search History/" + e,
+                                event_category_DL: "site search dynamic list",
+                                event_action_DL: "clicked",
+                                event_label_DL: "Search History/" + e + "/" + t
+                            })
+                        },
+                        keyup: function(r) {
+                            if (!r.type.indexOf("key") && h._k(r.keyCode, "enter", 13, r.key, "Enter"))
+                                return null;
+                            h.searchHistoryRedirect(e),
+                            h.gaDataLayerPush({
+                                event: "Search History/" + e,
+                                event_category_DL: "site search dynamic list",
+                                event_action_DL: "clicked",
+                                event_label_DL: "Search History/" + e + "/" + t
+                            })
+                        }
+                    }
+                }, [_("div", {
+                    class: h.$style.fontItem
+                }, [h._v(h._s(e))])])
+            }
+            )), 0)]) : h._e()], 2) : h._e()]), h._v(" "), _("div", {
+                class: [h.$style.overlayer, (d = {},
+                d[h.$style.active] = h.displaySearchFlag,
+                d)],
+                on: {
+                    click: h.onSearchClick,
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && h._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : h.onSearchClick(e)
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && h._k(e.keyCode, "space", 32, e.key, [" ", "Spacebar"]) ? null : (e.preventDefault(),
+                        h.onSearchClick(e))
+                    }
+                    ],
+                    touchstart: function(e) {
+                        return e.preventDefault(),
+                        h.handleMobileTouchStart(e)
+                    }
+                }
+            })])])
+        }
+        ), [], !1, (function(e) {
+            this.$style = L.default.locals || L.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    437: function(e, t, r) {
+        "use strict";
+        r(11),
+        r(14);
+        var n, o = r(4), c = r(0), l = r(32), d = (n = function(e, b) {
+            return (n = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            n(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), h = function(e, t, r, desc) {
+            var n, c = arguments.length, l = c < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, r) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(o.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                l = Reflect.decorate(e, t, r, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (n = e[i]) && (l = (c < 3 ? n(l) : c > 3 ? n(t, r, l) : n(t, r)) || l);
+            return c > 3 && l && Object.defineProperty(t, r, l),
+            l
+        }, y = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.popupWidth = 0,
+                t
+            }
+            return d(t, e),
+            t.prototype.mounted = function() {
+                var element = this.$refs.popup;
+                this.popupWidth = element.offsetWidth
+            }
+            ,
+            h([Object(c.Getter)("themeColorGetter")], t.prototype, "themeColor", void 0),
+            h([Object(c.Prop)({
+                default: function() {
+                    return []
+                }
+            })], t.prototype, "menuItemProps", void 0),
+            h([Object(c.Prop)({
+                default: function() {
+                    return []
+                }
+            })], t.prototype, "menuItemTitle", void 0),
+            h([Object(c.Prop)({
+                default: function() {
+                    return !1
+                }
+            })], t.prototype, "menuItemLast", void 0),
+            t = h([Object(c.Component)({})], t)
+        }(Object(c.mixins)(l.a)), _ = r(330), m = r(10);
+        var component = Object(m.a)(y, (function() {
+            var e = this
+              , t = e.$createElement
+              , r = e._self._c || t;
+            return r("div", {
+                ref: "popup",
+                class: [e.$style.wrapperMenuPopup, e.$style["theme" + e.themeColor]],
+                style: [e.menuItemLast ? {
+                    right: "0px"
+                } : {
+                    left: "calc(50% - " + Math.ceil(e.popupWidth / 2) + "px)"
+                }]
+            }, e._l(e.menuItemProps, (function(t, n) {
+                return r("a", {
+                    key: n,
+                    attrs: {
+                        href: t.Link,
+                        target: t.LinkTarget,
+                        rel: "_blank" === t.LinkTarget ? "noreferrer noopener" : ""
+                    },
+                    on: {
+                        click: function(r) {
+                            e.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_category_DL: "header-" + e.menuItemTitle + "-L2",
+                                event_action_DL: "clicked",
+                                event_label_DL: t.Name,
+                                event_value_DL: "0"
+                            }),
+                            e.gaDataLayerPush(["_trackEvent", "header-" + e.menuItemTitle + "-L2", "clicked", "{{button text in English}}-" + t.Name], !0)
+                        }
+                    }
+                }, [e._v("\n    " + e._s(t.Name) + "\n  ")])
+            }
+            )), 0)
+        }
+        ), [], !1, (function(e) {
+            this.$style = _.default.locals || _.default
+        }
+        ), null, null);
+        t.a = component.exports
+    }
+}]);

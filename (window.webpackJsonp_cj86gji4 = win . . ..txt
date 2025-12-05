@@ -1,0 +1,925 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[42], {
+    1051: function(e, t, r) {
+        var o = r(6)
+          , n = Math.hypot
+          , c = Math.abs
+          , d = Math.sqrt;
+        o({
+            target: "Math",
+            stat: !0,
+            forced: !!n && n(1 / 0, NaN) !== 1 / 0
+        }, {
+            hypot: function(e, t) {
+                for (var r, div, o = 0, i = 0, n = arguments.length, l = 0; i < n; )
+                    l < (r = c(arguments[i++])) ? (o = o * (div = l / r) * div + 1,
+                    l = r) : o += r > 0 ? (div = r / l) * div : r;
+                return l === 1 / 0 ? 1 / 0 : l * d(o)
+            }
+        })
+    },
+    1065: function(e, t, r) {
+        "use strict";
+        var o = r(766)
+          , n = r.n(o);
+        t.default = n.a
+    },
+    1066: function(e, t, r) {
+        "use strict";
+        var o = r(767);
+        r.n(o).a
+    },
+    1210: function(e, t, r) {
+        "use strict";
+        r.r(t);
+        r(48),
+        r(56),
+        r(57),
+        r(592),
+        r(36),
+        r(21),
+        r(43),
+        r(29),
+        r(11),
+        r(68),
+        r(14),
+        r(15),
+        r(16),
+        r(24),
+        r(39),
+        r(38),
+        r(27),
+        r(147),
+        r(37),
+        r(44),
+        r(47);
+        var o, n = r(4), c = r(0), d = r(40), l = r.n(d), h = r(30), m = r.n(h), v = r(109), w = r(1158), P = r(851), y = r(900), f = r(1159), D = r(1160), S = r(1161), L = r(883), R = r(1162), O = r(608), C = r(597), T = r(598), G = r(606), W = r(607), I = r(32), _ = r(143), M = r(1), j = r(345), N = r(346), A = r(1163), k = r(1164), x = r(1165), E = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), F = function(e, t, r, desc) {
+            var o, c = arguments.length, d = c < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, r) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                d = Reflect.decorate(e, t, r, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (d = (c < 3 ? o(d) : c > 3 ? o(t, r, d) : o(t, r)) || d);
+            return c > 3 && d && Object.defineProperty(t, r, d),
+            d
+        }, H = function(e, t, r, o) {
+            return new (r || (r = Promise))((function(n, c) {
+                function d(e) {
+                    try {
+                        h(o.next(e))
+                    } catch (e) {
+                        c(e)
+                    }
+                }
+                function l(e) {
+                    try {
+                        h(o.throw(e))
+                    } catch (e) {
+                        c(e)
+                    }
+                }
+                function h(e) {
+                    var t;
+                    e.done ? n(e.value) : (t = e.value,
+                    t instanceof r ? t : new r((function(e) {
+                        e(t)
+                    }
+                    ))).then(d, l)
+                }
+                h((o = o.apply(e, t || [])).next())
+            }
+            ))
+        }, B = function(e, body) {
+            var t, r, o, g, n = {
+                label: 0,
+                sent: function() {
+                    if (1 & o[0])
+                        throw o[1];
+                    return o[1]
+                },
+                trys: [],
+                ops: []
+            };
+            return g = {
+                next: c(0),
+                throw: c(1),
+                return: c(2)
+            },
+            "function" == typeof Symbol && (g[Symbol.iterator] = function() {
+                return this
+            }
+            ),
+            g;
+            function c(c) {
+                return function(d) {
+                    return function(c) {
+                        if (t)
+                            throw new TypeError("Generator is already executing.");
+                        for (; n; )
+                            try {
+                                if (t = 1,
+                                r && (o = 2 & c[0] ? r.return : c[0] ? r.throw || ((o = r.return) && o.call(r),
+                                0) : r.next) && !(o = o.call(r, c[1])).done)
+                                    return o;
+                                switch (r = 0,
+                                o && (c = [2 & c[0], o.value]),
+                                c[0]) {
+                                case 0:
+                                case 1:
+                                    o = c;
+                                    break;
+                                case 4:
+                                    return n.label++,
+                                    {
+                                        value: c[1],
+                                        done: !1
+                                    };
+                                case 5:
+                                    n.label++,
+                                    r = c[1],
+                                    c = [0];
+                                    continue;
+                                case 7:
+                                    c = n.ops.pop(),
+                                    n.trys.pop();
+                                    continue;
+                                default:
+                                    if (!(o = n.trys,
+                                    (o = o.length > 0 && o[o.length - 1]) || 6 !== c[0] && 2 !== c[0])) {
+                                        n = 0;
+                                        continue
+                                    }
+                                    if (3 === c[0] && (!o || c[1] > o[0] && c[1] < o[3])) {
+                                        n.label = c[1];
+                                        break
+                                    }
+                                    if (6 === c[0] && n.label < o[1]) {
+                                        n.label = o[1],
+                                        o = c;
+                                        break
+                                    }
+                                    if (o && n.label < o[2]) {
+                                        n.label = o[2],
+                                        n.ops.push(c);
+                                        break
+                                    }
+                                    o[2] && n.ops.pop(),
+                                    n.trys.pop();
+                                    continue
+                                }
+                                c = body.call(e, n)
+                            } catch (e) {
+                                c = [6, e],
+                                r = 0
+                            } finally {
+                                t = o = 0
+                            }
+                        if (5 & c[0])
+                            throw c[1];
+                        return {
+                            value: c[0] ? c[1] : void 0,
+                            done: !0
+                        }
+                    }([c, d])
+                }
+            }
+        }, $ = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.windowWidth = 0,
+                t.recommandForYouResults = {},
+                t.relatedProductsResults = {},
+                t.PDSectionList = {},
+                t.reviewShowList = {
+                    video: 1,
+                    awardmedia: 1
+                },
+                t.defLevelId = "",
+                t.compareMenuList = {},
+                t.compareMenuShowState = !1,
+                t.overviewTabList = [],
+                t.kvSummaryResult = {},
+                t.onlineChat = {
+                    URL: "TEST"
+                },
+                t.isLoadHeadingRow = !1,
+                t.websiteCode = "",
+                t.showType = "",
+                t.compareData = "",
+                t.comparisonMenu = [],
+                t.compareNum = 0,
+                t.productReviewResult = {},
+                t
+            }
+            return E(t, e),
+            t.prototype.asyncData = function(e) {
+                return H(this, void 0, Promise, (function() {
+                    var t, r, o, n, c, d, l, h, m, v, w, P;
+                    return B(this, (function(y) {
+                        switch (y.label) {
+                        case 0:
+                            return t = e.params,
+                            r = e.route,
+                            e.query,
+                            e.env,
+                            o = e.redirect,
+                            n = e.store,
+                            e.res,
+                            e.req,
+                            c = Object(_.b)(t.region),
+                            d = e.store.getters.NDAAuthGetter,
+                            l = [],
+                            [4, Promise.all(l)];
+                        case 1:
+                            return y.sent(),
+                            h = t.productModel,
+                            m = h,
+                            -1 !== h.indexOf("(") && (m = m.replace("(", "（")),
+                            -1 !== h.indexOf(")") && (m = m.replace(")", "）")),
+                            [4, M.a.getMetaData({
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductLevel1Code: t.levelOneTopMenuName,
+                                    ProductLevel2Code: t.levelTwoProductLineName,
+                                    SeriesWebPath: t.seriesName,
+                                    ProductWebPath: m,
+                                    Type: "ProductPage"
+                                },
+                                routePath: r.fullPath
+                            }).then((function(e) {
+                                void 0 === e ? o(501, "") : n.commit("setMetaData", e)
+                            }
+                            ))];
+                        case 2:
+                            return y.sent(),
+                            [4, M.a.getPDSectionList({
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m,
+                                    OverviewPath: r.query && r.query && r.query.overviewpath && void 0 !== r.query.overviewpath ? r.query.overviewpath : ""
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            }).then((function(e) {
+                                void 0 === e ? o(501, "") : n.commit("setPDSectionListData", e)
+                            }
+                            ))];
+                        case 3:
+                            return y.sent(),
+                            [4, e.store.dispatch("getPDFiles", {
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })];
+                        case 4:
+                            return y.sent(),
+                            (v = e.store.getters.getPDSectionListDataGetter) && v.ProductPageSection ? "Info"in v.ProductPageSection && 1 === v.ProductPageSection.Info ? [4, e.store.dispatch("getPDInfoData", {
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    SeriesWebPath: "0",
+                                    ProductWebPath: m,
+                                    OverviewPath: r.query && r.query && r.query.overviewpath && void 0 !== r.query.overviewpath ? r.query.overviewpath : ""
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })] : [3, 6] : [3, 18];
+                        case 5:
+                            y.sent(),
+                            y.label = 6;
+                        case 6:
+                            return "Gallery"in v.ProductPageSection && 1 === v.ProductPageSection.Gallery ? [4, e.store.dispatch("getKeyProductInfoData", {
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })] : [3, 8];
+                        case 7:
+                            y.sent(),
+                            y.label = 8;
+                        case 8:
+                            return "HardwareBrief"in v.ProductPageSection && 1 === v.ProductPageSection.HardwareBrief ? [4, e.store.dispatch("getPDKeySpecData", {
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductLevel1Code: t.levelOneTopMenuName,
+                                    ProductLevel2Code: t.levelTwoProductLineName,
+                                    SeriesName: t.seriesName,
+                                    ProductWebPath: m,
+                                    BlackVersion: 1
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })] : [3, 10];
+                        case 9:
+                            y.sent(),
+                            y.label = 10;
+                        case 10:
+                            return "Accessories"in v.ProductPageSection && 1 === v.ProductPageSection.Accessories ? [4, e.store.dispatch("getPDAccessoriesData", {
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })] : [3, 12];
+                        case 11:
+                            y.sent(),
+                            y.label = 12;
+                        case 12:
+                            return "Recommend"in v.ProductPageSection && 1 === v.ProductPageSection.Recommend ? [4, e.store.dispatch("getPDRecommendData", {
+                                params: {
+                                    SystemCode: "ASUS",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })] : [3, 14];
+                        case 13:
+                            y.sent(),
+                            y.label = 14;
+                        case 14:
+                            return "Related"in v.ProductPageSection && 1 === v.ProductPageSection.Related ? [4, e.store.dispatch("getPDRelatedData", {
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            })] : [3, 16];
+                        case 15:
+                            y.sent(),
+                            y.label = 16;
+                        case 16:
+                            return w = "",
+                            w = "Overview" === r.name ? "o" : "Review" === r.name || "ReviewSingle" === r.name ? "r" : "",
+                            [4, M.a.getPDReview({
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebpath: m,
+                                    PageType: w
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            }).then((function(e) {
+                                void 0 === e ? o(501, "") : n.commit("setProductReviewData", e)
+                            }
+                            ))];
+                        case 17:
+                            y.sent(),
+                            y.label = 18;
+                        case 18:
+                            return y.trys.push([18, 23, , 24]),
+                            [3, 20];
+                        case 19:
+                            return [2, {
+                                overviewData: y.sent()
+                            }];
+                        case 20:
+                            return [4, M.a.getPDOverview({
+                                params: {
+                                    SystemCode: "asus",
+                                    WebsiteCode: c,
+                                    ProductWebPath: m,
+                                    OverviewPath: r.query && r.query && r.query.overviewpath && void 0 !== r.query.overviewpath ? r.query.overviewpath : ""
+                                },
+                                headers: {
+                                    NDAAuth: d
+                                },
+                                routePath: r.fullPath
+                            }).then((function(e) {
+                                return e.data.Result.Overview
+                            }
+                            ))];
+                        case 21:
+                            return [2, {
+                                overviewData: y.sent()
+                            }];
+                        case 22:
+                            return [3, 24];
+                        case 23:
+                            return P = y.sent(),
+                            console.warn(P),
+                            [3, 24];
+                        case 24:
+                            return [2]
+                        }
+                    }
+                    ))
+                }
+                ))
+            }
+            ,
+            t.prototype.head = function() {
+                return void 0 !== this.metaData.SEO && Object.keys(this.metaData.SEO).length && "ProductPage" === this.metaData.Type ? {
+                    title: this.metaData.SEO.Title,
+                    meta: [{
+                        name: "format-detection",
+                        content: "telephone=no"
+                    }, {
+                        hid: "description",
+                        name: "description",
+                        content: this.metaData.SEO.Description
+                    }, {
+                        hid: "og:title",
+                        property: "og:title",
+                        content: this.metaData.OG.Title
+                    }, {
+                        hid: "og:type",
+                        property: "og:type",
+                        content: "website"
+                    }, {
+                        hid: "og:site_name",
+                        property: "og:site_name",
+                        content: this.metaData.OG.SiteName
+                    }, {
+                        hid: "og:description",
+                        property: "og:description",
+                        content: this.metaData.OG.Description
+                    }, {
+                        hid: "og:url",
+                        property: "og:url",
+                        content: this.metaData.Canonical
+                    }, {
+                        hid: "og:image",
+                        property: "og:image",
+                        content: this.metaData.OG.Image
+                    }, {
+                        hid: "twitter:title",
+                        property: "twitter:title",
+                        content: this.metaData.Twitter.Title
+                    }, {
+                        hid: "twitter:site",
+                        property: "twitter:site",
+                        content: "@ASUS"
+                    }, {
+                        hid: "twitter:description",
+                        property: "twitter:description",
+                        content: this.metaData.Twitter.Description
+                    }, {
+                        hid: "twitter:card",
+                        property: "twitter:card",
+                        content: "summary_large_image"
+                    }, {
+                        hid: "twitter:image",
+                        property: "twitter:image",
+                        content: this.metaData.Twitter.Image
+                    }],
+                    link: [{
+                        rel: "canonical",
+                        href: this.metaData.Canonical
+                    }]
+                } : ""
+            }
+            ,
+            t.prototype.jsonld = function() {
+                var e = void 0 !== this.$store.getters.breadcrumbDataGetter ? this.$store.getters.breadcrumbDataGetter : []
+                  , t = [];
+                if (e.length > 0 && e.forEach((function(e, r) {
+                    t.push({
+                        "@type": "ListItem",
+                        position: r + 1,
+                        name: e.Content.LevelName,
+                        item: e.Content.Link
+                    })
+                }
+                )),
+                void 0 !== this.metaData.SEO && Object.keys(this.metaData.SEO).length && void 0 !== this.metaData.Structure && Object.keys(this.metaData.Structure).length) {
+                    var r = void 0;
+                    if (r = {
+                        "@context": "http://schema.org",
+                        "@type": "Product",
+                        "@id": this.metaData.Canonical,
+                        name: this.metaData.Structure.Name,
+                        image: this.metaData.Structure.Image,
+                        description: this.metaData.Structure.Description,
+                        sku: this.metaData.Structure.Sku,
+                        brand: {
+                            "@type": "Thing",
+                            name: "ASUS"
+                        }
+                    },
+                    "" !== this.metaData.Structure.Price && (r.offers = {
+                        "@type": "Offer",
+                        url: this.metaData.Structure.URL,
+                        priceCurrency: this.metaData.Structure.PriceCurrency,
+                        price: this.metaData.Structure.Price,
+                        availability: "https://schema.org/" + this.metaData.Structure.Availability
+                    }),
+                    this.metaData.RelatedProducts && this.metaData.RelatedProducts.length > 0) {
+                        var o = [];
+                        this.metaData.RelatedProducts.forEach((function(element, e) {
+                            var t = {};
+                            t = {
+                                "@type": "Product",
+                                position: e,
+                                url: element.URL,
+                                name: element.Name,
+                                image: element.Image,
+                                description: element.Description,
+                                sku: element.Sku,
+                                brand: {
+                                    "@type": "Thing",
+                                    name: "ASUS"
+                                }
+                            },
+                            "" !== element.Price && (t.offers = {
+                                "@type": "Offer",
+                                url: "",
+                                priceCurrency: element.PriceCurrency,
+                                price: element.Price,
+                                availability: "https://schema.org/" + element.Availability
+                            }),
+                            o.push(t)
+                        }
+                        ))
+                    }
+                    return [r, {
+                        "@context": "https://schema.org",
+                        "@type": "BreadcrumbList",
+                        itemListElement: t
+                    }]
+                }
+                return [{
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    itemListElement: t
+                }]
+            }
+            ,
+            t.prototype.created = function() {
+                this.websiteCode = Object(_.b)(this.$route.params.region),
+                this.PDSectionListDataGetter && this.PDSectionListDataGetter.ProductPageSection && (this.reviewShowList = {
+                    video: this.PDSectionListDataGetter.ProductPageSection.Video,
+                    awardmedia: this.PDSectionListDataGetter.ProductPageSection.Award
+                }),
+                this.defLevelId = this.$route.params.levelOneTopMenuName + "-" + this.$route.params.levelTwoProductLineName;
+                try {
+                    "undefined" != typeof window && window.overviewed && window.location.reload()
+                } catch (e) {
+                    console.error(e)
+                }
+            }
+            ,
+            t.prototype.routerPush = function(e) {
+                this.$router.push({
+                    name: "ReviewSingle",
+                    params: {
+                        reviewtype: e.toLowerCase()
+                    }
+                })
+            }
+            ,
+            t.prototype.mounted = function() {
+                var e = this;
+                try {
+                    window.onload = function() {
+                        e.isLoadHeadingRow = !0
+                    }
+                } catch (e) {
+                    console.error(e)
+                }
+                window.addEventListener("resize", l()(this.getWindowWidth, 100, {
+                    trailing: !0
+                })),
+                this.getWindowWidth(),
+                this.gaDataLayerPush({
+                    event: "data_layer_page_level_SPA",
+                    "Page Type": "L4 - overview",
+                    "Page Title": this.metaData.SEO ? this.metaData.SEO.Title : void 0
+                }),
+                this.gaHmtPush(["_trackPageview", this.$route.fullPath]),
+                "function" == typeof jQuery && jQuery.holdReady(!1);
+                try {
+                    "function" == typeof window.tiggerReady && window.tiggerReady(),
+                    setTimeout((function() {
+                        window.overviewed = !0
+                    }
+                    ), 7e3)
+                } catch (e) {
+                    console.warn(e)
+                }
+                null === sessionStorage.getItem("compareMenuList") || "" === sessionStorage.getItem("compareMenuList") ? (this.compareMenuList = {
+                    result: {},
+                    currentID: this.defLevelId
+                },
+                sessionStorage.setItem("compareMenuList", JSON.stringify(this.compareMenuList))) : (this.compareMenuList = JSON.parse(sessionStorage.getItem("compareMenuList")),
+                this.compareMenuList.result[this.defLevelId] && this.compareMenuList.result[this.defLevelId].length > 0 && this.changeMenu(this.compareMenuList.result[this.defLevelId])),
+                this.compareMenuList && (this.compareMenuList.currentID = this.defLevelId,
+                sessionStorage.setItem("compareMenuList", JSON.stringify(this.compareMenuList)))
+            }
+            ,
+            t.prototype.beforeDestroy = function() {
+                window.removeEventListener("resize", this.getWindowWidth)
+            }
+            ,
+            Object.defineProperty(t.prototype, "sectionList", {
+                get: function() {
+                    return this.PDSectionListDataGetter.ProductPageSection
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "getIsScrollToTop", {
+                get: function() {
+                    var e = this.$store.getters.productTabListGetter.IsShowGoToTop;
+                    return null == e || !!e
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.setProductReview = function() {
+                this.productReviewResult = this.productReviewGetter
+            }
+            ,
+            t.prototype.setRecommandForYouToData = function() {
+                this.recommandForYouResults = m()(this.PDRecommendGetter)
+            }
+            ,
+            t.prototype.setRelatedProductsToData = function() {
+                this.relatedProductsResults = m()(this.PDRelatedGetter)
+            }
+            ,
+            t.prototype.setPDSectionListToData = function() {
+                0
+            }
+            ,
+            t.prototype.setOverviewTab = function() {
+                0
+            }
+            ,
+            t.prototype.setcolumnBannerToData = function() {
+                this.kvSummaryResult = m()(this.KvSummaryGetter)
+            }
+            ,
+            t.prototype.setCompareData = function() {
+                this.compareData = this.getCompareData,
+                this.comparisonMenu = this.compareData.ProductList,
+                this.comparisonMenu ? this.compareNum = this.comparisonMenu.length : this.compareNum = 0
+            }
+            ,
+            t.prototype.getWindowWidth = function() {
+                this.windowWidth = window.innerWidth
+            }
+            ,
+            t.prototype.compareMenuShow = function(e) {
+                this.compareMenuShowState = e
+            }
+            ,
+            t.prototype.changeMenu = function(e) {
+                var t = JSON.stringify(e).replace(/\[|\]|"/g, "");
+                this.getCompare({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode,
+                        ProductIDList: t
+                    }
+                })
+            }
+            ,
+            F([Object(c.Getter)("metaData")], t.prototype, "metaData", void 0),
+            F([Object(c.Getter)("themeColorGetter")], t.prototype, "themeColor", void 0),
+            F([Object(c.Getter)("onlineChatDataGetter")], t.prototype, "onlineChatDataGetter", void 0),
+            F([Object(c.Getter)("getPDRecommendDataGetter")], t.prototype, "PDRecommendGetter", void 0),
+            F([Object(c.Getter)("getPDRelatedDataGetter")], t.prototype, "PDRelatedGetter", void 0),
+            F([Object(c.Getter)("getPDSectionListDataGetter")], t.prototype, "PDSectionListDataGetter", void 0),
+            F([Object(c.Getter)("productTabListGetter")], t.prototype, "productTabList", void 0),
+            F([Object(c.Getter)("getPDInfoDataGetter")], t.prototype, "KvSummaryGetter", void 0),
+            F([Object(c.Getter)("compareDataGetter")], t.prototype, "getCompareData", void 0),
+            F([Object(c.Getter)("productReviewGetter")], t.prototype, "productReviewGetter", void 0),
+            F([Object(c.Getter)("getPDOverviewSettingGetter")], t.prototype, "getPDOverviewSettingGetter", void 0),
+            F([Object(c.Action)("getCompare")], t.prototype, "getCompare", void 0),
+            F([Object(c.Watch)("productReviewGetter", {
+                immediate: !0
+            })], t.prototype, "setProductReview", null),
+            F([Object(c.Watch)("PDRecommendGetter", {
+                immediate: !0
+            })], t.prototype, "setRecommandForYouToData", null),
+            F([Object(c.Watch)("PDRelatedGetter", {
+                immediate: !0
+            })], t.prototype, "setRelatedProductsToData", null),
+            F([Object(c.Watch)("PDSectionListDataGetter", {
+                immediate: !0
+            })], t.prototype, "setPDSectionListToData", null),
+            F([Object(c.Watch)("productTabList", {
+                immediate: !0
+            })], t.prototype, "setOverviewTab", null),
+            F([Object(c.Watch)("KvSummaryGetter", {
+                immediate: !0
+            })], t.prototype, "setcolumnBannerToData", null),
+            F([Object(c.Watch)("getCompareData", {
+                immediate: !0
+            })], t.prototype, "setCompareData", null),
+            t = F([v.Jsonld, Object(c.Component)({
+                components: {
+                    KvSummary: w.a,
+                    GalleryShow: P.a,
+                    DownloadFiles: y.a,
+                    RecommandForYou: f.a,
+                    RelatedProducts: D.a,
+                    Accessories: S.a,
+                    HardwareBrief: R.a,
+                    ProductReviewListSection: L.a,
+                    Disclaimer: O.a,
+                    ComparisonMenu: G.a,
+                    OnlineChat: C.a,
+                    FloatingComparison: W.a,
+                    ScrollTop: T.a,
+                    PurchaseModulePDC: A.a,
+                    GalleryShowPDC: k.a,
+                    ProductReviewListSectionPDC: x.a,
+                    TextLink: N.a
+                }
+            })], t)
+        }(Object(c.mixins)(I.a, j.a)), U = r(1065), J = (r(1066),
+        r(10));
+        var component = Object(J.a)($, (function() {
+            var e, t, r = this, o = r.$createElement, n = r._self._c || o;
+            return r.productTabList && r.productTabList.ProductID && r.sectionList ? n("div", {
+                class: r.$style.LevelFourProductOverviewPageWrapper
+            }, [n("KvSummary", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: 1 === r.sectionList.Info,
+                    expression: "sectionList.Info === 1"
+                }],
+                attrs: {
+                    windowWidth: r.windowWidth,
+                    defLevelId: r.defLevelId,
+                    ProductID: r.productTabList.ProductID,
+                    showCompareBtn: 1 === r.productTabList.SpecFlag
+                }
+            }), r._v(" "), 1 === r.sectionList.Gallery && "Commercial" !== r.kvSummaryResult.PatternType ? n("GalleryShowPDC", {
+                attrs: {
+                    windowWidth: r.windowWidth,
+                    defLevelId: r.defLevelId,
+                    showCompareBtn: 1 === r.productTabList.SpecFlag && 1 === r.sectionList.Gallery && (0 === r.sectionList.Info || 1 === r.sectionList.Info && "OP" !== r.kvSummaryResult.PatternType),
+                    ProductID: r.productTabList.ProductID
+                }
+            }) : r._e(), r._v(" "), n("ProductReviewListSectionPDC", {
+                attrs: {
+                    windowWidth: r.windowWidth
+                }
+            }), r._v(" "), void 0 !== r.overviewData && null !== r.overviewData ? n("div", {
+                class: [r.$style.overview],
+                attrs: {
+                    id: "overviewContentInsertWrapper"
+                }
+            }, [n("div", {
+                domProps: {
+                    innerHTML: r._s(r.overviewData)
+                }
+            })]) : r._e(), r._v(" "), n("HardwareBrief", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: 1 === r.sectionList.HardwareBrief,
+                    expression: "sectionList.HardwareBrief === 1"
+                }],
+                attrs: {
+                    windowWidth: r.windowWidth
+                }
+            }), r._v(" "), n("Accessories", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: 1 === r.sectionList.Accessories,
+                    expression: "sectionList.Accessories === 1"
+                }],
+                attrs: {
+                    windowWidth: r.windowWidth
+                }
+            }), r._v(" "), n("RecommandForYou", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: 1 === r.sectionList.Recommend,
+                    expression: "sectionList.Recommend === 1"
+                }],
+                class: (e = {},
+                e[r.$style.section] = 1 !== r.sectionList.Related,
+                e),
+                attrs: {
+                    windowWidth: r.windowWidth,
+                    ProductCardResults: r.recommandForYouResults,
+                    defLevelId: r.defLevelId,
+                    isLoadHeadingRow: r.isLoadHeadingRow,
+                    websiteCode: r.websiteCode
+                }
+            }), r._v(" "), n("RelatedProducts", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: 1 === r.sectionList.Related && r.relatedProductsResults && r.relatedProductsResults.Relateds && r.relatedProductsResults.Relateds.length > 0,
+                    expression: "sectionList.Related === 1 && relatedProductsResults && relatedProductsResults.Relateds && relatedProductsResults.Relateds.length > 0"
+                }],
+                class: (t = {},
+                t[r.$style.section] = 1 === r.sectionList.Related,
+                t),
+                attrs: {
+                    windowWidth: r.windowWidth,
+                    ProductCardResults: r.relatedProductsResults,
+                    defLevelId: r.defLevelId,
+                    isLoadHeadingRow: r.isLoadHeadingRow,
+                    websiteCode: r.websiteCode
+                }
+            }), r._v(" "), r.productTabList && r.productTabList.ExternalID ? n("div", {
+                class: ["bazaaReviews", "theme" + r.themeColor],
+                attrs: {
+                    id: "bv_reviews",
+                    "data-bv-show": "reviews",
+                    "data-bv-product-id": r.productTabList.ExternalID
+                }
+            }) : r._e(), r._v(" "), n("Disclaimer"), r._v(" "), r.getIsScrollToTop ? n("ScrollTop", {
+                ref: "refScrollTop"
+            }) : r._e(), r._v(" "), n("OnlineChat", {
+                ref: "OnlineChat"
+            }), r._v(" "), n("ComparisonMenu", {
+                attrs: {
+                    compareMenuShowState: r.compareMenuShowState,
+                    windowWidth: r.windowWidth,
+                    defLevelId: r.defLevelId
+                },
+                on: {
+                    compareMenuShow: r.compareMenuShow
+                }
+            }), r._v(" "), r.getPDOverviewSettingGetter && 1 === r.getPDOverviewSettingGetter.PurchaseModule && 0 === r.sectionList.Info ? n("PurchaseModulePDC", {
+                attrs: {
+                    windowWidth: r.windowWidth,
+                    ProductID: r.productTabList.ProductID,
+                    themeColorProp: r.themeColor,
+                    styleType: r.getPDOverviewSettingGetter && "Vertical" !== r.getPDOverviewSettingGetter.DisplayStyle ? "purchaseSpecialHorizontal" : "purchaseSpecialVertical"
+                }
+            }) : r._e()], 1) : r._e()
+        }
+        ), [], !1, (function(e) {
+            this.$style = U.default.locals || U.default
+        }
+        ), null, null);
+        t.default = component.exports
+    },
+    766: function(e, t, r) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            section: "LevelFourProductOverviewPage__section__26ixa",
+            overview: "LevelFourProductOverviewPage__overview__2UD32"
+        }
+    },
+    767: function(e, t, r) {}
+}]);

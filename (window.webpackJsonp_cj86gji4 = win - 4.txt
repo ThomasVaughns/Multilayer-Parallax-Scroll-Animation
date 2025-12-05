@@ -1,0 +1,2938 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[15], {
+    133: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            link: "TextLink__link__2Xbkj",
+            normal: "TextLink__normal__1TTQw",
+            LinkText: "TextLink__LinkText__3SIPQ",
+            fontw300: "TextLink__fontw300__1et-N",
+            disabled: "TextLink__disabled__qeehh",
+            fontw600: "TextLink__fontw600__1q2wE",
+            enableArrow: "TextLink__enableArrow__30-YZ",
+            arrowLeftSVG: "TextLink__arrowLeftSVG__227o2"
+        }
+    },
+    134: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            btn: "SolidButton__btn__1NmTw",
+            normal: "SolidButton__normal__3XdQd",
+            btnText: "SolidButton__btnText__GZc-q",
+            fontw300: "SolidButton__fontw300__3uWEc",
+            disabled: "SolidButton__disabled__3p51u",
+            fontw600: "SolidButton__fontw600__20V3O"
+        }
+    },
+    136: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "ECommerceFooter__wrapper__1CQlD",
+            description: "ECommerceFooter__description__t0qIQ",
+            title: "ECommerceFooter__title__Ibs1x",
+            themeWhite: "ECommerceFooter__themeWhite__1UTUV",
+            line: "ECommerceFooter__line__2B7-y",
+            contentContainer: "ECommerceFooter__contentContainer__3xHG0",
+            contentItem: "ECommerceFooter__contentItem__3SdR6",
+            linkArea: "ECommerceFooter__linkArea__2BR80",
+            image: "ECommerceFooter__image__2OI3t"
+        }
+    },
+    137: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "Footer__wrapper__nmxJn",
+            subscribeForm: "Footer__subscribeForm__2vLgU",
+            formContent: "Footer__formContent__1Ku2D",
+            emailInput: "Footer__emailInput__1a70E",
+            ecPolicy: "Footer__ecPolicy__32-_i",
+            ecPolicyText: "Footer__ecPolicyText__2UNr8",
+            ecPolicyLink: "Footer__ecPolicyLink__3XGEv",
+            formAlert: "Footer__formAlert__11Y7V",
+            secondTitle: "Footer__secondTitle__apr-H",
+            firstTitle: "Footer__firstTitle__H9rkK",
+            formTitle: "Footer__formTitle__1Cq6S",
+            simplifyFooterWrapper: "Footer__simplifyFooterWrapper__35uq-",
+            themeWhite: "Footer__themeWhite__wXGyx",
+            contentContainer: "Footer__contentContainer__1nMCg",
+            simplifyFooter: "Footer__simplifyFooter__2YD7L",
+            isBreadcrumb: "Footer__isBreadcrumb__2WFZQ",
+            textLinkContainer: "Footer__textLinkContainer__1u77e",
+            productLineListContainer: "Footer__productLineListContainer__2GV2W",
+            productLintContent: "Footer__productLintContent__3HvTQ",
+            error: "Footer__error__gT-XL",
+            formBtn: "Footer__formBtn__2shXE",
+            themeDark: "Footer__themeDark__3nnfB",
+            communityWrapper: "Footer__communityWrapper__1DNcj",
+            hasForm: "Footer__hasForm__1FnPm",
+            communityListContainer: "Footer__communityListContainer__1iA_E",
+            communityListIcon: "Footer__communityListIcon__1zeIE",
+            iconRog: "Footer__iconRog__3yriN",
+            footerListContainer: "Footer__footerListContainer__2kJrG",
+            infoBox: "Footer__infoBox__1Rzit",
+            vnlogoSaleNoti: "Footer__vnlogoSaleNoti__2r57h",
+            linkItem: "Footer__linkItem__1OACj",
+            communityLink: "Footer__communityLink__3-Z8E",
+            btnShowList: "Footer__btnShowList__yCi6e",
+            btnHideList: "Footer__btnHideList__1Dubh",
+            displayShow: "Footer__displayShow__35b7w",
+            productShowList: "Footer__productShowList__UTbrh",
+            active: "Footer__active__1tPjL",
+            titleContainer: "Footer__titleContainer__3Ija4",
+            bottomListLine: "Footer__bottomListLine__2Wios",
+            bottomListContainer: "Footer__bottomListContainer__1cVd-",
+            hasEcPolicy: "Footer__hasEcPolicy__3qdXU",
+            menuBox: "Footer__menuBox__3Wtjh",
+            bottomListPolicyCpy: "Footer__bottomListPolicyCpy__EjEmA",
+            bottomListPolicy: "Footer__bottomListPolicy__1kAXH",
+            bottomListPolicyLine: "Footer__bottomListPolicyLine__2_qyp",
+            bottomCookieBannerSettings: "Footer__bottomCookieBannerSettings__GNj4u",
+            bottomListAccessibility: "Footer__bottomListAccessibility__1ii1p",
+            bottomListAccessibilityToolTip: "Footer__bottomListAccessibilityToolTip__3d33y",
+            bottomListAccessibilityImg: "Footer__bottomListAccessibilityImg__32Lk1",
+            bottomListEntry: "Footer__bottomListEntry__g4Zjh",
+            bottomListEntryName: "Footer__bottomListEntryName__3RJyr",
+            bottomListEntryImg: "Footer__bottomListEntryImg__30go3",
+            ecPolicyLine: "Footer__ecPolicyLine__2KaO1"
+        }
+    },
+    138: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "FooterBreadcrumb__wrapper__2uJ7V",
+            breadcrumbContainer: "FooterBreadcrumb__breadcrumbContainer__1j_if",
+            contentContainer: "FooterBreadcrumb__contentContainer__3emBH",
+            content: "FooterBreadcrumb__content__2IqGN",
+            text: "FooterBreadcrumb__text__4Lzlp",
+            themeWhite: "FooterBreadcrumb__themeWhite__3uyCB",
+            dividerTop: "FooterBreadcrumb__dividerTop__2gzBb",
+            themeDark: "FooterBreadcrumb__themeDark__1YeXB",
+            asusLogoContainer: "FooterBreadcrumb__asusLogoContainer__3MFmF",
+            asusLogoWhite: "FooterBreadcrumb__asusLogoWhite__1c4ZT",
+            asusLogoDark: "FooterBreadcrumb__asusLogoDark__k7mtf",
+            arrow: "FooterBreadcrumb__arrow__1S2oB"
+        }
+    },
+    141: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, d = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.websiteCode = "",
+                e
+            }
+            return c(e, t),
+            e.prototype.setWebsiteCode = function() {
+                this.websiteCode = this.websiteCodeGetter
+            }
+            ,
+            e.prototype.created = function() {
+                this.$nuxt || this.getECommerceListByAPI()
+            }
+            ,
+            e.prototype.getECommerceListByAPI = function() {
+                this.getECommerceListData({
+                    params: {
+                        WebSiteCode: this.websiteCode,
+                        DataLevel: 0
+                    }
+                })
+            }
+            ,
+            h([Object(l.Getter)("themeColorGetter")], e.prototype, "themeColor", void 0),
+            h([Object(l.Getter)("eCommerceListDataGetter")], e.prototype, "eCommerceListDataGetter", void 0),
+            h([Object(l.Getter)("websiteCodeGetter")], e.prototype, "websiteCodeGetter", void 0),
+            h([Object(l.Action)("getECommerceListData")], e.prototype, "getECommerceListData", void 0),
+            h([Object(l.Watch)("websiteCodeGetter", {
+                immediate: !0
+            })], e.prototype, "setWebsiteCode", null),
+            e = h([Object(l.Component)({})], e)
+        }(l.Vue), m = o(335), f = o(10);
+        var component = Object(f.a)(d, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return t.eCommerceListDataGetter && Object.keys(t.eCommerceListDataGetter).length > 0 ? o("div", {
+                class: [t.$style.wrapper, t.$style["theme" + t.themeColor]]
+            }, [o("ul", {
+                class: [t.$style.contentContainer, t.$style["theme" + t.themeColor]]
+            }, t._l(t.eCommerceListDataGetter, (function(e) {
+                return o("li", {
+                    key: e.ECommerceText,
+                    class: t.$style.contentItem
+                }, [o("div", {
+                    class: t.$style.linkArea
+                }, [o("div", {
+                    class: t.$style.image
+                }, [o("img", {
+                    attrs: {
+                        src: e.IconLink,
+                        alt: e.ECommerceText
+                    }
+                })]), t._v(" "), o("div", {
+                    class: t.$style.text
+                }, [o("p", {
+                    class: [t.$style.title, t.$style["theme" + t.themeColor]]
+                }, [t._v("\n            " + t._s(e.ECommerceText) + "\n          ")]), t._v(" "), o("p", {
+                    class: [t.$style.description, t.$style["theme" + t.themeColor]]
+                }, [t._v("\n            " + t._s(e.SubTitle) + "\n          ")])])])])
+            }
+            )), 0)]) : t._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = m.default.locals || m.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    332: function(t, e, o) {
+        "use strict";
+        var r = o(133)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    333: function(t, e, o) {
+        "use strict";
+        var r = o(134)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    335: function(t, e, o) {
+        "use strict";
+        var r = o(136)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    336: function(t, e, o) {
+        "use strict";
+        var r = o(137)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    337: function(t, e, o) {
+        "use strict";
+        var r = o(138)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    343: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, d = function(t) {
+            function e() {
+                return null !== t && t.apply(this, arguments) || this
+            }
+            return c(e, t),
+            e.prototype.callEvent = function(t, e) {
+                "" === this.href && t.preventDefault(),
+                this.$emit(e, t)
+            }
+            ,
+            h([Object(l.Getter)("AIStatusGetter")], e.prototype, "AIStatusGetter", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "href", void 0),
+            h([Object(l.Prop)({
+                default: "_self"
+            })], e.prototype, "target", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "needCallEvent", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "disabled", void 0),
+            h([Object(l.Prop)()], e.prototype, "fontw", void 0),
+            h([Object(l.Prop)({
+                default: "button"
+            })], e.prototype, "label", void 0),
+            h([Object(l.Prop)({
+                default: "Blue"
+            })], e.prototype, "theme", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "divType", void 0),
+            e = h([Object(l.Component)({})], e)
+        }(l.Vue), m = o(333), f = o(10);
+        var component = Object(f.a)(d, (function() {
+            var t, e, o, r, n = this, l = n.$createElement, c = n._self._c || l;
+            return c(n.divType ? "div" : "a", {
+                tag: "component",
+                class: [(t = {},
+                t[n.$style.disabled] = n.disabled,
+                t), (e = {},
+                e[n.$style.normal] = !n.disabled,
+                e), n.$style.btn],
+                attrs: {
+                    href: !n.divType && (n.href && !n.disabled ? n.href : "#"),
+                    "data-theme": n.theme,
+                    target: n.AIStatusGetter && -1 === n.href.indexOf("www.asus.com") ? "_Blank" : !n.divType && n.target,
+                    rel: "_blank" === n.target ? "noreferrer noopener" : "",
+                    "aria-label": n.label,
+                    role: "button",
+                    tabindex: "0"
+                },
+                on: {
+                    click: function(t) {
+                        !n.disabled && n.needCallEvent && n.callEvent(t, "click")
+                    },
+                    keydown: function(t) {
+                        if (!t.type.indexOf("key") && n._k(t.keyCode, "enter", 13, t.key, "Enter"))
+                            return null;
+                        !n.disabled && n.needCallEvent && n.callEvent(t, "keydown")
+                    }
+                }
+            }, [c("span", {
+                class: [n.$style.btnText, (o = {},
+                o[n.$style.fontw300] = 300 === n.fontw,
+                o), (r = {},
+                r[n.$style.fontw600] = 600 === n.fontw,
+                r)]
+            }, [n._t("default")], 2)])
+        }
+        ), [], !1, (function(t) {
+            this.$style = m.default.locals || m.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    346: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, d = function(t) {
+            function e() {
+                return null !== t && t.apply(this, arguments) || this
+            }
+            return c(e, t),
+            e.prototype.isTouchDevice = function() {
+                return "ontouchstart"in window || navigator.maxTouchPoints > 0
+            }
+            ,
+            e.prototype.callEvent = function(t) {
+                "" === this.href && t.preventDefault(),
+                this.$emit("click", t)
+            }
+            ,
+            h([Object(l.Getter)("AIStatusGetter")], e.prototype, "AIStatusGetter", void 0),
+            h([Object(l.Prop)()], e.prototype, "href", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "divType", void 0),
+            h([Object(l.Prop)()], e.prototype, "target", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "disabled", void 0),
+            h([Object(l.Prop)()], e.prototype, "fontw", void 0),
+            h([Object(l.Prop)()], e.prototype, "enableArrow", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "oppositeArrow", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "needCallEvent", void 0),
+            h([Object(l.Prop)({
+                default: "Blue"
+            })], e.prototype, "theme", void 0),
+            e = h([Object(l.Component)({})], e)
+        }(l.Vue), m = o(332), f = o(10);
+        var component = Object(f.a)(d, (function() {
+            var t, e, o = this, r = o.$createElement, n = o._self._c || r;
+            return n(o.divType ? "div" : "a", {
+                tag: "component",
+                class: ["link", (t = {},
+                t.disabled = o.disabled,
+                t.normal = !o.disabled,
+                t.enableArrow = !1 !== o.enableArrow,
+                t[o.$style.disabled] = o.disabled,
+                t[o.$style.normal] = !o.disabled,
+                t[o.$style.enableArrow] = !1 !== o.enableArrow,
+                t), o.$style.link],
+                attrs: {
+                    href: o.href && !o.disabled ? o.href : "javascript:void(0);",
+                    target: o.AIStatusGetter && o.href && -1 === o.href.indexOf("www.asus.com") ? "_Blank" : o.target,
+                    rel: "_blank" === o.target ? "noreferrer noopener" : "",
+                    tabindex: "0",
+                    "data-theme": o.theme
+                },
+                on: {
+                    click: function(t) {
+                        !o.disabled && o.needCallEvent && o.callEvent(t)
+                    },
+                    touchend: function(t) {
+                        !o.disabled && o.isTouchDevice() && o.callEvent(t)
+                    }
+                }
+            }, [o.enableArrow && o.oppositeArrow ? n("svg", {
+                class: ["arrowLeftSVG", o.$style.arrowLeftSVG],
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "12",
+                    height: "12",
+                    fill: "none",
+                    viewBox: "0 0 9 9",
+                    "svg-inline": "",
+                    "aria-hidden": "true",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [n("path", {
+                attrs: {
+                    stroke: "#006ce1",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-miterlimit": "10",
+                    d: "M3.375 1.406L6.581 4.5 3.375 7.594"
+                }
+            })]) : o._e(), o._v(" "), n("span", {
+                class: ["LinkText", o.$style.LinkText, (e = {},
+                e.fontw300 = 300 === o.fontw,
+                e.fontw600 = 600 === o.fontw,
+                e[o.$style.fontw300] = 300 === o.fontw,
+                e[o.$style.fontw600] = 600 === o.fontw,
+                e)]
+            }, [o._t("default")], 2), o._v(" "), o.enableArrow && !o.oppositeArrow ? n("svg", {
+                class: ["arrowRightSVG", o.$style.arrowRightSVG],
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "12",
+                    height: "12",
+                    fill: "none",
+                    viewBox: "0 0 9 9",
+                    "svg-inline": "",
+                    "aria-hidden": "true",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [n("path", {
+                attrs: {
+                    stroke: "#006ce1",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-miterlimit": "10",
+                    d: "M3.375 1.406L6.581 4.5 3.375 7.594"
+                }
+            })]) : o._e()])
+        }
+        ), [], !1, (function(t) {
+            this.$style = m.default.locals || m.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    434: function(t, e, o) {
+        "use strict";
+        o(36),
+        o(43),
+        o(11),
+        o(14),
+        o(16),
+        o(144),
+        o(37),
+        o(47);
+        var r, n = o(4), l = o(0), c = o(40), h = o.n(c), d = o(30), m = o.n(d), f = o(141), v = o(2), _ = o.n(v), w = o(32), y = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), L = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, C = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.productLineData = [],
+                e.productLineDataArray = [],
+                e.showShopAndLearn = !1,
+                e.showLearnMore = !1,
+                e.showSupport = !1,
+                e.showAboutUs = !1,
+                e.showStore = !1,
+                e.windowWidth = 0,
+                e.websiteCode = "",
+                e.simplifyFooter = !1,
+                e.needDetectPage = !1,
+                e.currentSeeMore = -1,
+                e.oldSeeMore = -1,
+                e.isTriggerECommerce = !1,
+                e.rwdState = "desktop",
+                e.breakPointMedium = 1279,
+                e.breakPointSmall = 731,
+                e.columnData = {},
+                e.isColumn = !1,
+                e.learnMoreData = {},
+                e.supportData = {},
+                e.aboutUsData = {},
+                e.storeData = {},
+                e.productLineColumn = 3,
+                e.errorCode = "",
+                e.email = "",
+                e.ECPolicy = "",
+                e.memberID = "",
+                e.campaignId = "",
+                e.cookieBannerShow = ["global", "cn", "in", "jp", "pl", "ch-de", "br", "de", "ee", "cl", "co", "us", "pe", "it", "bg", "bt", "es", "ch-en", "cz", "be-fr", "dk", "ch-fr", "ch-it", "lv", "pt", "fr", "gr", "gr-en", "lt", "ie", "hu", "be-nl", "nl", "ro", "no", "sk", "fi", "se", "uk", "tr", "za", "ch", "si", "hr"],
+                e
+            }
+            return y(e, t),
+            e.prototype.created = function() {
+                this.$set(this.columnData, 0, {}),
+                this.$set(this.columnData, 1, {}),
+                this.$set(this.columnData, 2, {})
+            }
+            ,
+            e.prototype.mounted = function() {
+                var t = this;
+                if ("us" === this.websiteCode)
+                    var e = 20
+                      , o = setInterval((function() {
+                        if (document && document.querySelectorAll("#INDbtnWrap").length > 0) {
+                            var t = document.getElementById("INDbtnWrap");
+                            t.style.width = "0px",
+                            t.style.opacity = "0",
+                            clearInterval(o)
+                        } else
+                            0 === e ? clearInterval(o) : e -= 1
+                    }
+                    ), 1e3);
+                if (window && window.AsusAPIConfig && window.AsusAPIConfig.showECFooter && (this.isTriggerECommerce = !0),
+                window && window.AsusAPIConfig && window.AsusAPIConfig.simplifyFooter && (this.simplifyFooter = window.AsusAPIConfig.simplifyFooter),
+                this.topMenuDataGetter && !this.topMenuDataGetter.ProductLine && (this.$nuxt || !1 !== this.simplifyFooter || this.getTopMenuData({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode
+                    }
+                }),
+                this.$nuxt || void 0 !== this.websiteInfoGetter && "" !== this.websiteInfoGetter && null !== this.websiteInfoGetter || this.dispatchWebsiteInfo({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode
+                    }
+                })),
+                this.footerDataGetter && !this.footerDataGetter.FooterList || !this.bottomListDataGetter ? this.getFooterDataByApi() : this.setProductLineData(),
+                window && window.AsusAPIConfig && "" !== window.AsusAPIConfig.page && void 0 !== window.AsusAPIConfig.page && (this.needDetectPage = !0),
+                window.addEventListener("resize", h()(this.getWindowWidth, 100, {
+                    trailing: !0
+                })),
+                this.$nextTick((function() {
+                    t.getWindowWidth()
+                }
+                )),
+                "account.asus.com" === window.location.host || "account.asus.com.cn" === window.location.host) {
+                    var r = _.a.get("login_background");
+                    r && ("general_black" === r ? this.MutationThemeColor("Dark") : this.MutationThemeColor("White"))
+                }
+            }
+            ,
+            e.prototype.entryLinkClick = function(t) {
+                top && t && "" !== t.Link && (top.location.href = t.Link)
+            }
+            ,
+            e.prototype.beforeDestroy = function() {
+                window.removeEventListener("resize", this.getWindowWidth)
+            }
+            ,
+            e.prototype.setFooterData = function() {
+                var t = this;
+                if (void 0 === this.$nuxt && "cn" !== this.websiteCode) {
+                    if ("undefined" != typeof window && 0 === document.querySelectorAll('script[src="https://dlcdnimgs.asus.com/vendor/subscribe-form/js/subscribeform.min.js"]').length) {
+                        var e = document.createElement("script");
+                        e.setAttribute("src", "https://dlcdnimgs.asus.com/vendor/subscribe-form/js/subscribeform.min.js"),
+                        document.body.appendChild(e)
+                    }
+                    "undefined" != typeof window && void 0 !== Object(n.a)(window.AsusAPIConfig) && (!window.AsusAPIConfig || void 0 !== window.AsusAPIConfig.campaignId && "" !== window.AsusAPIConfig.campaignId || (window.AsusAPIConfig.campaignId = "9f66f36a-32c8-454b-b4fb-b3c9b35f04b1"),
+                    this.campaignId = window.AsusAPIConfig.campaignId)
+                }
+                this.footerDataGetter && this.footerDataGetter.FooterList && void 0 !== this.footerDataGetter.FooterList[0] && (this.learnMoreData = this.footerDataGetter.FooterList[0],
+                this.supportData = this.footerDataGetter.FooterList[1],
+                this.aboutUsData = this.footerDataGetter.FooterList[2],
+                this.storeData = this.footerDataGetter.FooterList[3],
+                (void 0 !== this.$nuxt || window) && this.$nextTick((function() {
+                    t.getWindowWidth()
+                }
+                )))
+            }
+            ,
+            e.prototype.setProductLineData = function() {
+                if (this.productLineDataArray = [],
+                this.topMenuDataGetter && void 0 !== this.topMenuDataGetter.ProductLine && (this.productLineData = m()(this.topMenuDataGetter.ProductLine),
+                0 === this.productLineDataArray.length)) {
+                    var t = this.productLineData.MenuList
+                      , e = []
+                      , o = [];
+                    for (var r in t)
+                        for (var n in t[r] && t[r].Name && this.productLineDataArray.push({
+                            Name: t[r].Name,
+                            Link: t[r].Link,
+                            LinkTarget: t[r].LinkTarget,
+                            isTitle: !0
+                        }),
+                        e = t[r].PDLevel2)
+                            (o = e[n]) && o.Name && this.productLineDataArray.push({
+                                Name: o.Name,
+                                Link: o.Link,
+                                LinkTarget: o.LinkTarget,
+                                CustomizeLink: o.CustomizeLink
+                            })
+                }
+            }
+            ,
+            e.prototype.setWebsiteCode = function() {
+                this.websiteCode = this.websiteCodeGetter,
+                this.$nuxt || this.getLoginInfo()
+            }
+            ,
+            Object.defineProperty(e.prototype, "isValidWebsite", {
+                get: function() {
+                    return "mm" !== this.websiteCode && "ru" !== this.websiteCode
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.signupEmail = function(t) {
+                this.errorCode = "",
+                "" === this.email && (this.errorCode = this.loginInfoGetter.NonMember.Error1),
+                "" !== this.email && !1 === /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.email) && (this.errorCode = this.loginInfoGetter.NonMember.Error2),
+                "signup" === t && "" !== this.email && "" === this.errorCode && window.triggerSubscribeForm(this.email)
+            }
+            ,
+            e.prototype.getWindowWidth = function() {
+                this.$set(this.columnData, 0, {}),
+                this.$set(this.columnData, 1, {}),
+                this.$set(this.columnData, 2, {}),
+                this.windowWidth = window.innerWidth,
+                this.windowWidth > this.breakPointMedium || 0 === this.windowWidth ? (this.rwdState = "desktop",
+                this.$set(this.columnData[0], 0, this.learnMoreData),
+                this.$set(this.columnData[0], 1, this.storeData),
+                this.$set(this.columnData[1], 0, this.supportData),
+                this.$set(this.columnData[2], 0, this.aboutUsData),
+                this.productLineColumn = 3) : this.windowWidth > this.breakPointSmall ? (this.rwdState = "tablet",
+                this.$set(this.columnData[0], 0, this.learnMoreData),
+                this.$set(this.columnData[0], 1, this.supportData),
+                this.$set(this.columnData[1], 0, this.aboutUsData),
+                this.$set(this.columnData[1], 1, this.storeData),
+                this.$set(this.columnData, 2, {}),
+                this.productLineColumn = 2) : (this.rwdState = "mobile",
+                this.$set(this.columnData[0], 0, this.learnMoreData),
+                this.$set(this.columnData[0], 1, this.storeData),
+                this.$set(this.columnData[1], 0, this.supportData),
+                this.$set(this.columnData[2], 0, this.aboutUsData),
+                this.getCommunityListWidth()),
+                this.isColumn = !0
+            }
+            ,
+            e.prototype.setLoginInfo = function() {
+                "undefined" != typeof window && (this.campaignId = window.AsusAPIConfig && window.AsusAPIConfig.campaignId ? window.AsusAPIConfig.campaignId : "")
+            }
+            ,
+            e.prototype.getLoginInfo = function() {
+                var t;
+                this.memberID = null !== (t = _.a.get("cn" === this.websiteCode ? "aticket_cn" : "aticket")) && void 0 !== t ? t : "",
+                this.dispatchLoginInfo({
+                    params: {
+                        memberID: this.memberID,
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode
+                    }
+                })
+            }
+            ,
+            e.prototype.getFooterDataByApi = function() {
+                !1 === this.simplifyFooter && this.getFooterData({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode,
+                        FooterPosition: 0
+                    }
+                }),
+                this.dispatchBottomListData({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode
+                    }
+                })
+            }
+            ,
+            e.prototype.changeSeeMore = function(t) {
+                t === this.oldSeeMore ? (this.currentSeeMore = -1,
+                this.oldSeeMore = -1) : (this.currentSeeMore = t,
+                this.oldSeeMore = t)
+            }
+            ,
+            e.prototype.changeShopAndLearn = function() {
+                this.showShopAndLearn = !this.showShopAndLearn
+            }
+            ,
+            e.prototype.changeLearnMore = function() {
+                this.showLearnMore = !this.showLearnMore
+            }
+            ,
+            e.prototype.changeSupport = function() {
+                this.showSupport = !this.showSupport
+            }
+            ,
+            e.prototype.changeAboutUs = function() {
+                this.showAboutUs = !this.showAboutUs
+            }
+            ,
+            e.prototype.changeStore = function() {
+                this.showStore = !this.showStore
+            }
+            ,
+            e.prototype.detectPageSource = function(t) {
+                t.preventDefault(),
+                "account" === window.AsusAPIConfig.page && (_.a.set("asus_entry", JSON.stringify({
+                    websiteCode: window.AsusAPIConfig.websitePath,
+                    returnURLHref: window.location.host,
+                    returnURLPath: window.location.pathname + window.location.search
+                }), {
+                    domain: ".asus.com",
+                    secure: !0
+                }),
+                -1 === window.location.host.indexOf("-account.asus.com") ? window.location.href = "https://www.asus.com/entry/account?pageName=account" : window.location.href = "https://stage-asgard.asus.com/entry/account?pageName=account")
+            }
+            ,
+            e.prototype.gaDataLayerHandle = function(data) {
+                var text = data.text;
+                data.eventCategoryDL ? this.gaDataLayerPush({
+                    event: "data_layer_event",
+                    event_category_DL: "buttons",
+                    event_action_DL: "clicked",
+                    event_label_DL: "footer/" + text,
+                    event_value_DL: "0"
+                }) : this.gaDataLayerPush({
+                    event: "data_layer_event",
+                    event_category_DL: "internal-links",
+                    event_action_DL: "clicked",
+                    event_label_DL: "footer/" + text,
+                    event_value_DL: "0"
+                })
+            }
+            ,
+            e.prototype.socialIconHandler = function(t) {
+                var e = this
+                  , base = this.windowWidth > 320 ? this.windowWidth >= 731 ? 100 : 6 : 5
+                  , o = []
+                  , r = Math.floor(t / base)
+                  , n = t % base;
+                if (0 === n && r >= 1)
+                    for (var i = 0; i < r; i++)
+                        o.push([base]);
+                else
+                    0 === r ? o.push([n]) : (function t(e) {
+                        var r = Math.floor(e / 2)
+                          , n = e % 2;
+                        e - base >= base ? (o.push([base]),
+                        t(e -= base)) : (o.push([r + n]),
+                        o.push([r]))
+                    }(t),
+                    o = o);
+                var l = []
+                  , c = []
+                  , h = 0
+                  , d = 0;
+                return o.forEach((function(t) {
+                    for (c = [],
+                    d += t[0],
+                    h *= 1; h < d; h++)
+                        c.push(e.footerDataGetter.CommunityList.Items[h]);
+                    l.push([c])
+                }
+                )),
+                l
+            }
+            ,
+            e.prototype.getCommunityListWidth = function() {
+                if (!1 === this.simplifyFooter && "undefined" != typeof window) {
+                    this.windowWidth = window.innerWidth;
+                    var t = 0
+                      , e = 0;
+                    return this.footerDataGetter && this.footerDataGetter.CommunityList && this.footerDataGetter.CommunityList.Items && this.footerDataGetter.CommunityList.Items.length && (e = this.footerDataGetter.CommunityList.Items.length),
+                    6 === e || 8 === e || 10 === e ? t = e / 2 * 64 : 7 === e ? t = 256 : e >= 9 && (t = 320),
+                    64 * Math.floor((this.windowWidth - 40) / 64) < t || 0 === t ? "100%" : t + "px"
+                }
+            }
+            ,
+            L([Object(l.Getter)("themeColorGetter")], e.prototype, "themeColor", void 0),
+            L([Object(l.Getter)("topMenuDataGetter")], e.prototype, "topMenuDataGetter", void 0),
+            L([Object(l.Getter)("footerDataGetter")], e.prototype, "footerDataGetter", void 0),
+            L([Object(l.Getter)("bottomListDataGetter")], e.prototype, "bottomListDataGetter", void 0),
+            L([Object(l.Getter)("websiteCodeGetter")], e.prototype, "websiteCodeGetter", void 0),
+            L([Object(l.Getter)("eCommerceListDataGetter")], e.prototype, "eCommerceListDataGetter", void 0),
+            L([Object(l.Getter)("AIStatusGetter")], e.prototype, "AIStatusGetter", void 0),
+            L([Object(l.Getter)("loginInfoGetter")], e.prototype, "loginInfoGetter", void 0),
+            L([Object(l.Getter)("websiteInfoGetter")], e.prototype, "websiteInfoGetter", void 0),
+            L([Object(l.Action)("getTopMenuData")], e.prototype, "getTopMenuData", void 0),
+            L([Object(l.Action)("getFooterData")], e.prototype, "getFooterData", void 0),
+            L([Object(l.Action)("getBottomListData")], e.prototype, "dispatchBottomListData", void 0),
+            L([Object(l.Action)("getECommerceListData")], e.prototype, "getECommerceListData", void 0),
+            L([Object(l.Action)("getLoginInfo")], e.prototype, "dispatchLoginInfo", void 0),
+            L([Object(l.Action)("getWebsiteInfo")], e.prototype, "dispatchWebsiteInfo", void 0),
+            L([Object(l.Mutation)("setThemeColor")], e.prototype, "MutationThemeColor", void 0),
+            L([Object(l.Prop)()], e.prototype, "isBreadcrumbProp", void 0),
+            L([Object(l.Watch)("footerDataGetter", {
+                immediate: !0
+            })], e.prototype, "setFooterData", null),
+            L([Object(l.Watch)("topMenuDataGetter", {
+                immediate: !0
+            })], e.prototype, "setProductLineData", null),
+            L([Object(l.Watch)("websiteCodeGetter", {
+                immediate: !0
+            })], e.prototype, "setWebsiteCode", null),
+            L([Object(l.Watch)("loginInfoGetter", {
+                immediate: !0
+            })], e.prototype, "setLoginInfo", null),
+            e = L([Object(l.Component)({
+                components: {
+                    ECommerceFooter: f.a
+                }
+            })], e)
+        }(Object(l.mixins)(w.a)), x = o(336), z = o(10);
+        var component = Object(z.a)(C, (function() {
+            var t, e, r, n, l, c, h, d, m, f = this, v = f.$createElement, _ = f._self._c || v;
+            return f.footerDataGetter && f.footerDataGetter.FooterList || f.simplifyFooter ? _("div", {
+                class: [f.$style.wrapper, f.$style["theme" + f.themeColor], "footerExternal", (t = {},
+                t[f.$style.simplifyFooterWrapper] = f.simplifyFooter,
+                t)],
+                attrs: {
+                    role: "contentinfo",
+                    id: "OfficialFooterWrapper",
+                    lang: f.websiteInfoGetter
+                }
+            }, [f.isTriggerECommerce ? _("ECommerceFooter", {
+                staticClass: "asusOfficialECommerceFooter"
+            }) : f._e(), f._v(" "), f.footerDataGetter.FooterList && !f.simplifyFooter ? _("div", {
+                class: [f.$style.contentContainer, (e = {},
+                e[f.$style.isBreadcrumb] = f.isBreadcrumbProp,
+                e)]
+            }, [_("div", {
+                class: f.$style.textLinkContainer
+            }, [_("div", {
+                class: [f.$style.productLineListContainer, f.$style["theme" + f.themeColor], (r = {},
+                r[f.$style.isBreadcrumb] = f.isBreadcrumbProp,
+                r)]
+            }, [_("div", {
+                class: f.$style.titleContainer,
+                attrs: {
+                    tabindex: "mobile" === f.rwdState && 0,
+                    role: "mobile" === f.rwdState && "button",
+                    "aria-label": "mobile" === f.rwdState && f.productLineData.Title,
+                    "aria-expanded": "mobile" === f.rwdState && (0 === f.currentSeeMore ? "true" : "false")
+                },
+                on: {
+                    click: function(t) {
+                        return f.changeSeeMore(0)
+                    }
+                }
+            }, [f.productLineData ? _("h2", {
+                class: [f.$style.firstTitle, f.$style["theme" + f.themeColor]]
+            }, [f._v("\n            " + f._s(f.productLineData.Title) + "\n          ")]) : f._e(), f._v(" "), _("div", {
+                class: [f.$style.btnShowList, (n = {},
+                n[f.$style.btnHideList] = 0 === f.currentSeeMore,
+                n), f.$style["theme" + f.themeColor]]
+            })]), f._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: "mobile" !== f.rwdState || 0 === f.currentSeeMore,
+                    expression: "rwdState !== 'mobile' || currentSeeMore === 0"
+                }],
+                class: [(l = {},
+                l[f.$style.productShowList] = 0 !== f.currentSeeMore,
+                l), f.$style.productLintContent, f.$style["theme" + f.themeColor]]
+            }, [_("div", {
+                class: f.$style["theme" + f.themeColor]
+            }, [f.productLineDataArray ? _("dl", f._l(f.productLineDataArray, (function(t, e) {
+                var o, r;
+                return _(t.isTitle ? "dt" : "dd", {
+                    directives: [{
+                        name: "show",
+                        rawName: "v-show",
+                        value: t.isTitle || t.Link,
+                        expression: "item.isTitle || item.Link"
+                    }],
+                    key: e,
+                    tag: "component",
+                    class: [(o = {},
+                    o[f.$style.secondTitle] = t.isTitle,
+                    o), (r = {},
+                    r[f.$style.linkItem] = !t.isTitle,
+                    r), f.$style["theme" + f.themeColor]]
+                }, [t.isTitle ? _("span", [f._v(" " + f._s(t.Name) + " ")]) : "" === t.CustomizeLink || null === t.CustomizeLink ? _("span", {
+                    class: f.$style.disabled
+                }, [f._v(f._s(t.Name))]) : _("a", {
+                    attrs: {
+                        href: t.CustomizeLink,
+                        target: t.LinkTarget,
+                        rel: "_blank" === t.LinkTarget ? "noreferrer noopener" : "",
+                        "aria-label": t.Name
+                    },
+                    on: {
+                        click: function(e) {
+                            f.gaDataLayerHandle({
+                                text: t.Name
+                            }),
+                            f.gaHmtPush(["_trackEvent", "internal-links", "clicked", "footer/" + t.Name])
+                        }
+                    }
+                }, [f._v("\n                  " + f._s(t.Name) + "\n                ")])])
+            }
+            )), 1) : f._e()])])]), f._v(" "), !0 === f.isColumn && f.columnData ? f._l(f.columnData, (function(t, e) {
+                return _("div", {
+                    key: e,
+                    class: [f.$style.footerListContainer, f.$style["theme" + f.themeColor]]
+                }, [f._l(t, (function(t, o) {
+                    var r, n;
+                    return [t && "" !== t.Title ? _("div", {
+                        key: o
+                    }, [_("div", {
+                        class: f.$style.titleContainer,
+                        attrs: {
+                            tabindex: "mobile" === f.rwdState && 0,
+                            role: "mobile" === f.rwdState && "button",
+                            "aria-label": "mobile" === f.rwdState && t.Title,
+                            "aria-expanded": "mobile" === f.rwdState && (f.currentSeeMore === e.toString() + o.toString() ? "true" : "false")
+                        },
+                        on: {
+                            click: function(t) {
+                                f.changeSeeMore(e.toString() + o.toString())
+                            }
+                        }
+                    }, [t && "" !== t.Title ? _("p", {
+                        class: [f.$style.firstTitle, f.$style["theme" + f.themeColor]]
+                    }, [f._v("\n                  " + f._s(t.Title) + "\n                ")]) : f._e(), f._v(" "), _("div", {
+                        class: [f.$style.btnShowList, (r = {},
+                        r[f.$style.btnHideList] = f.currentSeeMore === e.toString() + o.toString(),
+                        r), f.$style["theme" + f.themeColor]]
+                    })]), f._v(" "), t && t.Items && ("mobile" !== f.rwdState || f.currentSeeMore === e.toString() + o.toString()) ? _("ul", {
+                        class: [f.$style.productShowList, (n = {},
+                        n[f.$style.active] = f.currentSeeMore === e.toString() + o.toString(),
+                        n)]
+                    }, f._l(t.Items, (function(t) {
+                        return _("li", {
+                            key: t.Name,
+                            class: [f.$style.linkItem, f.$style["theme" + f.themeColor]]
+                        }, ["" === t.Link ? _("span", [f._v("\n                    " + f._s(t.Name) + "\n                  ")]) : _("a", {
+                            attrs: {
+                                href: t.Link,
+                                target: t.Target,
+                                rel: "_blank" === t.Target ? "noreferrer noopener" : "",
+                                "aria-label": t.Name
+                            },
+                            on: {
+                                click: function(e) {
+                                    f.gaDataLayerHandle({
+                                        text: "" + t.Name
+                                    }),
+                                    f.gaHmtPush(["_trackEvent", "internal-links", "clicked", "footer/" + t.Name])
+                                }
+                            }
+                        }, [f._v("\n                    " + f._s(t.Name) + "\n                  ")])])
+                    }
+                    )), 0) : f._e()]) : f._e()]
+                }
+                ))], 2)
+            }
+            )) : f._e()], 2), f._v(" "), _("div", {
+                class: [f.$style.communityWrapper, (c = {},
+                c[f.$style.hasForm] = "cn" !== f.websiteCode && void 0 !== f.campaignId && "" !== f.campaignId,
+                c)]
+            }, ["cn" !== f.websiteCode && f.loginInfoGetter && f.loginInfoGetter.NonMember && void 0 !== f.campaignId && "" !== f.campaignId ? _("div", {
+                class: [f.$style.subscribeForm, f.$style["theme" + f.themeColor]]
+            }, [_("div", {
+                class: f.$style.formTitle
+            }, [f._v("\n          " + f._s(f.loginInfoGetter.NonMember.Title) + "\n        ")]), f._v(" "), _("div", {
+                class: f.$style.formContent
+            }, [_("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: f.email,
+                    expression: "email"
+                }],
+                class: [f.$style.emailInput, (h = {},
+                h[f.$style.error] = "" !== f.errorCode,
+                h)],
+                attrs: {
+                    type: "text",
+                    "aria-required": "true",
+                    "aria-label": f.loginInfoGetter.NonMember.Email,
+                    placeholder: f.loginInfoGetter.NonMember.Email
+                },
+                domProps: {
+                    value: f.email
+                },
+                on: {
+                    input: function(t) {
+                        t.target.composing || (f.email = t.target.value)
+                    }
+                }
+            }), f._v(" "), _("div", {
+                class: f.$style.formBtn,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": f.loginInfoGetter.NonMember.Signup
+                },
+                on: {
+                    click: function(t) {
+                        return f.signupEmail("signup")
+                    }
+                }
+            }, [f._v("\n            " + f._s(f.loginInfoGetter.NonMember.Signup) + "\n          ")])]), f._v(" "), "" !== f.errorCode ? _("div", {
+                class: f.$style.formAlert
+            }, [_("svg", {
+                attrs: {
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("g", {
+                attrs: {
+                    "clip-path": "url(#clip0_140_16497)",
+                    stroke: "#B42D18"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M8 14A6 6 0 108 2a6 6 0 000 12z"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M8 5.5v3.116M8 10.34v.333",
+                    "stroke-linecap": "round"
+                }
+            })]), _("defs", [_("clipPath", {
+                attrs: {
+                    id: "clip0_140_16497"
+                }
+            }, [_("path", {
+                attrs: {
+                    fill: "#fff",
+                    d: "M0 0h16v16H0z"
+                }
+            })])])]), f._v("\n          " + f._s(f.errorCode) + "\n        ")]) : f._e()]) : f._e(), f._v(" "), f.footerDataGetter.CommunityList && f.footerDataGetter.CommunityList.Items && f.footerDataGetter.CommunityList.Items.length > 0 ? _("ol", {
+                class: [f.$style.communityListContainer, f.$style["theme" + f.themeColor]]
+            }, [f._l(f.footerDataGetter.CommunityList.Items, (function(t, e) {
+                return [e < 10 ? _("li", {
+                    key: e
+                }, ["" !== t.Link ? _("a", {
+                    class: f.$style.communityLink,
+                    attrs: {
+                        href: t.Link,
+                        target: f.AIStatusGetter ? "_blank" : t.Target,
+                        rel: "_blank" === t.Target ? "noreferrer noopener" : "",
+                        "aria-label": t.Name,
+                        alt: t.Name
+                    },
+                    on: {
+                        click: function(e) {
+                            f.gaDataLayerHandle({
+                                eventCategoryDL: "buttons",
+                                text: "" + t.Name
+                            }),
+                            f.gaHmtPush(["_trackEvent", "buttons", "clicked", "footer/" + t.Name])
+                        }
+                    }
+                }, [t.Icon.toLowerCase().includes("community-behance.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_54_16561)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M15.582 12c.767 0 1.466.067 2.098.201.632.135 1.174.355 1.625.662.451.306.8.713 1.048 1.221.248.509.373 1.135.373 1.883 0 .807-.184 1.479-.553 2.017-.369.538-.913.978-1.636 1.322.993.284 1.735.781 2.223 1.49.489.71.733 1.566.733 2.567 0 .806-.157 1.505-.474 2.095a4.082 4.082 0 01-1.275 1.446 5.65 5.65 0 01-1.828.829c-.689.18-1.398.269-2.11.268H8V12h7.582zm-.451 6.476c.632 0 1.15-.15 1.557-.448.406-.3.61-.784.61-1.457 0-.373-.068-.68-.204-.918a1.505 1.505 0 00-.542-.56 2.286 2.286 0 00-.778-.28 5.195 5.195 0 00-.914-.079h-3.317v3.742h3.588zm.203 6.79c.346 0 .677-.034.992-.1.316-.068.594-.18.835-.338.24-.156.432-.369.575-.638.143-.269.215-.613.215-1.03 0-.822-.234-1.408-.7-1.76-.466-.35-1.084-.526-1.85-.526h-3.858v4.392h3.79zm10.619-.336c.481.464 1.174.695 2.076.695.646 0 1.204-.16 1.67-.482.466-.32.751-.661.857-1.02h2.82c-.45 1.39-1.142 2.384-2.075 2.98-.933.599-2.062.897-3.386.897-.917 0-1.745-.145-2.481-.437a5.146 5.146 0 01-1.873-1.244 5.605 5.605 0 01-1.185-1.927c-.278-.747-.417-1.568-.417-2.465 0-.866.143-1.673.43-2.42a5.673 5.673 0 011.219-1.938 5.74 5.74 0 011.884-1.289c.73-.314 1.538-.47 2.425-.47.993 0 1.858.19 2.596.57a5.18 5.18 0 011.817 1.536 6.31 6.31 0 011.027 2.196c.211.822.286 1.68.226 2.577h-8.418c.043 1.03.306 1.778.788 2.241zm3.62-6.095c-.382-.418-.966-.627-1.748-.627-.51 0-.936.086-1.275.257-.339.172-.61.385-.812.639a2.326 2.326 0 00-.428.806 3.568 3.568 0 00-.147.762h5.213c-.15-.806-.418-1.419-.802-1.837zm-4.958-6.022h6.514v1.793h-6.514v-1.793z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_54_16561"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(8 12)",
+                        d: "M0 0h25.6v16H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-facebook.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M25.17 12.856h-2.4c-.844 0-1.019.349-1.019 1.222v2.11h3.42l-.335 3.71h-3.1V31h-4.422V19.942H15v-3.74h2.314v-2.968C17.314 10.455 18.812 9 22.1 9h3.07v3.856z",
+                        fill: "#fff"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-instagram.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M24.386 8.8h-8.972A6.616 6.616 0 008.8 15.414v8.972A6.616 6.616 0 0015.414 31h8.972A6.616 6.616 0 0031 24.386v-8.972A6.616 6.616 0 0024.386 8.8zm4.381 15.607a4.381 4.381 0 01-4.381 4.381h-8.972a4.381 4.381 0 01-4.382-4.381v-8.972a4.381 4.381 0 014.382-4.382h8.972a4.381 4.381 0 014.381 4.382v8.972z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M19.878 14.162c-3.171 0-5.737 2.587-5.737 5.738 0 3.15 2.587 5.738 5.737 5.738 3.151 0 5.738-2.588 5.738-5.738 0-3.15-2.566-5.738-5.738-5.738zm0 9.264a3.5 3.5 0 01-3.505-3.505 3.5 3.5 0 013.505-3.505 3.5 3.5 0 013.506 3.505c.02 1.92-1.565 3.505-3.506 3.505zM25.638 15.58a1.377 1.377 0 100-2.753 1.377 1.377 0 000 2.754z",
+                        fill: "#fff"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-linkedin.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M15.297 29h-3.92V16.333h3.92V29zm-1.978-14.325A2.328 2.328 0 0111 12.338 2.328 2.328 0 0113.319 10a2.328 2.328 0 012.318 2.338 2.328 2.328 0 01-2.318 2.337zM29.99 29H26.09v-6.649c0-1.824-.692-2.84-2.135-2.84-1.568 0-2.39 1.06-2.39 2.84V29h-3.76V16.333h3.76v1.706s1.132-2.093 3.817-2.093c2.686 0 4.61 1.64 4.61 5.033V29z",
+                        fill: "#fff"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-pinterest.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M19.278 9.077c-4.058.427-8.102 3.519-8.27 7.936-.104 2.697.709 4.72 3.434 5.288 1.183-1.965-.381-2.398-.624-3.82-1-5.825 7.134-9.797 11.39-5.73 2.945 2.816 1.006 11.48-3.744 10.579-4.55-.86 2.227-7.757-1.404-9.11-2.952-1.101-4.52 3.365-3.121 5.584-.82 3.815-2.587 7.41-1.872 12.196 2.32-1.585 3.102-4.621 3.744-7.788 1.166.667 1.788 1.361 3.276 1.469 5.486.4 8.55-5.158 7.801-10.285-.665-4.545-5.481-6.858-10.61-6.32z",
+                        fill: "#fff"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-telegram.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M27.085 29.243l3.585-16.879c.175-.7.088-1.224-.262-1.574-.35-.35-.7-.35-1.224-.175L8.107 18.748c-.437.175-.787.35-.962.612-.175.263-.175.438-.088.613.088.175.35.35.788.437l5.422 1.662L25.773 14.2c.35-.263.612-.263.787-.175.088.087.088.175-.087.35l-10.145 9.27L16 30s2.482-2.65 3.651-3.818l5.422 4.023c1.137.612 1.75.262 2.012-.962z",
+                        fill: "#fff"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-twitter.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_410_1295)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M44.186 36.54l16.38-19.04h-3.882L42.462 34.032 31.102 17.5H18l17.178 25L18 62.467h3.882l15.02-17.459 11.996 17.459H62L44.185 36.54h.001zm-5.317 6.18l-1.74-2.49L23.28 20.423h5.962l11.176 15.986 1.74 2.49 14.528 20.78h-5.962L38.87 42.72z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_410_1295"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(18 17.5)",
+                        d: "M0 0h44v44.99H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-youtube.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "40",
+                        height: "40",
+                        viewBox: "0 0 40 40",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "20",
+                        cy: "20",
+                        r: "20",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_54_16557)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M30.54 14.67a2.765 2.765 0 00-1.945-1.957C26.875 12.25 20 12.25 20 12.25s-6.875 0-8.595.463A2.765 2.765 0 009.46 14.67C9 16.398 9 20 9 20s0 3.602.46 5.33a2.765 2.765 0 001.945 1.958c1.72.462 8.595.462 8.595.462s6.875 0 8.595-.462a2.765 2.765 0 001.945-1.958C31 23.603 31 20 31 20s0-3.602-.46-5.33zm-12.79 8.601V16.73L23.5 20l-5.75 3.271z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_54_16557"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(9 12.25)",
+                        d: "M0 0h22v15.5H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-discord.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_842_13855)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M56.66 24.456a39.093 39.093 0 00-9.902-3.112 29.022 29.022 0 00-1.269 2.633 36.36 36.36 0 00-10.975 0 28.133 28.133 0 00-1.283-2.633 38.958 38.958 0 00-9.91 3.12c-6.268 9.47-7.967 18.705-7.117 27.809 4.156 3.104 8.185 4.99 12.145 6.224a30.197 30.197 0 002.601-4.285 25.574 25.574 0 01-4.096-1.993c.344-.255.68-.52 1.004-.794 7.898 3.694 16.48 3.694 24.284 0 .328.273.664.54 1.004.794a25.508 25.508 0 01-4.104 1.997 30.067 30.067 0 002.601 4.284c3.964-1.233 7.996-3.12 12.153-6.227.997-10.554-1.703-19.704-7.135-27.817zM32.027 46.674c-2.37 0-4.315-2.213-4.315-4.909 0-2.695 1.903-4.912 4.315-4.912 2.413 0 4.357 2.213 4.316 4.912.003 2.696-1.903 4.909-4.316 4.909zm15.947 0c-2.37 0-4.315-2.213-4.315-4.909 0-2.695 1.903-4.912 4.316-4.912 2.412 0 4.356 2.213 4.315 4.912 0 2.696-1.903 4.909-4.316 4.909z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_842_13855"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-edgeup.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_843_13853)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M39.6 32v2.8c0 .8-.2 1.6-.4 2.2-.2.6-.6 1-1 1.4-.6.4-1 .6-1.8.8-.8.2-1.6.2-2.4.2h-8.6v-12H34c1 0 1.6 0 2.4.2.8.2 1.4.4 1.8.8.4.4.8.8 1 1.4.2.6.4 1.2.4 2.2zm-4 0c0-.6 0-.8-.4-1-.2-.2-.6-.2-1.2-.2h-4.6v5H34c.4 0 .8 0 1.2-.2.2-.2.4-.6.4-1V32z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M44.8 31c.4-.2.8-.2 1.2-.2h8.4v-3.4H46c-.8 0-1.6 0-2.4.2-.8.2-1.2.4-1.8.8-.4.4-.8.8-1 1.4-.2.6-.4 1.4-.4 2.2v2.6c0 .8.2 1.6.4 2.2.2.6.6 1 1 1.4.4.4 1 .6 1.8.8.8.2 1.4.2 2.4.2h8.4v-6h-4v2.6H46c-.6 0-1 0-1.2-.2-.4-.2-.4-.4-.4-1V32c-.2-.6 0-.8.4-1zM20.6 40.8V48c0 .4-.2.8-.4 1-.4.2-.8.2-1.2.2h-2.6c-.6 0-1 0-1.2-.2-.4-.2-.4-.4-.4-1v-7.2h-4V48c0 .8.2 1.6.4 2.2.2.6.6 1 1 1.4.6.4 1.2.8 1.8.8.8.2 1.4.2 2.4.2H19c.8 0 1.6 0 2.4-.2.8-.2 1.2-.4 1.8-.8.4-.4.8-.8 1-1.4.2-.6.4-1.4.4-2.2v-7.2h-4z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M39 45.6v.8c0 .8-.2 1.6-.4 2.2-.2.6-.6 1-1 1.4-.6.4-1 .6-1.8.8-.8.2-1.6.2-2.4.2h-4v1.8h-4v-12h8c1 0 1.6 0 2.4.2.8.2 1.4.4 1.8.8.4.4.8.8 1 1.4.2.6.4 1.4.4 2.4zm-3.8-.2c0-.6 0-.8-.4-1-.2-.2-.6-.2-1.2-.2h-4v3.2h4c.4 0 .8 0 1.2-.2.2-.2.4-.6.4-1v-.8z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M68.8 30.8v-3.4H55v12h13.8V36h-10v-1.2H68V32h-9v-1.2h9.8zM24.6 30.8v-3.4H10.8v12h13.8V36h-10v-1.2h9V32h-8.8v-1.2h9.8z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M69 40.8H40.5v12H69v-12zm-18.736 3.403H54.6l-.002 1.33h-9.611l.66-.987a.69.69 0 01.66-.343h2.405v1.256c.103-.613.548-1.256 1.553-1.256zm-5.938 5.193H42.6l2.346-3.729 1.543.156-2.163 3.573zm11.947-5.192h-1.42v1.33h1.42v-1.33zm4.576 1.807l4.446.27c1.34.083 1.888.467 1.888 1.485 0 1.132-.61 1.63-2 1.63h-4.405v-1.343c-.106.94-.83 1.344-2.24 1.344h-1.442c-1.31 0-2.08-.353-2.243-1.256h-.03c-.062.57-.478 1.256-1.767 1.256H47.27v-3.511l1.42.093v2.077h4.355c.285 0 .468-.02.468-.249 0-.208-.183-.28-.427-.301l-3.096-.321c-.762-.084-1.248-.499-1.248-1.195l4.446.301c1.35.094 1.553.738 1.634 1.288h.03v-1.9l1.421.103v1.673c0 .425.285.623.955.623h1.116c.812 0 1.045-.146 1.045-.623v-1.527l1.402.083v1.786c0 .088-.004.17-.013.25h4.314c.356 0 .528-.072.528-.27 0-.208-.153-.27-.396-.291l-3.167-.25c-.761-.063-1.208-.53-1.208-1.225zm6.235-1.808v1.33H59.39v-1.33h1.402v1.257-.006a.08.08 0 00.002-.015c.08-.607.527-1.236 1.52-1.236h4.771z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_843_13853"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("_vk_") || t.Icon.toLowerCase().includes("_Vk_") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_840_13862)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M66.031 25.993c.377-1.27 0-2.198-1.81-2.198h-5.97c-1.51 0-2.214.804-2.593 1.69 0 0-3.034 7.397-7.33 12.206-1.394 1.385-2.022 1.833-2.786 1.833-.38 0-.948-.448-.948-1.708V25.993c0-1.52-.415-2.198-1.689-2.198h-9.378c-.946 0-1.52.71-1.52 1.376 0 1.438 2.148 1.766 2.372 5.811v8.79c0 1.934-.348 2.282-1.106 2.282-2.025 0-6.95-7.43-9.866-15.935-.576-1.655-1.145-2.324-2.674-2.324h-5.967c-1.706 0-2.048.804-2.048 1.69 0 1.58 2.023 9.42 9.423 19.798 4.932 7.08 11.878 10.922 18.208 10.922 3.79 0 4.262-.855 4.262-2.322v-5.36c0-1.705.364-2.057 1.561-2.057.888 0 2.405.457 5.952 3.87 4.047 4.052 4.709 5.869 6.982 5.869h5.967c1.708 0 2.56-.855 2.074-2.536-.537-1.682-2.473-4.106-5.037-6.99-1.396-1.643-3.486-3.42-4.112-4.307-.881-1.14-.632-1.645 0-2.656 0 0 7.28-10.251 8.033-13.723z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_840_13862"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-tiktok.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_106_308)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M59.894 28.706c0-.203 0-.203-.227-.203-.514 0-1.028-.058-1.541-.13-1.86-.277-7.892-3.312-8.904-8.28-.016-.1-.242-1.335-.242-1.858 0-.233 0-.233-.242-.233H41.497c-.469 0-.408-.058-.408.407v29.497c0 .364-.015.727-.076 1.09-.363 1.902-1.375 3.384-3.084 4.415-1.481.886-3.099 1.133-4.822.813-.544-.101-1.043-.305-1.557-.494-.045-.029-.076-.072-.12-.101-.167-.131-.364-.247-.545-.378-2.192-1.452-3.22-3.471-2.903-5.998.318-2.556 1.86-4.3 4.384-5.2a6.15 6.15 0 012.359-.334 7.075 7.075 0 011.541.233c.182.043.273-.015.273-.19v-.188c0-1.772-.076-5.62-.076-5.635 0-.508 0-1.017.015-1.525 0-.145-.075-.174-.196-.189a15.653 15.653 0 00-2.857-.058c-1.316.087-2.6.349-3.855.784a14.444 14.444 0 00-5.246 3.166 13.673 13.673 0 00-3.054 4.212 13.493 13.493 0 00-1.24 4.779c-.044.726-.044 1.438.031 2.164.09 1.002.287 1.975.605 2.933.907 2.745 2.555 4.982 4.898 6.768.242.175.468.378.756.494l.362.305c.378.276.787.509 1.21.712 2.615 1.249 5.381 1.757 8.299 1.409 3.78-.45 6.923-2.048 9.403-4.822 2.328-2.614 3.461-5.664 3.492-9.092.03-4.894 0-9.789.015-14.683 0-.117-.076-.276.06-.349.106-.044.212.087.303.145a19.468 19.468 0 006.152 2.556c1.285.291 2.585.45 3.915.45.424 0 .469-.014.469-.42-.015-1.758-.106-6.507-.106-6.972z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_106_308"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-glassdoor.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_840_13847)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M50.6 15.2c3.9 0 7.1 3.2 7.1 7.1H29.4v29.1c0 .1-.1.3-.3.3h-6.6c-.1 0-.3-.1-.3-.3V22.3c0-3.9 3.2-7.1 7.1-7.1h21.3zm0 42.5H22.3c0 3.9 3.2 7.1 7.1 7.1h21.3c3.9 0 7.1-3.2 7.1-7.1V28.6c0-.1-.1-.3-.3-.3h-6.6c-.1 0-.3.1-.3.3v29.1z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_840_13847"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-toutiao.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_844_13864)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M23.126 46.51c-3.344.175-6.701.337-10.126.513V43.26c4.274-.23 8.562-.459 12.89-.688.431-.715.62-1.497.795-2.279.594-2.615.742-5.285.81-7.955.04-1.928.013-3.856.013-5.878 1.524-.081 2.899-.149 4.395-.23-.148 5.434.014 10.773-1.334 16.1 2.831-.149 5.595-.284 8.454-.432v3.775c-3.425.175-6.823.364-10.248.54-2.009 3.114-4.746 5.514-7.429 7.982-.499.458-1.011.741-1.712.755-1.834.053-3.668.175-5.542.188 3.02-2.845 6.27-5.42 9.034-8.629zM56.025 44.798v8.184c-1.456.23-2.845.121-4.314.283v-8.251c-3.654.188-7.214.377-10.84.566v-3.775c3.572-.19 7.145-.391 10.705-.58.188-.701 0-1.335.175-2.077l4.166-.202c.23.66.027 1.308.19 2.05 3.559-.176 7.132-.364 10.786-.553v3.762c-3.587.188-7.16.39-10.868.593z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M15.4 27.998c3.115.283 6.135.566 9.236.85.081 1.388.054 2.736.014 4.193-3.128-.284-6.175-.553-9.25-.836v-4.207zM24.636 35.737v4.207c-3.114-.283-6.148-.567-9.236-.836v-4.193c3.074.27 6.122.539 9.236.822zM44.861 47.09c1.672-.108 3.317-.243 5.124-.243-1.39 2.292-2.724 4.49-4.072 6.715-1.645.08-3.277.162-5.124.256 1.402-2.32 2.71-4.49 4.072-6.728zM35.045 47.575c1.348 2.09 2.67 4.14 4.072 6.31-1.807.108-3.438.203-5.11.297-1.349-2.076-2.67-4.126-4.059-6.27 1.726-.256 3.371-.188 5.097-.337zM57.818 46.389c1.848-.095 3.452-.175 5.137-.256 1.335 2.063 2.657 4.112 4.045 6.256-1.766.283-3.41.148-5.083.35-1.335-2.076-2.67-4.139-4.099-6.35zM59.598 34.173c2.211-1.335 4.193-2.737 5.946-4.49 0-1.416.067-2.831-.04-4.234-.149-.027-.243-.054-.324-.054-5.03.257-10.045.513-15.074.782a2.88 2.88 0 01-1.308-.215A276.923 276.923 0 0045.48 24.6c-1.348 2.076-2.656 4.085-3.977 6.135 2.035 1.577 4.139 2.94 6.512 4.099-2.454.795-4.814 1.321-7.24 1.887-.014 1.349-.068 2.657.04 3.991.23-.04.337-.054.445-.08 4.058-.89 8.063-1.983 11.946-3.48.297-.107.566-.228.903-.134 3.047.89 6.162 1.456 9.29 1.915 1.146.161 2.292.296 3.492.444V35.36c-2.413-.35-4.827-.62-7.294-1.186zm-5.663-1.443c-2.09-.647-4.072-1.456-6.094-2.629a62.407 62.407 0 011.698-.121c3.196-.162 6.405-.324 9.6-.472.216-.014.418.027.634.04 0 0 .014 0 .014-.013l.013.013h-.027c-1.793 1.362-3.802 2.306-5.838 3.182z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_844_13864"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-wantedly.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_840_16811)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        "fill-rule": "evenodd",
+                        "clip-rule": "evenodd",
+                        d: "M35.195 48.129c-.345-.22-1.33-1.528-4.02-7.987a18.984 18.984 0 00-.47-1.057l-.555-1.33-4.742-11.44h-9.484l4.742 11.44 4.742 11.442 4.375 10.572a.39.39 0 00.723 0l4.762-11.4a.209.209 0 00-.073-.24zM52.948 48.129c-.345-.22-1.33-1.539-4.02-7.987a18.984 18.984 0 00-.47-1.057l-.555-1.33-4.742-11.44h-9.474l4.742 11.44 4.742 11.442 4.376 10.572a.39.39 0 00.722 0l4.763-11.4c.02-.093-.01-.198-.084-.24z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M58.36 37.43a5.715 5.715 0 100-11.43 5.715 5.715 0 000 11.43z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_840_16811"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-wechat.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_849_13926)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M60.651 61.22c-.433-1.438-.867-2.802-1.301-4.277.47-.406.94-.775 1.374-1.144 5.603-4.942 6.11-12.428 1.265-17.813-6.326-6.97-18.437-6.75-24.547.443-2.277 2.692-3.507 5.753-2.964 9.33.65 4.39 3.145 7.56 6.869 9.7 4.265 2.471 8.857 2.692 13.556 1.512.326-.074.615-.147 1.013-.184M45.143 44.07c-1.121 0-2.061-.959-2.061-2.102 0-1.143.94-2.102 2.06-2.102 1.121 0 2.061.959 2.061 2.102 0 1.18-.904 2.102-2.06 2.102zm10.122 0c-1.12 0-2.06-.959-2.06-2.102 0-1.143.94-2.102 2.06-2.102s2.06.959 2.06 2.102c0 1.18-.903 2.102-2.06 2.102z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M51.18 30.868c-.868-3.098-2.603-5.606-4.99-7.671-7.483-6.454-19.196-6.233-26.426.516-3.181 2.988-5.133 6.602-4.953 11.138.181 4.905 2.531 8.704 6.255 11.691.325.258.723.443.976.849-.543 1.733-1.121 3.43-1.663 5.163.072.037.108.074.18.11 1.989-1.069 3.977-2.175 5.893-3.208 2.53.774 4.989 1.217 7.628 1.07-.108-.406-.145-.664-.217-.923-.795-3.06-.506-6.048.868-8.85 2.639-5.238 7.05-7.82 12.617-8.705 1.337-.221 2.675-.147 3.976-.184.073-.369-.072-.664-.144-.996zm-24.258.7c-1.41 0-2.567-1.18-2.567-2.618s1.157-2.618 2.567-2.618c1.41 0 2.567 1.18 2.567 2.618 0 1.439-1.157 2.619-2.567 2.619zm12.653 0c-1.41 0-2.567-1.18-2.567-2.618s1.157-2.618 2.567-2.618c1.41 0 2.567 1.18 2.567 2.618 0 1.439-1.157 2.619-2.567 2.619z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_849_13926"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-weibo.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_847_13924)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M50.126 20.664c.591-.045 1.137-.09 2.25 0 4.706.478 8.161 2.867 10.298 7.053 1.5 2.935 1.682 6.052.773 9.237-.34 1.183-1.296 1.774-2.364 1.433-1-.296-1.478-1.297-1.16-2.434 1.25-4.482-.772-8.987-4.887-10.853-1.75-.796-3.591-1-5.5-.637-1.183.228-2.092-.34-2.342-1.433-.227-1 .454-1.91 1.614-2.161.432-.114.886-.137 1.318-.205z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M51.286 27.103c4.183.022 7.183 4.095 5.888 8.008-.25.75-.887 1.228-1.637 1.16-.704-.045-1.273-.569-1.432-1.297-.068-.318.023-.637.091-.932.523-2.184-1.205-4.05-3.432-3.732-1 .16-1.819-.364-2-1.228-.183-.933.408-1.706 1.454-1.911.364-.046.727-.046 1.068-.068zM37.601 37.636h-2.25a7.46 7.46 0 012.25 0zM33.67 41.55c-2.001.272-3.729 1.114-5.116 2.593-1.363 1.456-2.136 3.14-1.886 5.164.273 2.32 1.636 3.845 3.705 4.778a7.212 7.212 0 002.432.637c.569.045 1.091.023 1.523-.069 2.569-.273 4.728-1.364 6.252-3.48 1.386-1.957 1.727-4.118.59-6.302-1.568-2.935-4.841-3.663-7.5-3.322zm.658 8.235c-.386 1.16-1.545 2.002-3.137 2.002-.59 0-1.318-.319-1.75-1.138-.432-.819-.273-1.615.227-2.343.705-1.046 2.137-1.57 3.32-1.183 1.136.364 1.727 1.502 1.34 2.662zm1.273-2.07c-.477 0-.864-.365-.864-.82.023-.546.591-1.046 1.16-1.023.455.023.818.364.84.796 0 .523-.545 1.047-1.136 1.047z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M54.627 40.434c-.886-.568-1.864-.932-2.841-1.274-.614-.204-.727-.432-.523-1.046.137-.455.318-.91.432-1.365.75-2.821-.66-4.8-3.546-5.074-1.569-.136-3.069.114-4.57.478-1.158.296-2.272.796-3.409 1.138-.66.204-.886-.023-.705-.683.182-.66.341-1.342.432-2.025.296-2.661-1-4.64-3.955-4.55-1.637.046-3.137.546-4.569 1.229-3.66 1.706-6.683 4.231-9.388 7.166-2.16 2.366-4.024 4.937-5.138 7.986-1 2.707-1.227 5.414.069 8.076 1.068 2.23 2.796 3.845 4.864 5.119 4.206 2.594 8.866 3.595 13.526 3.777 2.16.022 4.091-.091 6-.41 4.047-.66 7.82-2.047 11.162-4.505 2.046-1.524 3.773-3.321 4.796-5.687 1.41-3.344.455-6.37-2.637-8.35zm-6.933 10.761c-1.886 2.23-4.341 3.55-7.092 4.46-1.682.546-3.432.864-5.183 1-1.114.092-2.25.069-3.387-.045-1.546-.16-3.046-.455-4.5-.978-1.774-.637-3.41-1.547-4.706-2.912-1.432-1.48-2.228-3.276-2-5.37.227-2.138 1.34-3.89 2.932-5.3 2.637-2.366 5.82-3.572 9.274-4.14a13.343 13.343 0 012.319-.228c.75-.046 1.5-.046 2.25 0 2.5.159 4.933.66 7.16 1.865 2.092 1.115 3.888 2.594 4.593 4.983.75 2.48 0 4.709-1.66 6.665z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_847_13924"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-whatsapp.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_849_13932)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M40 64a24.932 24.932 0 01-12.471-3.355L17.79 64l2-10.317C16.657 49.382 15 44.322 15 39c0-13.785 11.215-25 25-25s25 11.215 25 25-11.215 25-25 25zm-12.023-7.444l.751.474a21.172 21.172 0 0011.264 3.256c11.737 0 21.278-9.55 21.278-21.278 0-11.737-9.55-21.278-21.278-21.278-11.737 0-21.278 9.55-21.278 21.278 0 4.775 1.567 9.297 4.521 13.084l.523.669-1.094 5.64 5.313-1.845z",
+                        fill: "#fff"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M27.382 29.393s1.469-2.563 2.66-2.71c1.2-.146 2.735-.146 3.15.637.417.784 2.27 5.322 2.27 5.322s.318.783-.172 1.542c-.49.76-1.583 1.853-1.583 1.853s-.612.784 0 1.616c.612.833 1.559 2.359 3.518 4.318 1.959 1.959 5.713 3.354 5.713 3.354s.539.074.882-.269c.343-.343 2.195-2.66 2.195-2.66s.596-.768 1.592-.32c.987.45 5.273 2.588 5.273 2.588s.497.188.497.939c0 .759-.31 2.612-.93 3.232-.629.628-2.457 2.555-5.207 2.555-2.751 0-9.305-2.237-12.798-5.73-3.494-3.493-6.595-7.036-7.33-10.26-.734-3.224-.636-4.676.27-6.007z",
+                        fill: "#fff"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_849_13932"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-threads.svg") ? _("svg", {
+                    class: f.$style.communityListIcon,
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M51.494 38.129c-.172-.087-.432-.178-.604-.265-.348-7.123-4.149-11.22-10.542-11.311h-.088c-3.801 0-7.001 1.694-8.902 4.72l3.545 2.494c1.468-2.317 3.716-2.762 5.445-2.762h.084c2.076 0 3.717.626 4.669 1.872.776.89 1.208 2.135 1.468 3.652-1.9-.359-3.889-.446-6.05-.268-6.048.355-9.937 4.007-9.677 9.082.172 2.58 1.38 4.807 3.456 6.233 1.813 1.245 4.061 1.78 6.482 1.69 3.197-.177 5.617-1.422 7.43-3.74 1.296-1.69 2.16-4.006 2.508-6.764 1.468.977 2.592 2.135 3.28 3.648 1.04 2.494 1.125 6.679-2.16 10.063-2.849 2.94-6.305 4.275-11.578 4.275-5.79 0-10.198-1.958-13.05-5.701C24.533 51.576 23.149 46.5 23.064 40c.085-6.5 1.469-11.485 4.146-15.047 2.852-3.743 7.26-5.7 13.05-5.7 5.877.09 10.282 1.957 13.307 5.7 1.472 1.868 2.508 4.184 3.284 6.856L61 30.65c-.864-3.293-2.248-6.233-4.149-8.55-3.8-4.806-9.333-7.3-16.503-7.3-7.174.09-12.618 2.494-16.335 7.391C20.728 26.466 19 32.521 19 40c.088 7.478 1.728 13.447 5.013 17.809 3.716 4.807 9.161 7.3 16.335 7.391 6.305-.09 10.802-1.78 14.515-5.52a14.034 14.034 0 003.112-15.05c-1.296-2.759-3.456-4.985-6.48-6.501zM40.52 48.814c-2.68.18-5.445-1.068-5.533-3.74-.084-1.957 1.384-4.093 5.705-4.361h1.468c1.557 0 3.113.177 4.409.445-.432 6.41-3.457 7.478-6.05 7.656z",
+                        fill: "#fff"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-instagram-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16088)",
+                        fill: "#818181"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M49.7 4H30.3C22.407 4 16 10.406 16 18.3v19.4C16 45.593 22.406 52 30.3 52h19.4C57.593 52 64 45.594 64 37.7V18.3C64 10.407 57.594 4 49.7 4zm9.473 33.744a9.473 9.473 0 01-9.474 9.474H30.301a9.472 9.472 0 01-9.474-9.474V18.346a9.473 9.473 0 019.474-9.474h19.398a9.473 9.473 0 019.474 9.474v19.398z"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M39.954 15.594c-6.857 0-12.406 5.594-12.406 12.406s5.594 12.406 12.406 12.406S52.36 34.812 52.36 28 46.81 15.594 39.954 15.594zm0 20.03a7.566 7.566 0 01-7.58-7.579 7.567 7.567 0 017.58-7.579 7.566 7.566 0 017.579 7.58c.045 4.15-3.384 7.578-7.58 7.578zM52.406 18.662a2.977 2.977 0 100-5.955 2.977 2.977 0 000 5.955z"
+                    }
+                })]), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip1_1108_16088)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16088"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(16 4)",
+                        d: "M0 0h48v48H0z"
+                    }
+                })]), _("clipPath", {
+                    attrs: {
+                        id: "clip1_1108_16088"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-twitter-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_410_1297)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M44.452 24.325L61.937 4h-4.143L42.612 21.648 30.486 4H16.5l18.337 26.686L16.5 52h4.144l16.032-18.636L49.482 52h13.986L44.45 24.325h.001zm-5.675 6.597l-1.858-2.658L22.137 7.12H28.5l11.93 17.065 1.858 2.657 15.507 22.182H51.43l-12.654-18.1v-.001z",
+                        fill: "#818181"
+                    }
+                })]), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip1_410_1297)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_410_1297"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(16 4)",
+                        d: "M0 0h48v48H0z"
+                    }
+                })]), _("clipPath", {
+                    attrs: {
+                        id: "clip1_410_1297"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-youtube-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16101)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M62.996 16.33a6.032 6.032 0 00-4.243-4.27C55 11.05 40 11.05 40 11.05s-15 0-18.753 1.01a6.033 6.033 0 00-4.243 4.27C16 20.1 16 27.96 16 27.96s0 7.86 1.004 11.628a6.033 6.033 0 004.243 4.271C25 44.87 40 44.87 40 44.87s15 0 18.753-1.01a6.033 6.033 0 004.243-4.27C64 35.818 64 27.958 64 27.958s0-7.86-1.004-11.629zM35.091 35.096V20.822l12.545 7.137-12.545 7.137z",
+                        fill: "#818181"
+                    }
+                })]), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip1_1108_16101)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16101"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(16 11.05)",
+                        d: "M0 0h48v33.818H0z"
+                    }
+                })]), _("clipPath", {
+                    attrs: {
+                        id: "clip1_1108_16101"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-discord-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M56.66 13.112A39.093 39.093 0 0046.759 10a29.022 29.022 0 00-1.269 2.634 36.36 36.36 0 00-10.975 0A28.133 28.133 0 0033.231 10a38.963 38.963 0 00-9.91 3.12c-6.268 9.47-7.967 18.705-7.117 27.81 4.156 3.103 8.185 4.989 12.145 6.223a30.203 30.203 0 002.601-4.284 25.574 25.574 0 01-4.096-1.994c.344-.254.68-.52 1.004-.794 7.898 3.694 16.48 3.694 24.284 0 .328.274.664.54 1.004.794a25.509 25.509 0 01-4.104 1.998 30.073 30.073 0 002.601 4.284c3.964-1.234 7.996-3.12 12.153-6.228.997-10.554-1.703-19.704-7.135-27.817zM32.027 35.33c-2.37 0-4.315-2.213-4.315-4.908 0-2.696 1.903-4.913 4.315-4.913 2.413 0 4.357 2.213 4.316 4.913.003 2.695-1.903 4.908-4.316 4.908zm15.947 0c-2.37 0-4.315-2.213-4.315-4.908 0-2.696 1.903-4.913 4.316-4.913 2.412 0 4.356 2.213 4.315 4.913 0 2.695-1.903 4.908-4.316 4.908z",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16082)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16082"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-facebook-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16072)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("path", {
+                    attrs: {
+                        d: "M52 12.413h-5.665c-1.992 0-2.404.762-2.404 2.666v4.604H52l-.79 8.095h-7.313V52H33.459V27.873H28v-8.159h5.46v-6.476C33.46 7.175 36.995 4 44.754 4H52v8.413z",
+                        fill: "#818181"
+                    }
+                }), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16072"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-tiktok-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M59.894 16.706c0-.203 0-.203-.227-.203-.514 0-1.028-.058-1.541-.13-1.86-.277-7.892-3.312-8.904-8.28-.016-.1-.242-1.335-.242-1.858 0-.233 0-.233-.242-.233H41.497c-.469 0-.408-.058-.408.407v29.497c0 .364-.015.727-.076 1.09-.363 1.902-1.375 3.384-3.084 4.415-1.481.886-3.099 1.133-4.822.813-.544-.101-1.043-.305-1.557-.494-.045-.029-.076-.072-.12-.101-.167-.131-.364-.247-.545-.378-2.192-1.452-3.22-3.471-2.903-5.998.318-2.556 1.86-4.3 4.384-5.2a6.15 6.15 0 012.359-.334 7.075 7.075 0 011.541.233c.182.043.273-.015.273-.19v-.188c0-1.772-.076-5.62-.076-5.635 0-.508 0-1.017.015-1.525 0-.145-.075-.174-.196-.189a15.653 15.653 0 00-2.857-.058c-1.316.087-2.6.349-3.855.784a14.444 14.444 0 00-5.246 3.166 13.673 13.673 0 00-3.054 4.212 13.493 13.493 0 00-1.24 4.779c-.044.726-.044 1.438.031 2.164.09 1.002.287 1.975.605 2.933.907 2.745 2.555 4.982 4.898 6.768.242.175.468.378.756.494l.362.305c.378.276.787.509 1.21.712 2.615 1.249 5.381 1.757 8.299 1.409 3.78-.45 6.923-2.048 9.403-4.822 2.328-2.614 3.461-5.664 3.492-9.092.03-4.894 0-9.789.015-14.683 0-.116-.076-.276.06-.349.106-.043.212.087.303.145a19.468 19.468 0 006.152 2.556c1.285.291 2.585.45 3.915.45.424 0 .469-.014.469-.42-.015-1.758-.106-6.507-.106-6.972z",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16107)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16107"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-_vk_-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M62.899 16.433c.331-1.117 0-1.933-1.593-1.933h-5.251c-1.328 0-1.948.707-2.281 1.486 0 0-2.67 6.508-6.449 10.738-1.226 1.218-1.778 1.612-2.45 1.612-.335 0-.834-.393-.834-1.502v-10.4c0-1.337-.365-1.934-1.486-1.934h-8.25c-.832 0-1.336.624-1.336 1.21 0 1.265 1.889 1.554 2.086 5.112v7.732c0 1.701-.306 2.008-.972 2.008-1.782 0-6.114-6.536-8.68-14.018-.506-1.456-1.007-2.044-2.352-2.044H17.8c-1.5 0-1.801.707-1.801 1.486 0 1.39 1.78 8.288 8.29 17.416 4.338 6.228 10.448 9.608 16.017 9.608 3.334 0 3.749-.752 3.749-2.042v-4.715c0-1.5.32-1.81 1.373-1.81.781 0 2.116.403 5.236 3.405 3.56 3.564 4.142 5.162 6.142 5.162h5.25c1.501 0 2.251-.752 1.824-2.23-.472-1.48-2.176-3.613-4.432-6.15-1.227-1.445-3.066-3.008-3.617-3.788-.775-1.004-.556-1.447 0-2.336 0 0 6.404-9.018 7.067-12.073z",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16096)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16096"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-linkedin-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16077)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M26.86 52h-9.908V19.998h9.909V52zm-5-36.188c-3.237 0-5.86-2.644-5.86-5.906C16 6.644 18.623 4 21.86 4s5.86 2.644 5.86 5.906c0 3.262-2.623 5.905-5.86 5.905zM64 52h-9.86V35.203c0-4.608-1.75-7.177-5.396-7.177-3.965 0-6.04 2.68-6.04 7.177V52H33.2V19.998h9.505v4.31s2.86-5.287 9.646-5.287c6.79 0 11.65 4.143 11.65 12.714V52z",
+                        fill: "#818181"
+                    }
+                })]), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip1_1108_16077)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16077"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(16 4)",
+                        d: "M0 0h48v48H0z"
+                    }
+                })]), _("clipPath", {
+                    attrs: {
+                        id: "clip1_1108_16077"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("twitch-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_1108_16112)",
+                        fill: "#818181"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M20 45.6V13.168c.021-.055.057-.117.071-.179.584-2.251 1.167-4.516 1.743-6.781.043-.159.107-.207.278-.207 12.565.007 25.123.007 37.68.007.228 0 .228 0 .228.227V31.02a.412.412 0 01-.142.337L45.279 45.463a.498.498 0 01-.377.151c-2.334-.006-4.667 0-7-.006a.479.479 0 00-.378.151c-1.409 1.37-2.825 2.74-4.24 4.11-.043.041-.079.09-.121.131H28.38c0-.034.008-.062.008-.096v-4.138c0-.041-.008-.083-.015-.158h-8.132c-.078 0-.157 0-.242-.007zm13.952-4.454c.093-.082.143-.124.192-.172 1.75-1.693 3.508-3.387 5.258-5.088a.446.446 0 01.349-.144c3.28.007 6.56 0 9.84.007a.433.433 0 00.334-.138c2.085-2.024 4.17-4.041 6.261-6.058a.416.416 0 00.143-.324V9.814c0-.234 0-.234-.235-.234H25.806c-.228 0-.228 0-.228.22v25.722c0 .227 0 .227.242.227h7.905c.242 0 .242 0 .242.227v4.93c-.015.054-.015.123-.015.24z"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M35.845 22.227v-5.17c0-.214 0-.214.213-.214h3.273c.164 0 .206.042.206.2-.007 3.456-.007 6.92 0 10.375 0 .152-.035.2-.199.2a260.978 260.978 0 00-3.287 0c-.157 0-.206-.041-.206-.2v-5.19zM46.076 27.611v-.22-10.327c0-.22 0-.22.22-.22 1.09 0 2.17 0 3.26-.008.17 0 .213.042.213.207-.007 3.456-.007 6.905 0 10.361 0 .166-.043.207-.214.207-1.088-.007-2.184-.007-3.273-.007-.063.007-.12.007-.206.007z"
+                    }
+                })]), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip1_1108_16112)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_1108_16112"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(20 6)",
+                        d: "M0 0h40v44H0z"
+                    }
+                })]), _("clipPath", {
+                    attrs: {
+                        id: "clip1_1108_16112"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-threads-rog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M50.947 26.218c-.164-.083-.412-.17-.576-.252-.33-6.784-3.95-10.687-10.04-10.773h-.084c-3.62 0-6.667 1.614-8.477 4.496l3.375 2.375c1.399-2.206 3.54-2.63 5.186-2.63h.08c1.978 0 3.54.596 4.447 1.782.74.848 1.15 2.034 1.398 3.478-1.81-.341-3.703-.424-5.76-.255-5.762.338-9.466 3.816-9.218 8.65.164 2.457 1.315 4.577 3.292 5.935 1.726 1.186 3.867 1.697 6.173 1.61 3.044-.169 5.35-1.355 7.076-3.56 1.234-1.61 2.057-3.817 2.388-6.444 1.399.931 2.47 2.034 3.125 3.475.99 2.375 1.07 6.36-2.057 9.584-2.714 2.799-6.006 4.07-11.027 4.07-5.514 0-9.713-1.864-12.43-5.429-2.549-3.306-3.867-8.139-3.947-14.33.08-6.191 1.398-10.938 3.948-14.33 2.716-3.565 6.915-5.43 12.429-5.43 5.597.086 9.792 1.865 12.673 5.43 1.401 1.778 2.388 3.985 3.128 6.529L60 19.096c-.823-3.137-2.141-5.937-3.951-8.143C52.429 6.375 47.159 4 40.33 4c-6.832.086-12.017 2.375-15.557 7.04C21.646 15.11 20 20.877 20 28c.084 7.122 1.646 12.807 4.774 16.96 3.54 4.579 8.725 6.954 15.557 7.04 6.006-.086 10.288-1.696 13.824-5.257a13.366 13.366 0 002.964-14.334c-1.234-2.627-3.292-4.747-6.172-6.191zM40.495 36.394c-2.552.172-5.186-1.017-5.27-3.56-.08-1.866 1.319-3.9 5.434-4.155h1.398c1.483 0 2.965.169 4.2.424-.412 6.105-3.293 7.122-5.762 7.291z",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_427_601)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M22.992 69.525l6.383 6.593h-5.517l-8.424-8.672h7.902V64.08h-8.602v12.048H10V62h17.951v7.525h-4.96zm12.066 6.593h13.93V62H31.261v10.227l3.796 3.89zm.867-12.038h8.4v9.969h-5.743l-2.657-2.723V64.08zm29.412 4.352H70v7.686H52.203V62h18.485l-1.981 2.08H56.96v9.969h8.376v-5.617z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_427_601"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(10 62)",
+                        d: "M0 0h60v14.118H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-discord-proart.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M56.66 13.112A39.093 39.093 0 0046.759 10a29.022 29.022 0 00-1.269 2.634 36.36 36.36 0 00-10.975 0A28.133 28.133 0 0033.231 10a38.963 38.963 0 00-9.91 3.12c-6.268 9.47-7.967 18.705-7.117 27.81 4.156 3.103 8.185 4.989 12.145 6.223a30.203 30.203 0 002.601-4.284 25.574 25.574 0 01-4.096-1.994c.344-.254.68-.52 1.004-.794 7.898 3.694 16.48 3.694 24.284 0 .328.274.664.54 1.004.794a25.509 25.509 0 01-4.104 1.998 30.073 30.073 0 002.601 4.284c3.964-1.234 7.996-3.12 12.153-6.228.997-10.554-1.703-19.704-7.135-27.817zM32.027 35.33c-2.37 0-4.315-2.213-4.315-4.908 0-2.696 1.903-4.913 4.315-4.913 2.413 0 4.357 2.213 4.316 4.913.003 2.695-1.903 4.908-4.316 4.908zm15.947 0c-2.37 0-4.315-2.213-4.315-4.908 0-2.696 1.903-4.913 4.316-4.913 2.412 0 4.356 2.213 4.315 4.913 0 2.695-1.903 4.908-4.316 4.908zM39.636 66.725c-.568-.984-1.378-1.758-2.406-2.323-1.006-.545-2.078-.838-3.171-.838-.963 0-1.882.21-2.757.607a7.195 7.195 0 00-1.859 1.256c-.569.545-1.006 1.194-1.356 1.947a6.177 6.177 0 00-.503 2.47c0 .545.087 1.09.24 1.613a6.17 6.17 0 00.7 1.55c.307.502.744.983 1.29 1.444a5.789 5.789 0 001.926 1.11 6.415 6.415 0 002.275.397 6.431 6.431 0 003.193-.837 6.279 6.279 0 002.407-2.324c.568-.984.852-2.01.852-3.057.044-1.005-.262-2.03-.83-3.015zm-1.4 3.015c0 .775-.197 1.487-.568 2.157a3.9 3.9 0 01-1.553 1.507c-1.313.712-2.8.733-4.156-.021-.678-.377-1.203-.88-1.553-1.507a3.998 3.998 0 01-.547-2.031c0-.775.196-1.487.568-2.136a3.87 3.87 0 011.575-1.528c.678-.377 1.378-.565 2.056-.565.679 0 1.357.188 2.035.544a4.11 4.11 0 011.596 1.487c.35.607.547 1.319.547 2.093zM68.882 73.718l-.569.188c-.175.063-.503.126-1.203.126-.744 0-1.422-.23-1.422-1.842v-6.595h3.194v-1.968h-3.194v-2.785l-2.406.817v1.947h-2.34c-2.69 0-4.856 2.03-4.856 4.543v7.453h2.406v-7.16c0-1.612 1.18-2.763 2.734-2.847h2.056v6.302c0 1.528.284 2.512.94 3.14.591.628 1.51.963 2.691.963.766 0 1.422-.084 1.947-.272l.415-.147-.393-1.863zM27.386 63.627c-2.69 0-4.9 2.052-4.9 4.564v7.453h2.407v-7.202c0-1.633 1.224-2.805 2.8-2.847 0 0 1.05-1.842 1.071-1.884-.634-.084-1.378-.084-1.378-.084zM13.214 75.644v-7.18h.809c2.165 0 3.61-.085 4.419-.273 1.137-.272 2.034-.775 2.69-1.55.656-.774.984-1.758.984-2.91 0-1.15-.35-2.135-1.006-2.93a4.682 4.682 0 00-2.581-1.529c-.722-.188-2.034-.272-4.025-.272H10.72v16.644h2.494zm0-14.299h2.603c1.093 0 1.88.084 2.34.251.438.168.766.44 1.028.817.263.398.394.816.394 1.298 0 .481-.131.92-.394 1.319-.262.397-.612.67-1.093.837-.482.188-1.291.272-2.407.272l-2.471-.02v-4.774zM47.992 59h-.897l-7.109 16.644h2.45l2.231-5.234h5.666l2.253 5.234h2.406l-7-16.644zm-2.34 9.128l1.88-4.376 1.86 4.376h-3.74z",
+                        fill: "#818181"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-instagram-proart.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_106_296)",
+                        fill: "#818181"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M49.7 4H30.3C22.407 4 16 10.406 16 18.3v19.4C16 45.593 22.406 52 30.3 52h19.4C57.593 52 64 45.594 64 37.7V18.3C64 10.407 57.594 4 49.7 4zm9.473 33.744a9.473 9.473 0 01-9.474 9.474H30.301a9.472 9.472 0 01-9.474-9.474V18.346a9.473 9.473 0 019.474-9.474h19.398a9.473 9.473 0 019.474 9.474v19.398z"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M39.954 15.594c-6.858 0-12.406 5.594-12.406 12.406s5.594 12.406 12.406 12.406S52.36 34.812 52.36 28s-5.55-12.406-12.406-12.406zm0 20.03a7.566 7.566 0 01-7.58-7.579 7.566 7.566 0 017.58-7.579 7.567 7.567 0 017.579 7.58c.045 4.15-3.384 7.578-7.58 7.578zM52.406 18.662a2.978 2.978 0 100-5.955 2.978 2.978 0 000 5.955z"
+                    }
+                })]), _("path", {
+                    attrs: {
+                        d: "M39.636 66.725c-.568-.984-1.378-1.758-2.406-2.323-1.006-.545-2.078-.838-3.171-.838-.963 0-1.882.21-2.757.607a7.195 7.195 0 00-1.859 1.256c-.569.545-1.006 1.194-1.356 1.947a6.177 6.177 0 00-.503 2.47c0 .545.087 1.09.24 1.613a6.17 6.17 0 00.7 1.55c.307.502.744.983 1.29 1.444a5.789 5.789 0 001.926 1.11 6.415 6.415 0 002.275.397 6.431 6.431 0 003.193-.837 6.279 6.279 0 002.407-2.324c.568-.984.852-2.01.852-3.057.044-1.005-.262-2.03-.83-3.015zm-1.4 3.015c0 .775-.197 1.487-.568 2.157a3.9 3.9 0 01-1.553 1.507c-1.313.712-2.8.733-4.156-.021-.678-.377-1.203-.88-1.553-1.507a3.998 3.998 0 01-.547-2.031c0-.775.196-1.487.568-2.136a3.87 3.87 0 011.575-1.528c.678-.377 1.378-.565 2.056-.565.679 0 1.357.188 2.035.544a4.11 4.11 0 011.596 1.487c.35.607.547 1.319.547 2.093zM68.882 73.718l-.569.188c-.175.063-.503.126-1.203.126-.744 0-1.422-.23-1.422-1.842v-6.595h3.194v-1.968h-3.194v-2.785l-2.406.817v1.947h-2.34c-2.69 0-4.856 2.03-4.856 4.543v7.453h2.406v-7.16c0-1.612 1.18-2.763 2.734-2.847h2.056v6.302c0 1.528.284 2.512.94 3.14.591.628 1.51.963 2.691.963.766 0 1.422-.084 1.947-.272l.415-.147-.393-1.863zM27.386 63.627c-2.69 0-4.9 2.052-4.9 4.564v7.453h2.407v-7.202c0-1.633 1.224-2.805 2.8-2.847 0 0 1.05-1.842 1.071-1.884-.634-.084-1.378-.084-1.378-.084zM13.214 75.644v-7.18h.809c2.165 0 3.61-.085 4.419-.273 1.137-.272 2.034-.775 2.69-1.55.656-.774.984-1.758.984-2.91 0-1.15-.35-2.135-1.006-2.93a4.682 4.682 0 00-2.581-1.529c-.722-.188-2.034-.272-4.025-.272H10.72v16.644h2.494zm0-14.299h2.603c1.093 0 1.88.084 2.34.251.438.168.766.44 1.028.817.263.398.394.816.394 1.298 0 .481-.131.92-.394 1.319-.262.397-.612.67-1.093.837-.482.188-1.291.272-2.407.272l-2.471-.02v-4.774zM47.992 59h-.897l-7.109 16.644h2.45l2.231-5.234h5.666l2.253 5.234h2.406l-7-16.644zm-2.34 9.128l1.88-4.376 1.86 4.376h-3.74z",
+                        fill: "#818181"
+                    }
+                }), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_106_296"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(16 4)",
+                        d: "M0 0h48v48H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-twitter-proart.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M39.636 66.725c-.568-.984-1.378-1.758-2.406-2.323-1.006-.545-2.078-.838-3.171-.838-.963 0-1.882.21-2.757.607a7.195 7.195 0 00-1.859 1.256c-.569.545-1.006 1.194-1.356 1.947a6.177 6.177 0 00-.503 2.47c0 .545.087 1.09.24 1.613.154.544.394 1.047.7 1.55.307.502.744.983 1.291 1.444a5.787 5.787 0 001.925 1.11 6.414 6.414 0 002.275.397 6.431 6.431 0 003.193-.837 6.279 6.279 0 002.407-2.324c.568-.984.853-2.01.853-3.057.043-1.005-.263-2.03-.832-3.015zm-1.4 3.015c0 .775-.196 1.487-.568 2.157a3.9 3.9 0 01-1.553 1.507c-1.313.712-2.8.733-4.156-.021-.678-.377-1.203-.88-1.553-1.507a3.997 3.997 0 01-.547-2.031c0-.775.197-1.487.568-2.136a3.87 3.87 0 011.575-1.528c.678-.377 1.378-.565 2.056-.565.679 0 1.357.188 2.035.544a4.11 4.11 0 011.597 1.487c.35.607.546 1.319.546 2.093zM68.882 73.718l-.569.188c-.175.063-.503.126-1.203.126-.744 0-1.422-.23-1.422-1.842v-6.595h3.194v-1.968h-3.194v-2.785l-2.406.817v1.947h-2.34c-2.69 0-4.856 2.03-4.856 4.543v7.453h2.406v-7.16c0-1.612 1.18-2.763 2.734-2.847h2.056v6.302c0 1.528.285 2.512.94 3.14.591.628 1.51.963 2.691.963.766 0 1.422-.084 1.947-.272l.416-.147-.394-1.863zM27.386 63.627c-2.69 0-4.9 2.052-4.9 4.564v7.453h2.407v-7.202c0-1.633 1.224-2.805 2.8-2.847 0 0 1.05-1.842 1.071-1.884-.634-.084-1.378-.084-1.378-.084zM13.214 75.644v-7.18h.809c2.166 0 3.61-.085 4.419-.273 1.137-.272 2.034-.775 2.69-1.55.656-.774.984-1.758.984-2.91 0-1.15-.35-2.135-1.006-2.93a4.682 4.682 0 00-2.581-1.529c-.722-.188-2.034-.272-4.025-.272H10.72v16.644h2.494zm0-14.299h2.603c1.093 0 1.88.084 2.34.251.438.168.766.44 1.028.817.263.398.394.816.394 1.298 0 .481-.131.92-.394 1.319-.262.397-.612.67-1.093.837-.482.188-1.291.272-2.407.272l-2.471-.02v-4.774zM47.992 59h-.897l-7.109 16.644h2.45l2.231-5.234h5.666l2.253 5.234h2.406l-7-16.644zm-2.34 9.128l1.88-4.376 1.86 4.376h-3.74z",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_427_610)"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M44.452 24.325L61.937 4h-4.143L42.612 21.648 30.486 4H16.5l18.337 26.686L16.5 52h4.144l16.032-18.636L49.482 52h13.986L44.45 24.325h.001zm-5.675 6.597l-1.858-2.658L22.137 7.12H28.5l11.93 17.065 1.858 2.657 15.507 22.182H51.43l-12.654-18.1v-.001z",
+                        fill: "#818181"
+                    }
+                })]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_427_610"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(16 4)",
+                        d: "M0 0h48v48H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-threads-proart.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon, f.$style.iconRog],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M50.947 26.218c-.164-.083-.412-.17-.576-.252-.33-6.784-3.95-10.687-10.04-10.773h-.084c-3.62 0-6.667 1.614-8.477 4.496l3.375 2.375c1.399-2.206 3.54-2.63 5.186-2.63h.08c1.978 0 3.54.596 4.447 1.782.74.848 1.15 2.034 1.398 3.478-1.81-.341-3.703-.424-5.76-.255-5.762.338-9.466 3.816-9.218 8.65.164 2.457 1.315 4.577 3.292 5.935 1.726 1.186 3.867 1.697 6.173 1.61 3.044-.169 5.35-1.355 7.076-3.56 1.234-1.61 2.057-3.817 2.388-6.444 1.399.931 2.47 2.034 3.125 3.475.99 2.375 1.07 6.36-2.057 9.584-2.714 2.799-6.006 4.07-11.027 4.07-5.514 0-9.713-1.864-12.43-5.429-2.549-3.306-3.867-8.139-3.947-14.33.08-6.191 1.398-10.938 3.948-14.33 2.716-3.565 6.915-5.43 12.429-5.43 5.597.086 9.792 1.865 12.673 5.43 1.401 1.778 2.388 3.985 3.128 6.529L60 19.096c-.823-3.137-2.141-5.937-3.951-8.143C52.429 6.375 47.159 4 40.33 4c-6.832.086-12.017 2.375-15.557 7.04C21.646 15.11 20 20.877 20 28c.084 7.122 1.646 12.807 4.774 16.96 3.54 4.579 8.725 6.954 15.557 7.04 6.006-.086 10.288-1.696 13.824-5.257a13.366 13.366 0 002.964-14.334c-1.234-2.627-3.292-4.747-6.172-6.191zM40.495 36.394c-2.552.172-5.186-1.017-5.27-3.56-.08-1.866 1.319-3.9 5.434-4.155h1.398c1.483 0 2.965.169 4.2.424-.412 6.105-3.293 7.122-5.762 7.291zM39.636 66.725c-.568-.984-1.378-1.758-2.406-2.323-1.006-.545-2.078-.838-3.171-.838-.963 0-1.882.21-2.757.607a7.195 7.195 0 00-1.859 1.256c-.569.545-1.006 1.194-1.356 1.947a6.177 6.177 0 00-.503 2.47c0 .545.087 1.09.24 1.613.154.544.394 1.047.7 1.55.307.502.744.983 1.291 1.444a5.787 5.787 0 001.925 1.11 6.414 6.414 0 002.275.397 6.431 6.431 0 003.193-.837 6.279 6.279 0 002.407-2.324c.568-.984.853-2.01.853-3.057.043-1.005-.263-2.03-.832-3.015zm-1.4 3.015c0 .775-.196 1.487-.568 2.157a3.9 3.9 0 01-1.553 1.507c-1.313.712-2.8.733-4.156-.021-.678-.377-1.203-.88-1.553-1.507a3.997 3.997 0 01-.547-2.031c0-.775.197-1.487.568-2.136a3.87 3.87 0 011.575-1.528c.678-.377 1.378-.565 2.056-.565.679 0 1.357.188 2.035.544a4.11 4.11 0 011.597 1.487c.35.607.546 1.319.546 2.093zM68.882 73.718l-.569.188c-.175.063-.503.126-1.203.126-.744 0-1.422-.23-1.422-1.842v-6.595h3.194v-1.968h-3.194v-2.785l-2.406.817v1.947h-2.34c-2.69 0-4.856 2.03-4.856 4.543v7.453h2.406v-7.16c0-1.612 1.18-2.763 2.734-2.847h2.056v6.302c0 1.528.285 2.512.94 3.14.591.628 1.51.963 2.691.963.766 0 1.422-.084 1.947-.272l.416-.147-.394-1.863zM27.386 63.627c-2.69 0-4.9 2.052-4.9 4.564v7.453h2.407v-7.202c0-1.633 1.224-2.805 2.8-2.847 0 0 1.05-1.842 1.071-1.884-.634-.084-1.378-.084-1.378-.084zM13.214 75.644v-7.18h.809c2.166 0 3.61-.085 4.419-.273 1.137-.272 2.034-.775 2.69-1.55.656-.774.984-1.758.984-2.91 0-1.15-.35-2.135-1.006-2.93a4.682 4.682 0 00-2.581-1.529c-.722-.188-2.034-.272-4.025-.272H10.72v16.644h2.494zm0-14.299h2.603c1.093 0 1.88.084 2.34.251.438.168.766.44 1.028.817.263.398.394.816.394 1.298 0 .481-.131.92-.394 1.319-.262.397-.612.67-1.093.837-.482.188-1.291.272-2.407.272l-2.471-.02v-4.774zM47.992 59h-.897l-7.109 16.644h2.45l2.231-5.234h5.666l2.253 5.234h2.406l-7-16.644zm-2.34 9.128l1.88-4.376 1.86 4.376h-3.74z",
+                        fill: "#818181"
+                    }
+                })]) : f._e(), f._v(" "), t.Icon.toLowerCase().includes("community-blog.svg") ? _("svg", {
+                    class: [f.$style.communityListIcon],
+                    attrs: {
+                        width: "80",
+                        height: "80",
+                        viewBox: "0 0 80 80",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        "aria-hidden": "true",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("g", {
+                    attrs: {
+                        "clip-path": "url(#clip0_582_687)"
+                    }
+                }, [_("circle", {
+                    attrs: {
+                        cx: "40",
+                        cy: "40",
+                        r: "40",
+                        fill: "#818181"
+                    }
+                }), _("g", {
+                    attrs: {
+                        "clip-path": "url(#clip1_582_687)",
+                        fill: "#fff"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M19.898 32.8s-3.097 0-4.199 1.802v-7.204s-4.3.102-4.597 0v18.704h4.597V45s1.403 1.602 3.801 1.602c0 0 6.2-.204 6.3-6.204 0 .102.9-7-5.902-7.597zm-1.296 9.7C17.199 42.5 16 41.3 16 39.898c0-1.398 1.2-2.597 2.602-2.597 1.398 0 2.597 1.199 2.597 2.597 0 1.403-1.199 2.602-2.597 2.602zM27.2 26.8v4.5s2.1.5 2.1 2.2v12.7h4.4V33.397c.1 0 .698-6.296-6.5-6.597zM64.2 33.102V34.5c-1.5-2-3.9-1.7-3.9-1.7-6.1.4-6.198 6-6.198 6v2.098c0 5.403 5.5 5.801 5.5 5.801C63.5 46.7 64 45 64 45c0 4.3-2.8 4-2.8 4H60v4.2h2c6.602 0 6.602-6.5 6.602-6.5V33.101h-4.403zm-2.5 9.5c-1.5 0-2.802-1.204-2.802-2.801 0-1.602 1.204-2.801 2.801-2.801 1.602 0 2.801 1.2 2.801 2.8-.102 1.5-1.3 2.802-2.8 2.802zM44.398 32.898c-4.097 0-7.5 3.102-7.5 6.903 0 3.8 3.301 6.898 7.5 6.898 4.102 0 7.5-3.097 7.5-6.898 0-3.801-3.398-6.903-7.5-6.903zm0 9.704a2.795 2.795 0 01-2.796-2.801c0-1.602 1.296-2.801 2.796-2.801C46 37 47.2 38.3 47.2 39.8c0 1.598-1.3 2.802-2.8 2.802z"
+                    }
+                })])]), _("defs", [_("clipPath", {
+                    attrs: {
+                        id: "clip0_582_687"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        d: "M0 0h80v80H0z"
+                    }
+                })]), _("clipPath", {
+                    attrs: {
+                        id: "clip1_582_687"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        fill: "#fff",
+                        transform: "translate(11 26)",
+                        d: "M0 0h58v28H0z"
+                    }
+                })])])]) : f._e(), f._v(" "), !(t.Icon && t.Icon.length > 0) || t.Icon.toLowerCase().includes("community-instagram.svg") || t.Icon.toLowerCase().includes("community-twitter.svg") || t.Icon.toLowerCase().includes("community-youtube.svg") || t.Icon.toLowerCase().includes("community-discord.svg") || t.Icon.toLowerCase().includes("community-facebook.svg") || t.Icon.toLowerCase().includes("community-tiktok.svg") || t.Icon.toLowerCase().includes("community-_vk_.svg") || t.Icon.toLowerCase().includes("community-linkedin.svg") || t.Icon.toLowerCase().includes("community-twitch.svg") || t.Icon.toLowerCase().includes("community-threads.svg") || t.Icon.toLowerCase().includes("behance") || t.Icon.toLowerCase().includes("pinterest") || t.Icon.toLowerCase().includes("telegram") || t.Icon.toLowerCase().includes("Edgeup") || t.Icon.toLowerCase().includes("edgeup") || t.Icon.toLowerCase().includes("Glassdoor") || t.Icon.toLowerCase().includes("glassdoor") || t.Icon.toLowerCase().includes("Toutiao") || t.Icon.toLowerCase().includes("toutiao") || t.Icon.toLowerCase().includes("Wantedly") || t.Icon.toLowerCase().includes("wantedly") || t.Icon.toLowerCase().includes("Wechat") || t.Icon.toLowerCase().includes("wechat") || t.Icon.toLowerCase().includes("Weibo") || t.Icon.toLowerCase().includes("weibo") || t.Icon.toLowerCase().includes("Whatsapp") || t.Icon.toLowerCase().includes("whatsapp") || t.Icon.toLowerCase().includes("community-instagram-rog.svg") || t.Icon.toLowerCase().includes("community-twitter-rog.svg") || t.Icon.toLowerCase().includes("community-youtube-rog.svg") || t.Icon.toLowerCase().includes("community-discord-rog.svg") || t.Icon.toLowerCase().includes("community-facebook-rog.svg") || t.Icon.toLowerCase().includes("community-tiktok-rog.svg") || t.Icon.toLowerCase().includes("community-_vk_-rog.svg") || t.Icon.toLowerCase().includes("community-linkedin-rog.svg") || t.Icon.toLowerCase().includes("community-twitch-rog.svg") || t.Icon.toLowerCase().includes("community-threads-rog.svg") || t.Icon.toLowerCase().includes("community-discord-proart.svg") || t.Icon.toLowerCase().includes("community-instagram-proart.svg") || t.Icon.toLowerCase().includes("community-twitter-proart.svg") || t.Icon.toLowerCase().includes("community-threads-proart.svg") || t.Icon.toLowerCase().includes("community-blog.svg") ? f._e() : _("img", {
+                    attrs: {
+                        src: t.Icon,
+                        alt: t.Name || ""
+                    }
+                })]) : f._e()]) : f._e()]
+            }
+            ))], 2) : f._e(), f._v(" "), "pe" === f.websiteCode ? _("div", {
+                class: f.$style.infoBox
+            }, [_("a", {
+                attrs: {
+                    href: "https://pe.store.asus.com/libro-de-reclamaciones/",
+                    target: !!f.AIStatusGetter && "_blank"
+                }
+            }, [_("img", {
+                attrs: {
+                    src: "https://www.asus.com/media/PE/images/libro_de_reclamaciones_1x.png",
+                    srcset: "https://www.asus.com/media/PE/images/libro_de_reclamaciones_1x.png 1x, https://www.asus.com/media/PE/images/libro_de_reclamaciones_2x.png 2x",
+                    alt: "libro_de_reclamaciones"
+                }
+            })])]) : f._e(), f._v(" "), "vn" === f.websiteCode ? _("div", {
+                class: f.$style.infoBox
+            }, [_("a", {
+                attrs: {
+                    href: "http://online.gov.vn/Home/WebDetails/115530",
+                    target: !!f.AIStatusGetter && "_blank"
+                }
+            }, [_("img", {
+                class: f.$style.vnlogoSaleNoti,
+                attrs: {
+                    src: o(583),
+                    alt: "Đã thông báo Bộ Công Thương ASUSs"
+                }
+            })])]) : f._e()])]) : f._e(), f._v(" "), f.bottomListDataGetter && 0 !== Object.keys(f.bottomListDataGetter).length ? _("div", {
+                class: [f.$style.bottomListLine, f.$style["theme" + f.themeColor]]
+            }) : f._e(), f._v(" "), f.bottomListDataGetter && 0 !== Object.keys(f.bottomListDataGetter).length ? _("div", {
+                class: [f.$style.contentContainer, f.$style.bottomListContainer, (d = {},
+                d[f.$style.simplifyFooter] = f.simplifyFooter,
+                d), (m = {},
+                m[f.$style.hasEcPolicy] = f.bottomListDataGetter && void 0 !== f.bottomListDataGetter.ECPolicy && 0 !== f.bottomListDataGetter.ECPolicy.length,
+                m)]
+            }, [f.isValidWebsite && f.bottomListDataGetter.Entry && 0 !== Object.keys(f.bottomListDataGetter.Entry).length ? _(f.bottomListDataGetter.Entry && f.bottomListDataGetter.Entry.Link && "_blank" === f.bottomListDataGetter.Entry.Target ? "a" : "div", {
+                tag: "component",
+                class: [f.$style.bottomListEntry, f.$style["theme" + f.themeColor]],
+                attrs: {
+                    role: (!f.bottomListDataGetter.Entry || !f.bottomListDataGetter.Entry.Link || "_blank" !== f.bottomListDataGetter.Entry.Target) && "button",
+                    tabindex: (!f.bottomListDataGetter.Entry || !f.bottomListDataGetter.Entry.Link || "_blank" !== f.bottomListDataGetter.Entry.Target) && "0",
+                    href: !(!f.bottomListDataGetter.Entry || !f.bottomListDataGetter.Entry.Link || "_blank" !== f.bottomListDataGetter.Entry.Target) && f.bottomListDataGetter.Entry.Link,
+                    target: f.bottomListDataGetter.Entry ? f.bottomListDataGetter.Entry.Target : "",
+                    rel: "_blank" === f.bottomListDataGetter.Entry.Target ? "noreferrer noopener" : ""
+                },
+                on: {
+                    click: function(t) {
+                        f.needDetectPage ? f.detectPageSource(t) : f.entryLinkClick(f.bottomListDataGetter.Entry)
+                    }
+                }
+            }, [_("div", {
+                class: f.$style.bottomListEntryImg
+            }, ["White" === f.themeColor ? _("svg", {
+                attrs: {
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("g", {
+                attrs: {
+                    "clip-path": "url(#clip0_886_8753)",
+                    stroke: "#4D4D4D",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M3 3.5c1.5 1.5 3 2 5 2s3.5-.5 5-2M13 12.5c-1.5-1.5-3-2-5-2s-3.5.5-5 2"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M8 15A7 7 0 108 1a7 7 0 000 14zM8 15V1M1 8h14"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M7.987 1.015S4.172 3.089 4.172 7.988s3.815 7 3.815 7M8 1.027S11.815 3.1 11.815 8 8 15 8 15"
+                }
+            })]), _("defs", [_("clipPath", {
+                attrs: {
+                    id: "clip0_886_8753"
+                }
+            }, [_("path", {
+                attrs: {
+                    fill: "#fff",
+                    d: "M0 0h16v16H0z"
+                }
+            })])])]) : f._e(), f._v(" "), "White" !== f.themeColor ? _("svg", {
+                attrs: {
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("g", {
+                attrs: {
+                    "clip-path": "url(#clip0_886_13809)",
+                    stroke: "#B3B3B3",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M3 3.5c1.5 1.5 3 2 5 2s3.5-.5 5-2M13 12.5c-1.5-1.5-3-2-5-2s-3.5.5-5 2"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M8 15A7 7 0 108 1a7 7 0 000 14zM8 15V1M1 7.999h14"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M7.987 1.015S4.172 3.089 4.172 7.988c0 4.898 3.815 7 3.815 7M8 1.026S11.815 3.101 11.815 8c0 4.898-3.815 7-3.815 7"
+                }
+            })]), _("defs", [_("clipPath", {
+                attrs: {
+                    id: "clip0_886_13809"
+                }
+            }, [_("path", {
+                attrs: {
+                    fill: "#fff",
+                    d: "M0 0h16v16H0z"
+                }
+            })])])]) : f._e()]), f._v(" "), _("span", {
+                class: f.$style.bottomListEntryName
+            }, [f._v(f._s(f.bottomListDataGetter.Entry.Name))])]) : f._e(), f._v(" "), _("div", {
+                class: f.$style.menuBox
+            }, [f._l(f.bottomListDataGetter.Policy, (function(t, e) {
+                return [t && t.Link && "" != t.Link.trim() ? f._e() : _("span", {
+                    key: "itemCpy_" + e,
+                    class: [f.$style.bottomListPolicyCpy, f.$style["theme" + f.themeColor]]
+                }, [f._v("\n          " + f._s(t.Name) + "\n        ")])]
+            }
+            )), f._v(" "), f._l(f.bottomListDataGetter.Policy, (function(t, e) {
+                var o;
+                return [t && t.Link && "" != t.Link.trim() ? _("a", {
+                    key: "item_" + e,
+                    class: [f.$style.bottomListPolicy, (o = {},
+                    o[f.$style.bottomListPolicyLine] = f.cookieBannerShow.includes(f.websiteCode) || e < f.bottomListDataGetter.Policy.length - 2,
+                    o), f.$style["theme" + f.themeColor]],
+                    attrs: {
+                        href: t ? t.Link : "",
+                        target: t ? t.Target : "",
+                        rel: "_blank" === t.Target ? "noreferrer noopener" : "",
+                        "aria-label": t.Name
+                    }
+                }, [f._v("\n          " + f._s(t.Name) + "\n        ")]) : f._e()]
+            }
+            )), f._v(" "), f.cookieBannerShow.includes(f.websiteCode) ? _("button", {
+                class: [f.$style.bottomListPolicy, f.$style.bottomCookieBannerSettings, f.$style["theme" + f.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    onClick: "window.triggerCookieBanner()"
+                }
+            }, [f._v("\n        " + f._s(f.bottomListDataGetter && f.bottomListDataGetter.TranslateWord && void 0 !== f.bottomListDataGetter.TranslateWord.CookieSetting && "" !== f.bottomListDataGetter.TranslateWord.CookieSetting ? f.bottomListDataGetter.TranslateWord.CookieSetting : "") + "\n      ")]) : f._e()], 2)], 1) : f._e(), f._v(" "), f.bottomListDataGetter && void 0 !== f.bottomListDataGetter.ECPolicy && 0 !== f.bottomListDataGetter.ECPolicy.length ? _("div", {
+                class: [f.$style.ecPolicy, f.$style["theme" + f.themeColor]]
+            }, [_("div", {
+                class: [f.$style.ecPolicyText]
+            }, [f._l(f.bottomListDataGetter.ECPolicy, (function(t, e) {
+                return [_("" !== t.Link ? "a" : "div", {
+                    key: e,
+                    tag: "component",
+                    class: [f.$style.ecPolicyLink],
+                    attrs: {
+                        target: "" !== t.Target && t.Target,
+                        href: "" !== t.Link && t.Link,
+                        rel: "_blank" === t.Target ? "noreferrer noopener" : ""
+                    }
+                }, [f._v("\n          " + f._s(t.Name) + "\n          "), e < f.bottomListDataGetter.ECPolicy.length - 1 ? _("span", {
+                    class: f.$style.ecPolicyLine
+                }, [f._v("|")]) : f._e()])]
+            }
+            ))], 2)]) : f._e()], 1) : f._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = x.default.locals || x.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    435: function(t, e, o) {
+        "use strict";
+        o(29),
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = o(109), h = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), d = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, m = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.isRTL = !1,
+                e.websiteCode = "",
+                e.propCiteSource = "",
+                e
+            }
+            return h(e, t),
+            e.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.propCiteSource = window.cj86gji4.CITED_SOURCE
+            }
+            ,
+            e.prototype.getBreadcrumbData = function() {
+                this.getBreadcrumbByApi()
+            }
+            ,
+            e.prototype.setWebsiteCode = function() {
+                this.websiteCode = this.websiteCodeGetter
+            }
+            ,
+            e.prototype.setBreadcrumbData = function() {
+                this.$emit("checkBreadcrumbData", this.breadcrumbDataGetter.length)
+            }
+            ,
+            e.prototype.getBreadcrumbByApi = function() {
+                "Index" !== this.$route.name && "Deals" !== this.$route.name && "SearchResult" !== this.$route.name && "EntryPage" !== this.$route.name && "NewsPage" !== this.$route.name && "ContentPage" !== this.$route.name && "ProArt" !== this.$route.name || this.MutationBreadcrumbData({
+                    data: {
+                        Result: []
+                    }
+                })
+            }
+            ,
+            e.prototype.redirect = function(t, e) {
+                t.name ? this.$router.push(t) : window.open(t, "" === e ? "_self" : e)
+            }
+            ,
+            d([Object(l.Getter)("themeColorGetter")], e.prototype, "themeColor", void 0),
+            d([Object(l.Getter)("breadcrumbDataGetter")], e.prototype, "breadcrumbDataGetter", void 0),
+            d([Object(l.Getter)("websiteCodeGetter")], e.prototype, "websiteCodeGetter", void 0),
+            d([Object(l.Mutation)("setBreadcrumbData")], e.prototype, "MutationBreadcrumbData", void 0),
+            d([Object(l.Watch)("$route", {
+                immediate: !0,
+                deep: !0
+            })], e.prototype, "getBreadcrumbData", null),
+            d([Object(l.Watch)("websiteCodeGetter", {
+                immediate: !0
+            })], e.prototype, "setWebsiteCode", null),
+            d([Object(l.Watch)("breadcrumbDataGetter", {
+                immediate: !0
+            })], e.prototype, "setBreadcrumbData", null),
+            e = d([c.Jsonld, Object(l.Component)({})], e)
+        }(l.Vue), f = o(337), v = o(10);
+        var component = Object(v.a)(m, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return o("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: t.breadcrumbDataGetter && t.breadcrumbDataGetter.length > 0,
+                    expression: "breadcrumbDataGetter && breadcrumbDataGetter.length > 0"
+                }],
+                class: [t.$style.wrapper, t.$style["theme" + t.themeColor]],
+                attrs: {
+                    role: "navigation",
+                    "aria-label": "breadcrumb"
+                }
+            }, [o("div", {
+                class: [t.$style.dividerTop, t.$style["theme" + t.themeColor]]
+            }), t._v(" "), o("div", {
+                class: [t.$style.breadcrumbContainer, t.$style["theme" + t.themeColor]]
+            }, [o("div", {
+                class: [t.$style.asusLogoContainer, t.$style["theme" + t.themeColor]],
+                attrs: {
+                    role: "link",
+                    tabindex: "0",
+                    "aria-label": "asus"
+                },
+                on: {
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : t.redirect("ASUS_OFFICIAL" === t.propCiteSource ? {
+                            name: "Index"
+                        } : t.websiteCode)
+                    },
+                    click: function(e) {
+                        return t.redirect("ASUS_OFFICIAL" === t.propCiteSource ? {
+                            name: "Index"
+                        } : t.websiteCode)
+                    }
+                }
+            }, ["White" === t.themeColor ? o("svg", {
+                class: t.$style.asusLogoWhite,
+                attrs: {
+                    width: "50",
+                    height: "10",
+                    viewBox: "0 0 50 10",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M23.837.006h-8.611c-1.997 0-2.882 1.237-3.086 2.417V.006H7.36a1.398 1.398 0 00-.755.142 1.353 1.353 0 00-.556.517L4.74 2.564h19.094l.003-2.558zM0 9.997h3.428l4.298-6.874-3.066-.3L0 9.997zM27.164.008H24.34v2.558h2.823V.008zM45.086 4.005l-8.833-.52c0 1.339.888 2.236 2.4 2.358l6.292.48c.484.04.787.16.787.56 0 .38-.342.519-1.049.519h-8.57V10h8.751c2.763 0 3.973-.96 3.973-3.138 0-1.959-1.09-2.697-3.751-2.857z",
+                    fill: "#DCDCDC"
+                }
+            }), o("path", {
+                attrs: {
+                    d: "M36.138 3.485l-2.784-.16v2.938c0 .919-.463 1.199-2.077 1.199H29.06c-1.331 0-1.896-.38-1.896-1.2V3.046l-2.823-.2v3.657h-.06c-.162-1.059-.565-2.298-3.247-2.478l-8.833-.58c0 1.34.967 2.139 2.48 2.299l6.15.618c.485.04.848.18.848.58 0 .44-.363.48-.928.48H12.1V3.423l-2.823-.18V10h11.495c2.561 0 3.388-1.319 3.51-2.418h.06C24.665 9.321 26.197 10 28.799 10h2.864c3.045 0 4.477-.92 4.477-3.078l-.002-3.437zM48.641 2.566V.006h-9.478c-1.973 0-2.863 1.21-3.02 2.379 0 .013-.003.026-.005.04V.005h-2.784v2.559H48.64l.001.002z",
+                    fill: "#DCDCDC"
+                }
+            })]) : t._e(), t._v(" "), "White" !== t.themeColor ? o("svg", {
+                class: t.$style.asusLogoDark,
+                attrs: {
+                    width: "50",
+                    height: "10",
+                    viewBox: "0 0 50 10",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M23.837.006h-8.611c-1.997 0-2.882 1.237-3.086 2.417V.006H7.36a1.398 1.398 0 00-.755.142 1.353 1.353 0 00-.556.517L4.74 2.564h19.094l.003-2.558zM0 9.997h3.428l4.298-6.874-3.066-.3L0 9.997zM27.164.008H24.34v2.558h2.823V.008zM45.086 4.005l-8.833-.52c0 1.339.888 2.236 2.4 2.358l6.292.48c.484.04.787.16.787.56 0 .38-.342.519-1.049.519h-8.57V10h8.751c2.763 0 3.973-.96 3.973-3.138 0-1.959-1.09-2.697-3.751-2.857z",
+                    fill: "#DCDCDC"
+                }
+            }), o("path", {
+                attrs: {
+                    d: "M36.138 3.485l-2.784-.16v2.938c0 .919-.463 1.199-2.077 1.199H29.06c-1.331 0-1.896-.38-1.896-1.2V3.046l-2.823-.2v3.657h-.06c-.162-1.059-.565-2.298-3.247-2.478l-8.833-.58c0 1.34.967 2.139 2.48 2.299l6.15.618c.485.04.848.18.848.58 0 .44-.363.48-.928.48H12.1V3.423l-2.823-.18V10h11.495c2.561 0 3.388-1.319 3.51-2.418h.06C24.665 9.321 26.197 10 28.799 10h2.864c3.045 0 4.477-.92 4.477-3.078l-.002-3.437zM48.641 2.566V.006h-9.478c-1.973 0-2.863 1.21-3.02 2.379 0 .013-.003.026-.005.04V.005h-2.784v2.559H48.64l.001.002z",
+                    fill: "#DCDCDC"
+                }
+            })]) : t._e()]), t._v(" "), o("div", {
+                class: t.$style.contentContainer
+            }, t._l(t.breadcrumbDataGetter, (function(e, r) {
+                return o("div", {
+                    key: r,
+                    class: [t.$style.content, t.$style["theme" + t.themeColor]]
+                }, [o("div", {
+                    class: t.$style.arrow,
+                    style: [!1 === t.isRTL ? {} : {
+                        transform: "rotateY(180deg)"
+                    }]
+                }), t._v(" "), e.Content.Link ? [o("a", {
+                    class: t.$style.text,
+                    attrs: {
+                        href: e.Content.Link
+                    }
+                }, [t._v("\n            " + t._s(e.Content.LevelName) + "\n          ")])] : [o("span", {
+                    class: t.$style.text
+                }, [t._v("\n            " + t._s(e.Content.LevelName) + "\n          ")])]], 2)
+            }
+            )), 0)])])
+        }
+        ), [], !1, (function(t) {
+            this.$style = f.default.locals || f.default
+        }
+        ), null, null);
+        e.a = component.exports
+    }
+}]);

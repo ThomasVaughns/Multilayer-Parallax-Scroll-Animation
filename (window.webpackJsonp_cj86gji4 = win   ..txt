@@ -1,0 +1,2631 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[31], {
+    1050: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyAgdmlld0JveD0iMCAwIDE3IDE2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01LjE1NDc1IDExLjMzMzRDNS4wODgwOSAxMi4xMzM0IDUuNTU0NzQgMTIuODY2NyA2LjI4ODA4IDEzLjIwMDFDNy4wODgwNyAxMy41MzM0IDcuODg4MDggMTMuMjY2NyA4LjQyMTQyIDEyLjY2NjdMNS4xNTQ3NSAxMS4zMzM0WiIgc3Ryb2tlPSIjQ0NDQ0NDIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEuMjIyNyAyLjQ3NjA4QzEwLjc1NjEgMi4yNzYwOCAxMC4xNTYxIDIuNDc2MDggOS45NTYwNSAzLjAwOTQyTDExLjY4OTQgMy43NDI3NUMxMS44ODk0IDMuMjA5NDIgMTEuNjg5NCAyLjY3NjA4IDExLjIyMjcgMi40NzYwOFoiIHN0cm9rZT0iI0NDQ0NDQyIvPg0KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS40MjI2IDExLjMzMzRMMTMuMDIyOSA3LjUzMzM2QzEzLjYyMyA2LjAwMDAzIDEzLjAyMjkgNC4zMzMzNiAxMS42ODkzIDMuNzMzMzZMOS43NTU1MyAyLjkzMzM2QzguMzU1MjMgMi4zMzMzNiA2Ljc1NDg5IDMuMTMzMzYgNi4xNTQ3NiA0LjY2NjY5TDQuNTU0NCA4LjQ2NjY5TDMuNjg3NTUgOC44MDAwM0MzLjIyMDc5IDkuMDAwMDMgMi44MjA3IDkuMzMzMzYgMi42MjA2NSA5LjgwMDAzTDIuNDg3MyAxMC4xMzM0TDExLjY4OTMgMTMuOTMzNEwxMS44MjI2IDEzLjZDMTIuMDIyNyAxMy4xMzM0IDEyLjAyMjcgMTIuNiAxMS44MjI2IDEyLjEzMzRMMTEuNDIyNiAxMS4zMzM0WiIgc3Ryb2tlPSIjQ0NDQ0NDIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+DQo="
+    },
+    1054: function(e, t, r) {
+        "use strict";
+        var o = r(755)
+          , n = r.n(o);
+        t.default = n.a
+    },
+    1060: function(e, t, r) {
+        "use strict";
+        var o = r(761)
+          , n = r.n(o);
+        t.default = n.a
+    },
+    1183: function(e, t, r) {
+        "use strict";
+        r(11),
+        r(14),
+        r(47);
+        var o, n = r(4), l = r(0), c = r(80), d = r.n(c), _ = r(627), h = r(600), y = r(601), v = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), m = function(e, t, r, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, r) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, r, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, r, c) : o(t, r)) || c);
+            return l > 3 && c && Object.defineProperty(t, r, c),
+            c
+        }, w = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.bodyClientWidth = 0,
+                t.currentSlide = 1,
+                t.rwdState = "",
+                t.oneCardDisplacement = 0,
+                t.visibleDivWidth = 0,
+                t.maxDisplacement = 0,
+                t.firstCardWidth = 508,
+                t.enableControllButton = !0,
+                t.autoPlayInterval = null,
+                t.firstCardInlineStyleObject = {
+                    width: t.firstCardWidth + "px",
+                    height: "calc(100% - " + t.spaceBetween + "px)",
+                    marginTop: t.spaceBetween + "px",
+                    marginRight: t.spaceBetween + "px",
+                    flexGrow: "0",
+                    flexShrink: "0"
+                },
+                t.cardInlineStyleObject = {
+                    width: (t.getWidthWithoutFirstCard - t.spaceBetween) / 2 + "px",
+                    height: "calc((100% - " + 2 * t.spaceBetween + "px) / 2)",
+                    marginTop: t.spaceBetween + "px",
+                    marginRight: t.spaceBetween + "px",
+                    flexGrow: "0",
+                    flexShrink: "0"
+                },
+                t
+            }
+            return v(t, e),
+            Object.defineProperty(t.prototype, "totalSlide", {
+                get: function() {
+                    return this.totalCardsCount <= 5 ? 1 : Math.ceil((this.totalCardsCount - 5) / 5) + 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.updateSlideWidth = function() {
+                var e = this.$refs.innerSlides;
+                e && e.hasChildNodes() && (this.oneCardDisplacement = this.visibleDivWidth + this.spaceBetween,
+                this.maxDisplacement = e.offsetWidth - this.visibleDivWidth)
+            }
+            ,
+            Object.defineProperty(t.prototype, "enablePrevButton", {
+                get: function() {
+                    return (this.currentSlide > 1 || this.loop) && this.totalSlide > 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "enableNextButton", {
+                get: function() {
+                    return (this.currentSlide !== this.totalSlide || this.loop) && this.totalSlide > 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "getWidthWithoutFirstCard", {
+                get: function() {
+                    return this.visibleDivWidth - (this.firstCardWidth + this.spaceBetween)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "innerSlidesDisplacement", {
+                get: function() {
+                    var e = this.oneCardDisplacement * (this.currentSlide - 1);
+                    return e < 0 ? e = 0 : e > this.maxDisplacement && this.currentSlide >= this.totalSlide && 1 !== this.totalSlide && (e = this.maxDisplacement),
+                    -e
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.reloadSource = function() {
+                var e = this;
+                this.windowWidth >= this.rwdBreakPointMedium ? (this.rwdState = "desktop",
+                this.enableControllButton = 1 === this.showControllButtonList[0]) : this.windowWidth > this.rwdBreakPointSmall ? (this.rwdState = "tablet",
+                this.enableControllButton = 1 === this.showControllButtonList[1]) : (this.rwdState = "mobile",
+                this.enableControllButton = 1 === this.showControllButtonList[2]),
+                this.$nextTick((function() {
+                    e.getBodyClientWidth()
+                }
+                ))
+            }
+            ,
+            t.prototype.autoPlayBind = function() {
+                this.autoPlay ? this.bindInterval() : this.autoPlayInterval && clearInterval(this.autoPlayInterval)
+            }
+            ,
+            t.prototype.restartInterval = function() {
+                this.autoPlay && (this.autoPlayInterval && clearInterval(this.autoPlayInterval),
+                this.bindInterval())
+            }
+            ,
+            t.prototype.bindInterval = function() {
+                var e = this;
+                this.autoPlayInterval = setInterval((function() {
+                    e.next(null, !0)
+                }
+                ), this.autoPlayDelay)
+            }
+            ,
+            t.prototype.slideTo = function(e) {
+                this.restartInterval(),
+                this.currentSlide = e + 1
+            }
+            ,
+            t.prototype.next = function(e, t) {
+                void 0 === t && (t = !1),
+                this.currentSlide++,
+                this.currentSlide > this.totalSlide && (!0 === this.loop ? this.currentSlide = 1 : this.currentSlide = this.totalSlide),
+                !1 === t && this.restartInterval()
+            }
+            ,
+            t.prototype.prev = function(e, t) {
+                void 0 === t && (t = !1),
+                this.currentSlide--,
+                this.currentSlide <= 0 && (!0 === this.loop ? this.currentSlide = this.totalSlide : this.currentSlide = 1),
+                !1 === t && this.restartInterval()
+            }
+            ,
+            t.prototype.updateVisibleDivWidth = function() {
+                var e = this.$refs.visibleDiv;
+                e && (this.visibleDivWidth = e.offsetWidth,
+                this.$set(this.cardInlineStyleObject, "width", (this.getWidthWithoutFirstCard - this.spaceBetween) / 2 + "px"))
+            }
+            ,
+            t.prototype.updated = function() {
+                this.updateSlideWidth(),
+                this.updateVisibleDivWidth(),
+                this.getBodyClientWidth()
+            }
+            ,
+            t.prototype.mounted = function() {
+                this.updateSlideWidth(),
+                this.updateVisibleDivWidth(),
+                this.getBodyClientWidth(),
+                this.vtouch("#twoRowCarousel")
+            }
+            ,
+            t.prototype.getBodyClientWidth = function() {
+                document && (this.bodyClientWidth = document.body.clientWidth)
+            }
+            ,
+            t.prototype.vtouchLeft = function() {
+                this.next
+            }
+            ,
+            t.prototype.vtouchRight = function() {
+                this.prev
+            }
+            ,
+            m([Object(l.Prop)({
+                default: 0
+            })], t.prototype, "spaceBetween", void 0),
+            m([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "autoPlay", void 0),
+            m([Object(l.Prop)({
+                default: 5e3
+            })], t.prototype, "autoPlayDelay", void 0),
+            m([Object(l.Prop)({
+                default: function() {
+                    return [1, 1, 1]
+                }
+            })], t.prototype, "showControllButtonList", void 0),
+            m([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "loop", void 0),
+            m([Object(l.Prop)({
+                default: parseInt(d.a.breakPointSmall, 10)
+            })], t.prototype, "rwdBreakPointSmall", void 0),
+            m([Object(l.Prop)({
+                default: parseInt(d.a.breakPointMedium, 10)
+            })], t.prototype, "rwdBreakPointMedium", void 0),
+            m([Object(l.Prop)({
+                default: 0
+            })], t.prototype, "propMaxContainerWidth", void 0),
+            m([Object(l.Prop)({
+                default: 0
+            })], t.prototype, "windowWidth", void 0),
+            m([Object(l.Prop)({
+                default: 0
+            })], t.prototype, "totalCardsCount", void 0),
+            m([Object(l.Watch)("windowWidth", {
+                immediate: !0
+            })], t.prototype, "reloadSource", null),
+            m([Object(l.Watch)("autoPlay", {
+                immediate: !0
+            })], t.prototype, "autoPlayBind", null),
+            t = m([Object(l.Component)({
+                components: {
+                    CarouselArrows: _.a,
+                    Indicator: h.a
+                }
+            })], t)
+        }(Object(l.mixins)(y.a)), I = r(1060), P = r(10);
+        var component = Object(P.a)(w, (function() {
+            var e = this
+              , t = e.$createElement
+              , r = e._self._c || t;
+            return r("div", {
+                class: e.$style.carouselContainer
+            }, [r("div", {
+                ref: "visibleDiv",
+                class: e.$style.visibleDiv,
+                attrs: {
+                    id: "twoRowCarousel"
+                }
+            }, [r("div", {
+                ref: "innerSlides",
+                class: e.$style.innerSlides,
+                style: {
+                    height: "desktop" === e.rwdState ? "728px" : "auto",
+                    transform: "translateX(" + e.innerSlidesDisplacement + "px)"
+                }
+            }, [e._t("default", null, {
+                firstCardInlineStyleObject: e.firstCardInlineStyleObject,
+                cardInlineStyleObject: e.cardInlineStyleObject
+            })], 2)]), e._v(" "), r("CarouselArrows", {
+                attrs: {
+                    enableControllButton: e.enableControllButton,
+                    enablePrevButton: e.enablePrevButton,
+                    enableNextButton: e.enableNextButton
+                },
+                on: {
+                    clickPrev: e.prev,
+                    clickNext: e.next
+                }
+            }), e._v(" "), r("Indicator", {
+                attrs: {
+                    autoPlay: e.autoPlay,
+                    currentSlide: e.currentSlide,
+                    totalSlide: e.totalSlide,
+                    windowWidth: e.windowWidth,
+                    transitionDuration: e.autoPlayDelay
+                },
+                on: {
+                    slideToEvent: e.slideTo
+                }
+            })], 1)
+        }
+        ), [], !1, (function(e) {
+            this.$style = I.default.locals || I.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    755: function(e, t, r) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            galleryShow: "GalleryShow__galleryShow__2MYTS",
+            galleryShowHasECInfo: "GalleryShow__galleryShowHasECInfo__GxbbX",
+            "row-main": "GalleryShow__row-main__3adoq",
+            "col-3": "GalleryShow__col-3__3WQnr",
+            productInfo: "GalleryShow__productInfo__1LC6A",
+            "row-price": "GalleryShow__row-price__3ugqC",
+            priceRowSave: "GalleryShow__priceRowSave__31co-",
+            save: "GalleryShow__save__2wSr0",
+            regularPrice: "GalleryShow__regularPrice__29cKO",
+            price: "GalleryShow__price__2Qald",
+            startingAt: "GalleryShow__startingAt__PzDN-",
+            startingAtText: "GalleryShow__startingAtText__N2v-B",
+            historicLowPricetRow: "GalleryShow__historicLowPricetRow__1COFW",
+            downloadBox: "GalleryShow__downloadBox__1fSIu",
+            downloadBtn: "GalleryShow__downloadBtn__6pq_V",
+            secondaryBtn: "GalleryShow__secondaryBtn__1oILt",
+            secondBtnGroup: "GalleryShow__secondBtnGroup__2ubGt",
+            primaryBtnGroup: "GalleryShow__primaryBtnGroup__3r3U4",
+            button: "GalleryShow__button__2IM5w",
+            heading: "GalleryShow__heading__1B8GS",
+            searchIcon: "GalleryShow__searchIcon__41kPS",
+            themeWhite: "GalleryShow__themeWhite__jJu42",
+            "col-1": "GalleryShow__col-1__161Bt",
+            verticalCarouselContainer: "GalleryShow__verticalCarouselContainer__1fyZn",
+            swiperContent: "GalleryShow__swiperContent__EhB5d",
+            swiperWrapper: "GalleryShow__swiperWrapper__2Nchz",
+            swiperSlide: "GalleryShow__swiperSlide__2wWVd",
+            thumbnailImgActive: "GalleryShow__thumbnailImgActive__33bii",
+            "col-2": "GalleryShow__col-2__2WmaQ",
+            chooseWrap: "GalleryShow__chooseWrap__3AD-v",
+            currentImage: "GalleryShow__currentImage__BlDgV",
+            chooseColor: "GalleryShow__chooseColor__1bEUD",
+            mobileChooseColor: "GalleryShow__mobileChooseColor__29M2y",
+            chooseColorSelector: "GalleryShow__chooseColorSelector__G_k4h",
+            choose3dOrAr: "GalleryShow__choose3dOrAr__1tC_7",
+            text: "GalleryShow__text__1BPIF",
+            "row-star": "GalleryShow__row-star__3Z7LA",
+            starIconWrap: "GalleryShow__starIconWrap__1uXGw",
+            starInfo: "GalleryShow__starInfo__1RTOe",
+            historicLowPrice: "GalleryShow__historicLowPrice__3V9Uz",
+            fontBold: "GalleryShow__fontBold__19aQ7",
+            themeDark: "GalleryShow__themeDark__3xkq3",
+            startingAtWording: "GalleryShow__startingAtWording__1UH-8",
+            startingAtIcon: "GalleryShow__startingAtIcon__nswQq",
+            toolTip: "GalleryShow__toolTip__2J22C",
+            cardSafetyIcon: "GalleryShow__cardSafetyIcon__2uvfz",
+            hidePrice: "GalleryShow__hidePrice__24hx0",
+            discountRow: "GalleryShow__discountRow__2eWQd",
+            priceDiscount: "GalleryShow__priceDiscount__2eYHv",
+            info: "GalleryShow__info__E3LAw",
+            bell: "GalleryShow__bell__1Usgg",
+            hideInfo: "GalleryShow__hideInfo__3bj4Y",
+            loveIcon: "GalleryShow__loveIcon__2NPzT",
+            whereIcon: "GalleryShow__whereIcon__15BYm",
+            addToCompare: "GalleryShow__addToCompare__1iH0C",
+            "row-download": "GalleryShow__row-download__4-8lj",
+            galleryShowNormal: "GalleryShow__galleryShowNormal__1vf8N",
+            magnifierColor: "GalleryShow__magnifierColor__216GL",
+            imgContainer: "GalleryShow__imgContainer__3eG46",
+            currentImageWrap: "GalleryShow__currentImageWrap__3JJrj",
+            CarouselContainer: "GalleryShow__CarouselContainer__2F0w5",
+            swiperButtonPrev: "GalleryShow__swiperButtonPrev__2hQ0f",
+            swiperButtonNext: "GalleryShow__swiperButtonNext__1uEMe",
+            fewImages: "GalleryShow__fewImages__Kga0t",
+            downloadGroup: "GalleryShow__downloadGroup__ffRdv",
+            verticalSwiperButtonPrev: "GalleryShow__verticalSwiperButtonPrev__3_zWC",
+            verticalSwiperButtonNext: "GalleryShow__verticalSwiperButtonNext__y7ySc",
+            horizontalSwiperButtonPrev: "GalleryShow__horizontalSwiperButtonPrev__12hkd",
+            horizontalSwiperButtonNext: "GalleryShow__horizontalSwiperButtonNext__txw-9",
+            thumbnailsButtonPrev: "GalleryShow__thumbnailsButtonPrev__6S6qZ",
+            thumbnailsButtonNext: "GalleryShow__thumbnailsButtonNext__3TDJZ",
+            horizontalCarouselContainer: "GalleryShow__horizontalCarouselContainer__3L7FJ",
+            galleryThumbnailsContainer: "GalleryShow__galleryThumbnailsContainer__Kfy8w",
+            galleryThumbnails: "GalleryShow__galleryThumbnails__cmXNk",
+            thumbnailsSlide: "GalleryShow__thumbnailsSlide__3MDOc",
+            thumbnailActive: "GalleryShow__thumbnailActive__3001r",
+            kvSummaryCommercial: "GalleryShow__kvSummaryCommercial__P21gQ",
+            btnContainer: "GalleryShow__btnContainer__2E9cR",
+            threeDimensionalButton: "GalleryShow__threeDimensionalButton__iH6Cr",
+            disabled: "GalleryShow__disabled__1nt_e",
+            downloadBtnIcon: "GalleryShow__downloadBtnIcon__3gX0q",
+            downloadBtnText: "GalleryShow__downloadBtnText__1-E44"
+        }
+    },
+    761: function(e, t, r) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            carouselContainer: "TwoRowCarousel__carouselContainer__8pTpM",
+            visibleDiv: "TwoRowCarousel__visibleDiv__9j8YV",
+            innerSlides: "TwoRowCarousel__innerSlides__3zMoK"
+        }
+    },
+    851: function(e, t, r) {
+        "use strict";
+        r(592),
+        r(43),
+        r(108),
+        r(11),
+        r(68),
+        r(14),
+        r(15),
+        r(16),
+        r(28),
+        r(27),
+        r(47);
+        var o, n = r(4), l = r(0), c = r(30), d = r.n(c), _ = r(885), h = r(80), y = r.n(h), v = r(612), m = r(616), w = (r(593),
+        r(32)), I = r(143), P = r(2), f = r.n(P), C = r(1182), D = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), S = function() {
+            return (S = Object.assign || function(e) {
+                for (var s, i = 1, t = arguments.length; i < t; i++)
+                    for (var p in s = arguments[i])
+                        Object.prototype.hasOwnProperty.call(s, p) && (e[p] = s[p]);
+                return e
+            }
+            ).apply(this, arguments)
+        }, L = function(e, t, r, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, r) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, r, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, r, c) : o(t, r)) || c);
+            return l > 3 && c && Object.defineProperty(t, r, c),
+            c
+        }, k = r(596);
+        l.Vue.use(k);
+        var x = function(e) {
+            function t() {
+                var t, r, o, n = null !== e && e.apply(this, arguments) || this;
+                return n.verticalSwiperShow = !1,
+                n.isClick = !1,
+                n.horizontalSwiperShow = !1,
+                n.OPSwiperShow = !1,
+                n.rwdState = "",
+                n.colorCodePicked = "",
+                n.moveThumbnailWidth = 0,
+                n.themeColor = "",
+                n.intervalIDPgae = !1,
+                n.toolTipShow = !1,
+                n.breakPointMedium = y.a.breakPointMedium ? parseInt(y.a.breakPointMedium, 10) : 1279,
+                n.breakPointSmall = y.a.breakPointSmall ? parseInt(y.a.breakPointSmall, 10) : 731,
+                n.breakGallerySmall = y.a.BreakGallerySmall ? parseInt(y.a.breakPointSmall, 10) : 730,
+                n.slidesPerView = {
+                    verticalSwiper: {
+                        desktop: 6
+                    },
+                    horizontalSwiper: {
+                        desktop: 6,
+                        tablet: 6,
+                        mobile: 4
+                    },
+                    OPSwiper: {
+                        desktop: 7,
+                        tablet: "auto",
+                        mobile: "auto"
+                    }
+                },
+                n.verticalSwiperOption = {
+                    slidesPerView: "auto",
+                    slidesPerGroup: 1,
+                    direction: "vertical",
+                    spaceBetween: 8,
+                    watchOverflow: !0,
+                    navigation: {
+                        prevEl: "#vertical-swiper-prev",
+                        nextEl: "#vertical-swiper-next"
+                    },
+                    breakpoints: (t = {},
+                    t[n.breakPointMedium] = {
+                        spaceBetween: 16
+                    },
+                    t[n.breakGallerySmall] = {
+                        autoResize: !1,
+                        spaceBetween: 10
+                    },
+                    t)
+                },
+                n.horizontalSwiperOption = {
+                    slidesPerView: "auto",
+                    slidesPerGroup: 1,
+                    spaceBetween: 24,
+                    watchOverflow: !0,
+                    navigation: {
+                        prevEl: "#horizontal-swiper-prev",
+                        nextEl: "#horizontal-swiper-next"
+                    },
+                    breakpoints: (r = {},
+                    r[n.breakPointMedium] = {
+                        slidesPerView: n.slidesPerView.OPSwiper.tablet,
+                        spaceBetween: 16
+                    },
+                    r[n.breakGallerySmall] = {
+                        autoResize: !1,
+                        slidesPerView: n.slidesPerView.OPSwiper.mobile,
+                        spaceBetween: 10
+                    },
+                    r)
+                },
+                n.OPSwiperOption = {
+                    slidesPerView: "auto",
+                    slidesPerGroup: 1,
+                    spaceBetween: 24,
+                    noSwiping: !0,
+                    watchOverflow: !0,
+                    autoResize: !1,
+                    navigation: {
+                        prevEl: "#ops-swiper-prev",
+                        nextEl: "#ops-swiper-next"
+                    },
+                    breakpoints: (o = {},
+                    o[n.breakPointMedium] = {
+                        slidesPerView: n.slidesPerView.horizontalSwiper.tablet,
+                        spaceBetween: 16
+                    },
+                    o[n.breakGallerySmall] = {
+                        autoResize: !1,
+                        slidesPerView: n.slidesPerView.horizontalSwiper.mobile,
+                        spaceBetween: 10
+                    },
+                    o)
+                },
+                n.keyProductInfoResult = {},
+                n.mainImageIndex = 0,
+                n.websiteCode = "",
+                n.isPriceFlag = !1,
+                n.memberID = "",
+                n.triggerShowImage = 0,
+                n
+            }
+            return D(t, e),
+            t.prototype.created = function() {
+                var e = this;
+                this.websiteCode = Object(I.b)(this.$route.params.region),
+                this.verticalSwiperOption.on = {
+                    init: function() {
+                        e.verticalSwiperShow = !0
+                    }
+                },
+                this.horizontalSwiperOption.on = {
+                    init: function() {
+                        e.horizontalSwiperShow = !0
+                    }
+                },
+                this.OPSwiperOption.on = {
+                    init: function() {
+                        e.OPSwiperShow = !0
+                    }
+                }
+            }
+            ,
+            t.prototype.mounted = function() {
+                var e = this;
+                this.reloadSource(),
+                this.$nextTick((function() {
+                    e.OPSwiperShow = !0
+                }
+                )),
+                void 0 !== f.a.get("aticket") && "" !== f.a.get("aticket") ? this.$set(this, "memberID", f.a.get("aticket")) : this.$set(this, "memberID", "")
+            }
+            ,
+            Object.defineProperty(t.prototype, "getCurrentColorProductImageArray", {
+                get: function() {
+                    var e, t = this;
+                    return (e = this.colorCodePicked ? this.keyProductInfoResult.GalleryList.find((function(e) {
+                        return e.ColorCode === t.colorCodePicked
+                    }
+                    )) : this.keyProductInfoResult.GalleryList && this.keyProductInfoResult.GalleryList.length > 0 ? this.keyProductInfoResult.GalleryList[0] : {}).ImageList && e.ImageList.length > 0 ? e.ImageList : []
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "ecInfoProductCard", {
+                get: function() {
+                    return this.keyProductInfoResult.ProductCard
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "isShowPrice", {
+                get: function() {
+                    return "" !== this.ecInfoProductCard.Price
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "productImageNumber", {
+                get: function() {
+                    return this.getCurrentColorProductImageArray ? this.getCurrentColorProductImageArray.length : 0
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(t.prototype, "OPSwiperSlidesPerView", {
+                get: function() {
+                    return this.slidesPerView.OPSwiper[this.rwdState]
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.reloadSource = function() {
+                this.windowWidth > this.breakPointMedium ? (this.rwdState = "desktop",
+                this.moveThumbnailWidth = 103) : this.windowWidth > this.breakPointSmall ? (this.rwdState = "tablet",
+                this.moveThumbnailWidth = 95) : (this.rwdState = "mobile",
+                this.moveThumbnailWidth = 71)
+            }
+            ,
+            t.prototype.setKeyProductInfoData = function() {
+                var e = this;
+                if (this.keyProductInfoResult = d()(this.getKeyProductInfoDataGetter),
+                this.themeColor = 0 === this.keyProductInfoResult.GalleryStyle ? "White" : "Dark",
+                this.keyProductInfoResult && this.keyProductInfoResult.GalleryList) {
+                    "" === this.colorCodePicked && this.keyProductInfoResult.GalleryList && this.keyProductInfoResult.GalleryList.length > 0 && (this.colorCodePicked = this.keyProductInfoResult.GalleryList[0].ColorCode);
+                    var t = []
+                      , r = []
+                      , o = [];
+                    "R" === this.ProductID.toString().split("")[0] ? 1 === this.keyProductInfoResult.ProductCard.ModelBaseFlag ? r.push(this.keyProductInfoResult.ProductCard.M1Id) : o.push(this.keyProductInfoResult.ProductCard.PartNo) : t.push(this.ProductID),
+                    this.$nextTick((function() {
+                        if (e.websiteCode) {
+                            var n = void 0;
+                            n = void 0 === f.a.get("groupid_asus_" + e.websiteCode) ? "" : f.a.get("groupid_asus_" + e.websiteCode),
+                            e.dispatchPDPriceList({
+                                params: {
+                                    SystemCode: "asus",
+                                    ecStatus: e.priceConfigGetter.ecStatus,
+                                    WebsiteCode: e.websiteCode,
+                                    ProductId: t.join(),
+                                    ROGProductId: r.join(),
+                                    ROGProduct: o.join(),
+                                    PartNoPage: 1,
+                                    group_id: n
+                                },
+                                routePath: e.$route.fullPath
+                            })
+                        }
+                    }
+                    ))
+                }
+                if ("undefined" != typeof window && this.keyProductInfoResult && this.keyProductInfoResult.ProductCard && "" !== this.keyProductInfoResult.ProductCard.ExternalID) {
+                    var n = this
+                      , l = 0;
+                    clearInterval(n.intervalIDPgae),
+                    this.intervalIDPgae = setInterval((function() {
+                        var e = document.querySelectorAll(".bazaaInlineRatingGalleryShow .bv_numReviews_component_container .bv_text");
+                        e.length > 0 ? "(0)" === e[0].textContent && (n.$refs.bazaaInlineRating.style.display = "none",
+                        clearInterval(n.intervalIDPgae)) : ++l > 20 && clearInterval(n.intervalIDPgae)
+                    }
+                    ), 500)
+                }
+            }
+            ,
+            t.prototype.setPriceConfig = function() {
+                this.ecConfig = this.priceConfigGetter
+            }
+            ,
+            t.prototype.getProductTabList = function() {
+                if (this.productTabList && this.productTabList.ExternalID && "" !== this.productTabList.ExternalID) {
+                    clearInterval(this.intervalIDPgae)
+                }
+            }
+            ,
+            t.prototype.setPriceIdList = function() {
+                if (this.getPDPriceList.ProductList && this.getPDPriceList.ProductList.length > 0 && this.keyProductInfoResult && this.keyProductInfoResult.ProductCard && this.keyProductInfoResult.ProductCard.RealProductID.toString() === this.getPDPriceList.ProductList[0].ProductID.toString()) {
+                    var e = this.getPDPriceList.ProductList;
+                    "" === e[0].Price || 0 === e[0].Price ? this.$set(this, "isPriceFlag", !1) : this.$set(this, "isPriceFlag", !0),
+                    e && e[0] && Object.keys(e[0]).length > 0 && this.$set(this.keyProductInfoResult, "ProductCard", S(S({}, this.keyProductInfoResult.ProductCard), {
+                        Price: e[0] && "" !== e[0].Price ? e[0].Price : "",
+                        Discount: e[0] && "" !== e[0].Discount ? e[0].Discount : "",
+                        RegularPrice: e[0] && "" !== e[0].Regular_Price ? e[0].Regular_Price : "",
+                        GroupLabelName: e[0] && "" !== e[0].GroupLabelName ? e[0].GroupLabelName : "",
+                        Mapping_Price: e[0] && "" !== e[0].Mapping_Price ? e[0].Mapping_Price : "",
+                        SpecialPrice: e[0] && "" !== e[0].SpecialPrice ? e[0].SpecialPrice : "",
+                        Customizable_Tag: e[0] && "" !== e[0].Customizable_Tag ? e[0].Customizable_Tag : "",
+                        StartingAtWording: e[0] && "" !== e[0].StartingAtWording ? e[0].StartingAtWording : "",
+                        HistoricLowPrice: e[0] && "" !== e[0].HistoricLowPrice ? e[0].HistoricLowPrice : "",
+                        Buy: S(S({}, this.keyProductInfoResult.ProductCard.Buy), {
+                            Link: e[0] && "" !== e[0].BuyLink ? e[0].BuyLink : "",
+                            Text: e[0] && "" !== e[0].BuyText ? e[0].BuyText : "",
+                            Code: e[0] && "" !== e[0].BuyCode ? e[0].BuyCode : ""
+                        })
+                    }))
+                }
+            }
+            ,
+            t.prototype.isTouchDevice = function() {
+                return "ontouchstart"in window || navigator.maxTouchPoints > 0
+            }
+            ,
+            t.prototype.delayShowHide = function(e, t) {
+                var element = this.$refs[e];
+                "" === t && (t = "none" === element.style.display || "" === element.style.display ? "block" : "none"),
+                this.toolTipShow = "block" === t,
+                element && (element.style.display = t)
+            }
+            ,
+            t.prototype.sendGA = function(data) {
+                this.gaDataLayerPush({
+                    event: "data_layer_event",
+                    event_name_ga4: "compare_ec_gallery_pdc",
+                    event_category_DL: "ec/gallery_pdc",
+                    event_action_DL: "added",
+                    event_label_DL: "compare/ec/gallery_pdc",
+                    event_value_DL: ""
+                })
+            }
+            ,
+            t.prototype.sendSwitchImageGA = function(e) {
+                this.gaDataLayerPush({
+                    event: "data_layer_event",
+                    event_name_ga4: "switching_img_n_gallery_pdc",
+                    event_category_DL: "n/gallery_pdc",
+                    event_action_DL: "switched",
+                    event_label_DL: e.ImgPath + "/n/gallery_pdc",
+                    event_value_DL: ""
+                })
+            }
+            ,
+            t.prototype.openWindow = function(e) {
+                this.AIStatusGetter && e && e.BuyLink && -1 === e.BuyLink.indexOf("www.asus.com") ? window.open(e, "_Blank") : window.open(e, "_self")
+            }
+            ,
+            t.prototype.redirect = function() {
+                try {
+                    var e = Object(I.a)(this.$route.params.region)
+                      , t = this.$route.params.levelOneTopMenuName ? "/" + this.$route.params.levelOneTopMenuName : ""
+                      , r = this.$route.params.levelTwoProductLineName ? "/" + this.$route.params.levelTwoProductLineName : ""
+                      , o = this.$route.params.productModel ? "/" + this.$route.params.productModel : ""
+                      , n = this.$route.params.seriesName ? "/" + this.$route.params.seriesName : "";
+                    window.location.href = "" + e + t + r + n + o + "/where-to-buy"
+                } catch (e) {}
+            }
+            ,
+            t.prototype.openGallery = function(e) {
+                var t = this;
+                this.isClick = !0;
+                var r = document.getElementById("galleryShowLightboxPDC");
+                r && (r.style.display = "block",
+                this.triggerShowImage++),
+                this.$nextTick((function() {
+                    t.$refs.lightbox && (t.$refs.lightbox.showImage(e),
+                    t.focusElement(".lightCloseBtn"))
+                }
+                ))
+            }
+            ,
+            t.prototype.focusElement = function(element) {
+                setTimeout((function() {
+                    var e = document.querySelector(element);
+                    e && e.focus()
+                }
+                ), 500)
+            }
+            ,
+            t.prototype.selectMainImage = function(e) {
+                var t = document.getElementById("product_gallery");
+                if (t && t.shadowRoot) {
+                    var r = t.shadowRoot
+                      , o = r.getElementById("galleryThumbnails")
+                      , n = r.querySelector("verticalCarouselContainer")
+                      , l = r.querySelector("horizontalCarouselContainer");
+                    o && (o.scrollLeft = e * this.moveThumbnailWidth),
+                    n && (n.scrollTop = e * this.moveThumbnailWidth),
+                    l && (l.scrollLeft = e * this.moveThumbnailWidth)
+                }
+                (e < 0 && (e = 0),
+                e >= this.getCurrentColorProductImageArray.length && (e = this.getCurrentColorProductImageArray.length - 1),
+                document.getElementById("galleryThumbnails")) && ((o = document.getElementById("galleryThumbnails")).scrollLeft = e * this.moveThumbnailWidth);
+                document.getElementsByClassName("verticalCarouselContainer").length > 0 && (document.getElementsByClassName("verticalCarouselContainer")[0].scrollTop = e * this.moveThumbnailWidth);
+                document.getElementsByClassName("horizontalCarouselContainer").length > 0 && (document.getElementsByClassName("horizontalCarouselContainer")[0].scrollLeft = e * this.moveThumbnailWidth);
+                this.mainImageIndex = e
+            }
+            ,
+            t.prototype.colorSelectorPick = function(e) {
+                this.colorCodePicked = e
+            }
+            ,
+            L([Object(l.Getter)("themeColorGetter")], t.prototype, "themeColorGetter", void 0),
+            L([Object(l.Getter)("getKeyProductInfoDataGetter")], t.prototype, "getKeyProductInfoDataGetter", void 0),
+            L([Object(l.Getter)("productTabListGetter")], t.prototype, "productTabList", void 0),
+            L([Object(l.Getter)("PDPriceListGetter")], t.prototype, "getPDPriceList", void 0),
+            L([Object(l.Getter)("priceConfigGetter")], t.prototype, "priceConfigGetter", void 0),
+            L([Object(l.Getter)("AIStatusGetter")], t.prototype, "AIStatusGetter", void 0),
+            L([Object(l.Action)("getPDPriceList")], t.prototype, "dispatchPDPriceList", void 0),
+            L([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "isPDC", void 0),
+            L([Object(l.Prop)()], t.prototype, "windowWidth", void 0),
+            L([Object(l.Prop)()], t.prototype, "showCompareBtn", void 0),
+            L([Object(l.Prop)()], t.prototype, "defLevelId", void 0),
+            L([Object(l.Prop)()], t.prototype, "ProductID", void 0),
+            L([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "classType", void 0),
+            L([Object(l.Prop)()], t.prototype, "ThreeDimensionalLink", void 0),
+            L([Object(l.Watch)("windowWidth")], t.prototype, "reloadSource", null),
+            L([Object(l.Watch)("getKeyProductInfoDataGetter", {
+                immediate: !0
+            })], t.prototype, "setKeyProductInfoData", null),
+            L([Object(l.Watch)("priceConfigGetter", {
+                immediate: !0
+            })], t.prototype, "setPriceConfig", null),
+            L([Object(l.Watch)("productTabList", {
+                immediate: !0
+            })], t.prototype, "getProductTabList", null),
+            L([Object(l.Watch)("getPDPriceList")], t.prototype, "setPriceIdList", null),
+            t = L([Object(l.Component)({
+                components: {
+                    Lightbox: _.a,
+                    CompareCheckBox: v.a,
+                    ColorSelector: m.a,
+                    GalleryLightboxPDC: C.a
+                }
+            })], t)
+        }(Object(l.mixins)(w.a))
+          , T = r(1054)
+          , B = r(10);
+        var component = Object(B.a)(x, (function() {
+            var e, t, o, n, l, c = this, d = c.$createElement, _ = c._self._c || d;
+            return c.keyProductInfoResult ? _("div", {
+                class: ["galleryShow", "theme" + c.themeColor, c.$style.galleryShow, c.$style["theme" + c.themeColor], (e = {},
+                e.kvSummaryCommercial = "kvSummaryCommercial" === c.classType,
+                e[c.$style.kvSummaryCommercial] = "kvSummaryCommercial" === c.classType,
+                e)]
+            }, [c.isPriceFlag && "kvSummaryCommercial" !== c.classType ? _("div", {
+                class: ["galleryShowHasECInfo", c.$style.galleryShowHasECInfo]
+            }, [_("div", {
+                class: ["row-main", c.$style["row-main"]]
+            }, [_("div", {
+                class: ["col-1", c.$style["col-1"]]
+            }, [c.getCurrentColorProductImageArray && c.getCurrentColorProductImageArray.length > 0 ? _("div", {
+                class: ["verticalCarouselContainer", c.$style.verticalCarouselContainer]
+            }, [_("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.verticalSwiperShow,
+                    expression: "verticalSwiperShow"
+                }],
+                class: ["verticalSwiperButtonPrev", c.$style.verticalSwiperButtonPrev],
+                attrs: {
+                    id: "vertical-swiper-prev",
+                    "aria-label": "previous button"
+                },
+                on: {
+                    click: function(e) {
+                        c.selectMainImage(c.mainImageIndex - 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex - 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.verticalSwiperShow,
+                    expression: "verticalSwiperShow"
+                }, {
+                    name: "swiper",
+                    rawName: "v-swiper:verticalSwiper",
+                    value: c.verticalSwiperOption,
+                    expression: "verticalSwiperOption",
+                    arg: "verticalSwiper"
+                }],
+                class: ["swiperContent", c.$style.swiperContent]
+            }, [_("div", {
+                staticClass: "swiper-wrapper",
+                class: ["swiperWrapper", c.$style.swiperWrapper]
+            }, c._l(c.getCurrentColorProductImageArray, (function(image, e) {
+                var t;
+                return _("div", {
+                    key: e,
+                    class: ["swiper-slide", "swiperSlide", "theme" + c.themeColor, c.$style.swiperSlide, c.$style["theme" + c.themeColor], (t = {},
+                    t.thumbnailImgActive = e === c.mainImageIndex,
+                    t[c.$style.thumbnailImgActive] = e === c.mainImageIndex,
+                    t)],
+                    on: {
+                        click: function(t) {
+                            "desktop" === c.rwdState && c.selectMainImage(e)
+                        },
+                        touchend: function(t) {
+                            "desktop" === c.rwdState && c.selectMainImage(e)
+                        }
+                    }
+                }, [_("img", {
+                    attrs: {
+                        src: image.Thumb,
+                        alt: image.ImageAlt
+                    }
+                })])
+            }
+            )), 0)]), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.verticalSwiperShow,
+                    expression: "verticalSwiperShow"
+                }],
+                class: ["verticalSwiperButtonNext", c.$style.verticalSwiperButtonNext],
+                attrs: {
+                    id: "vertical-swiper-next",
+                    "aria-label": "next button"
+                },
+                on: {
+                    click: function(e) {
+                        c.selectMainImage(c.mainImageIndex + 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex + 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            })]) : c._e()]), c._v(" "), _("div", {
+                class: ["col-2", c.$style["col-2"]]
+            }, [_("div", [_("div", {
+                class: ["chooseWrap", c.$style.chooseWrap]
+            }, [_("div", {
+                class: ["searchBtn", "searchIcon", "theme" + c.themeColor, c.$style.searchIcon, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    "aria-label": "View + ImageAlt + in full screen",
+                    role: "button",
+                    alt: "search icon"
+                },
+                on: {
+                    keyup: function(e) {
+                        if (!e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter"))
+                            return null;
+                        c.openGallery(c.mainImageIndex),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    click: function(e) {
+                        c.openGallery(c.mainImageIndex),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openGallery(c.mainImageIndex),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, ["White" !== c.themeColor ? _("svg", {
+                attrs: {
+                    width: "36",
+                    height: "36",
+                    viewBox: "0 0 36 36",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M24.345 24.345L30 30m-2.914-13.457c0 5.823-4.72 10.543-10.543 10.543C10.72 27.086 6 22.366 6 16.543 6 10.72 10.72 6 16.543 6c5.823 0 10.543 4.72 10.543 10.543z",
+                    stroke: "#B3B3B3",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round"
+                }
+            })]) : c._e(), c._v(" "), "White" === c.themeColor ? _("svg", {
+                attrs: {
+                    width: "36",
+                    height: "36",
+                    viewBox: "0 0 36 36",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M24.345 24.345L30 30m-2.914-13.457c0 5.823-4.72 10.543-10.543 10.543C10.72 27.086 6 22.366 6 16.543 6 10.72 10.72 6 16.543 6c5.823 0 10.543 4.72 10.543 10.543z",
+                    stroke: "#666",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round"
+                }
+            })]) : c._e()])])]), c._v(" "), _("div", {
+                class: ["currentImage", c.$style.currentImage],
+                on: {
+                    click: function(e) {
+                        return c.openGallery(c.mainImageIndex)
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openGallery(c.mainImageIndex)
+                    }
+                }
+            }, [c.getCurrentColorProductImageArray[c.mainImageIndex] && c.getCurrentColorProductImageArray[c.mainImageIndex].ImgPath ? _("img", {
+                attrs: {
+                    src: c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg,
+                    alt: c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].ImageAlt : ""
+                }
+            }) : c._e()]), c._v(" "), "desktop" === c.rwdState || "tablet" === c.rwdState ? _("div", {
+                class: ["chooseColor", c.$style.chooseColor]
+            }, [_("ColorSelector", {
+                class: ["chooseColorSelector", c.$style.chooseColorSelector],
+                attrs: {
+                    colorList: c.keyProductInfoResult.GalleryList,
+                    colorCodePicked: c.colorCodePicked,
+                    checkType: "galleryShowEC",
+                    isWhiteCard: "White" === c.themeColor
+                },
+                on: {
+                    changeColorPick: c.colorSelectorPick
+                }
+            })], 1) : c._e(), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.getCurrentColorProductImageArray && c.getCurrentColorProductImageArray.length > 0 && ("tablet" === c.rwdState || "mobile" === c.rwdState),
+                    expression: "\n            getCurrentColorProductImageArray &&\n              getCurrentColorProductImageArray.length > 0 &&\n              (rwdState === 'tablet' || rwdState === 'mobile')\n          "
+                }],
+                class: ["horizontalCarouselContainer", c.$style.horizontalCarouselContainer]
+            }, [_("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.horizontalSwiperShow,
+                    expression: "horizontalSwiperShow"
+                }],
+                class: ["horizontalSwiperButtonPrev", c.$style.horizontalSwiperButtonPrev],
+                attrs: {
+                    id: "horizontal-swiper-prev",
+                    "aria-label": "previous button"
+                },
+                on: {
+                    click: function(e) {
+                        c.selectMainImage(c.mainImageIndex - 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex - 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.horizontalSwiperShow,
+                    expression: "horizontalSwiperShow"
+                }, {
+                    name: "swiper",
+                    rawName: "v-swiper:horizontalSwiper",
+                    value: c.horizontalSwiperOption,
+                    expression: "horizontalSwiperOption",
+                    arg: "horizontalSwiper"
+                }],
+                class: ["swiperContent", c.$style.swiperContent]
+            }, [_("div", {
+                class: ["swiper-wrapper", "swiperWrapper", c.$style.swiperWrapper]
+            }, c._l(c.getCurrentColorProductImageArray, (function(image, e) {
+                var t;
+                return _("div", {
+                    key: e,
+                    class: ["swiper-slide", "swiperSlide", "theme" + c.themeColor, c.$style.swiperSlide, c.$style["theme" + c.themeColor], (t = {},
+                    t.thumbnailImgActive = e === c.mainImageIndex,
+                    t[c.$style.thumbnailImgActive] = e === c.mainImageIndex,
+                    t)],
+                    on: {
+                        click: function(t) {
+                            c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_ec_gallery_pdc",
+                                event_category_DL: "ec/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/ec/gallery_pdc",
+                                event_value_DL: ""
+                            }),
+                            ("tablet" === c.rwdState || "mobile" === c.rwdState) && c.selectMainImage(e)
+                        },
+                        touchend: function(t) {
+                            c.isTouchDevice() && (("tablet" === c.rwdState || "mobile" === c.rwdState) && c.selectMainImage(e)),
+                            c.isTouchDevice() && c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_ec_gallery_pdc",
+                                event_category_DL: "ec/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/ec/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [_("img", {
+                    attrs: {
+                        src: image.Thumb,
+                        alt: image.ImageAlt
+                    }
+                })])
+            }
+            )), 0)]), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.horizontalSwiperShow,
+                    expression: "horizontalSwiperShow"
+                }],
+                class: ["horizontalSwiperButtonNext", c.$style.horizontalSwiperButtonNext],
+                attrs: {
+                    id: "horizontal-swiper-next",
+                    "aria-label": "next button"
+                },
+                on: {
+                    click: function(e) {
+                        c.selectMainImage(c.mainImageIndex + 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex + 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            })]), c._v(" "), "mobile" === c.rwdState ? _("div", {
+                class: ["mobileChooseColor", c.$style.mobileChooseColor]
+            }, [_("ColorSelector", {
+                attrs: {
+                    colorList: c.keyProductInfoResult.GalleryList,
+                    colorCodePicked: c.colorCodePicked,
+                    checkType: "galleryShowEC",
+                    isWhiteCard: "White" === c.themeColor
+                },
+                on: {
+                    changeColorPick: c.colorSelectorPick
+                }
+            })], 1) : c._e(), c._v(" "), _("div", {
+                class: ["choose3dOrAr", c.$style.choose3dOrAr],
+                staticStyle: {
+                    display: "none"
+                }
+            }, [_("div", [_("svg", {
+                attrs: {
+                    viewBox: "0 0 28 28",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    d: "M14.266 1.076a.75.75 0 00-.626 0L1.458 6.672a.75.75 0 00-.437.682v13.499a.75.75 0 00.422.674l12.182 5.926c.207.101.45.101.656 0l12.182-5.926a.75.75 0 00.422-.674V7.354a.75.75 0 00-.437-.681L14.266 1.075zM2.521 8.882v11.501l10.682 5.197v-7.02h1.5v7.02l10.682-5.197v-11.5l-4.407 2.143-.629-1.362 4.38-2.13-10.776-4.952L3.178 7.533l4.38 2.13-.63 1.363-4.407-2.144z",
+                    fill: "#999"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M11.583 14.626l.666 2.086h1.442L11.3 9.352H9.585l-2.36 7.36h1.388l.633-2.086h2.337zm-2.119-1.015l.568-1.813c.132-.437.24-.95.35-1.376h.022c.109.425.23.928.371 1.376l.579 1.813h-1.89zM14.715 16.712h1.332v-3.025h.677c.765.022 1.114.328 1.322 1.289.207.917.382 1.518.491 1.736h1.387c-.152-.284-.349-1.135-.578-2.053-.186-.71-.503-1.223-1.027-1.42v-.032c.688-.252 1.332-.896 1.332-1.846 0-.623-.229-1.136-.633-1.475-.492-.415-1.212-.59-2.272-.59-.775 0-1.529.066-2.031.154v7.262zm1.332-6.334c.131-.033.404-.066.83-.066.874 0 1.442.372 1.442 1.18 0 .732-.568 1.212-1.474 1.212h-.798v-2.326z",
+                    fill: "#999"
+                }
+            })]), c._v(" "), _("span", {
+                class: ["text", c.$style.text]
+            }, [c._v("\n              View on your table\n            ")])]), c._v(" "), _("div", [_("svg", {
+                attrs: {
+                    viewBox: "0 0 33 32",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    d: "M6.088 14.712a24.34 24.34 0 011.24-.307v1.538a22 22 0 00-.84.214c-1.263.35-2.233.754-2.87 1.17-.667.437-.79.764-.79.92 0 .152.09.418.542.777.445.352 1.139.708 2.077 1.038 1.87.656 4.542 1.145 7.657 1.348a.75.75 0 01-.097 1.497c-3.197-.208-6.014-.713-8.056-1.43-1.017-.357-1.884-.78-2.512-1.277-.62-.491-1.112-1.143-1.112-1.952 0-.942.683-1.66 1.47-2.176.82-.536 1.956-.99 3.291-1.36zm20.259 1.445c-.324-.09-.664-.175-1.02-.256v-1.536c.499.107.973.223 1.42.347 1.336.37 2.471.824 3.291 1.36.788.515 1.47 1.234 1.47 2.176 0 .941-.682 1.66-1.47 2.176-.82.535-1.955.99-3.29 1.36-2.474.685-5.777 1.122-9.41 1.186l.668.748a.75.75 0 11-1.118.999l-1.716-1.921-.438-.491.43-.499 1.715-1.99a.75.75 0 011.136.98l-.579.671c3.49-.07 6.615-.492 8.911-1.129 1.264-.35 2.234-.754 2.87-1.17.668-.437.792-.764.792-.92 0-.157-.124-.484-.792-.92-.636-.417-1.606-.82-2.87-1.17z",
+                    fill: "#999"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M9.192 16.558c.455.299 1.34.585 2.366.585 2.093 0 3.29-1.131 3.29-2.561-.014-1.144-.833-1.911-1.86-2.106v-.026c1.04-.364 1.56-1.092 1.56-1.976 0-1.105-.884-2.067-2.639-2.067-1 0-1.95.325-2.43.65l.363 1.157c.351-.234 1.04-.533 1.73-.533.935 0 1.351.48 1.351 1.066 0 .832-.936 1.17-1.664 1.17h-.728v1.17h.728c.975 0 1.924.429 1.924 1.43 0 .663-.48 1.352-1.703 1.352-.806 0-1.599-.325-1.924-.52l-.364 1.209zM16.565 16.974c.533.065 1.235.117 2.158.117 1.703 0 3.094-.403 3.965-1.196.832-.754 1.365-1.911 1.365-3.484 0-1.482-.52-2.535-1.378-3.224-.806-.676-1.924-1.014-3.562-1.014-.949 0-1.833.078-2.548.182v8.619zm1.6-7.462c.233-.052.584-.091 1.091-.091 2.002 0 3.12 1.118 3.107 3.042 0 2.223-1.235 3.38-3.315 3.367-.325 0-.663 0-.884-.04V9.513z",
+                    fill: "#999"
+                }
+            })]), c._v(" "), _("span", {
+                class: ["text", c.$style.text]
+            }, [c._v("\n              View the model in 3D\n            ")])])])]), c._v(" "), _("div", {
+                class: ["col-3", "theme" + c.themeColor, c.$style["col-3"], c.$style["theme" + c.themeColor]]
+            }, [c.ecInfoProductCard ? _("div", {
+                class: ["productInfo", c.$style.productInfo]
+            }, [_("div", {
+                class: ["heading", "theme" + c.themeColor, c.$style.heading, c.$style["theme" + c.themeColor]]
+            }, [c._v("\n            " + c._s(c.ecInfoProductCard.ProductName) + "\n          ")]), c._v(" "), _("div", {
+                class: ["row-star", "rowStar", c.$style["row-star"], c.$style.rowStar],
+                attrs: {
+                    "data-stars": "3"
+                }
+            }, [_("div", {
+                ref: "bazaaInlineRating",
+                class: ["bazaaInlineRating", "bazaaInlineRatingGalleryShow", "theme" + c.themeColor, c.$style.bazaaInlineRating, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    "data-bv-show": "rating_summary",
+                    "data-bv-seo": "false",
+                    "data-bv-product-id": c.ecInfoProductCard.ExternalID
+                }
+            })]), c._v(" "), "global" !== c.websiteCode ? _("div", {
+                class: ["row-price", "theme" + c.themeColor, c.$style["row-price"], c.$style["theme" + c.themeColor]]
+            }, [_("div", {
+                class: ["priceRow", c.$style.priceRow]
+            }, [_("div", {
+                class: ["startingAt", c.$style.startingAt]
+            }, [_("div", {
+                class: ["startingAtText", c.$style.startingAtText]
+            }, [c._v("\n                  " + c._s("" !== c.ecInfoProductCard.Price ? "" !== c.ecInfoProductCard.StartingAtWording ? c.ecInfoProductCard.StartingAtWording : c.productTabList.Estore : "") + "\n                ")]), c._v(" "), c.productTabList.PDCardSafety && "" !== c.productTabList.PDCardSafety ? _("div", {
+                class: ["startingAtIcon", c.$style.startingAtIcon, "theme" + c.themeColor, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    role: "button",
+                    "aria-expanded": c.toolTipShow,
+                    "aria-label": "toolTip",
+                    "aria-describedby": "toolTip",
+                    tabindex: "0"
+                },
+                on: {
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : (e.stopPropagation(),
+                        c.delayShowHide("toolTip", "", "enter"))
+                    },
+                    focus: function(e) {
+                        return e.stopPropagation(),
+                        c.delayShowHide("toolTip", "block", "focus")
+                    },
+                    blur: function(e) {
+                        return c.delayShowHide("toolTip", "none", "blur")
+                    },
+                    click: function(e) {
+                        e.stopPropagation(),
+                        c.windowWidth < 1280 && c.delayShowHide("toolTip", "", "click")
+                    },
+                    touchend: function(e) {
+                        c.windowWidth < 1280 && c.isTouchDevice() && c.delayShowHide("toolTip", "", "click")
+                    }
+                }
+            }, [_("svg", {
+                class: ["cardSafetyIcon", c.$style.cardSafetyIcon],
+                attrs: {
+                    width: "12",
+                    height: "12",
+                    viewBox: "0 0 12 12",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("circle", {
+                attrs: {
+                    cx: "6",
+                    cy: "6",
+                    r: "4.75",
+                    stroke: "#4D4D4D"
+                }
+            }), _("rect", {
+                attrs: {
+                    x: "5.5",
+                    y: "5.5",
+                    width: "1",
+                    height: "3",
+                    rx: ".5",
+                    fill: "#4D4D4D"
+                }
+            }), _("rect", {
+                attrs: {
+                    x: "5.5",
+                    y: "3.5",
+                    width: "1",
+                    height: "1",
+                    rx: ".5",
+                    fill: "#4D4D4D"
+                }
+            })]), c._v(" "), _("div", {
+                ref: "toolTip",
+                class: ["toolTip", "theme" + c.themeColor, c.$style.toolTip, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    id: "toolTip"
+                }
+            }, [c._v("\n                    " + c._s(c.productTabList.PDCardSafety) + "\n                  ")])]) : c._e()])]), c._v(" "), "" !== c.ecInfoProductCard.Price ? _("div", {
+                class: ["priceRowSave", c.$style.priceRowSave, (t = {},
+                t.hidePrice = c.isShowPrice,
+                t[c.$style.hidePrice] = c.isShowPrice,
+                t)]
+            }, ["" !== c.memberID && "" !== c.priceConfigGetter.groupNameDisplayRule && "" !== c.ecInfoProductCard.GroupLabelName && void 0 !== c.ecInfoProductCard.GroupLabelName && void 0 !== c.ecInfoProductCard.SpecialPrice && c.ecInfoProductCard.SpecialPrice !== c.ecInfoProductCard.Mapping_Price && "" !== c.ecInfoProductCard.Discount ? [_("div", {
+                class: ["groupNameRow", c.$style.groupNameRow, c.themeColor],
+                domProps: {
+                    innerHTML: c._s(c.priceConfigGetter.groupNameDisplayRule.replace(/{regularPrice}/i, "<span class='regularPrice'>" + c.ecInfoProductCard.RegularPrice + "</span>").replace(/{Save}/i, "<span class='save'>" + c.ecInfoProductCard.DiscountWording + "</span>").replace(/{amountOff}/i, "<span class='amountOff'>" + c.ecInfoProductCard.Discount + "</span>").replace(/{groupName}/i, "<span class='groupName'>" + c.ecInfoProductCard.GroupLabelName + "</span>"))
+                }
+            })] : ["" !== c.ecInfoProductCard.Price ? _("div", {
+                class: ["price", c.$style.price, (o = {},
+                o.priceDiscount = "" !== c.ecInfoProductCard.Discount,
+                o[c.$style.priceDiscount] = "" !== c.ecInfoProductCard.Discount,
+                o)]
+            }, [c._v("\n                  " + c._s(c.ecInfoProductCard.Price) + "\n                ")]) : c._e(), c._v(" "), _("div", {
+                class: ["discountRow", c.$style.discountRow]
+            }, ["" !== c.ecInfoProductCard.Discount ? _("div", {
+                class: ["regularPrice", c.$style.regularPrice]
+            }, [c._v("\n                    " + c._s(c.ecInfoProductCard.RegularPrice) + "\n                  ")]) : c._e(), c._v(" "), c.ecInfoProductCard.Discount ? _("div", {
+                class: ["save", c.$style.save]
+            }, [c._v("\n                    " + c._s(c.ecInfoProductCard.DiscountWording) + c._s(" ") + c._s(c.ecInfoProductCard.Discount) + "\n                  ")]) : c._e()])]], 2) : c._e()]) : c._e(), c._v(" "), "90pn" !== c.$route.name && void 0 !== c.ecInfoProductCard.Discount && "" !== c.ecInfoProductCard.Discount && !0 === c.ecConfig.priceReduction ? _("div", {
+                class: ["historicLowPricetRow", "theme" + c.themeColor, c.$style.historicLowPricetRow, c.$style["theme" + c.themeColor]]
+            }, [_("span", {
+                class: ["historicLowPrice", c.$style.historicLowPrice]
+            }, [c._v("\n              " + c._s(c.productTabList.LowestPriceInNDayPeriod) + "\n              "), "" !== c.ecInfoProductCard.HistoricLowPrice ? _("span", [c._v(": ")]) : c._e(), c._v(" "), "" !== c.ecInfoProductCard.HistoricLowPrice ? _("span", {
+                class: ["fontBold", c.$style.fontBold]
+            }, [c._v("\n                " + c._s(c.ecInfoProductCard.HistoricLowPrice) + "\n              ")]) : c._e()])]) : c._e(), c._v(" "), _("div", {
+                class: ["info", "theme" + c.themeColor, c.$style.info, c.$style["theme" + c.themeColor]],
+                staticStyle: {
+                    display: "none"
+                }
+            }, [c._v("\n            " + c._s(c.ecInfoProductCard.EndTimeWording) + "\n            "), c.ecInfoProductCard.EndTimeWording && c.ecInfoProductCard.EndTime ? [c._v("\n              :\n            ")] : c._e(), c._v("\n            " + c._s(c.ecInfoProductCard.EndTime) + "\n            "), _("img", {
+                class: ["bell", c.$style.bell],
+                staticStyle: {
+                    display: "none"
+                },
+                attrs: {
+                    src: r(1050),
+                    alt: "bell icon"
+                }
+            })], 2), c._v(" "), _("div", {
+                class: ["info", "theme" + c.themeColor, c.$style.info, c.$style["theme" + c.themeColor]],
+                staticStyle: {
+                    display: "none"
+                }
+            }, [c._v("\n            " + c._s(c.ecInfoProductCard.Notice) + "\n          ")]), c._v(" "), "" !== c.ecInfoProductCard.Buy.Link ? _("div", {
+                class: ["primaryBtnGroup", c.$style.primaryBtnGroup]
+            }, [_("button", {
+                class: ["button", c.$style.button],
+                on: {
+                    click: function(e) {
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_btn_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "buyButton-" + c.ecInfoProductCard.Buy.Text + "/ec/gallery_pdc",
+                            event_value_DL: ""
+                        }),
+                        c.openWindow(c.ecInfoProductCard.Buy.Link)
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openWindow(c.ecInfoProductCard.Buy.Link),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_btn_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "buyButton-" + c.ecInfoProductCard.Buy.Text + "/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [c._v("\n              " + c._s(c.ecInfoProductCard.Buy.Text) + "\n            ")]), c._v(" "), _("div", {
+                class: ["loveIcon", c.$style.loveIcon],
+                staticStyle: {
+                    display: "none"
+                },
+                on: {
+                    click: function(e) {
+                        return c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "wish_list_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "added",
+                            event_label_DL: "wish list/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "wish_list_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "added",
+                            event_label_DL: "wish list/ec/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M17.732 3.174c-1.729-.46-3.548 0-4.822 1.286l-.91.92-.91-.92C9.816 3.174 7.997 2.714 6.268 3.174c-4.64 1.378-5.46 6.524-2.639 9.372l.637.644L12 21l7.734-7.81.637-.644c2.82-2.848 2.002-7.994-2.639-9.372z",
+                    stroke: "#248DFF",
+                    "stroke-width": "2.2",
+                    "stroke-miterlimit": "10",
+                    "stroke-linejoin": "round"
+                }
+            })])])]) : c._e(), c._v(" "), "" === c.ecInfoProductCard.Buy.Link && 0 !== c.ecInfoProductCard.WhereToBuy.WTBFlag ? _("div", {
+                class: ["primaryBtnGroup", c.$style.primaryBtnGroup]
+            }, [_("button", {
+                class: ["button", c.$style.button],
+                on: {
+                    click: function(e) {
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_btn_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "wheretobuyButton-" + c.ecInfoProductCard.WhereToBuy.Text + "/ec/gallery_pdc",
+                            event_value_DL: ""
+                        }),
+                        c.redirect()
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_btn_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "wheretobuyButton-" + c.ecInfoProductCard.WhereToBuy.Text + "/ec/gallery_pdc",
+                            event_value_DL: ""
+                        }),
+                        c.isTouchDevice() && c.redirect()
+                    }
+                }
+            }, [c._v("\n              " + c._s(c.ecInfoProductCard.WhereToBuy.Text) + "\n            ")])]) : c._e(), c._v(" "), 0 !== c.ecInfoProductCard.WhereToBuy.WTBFlag ? _("div", {
+                class: ["secondBtnGroup", c.$style.secondBtnGroup]
+            }, [0 !== c.ecInfoProductCard.WhereToBuy.WTBFlag ? _("button", {
+                class: ["secondaryBtn", "theme" + c.themeColor, c.$style.secondaryBtn, c.$style["theme" + c.themeColor]],
+                on: {
+                    click: function(e) {
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_btn_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "wheretobuyButton-" + c.ecInfoProductCard.WhereToBuy.Text + "/ec/gallery_pdc",
+                            event_value_DL: ""
+                        }),
+                        c.redirect()
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_btn_ec_gallery_pdc",
+                            event_category_DL: "ec/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "wheretobuyButton-" + c.ecInfoProductCard.WhereToBuy.Text + "/ec/gallery_pdc",
+                            event_value_DL: ""
+                        }),
+                        c.isTouchDevice() && c.redirect()
+                    }
+                }
+            }, [c._v("\n              " + c._s(c.ecInfoProductCard.WhereToBuy.Text) + "\n            ")]) : c._e(), c._v(" "), _("div", {
+                class: ["whereIcon", c.$style.whereIcon],
+                staticStyle: {
+                    display: "none"
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M20 8.868c0 6.526-8 13.632-8 13.632S4 15.394 4 8.868C4 4.798 7.582 1.5 12 1.5s8 3.299 8 7.368z",
+                    stroke: "#248DFF",
+                    "stroke-width": "2.2",
+                    "stroke-linejoin": "round"
+                }
+            }), _("circle", {
+                attrs: {
+                    cx: "12",
+                    cy: "9",
+                    r: "2.535",
+                    stroke: "#248DFF",
+                    "stroke-width": "2.2"
+                }
+            })])])]) : c._e(), c._v(" "), c.showCompareBtn ? _("CompareCheckBox", {
+                class: ["addToCompare", c.$style.addToCompare],
+                attrs: {
+                    ProductID: c.ProductID,
+                    LevelId: c.defLevelId,
+                    classType: "galleryShowType",
+                    themeColor: c.themeColor,
+                    "aria-label": c.ecInfoProductCard.AddToCompare
+                },
+                on: {
+                    gaClickTrigger: c.sendGA
+                }
+            }, [_("span", {
+                class: ["text", "theme" + c.themeColor, c.$style.text, c.$style["theme" + c.themeColor]]
+            }, [c._v("\n              " + c._s(c.ecInfoProductCard.AddToCompare) + "\n            ")])]) : c._e()], 1) : c._e()])]), c._v(" "), _("div", {
+                class: ["row-download", "downloadBox", "theme" + c.themeColor, c.$style["row-download"], c.$style.downloadBox, c.$style["theme" + c.themeColor]]
+            }, c._l(c.keyProductInfoResult.DownloadList, (function(e, t) {
+                return _("a", {
+                    key: t,
+                    class: ["downloadBtn", c.$style.downloadBtn],
+                    attrs: {
+                        href: e.Link
+                    },
+                    on: {
+                        click: function(t) {
+                            return c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "download_ec_gallery_pdc",
+                                event_category_DL: "ec/gallery_pdc",
+                                event_action_DL: "clicked",
+                                event_label_DL: e.Title + "/ecn/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        },
+                        touchend: function(t) {
+                            c.isTouchDevice() && c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "download_ec_gallery_pdc",
+                                event_category_DL: "ec/gallery_pdc",
+                                event_action_DL: "clicked",
+                                event_label_DL: e.Title + "/ecn/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [_("div", {
+                    class: ["downloadBtnText", c.$style.downloadBtnText]
+                }, [c._v("\n          " + c._s(e.Title) + "\n        ")]), c._v(" "), _("svg", {
+                    class: ["downloadBtnIcon", c.$style.downloadBtnIcon],
+                    attrs: {
+                        viewBox: "0 0 24 24",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M16.5 9L12 13.5 7.5 9",
+                        stroke: "#F5F5F5",
+                        "stroke-width": "1.2",
+                        "stroke-miterlimit": "10",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M12 12.75V3",
+                        stroke: "#F5F5F5",
+                        "stroke-width": "1.2",
+                        "stroke-linecap": "round"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M3.75 12.75v6h16.5v-6",
+                        stroke: "#F5F5F5",
+                        "stroke-width": "1.2",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }
+                })])])
+            }
+            )), 0)]) : "kvSummaryCommercial" === c.classType ? _("div", {
+                class: ["galleryShowNormal", c.$style.galleryShowNormal]
+            }, [_("div", {
+                class: ["btnContainer", c.$style.btnContainer]
+            }, [c.ThreeDimensionalLink ? _("a", {
+                class: ["threeDimensionalButton", c.$style.threeDimensionalButton],
+                attrs: {
+                    tabindex: "0",
+                    href: c.ThreeDimensionalLink,
+                    target: "_blank",
+                    rel: "noreferrer noopener",
+                    alt: "3D icon"
+                },
+                on: {
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_category_DL: "button",
+                            event_action_DL: "clicked",
+                            event_label_DL: "3D",
+                            event_value_DL: "0"
+                        })
+                    },
+                    click: function(e) {
+                        return c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_category_DL: "button",
+                            event_action_DL: "clicked",
+                            event_label_DL: "3D",
+                            event_value_DL: "0"
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_category_DL: "button",
+                            event_action_DL: "clicked",
+                            event_label_DL: "3D",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    viewBox: "0 0 40 40",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("rect", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    rx: "4",
+                    fill: "#F5F5F5"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M12.667 27c-.778 0-1.459-.104-2.042-.311-.583-.207-1.07-.44-1.458-.7A5.279 5.279 0 018 24.959l1.167-1.167c.246.285.538.544.875.777a6.07 6.07 0 001.089.545c.44.155.952.233 1.536.233.933 0 1.652-.233 2.158-.7a2.26 2.26 0 00.758-1.73c0-.311-.065-.616-.194-.914a2.02 2.02 0 00-.545-.778 2.492 2.492 0 00-.913-.525c-.363-.143-.785-.214-1.264-.214h-1.459v-1.653h1.459c.777 0 1.374-.194 1.789-.583.427-.402.641-.92.641-1.556a1.89 1.89 0 00-.641-1.458c-.415-.389-1.012-.583-1.79-.583-.492 0-.926.078-1.302.233a5.198 5.198 0 00-.933.506 4.61 4.61 0 00-.778.72l-1.167-1.265a5.298 5.298 0 011.07-.914c.35-.233.784-.447 1.302-.641.519-.195 1.122-.292 1.809-.292.635 0 1.205.097 1.71.292.52.194.96.453 1.323.777s.642.707.836 1.148c.207.44.311.9.311 1.38 0 .584-.11 1.07-.33 1.459-.208.388-.441.7-.7.933-.299.272-.636.48-1.011.622.466.143.888.357 1.263.642.312.246.597.583.856 1.01.272.416.408.967.408 1.654 0 .531-.11 1.043-.33 1.536a3.776 3.776 0 01-.914 1.303 4.68 4.68 0 01-1.478.913c-.57.22-1.218.331-1.944.331zM20.436 13.194h4.375c.998 0 1.925.182 2.78.545.87.363 1.621.855 2.256 1.478a6.726 6.726 0 011.517 2.177c.363.817.544 1.686.544 2.606a6.48 6.48 0 01-.544 2.625 6.786 6.786 0 01-1.517 2.158 7.093 7.093 0 01-2.255 1.478 7.045 7.045 0 01-2.78.545h-4.376V13.194zm4.375 11.959c.752 0 1.452-.136 2.1-.409a5.337 5.337 0 001.711-1.108A5.032 5.032 0 0030.158 20c0-.7-.136-1.361-.408-1.983a5.061 5.061 0 00-1.128-1.653 5.337 5.337 0 00-1.71-1.108 5.367 5.367 0 00-2.1-.409h-2.626v10.306h2.625z",
+                    fill: "#666"
+                }
+            })])]) : c._e(), c._v(" "), _("div", {
+                class: ["searchBtn", "searchIcon", "theme" + c.themeColor, c.$style.searchIcon, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    "aria-label": "View " + (c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].ImageAlt : "") + " in full screen",
+                    role: "button",
+                    alt: "search icon"
+                },
+                on: {
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : (c.openGallery(c.mainImageIndex),
+                        void c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/n/gallery_pdc",
+                            event_value_DL: ""
+                        }))
+                    },
+                    click: function(e) {
+                        c.openGallery(c.mainImageIndex),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openGallery(c.mainImageIndex),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    viewBox: "0 0 40 40",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("rect", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    rx: "4",
+                    fill: "#F5F5F5"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M24.934 24.935l4.399 4.398m-2.267-10.466a8.2 8.2 0 11-16.4 0 8.2 8.2 0 0116.4 0z",
+                    stroke: "#666",
+                    "stroke-width": "1.5",
+                    "stroke-linecap": "round"
+                }
+            })])])]), c._v(" "), _("div", {
+                class: ["imgContainer", c.$style.imgContainer]
+            }, [_("div", {
+                class: ["currentImageWrap", c.$style.currentImageWrap],
+                on: {
+                    click: function(e) {
+                        return c.openGallery(c.mainImageIndex)
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openGallery(c.mainImageIndex)
+                    },
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : c.openGallery(c.mainImageIndex)
+                    }
+                }
+            }, [_("picture", [c.getCurrentColorProductImageArray[c.mainImageIndex] && c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg.includes("/gain/") ? _("source", {
+                attrs: {
+                    type: "image/webp",
+                    srcset: c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg + "/fwebp"
+                }
+            }) : c._e(), c._v(" "), c.getCurrentColorProductImageArray[c.mainImageIndex] && c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg.includes("/media/Odin/") ? _("source", {
+                attrs: {
+                    type: "image/webp",
+                    srcset: c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg + "?webp"
+                }
+            }) : c._e(), c._v(" "), _("img", {
+                attrs: {
+                    src: c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg : "",
+                    alt: c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].ImageAlt : ""
+                }
+            })])])]), c._v(" "), _("div", {
+                class: ["mobileChooseColor", c.$style.mobileChooseColor]
+            }, [_("ColorSelector", {
+                attrs: {
+                    colorList: c.keyProductInfoResult.GalleryList,
+                    colorCodePicked: c.colorCodePicked,
+                    checkType: "galleryShow",
+                    isWhiteCard: "White" === c.themeColor
+                },
+                on: {
+                    changeColorPick: c.colorSelectorPick
+                }
+            })], 1), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.getCurrentColorProductImageArray && c.getCurrentColorProductImageArray.length > 0,
+                    expression: "\n        getCurrentColorProductImageArray &&\n          getCurrentColorProductImageArray.length > 0\n      "
+                }],
+                class: ["galleryThumbnailsContainer", "theme" + c.themeColor, c.$style.galleryThumbnailsContainer, c.$style["theme" + c.themeColor]]
+            }, [c.OPSwiperShow ? _("div", {
+                directives: [{
+                    name: "swiper",
+                    rawName: "v-swiper:OPSwiperShow",
+                    value: c.OPSwiperOption,
+                    expression: "OPSwiperOption",
+                    arg: "OPSwiperShow"
+                }],
+                class: ["galleryThumbnails", c.$style.galleryThumbnails],
+                attrs: {
+                    id: "galleryThumbnails"
+                }
+            }, [_("div", {
+                staticClass: "thumbnails-wrapper",
+                class: ["swiperWrapper", c.$style.swiperWrapper, (n = {},
+                n.fewImages = c.productImageNumber < c.OPSwiperSlidesPerView,
+                n[c.$style.fewImages] = c.productImageNumber < c.OPSwiperSlidesPerView,
+                n)]
+            }, c._l(c.getCurrentColorProductImageArray, (function(image, e) {
+                var t;
+                return _("div", {
+                    key: e,
+                    class: ["thumbnails-slide", "thumbnailsSlide", "theme" + c.themeColor, c.$style.thumbnailsSlide, c.$style["theme" + c.themeColor], (t = {},
+                    t.thumbnailActive = e === c.mainImageIndex,
+                    t[c.$style.thumbnailActive] = e === c.mainImageIndex,
+                    t)],
+                    attrs: {
+                        tabindex: "0"
+                    },
+                    on: {
+                        click: function(t) {
+                            c.selectMainImage(e),
+                            c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        },
+                        touchend: function(t) {
+                            c.isTouchDevice() && c.selectMainImage(e),
+                            c.isTouchDevice() && c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        },
+                        keyup: function(t) {
+                            if (!t.type.indexOf("key") && c._k(t.keyCode, "enter", 13, t.key, "Enter"))
+                                return null;
+                            t.preventDefault(),
+                            t.stopPropagation(),
+                            c.selectMainImage(e),
+                            c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [_("picture", [image && image.Thumb.includes("/gain/") ? _("source", {
+                    attrs: {
+                        type: "image/webp",
+                        srcset: image.Thumb + "/fwebp"
+                    }
+                }) : c._e(), c._v(" "), image && image.Thumb.includes("/media/Odin/") ? _("source", {
+                    attrs: {
+                        type: "image/webp",
+                        srcset: image.Thumb + "?webp"
+                    }
+                }) : c._e(), c._v(" "), _("img", {
+                    attrs: {
+                        src: image.Thumb,
+                        alt: image.ImageAlt
+                    }
+                })])])
+            }
+            )), 0)]) : c._e(), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.OPSwiperShow,
+                    expression: "OPSwiperShow"
+                }],
+                class: ["thumbnailsButtonPrev", "theme" + c.themeColor, c.$style.thumbnailsButtonPrev, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    id: "ops-thumbnails-prev",
+                    "aria-label": "previous button"
+                },
+                on: {
+                    click: function(e) {
+                        e.stopPropagation(),
+                        c.selectMainImage(c.mainImageIndex - 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex - 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    keydown: function(e) {
+                        if (!e.type.indexOf("key") && c._k(e.keyCode, "space", 32, e.key, [" ", "Spacebar"]))
+                            return null;
+                        e.preventDefault(),
+                        c.selectMainImage(c.mainImageIndex - 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    viewBox: "0 0 40 40",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M35 26L20 14 5 26",
+                    stroke: "#B3B3B3",
+                    "stroke-width": "1.5",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.OPSwiperShow,
+                    expression: "OPSwiperShow"
+                }],
+                class: ["thumbnailsButtonNext", "theme" + c.themeColor, c.$style.thumbnailsButtonNext, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    id: "ops-thumbnails-next",
+                    "aria-label": "next button"
+                },
+                on: {
+                    click: function(e) {
+                        e.stopPropagation(),
+                        c.selectMainImage(c.mainImageIndex + 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex + 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    keydown: function(e) {
+                        if (!e.type.indexOf("key") && c._k(e.keyCode, "space", 32, e.key, [" ", "Spacebar"]))
+                            return null;
+                        e.preventDefault(),
+                        c.selectMainImage(c.mainImageIndex + 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    viewBox: "0 0 40 40",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M35 26L20 14 5 26",
+                    stroke: "#B3B3B3",
+                    "stroke-width": "1.5",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])])])]) : _("div", {
+                class: ["galleryShowNormal", c.$style.galleryShowNormal]
+            }, [_("div", {
+                class: ["magnifierColor", c.$style.magnifierColor]
+            }, [_("div", {
+                class: ["searchBtn", "searchIcon", "theme" + c.themeColor, c.$style.searchIcon, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    "aria-label": "View " + (c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].ImageAlt : "") + " in full screen",
+                    role: "button",
+                    alt: "search icon"
+                },
+                on: {
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : (c.openGallery(c.mainImageIndex),
+                        void c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/n/gallery_pdc",
+                            event_value_DL: ""
+                        }))
+                    },
+                    click: function(e) {
+                        c.openGallery(c.mainImageIndex),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openGallery(c.mainImageIndex),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "zoom_in_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "zoom in/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, ["White" !== c.themeColor ? _("svg", {
+                attrs: {
+                    width: "36",
+                    height: "36",
+                    viewBox: "0 0 36 36",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M24.345 24.345L30 30m-2.914-13.457c0 5.823-4.72 10.543-10.543 10.543C10.72 27.086 6 22.366 6 16.543 6 10.72 10.72 6 16.543 6c5.823 0 10.543 4.72 10.543 10.543z",
+                    stroke: "#B3B3B3",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round"
+                }
+            })]) : c._e(), c._v(" "), "White" === c.themeColor ? _("svg", {
+                attrs: {
+                    width: "36",
+                    height: "36",
+                    viewBox: "0 0 36 36",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M24.345 24.345L30 30m-2.914-13.457c0 5.823-4.72 10.543-10.543 10.543C10.72 27.086 6 22.366 6 16.543 6 10.72 10.72 6 16.543 6c5.823 0 10.543 4.72 10.543 10.543z",
+                    stroke: "#666",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round"
+                }
+            })]) : c._e()]), c._v(" "), "mobile" !== c.rwdState ? _("div", {
+                class: ["chooseColor", c.$style.chooseColor]
+            }, [_("ColorSelector", {
+                attrs: {
+                    colorList: c.keyProductInfoResult.GalleryList,
+                    colorCodePicked: c.colorCodePicked,
+                    checkType: "galleryShow",
+                    isWhiteCard: "White" === c.themeColor
+                },
+                on: {
+                    changeColorPick: c.colorSelectorPick
+                }
+            })], 1) : c._e()]), c._v(" "), _("div", {
+                class: ["imgContainer", c.$style.imgContainer]
+            }, [_("div", {
+                class: ["currentImageWrap", c.$style.currentImageWrap],
+                on: {
+                    click: function(e) {
+                        return c.openGallery(c.mainImageIndex)
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.openGallery(c.mainImageIndex)
+                    },
+                    keyup: function(e) {
+                        return !e.type.indexOf("key") && c._k(e.keyCode, "enter", 13, e.key, "Enter") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : c.openGallery(c.mainImageIndex)
+                    }
+                }
+            }, [_("picture", [c.getCurrentColorProductImageArray[c.mainImageIndex] && c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg.includes("/gain/") ? _("source", {
+                attrs: {
+                    type: "image/webp",
+                    srcset: c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg + "/fwebp"
+                }
+            }) : c._e(), c._v(" "), c.getCurrentColorProductImageArray[c.mainImageIndex] && c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg.includes("/media/Odin/") ? _("source", {
+                attrs: {
+                    type: "image/webp",
+                    srcset: c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg + "?webp"
+                }
+            }) : c._e(), c._v(" "), _("img", {
+                attrs: {
+                    src: c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].PreviewImg : "",
+                    alt: c.getCurrentColorProductImageArray[c.mainImageIndex] ? c.getCurrentColorProductImageArray[c.mainImageIndex].ImageAlt : ""
+                }
+            })])])]), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.getCurrentColorProductImageArray && c.getCurrentColorProductImageArray.length > 0,
+                    expression: "\n        getCurrentColorProductImageArray &&\n          getCurrentColorProductImageArray.length > 0\n      "
+                }],
+                class: ["galleryThumbnailsContainer", "theme" + c.themeColor, c.$style.galleryThumbnailsContainer, c.$style["theme" + c.themeColor]]
+            }, [_("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.OPSwiperShow,
+                    expression: "OPSwiperShow"
+                }],
+                class: ["galleryThumbnails", c.$style.galleryThumbnails],
+                attrs: {
+                    id: "galleryThumbnails"
+                }
+            }, [_("div", {
+                staticClass: "thumbnails-wrapper",
+                class: ["swiperWrapper", c.$style.swiperWrapper, (l = {},
+                l.fewImages = c.productImageNumber < c.OPSwiperSlidesPerView,
+                l[c.$style.fewImages] = c.productImageNumber < c.OPSwiperSlidesPerView,
+                l)]
+            }, c._l(c.getCurrentColorProductImageArray, (function(image, e) {
+                var t;
+                return _("div", {
+                    key: e,
+                    staticClass: "thumbnails-slide",
+                    class: ["thumbnailsSlide", "theme" + c.themeColor, c.$style.thumbnailsSlide, c.$style["theme" + c.themeColor], (t = {},
+                    t.thumbnailActive = e === c.mainImageIndex,
+                    t[c.$style.thumbnailActive] = e === c.mainImageIndex,
+                    t)],
+                    attrs: {
+                        tabindex: "0"
+                    },
+                    on: {
+                        click: function(t) {
+                            c.selectMainImage(e),
+                            c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        },
+                        touchend: function(t) {
+                            c.isTouchDevice() && c.selectMainImage(e),
+                            c.isTouchDevice() && c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        },
+                        keyup: function(t) {
+                            if (!t.type.indexOf("key") && c._k(t.keyCode, "enter", 13, t.key, "Enter"))
+                                return null;
+                            t.preventDefault(),
+                            t.stopPropagation(),
+                            c.selectMainImage(e),
+                            c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "switching_img_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "switched",
+                                event_label_DL: image.Thumb + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [_("picture", [image && image.Thumb.includes("/gain/") ? _("source", {
+                    attrs: {
+                        type: "image/webp",
+                        srcset: image.Thumb + "/fwebp"
+                    }
+                }) : c._e(), c._v(" "), image && image.Thumb.includes("/media/Odin/") ? _("source", {
+                    attrs: {
+                        type: "image/webp",
+                        srcset: image.Thumb + "?webp"
+                    }
+                }) : c._e(), c._v(" "), _("img", {
+                    attrs: {
+                        src: image.Thumb,
+                        alt: image.ImageAlt
+                    }
+                })])])
+            }
+            )), 0)]), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.OPSwiperShow,
+                    expression: "OPSwiperShow"
+                }],
+                class: ["thumbnailsButtonPrev", "theme" + c.themeColor, c.$style.thumbnailsButtonPrev, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    id: "ops-thumbnails-prev"
+                },
+                on: {
+                    click: function(e) {
+                        e.stopPropagation(),
+                        c.selectMainImage(c.mainImageIndex - 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex - 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    keydown: function(e) {
+                        if (!e.type.indexOf("key") && c._k(e.keyCode, "space", 32, e.key, [" ", "Spacebar"]))
+                            return null;
+                        e.preventDefault(),
+                        c.selectMainImage(c.mainImageIndex - 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "previous_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "previous/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    viewBox: "0 0 40 40",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M35 26L20 14 5 26",
+                    stroke: "#B3B3B3",
+                    "stroke-width": "1.5",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), c._v(" "), _("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.OPSwiperShow,
+                    expression: "OPSwiperShow"
+                }],
+                class: ["thumbnailsButtonNext", "theme" + c.themeColor, c.$style.thumbnailsButtonNext, c.$style["theme" + c.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    id: "ops-thumbnails-next",
+                    "aria-label": "next button"
+                },
+                on: {
+                    click: function(e) {
+                        e.stopPropagation(),
+                        c.selectMainImage(c.mainImageIndex + 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    touchend: function(e) {
+                        c.isTouchDevice() && c.selectMainImage(c.mainImageIndex + 1),
+                        c.isTouchDevice() && c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    },
+                    keydown: function(e) {
+                        if (!e.type.indexOf("key") && c._k(e.keyCode, "space", 32, e.key, [" ", "Spacebar"]))
+                            return null;
+                        e.preventDefault(),
+                        c.selectMainImage(c.mainImageIndex + 1),
+                        c.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "next_n_gallery_pdc",
+                            event_category_DL: "n/gallery_pdc",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next/n/gallery_pdc",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [_("svg", {
+                attrs: {
+                    width: "40",
+                    height: "40",
+                    viewBox: "0 0 40 40",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    d: "M35 26L20 14 5 26",
+                    stroke: "#B3B3B3",
+                    "stroke-width": "1.5",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])])]), c._v(" "), "mobile" === c.rwdState ? _("div", {
+                class: ["mobileChooseColor", c.$style.mobileChooseColor]
+            }, [_("ColorSelector", {
+                attrs: {
+                    colorList: c.keyProductInfoResult.GalleryList,
+                    colorCodePicked: c.colorCodePicked,
+                    checkType: "galleryShow",
+                    isWhiteCard: "White" === c.themeColor
+                },
+                on: {
+                    changeColorPick: c.colorSelectorPick
+                }
+            })], 1) : c._e(), c._v(" "), _("div", {
+                class: ["choose3dOrAr", c.$style.choose3dOrAr],
+                staticStyle: {
+                    display: "none"
+                }
+            }, [_("div", [_("svg", {
+                attrs: {
+                    viewBox: "0 0 28 28",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    d: "M14.266 1.076a.75.75 0 00-.626 0L1.458 6.672a.75.75 0 00-.437.682v13.499a.75.75 0 00.422.674l12.182 5.926c.207.101.45.101.656 0l12.182-5.926a.75.75 0 00.422-.674V7.354a.75.75 0 00-.437-.681L14.266 1.075zM2.521 8.882v11.501l10.682 5.197v-7.02h1.5v7.02l10.682-5.197v-11.5l-4.407 2.143-.629-1.362 4.38-2.13-10.776-4.952L3.178 7.533l4.38 2.13-.63 1.363-4.407-2.144z",
+                    fill: "#999"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M11.583 14.626l.666 2.086h1.442L11.3 9.352H9.585l-2.36 7.36h1.388l.633-2.086h2.337zm-2.119-1.015l.568-1.813c.132-.437.24-.95.35-1.376h.022c.109.425.23.928.371 1.376l.579 1.813h-1.89zM14.715 16.712h1.332v-3.025h.677c.765.022 1.114.328 1.322 1.289.207.917.382 1.518.491 1.736h1.387c-.152-.284-.349-1.135-.578-2.053-.186-.71-.503-1.223-1.027-1.42v-.032c.688-.252 1.332-.896 1.332-1.846 0-.623-.229-1.136-.633-1.475-.492-.415-1.212-.59-2.272-.59-.775 0-1.529.066-2.031.154v7.262zm1.332-6.334c.131-.033.404-.066.83-.066.874 0 1.442.372 1.442 1.18 0 .732-.568 1.212-1.474 1.212h-.798v-2.326z",
+                    fill: "#999"
+                }
+            })]), c._v(" "), _("span", {
+                class: ["text", c.$style.text]
+            }, [c._v("\n          view on your table\n        ")])]), c._v(" "), _("div", [_("svg", {
+                attrs: {
+                    viewBox: "0 0 33 32",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [_("path", {
+                attrs: {
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    d: "M6.088 14.712a24.34 24.34 0 011.24-.307v1.538a22 22 0 00-.84.214c-1.263.35-2.233.754-2.87 1.17-.667.437-.79.764-.79.92 0 .152.09.418.542.777.445.352 1.139.708 2.077 1.038 1.87.656 4.542 1.145 7.657 1.348a.75.75 0 01-.097 1.497c-3.197-.208-6.014-.713-8.056-1.43-1.017-.357-1.884-.78-2.512-1.277-.62-.491-1.112-1.143-1.112-1.952 0-.942.683-1.66 1.47-2.176.82-.536 1.956-.99 3.291-1.36zm20.259 1.445c-.324-.09-.664-.175-1.02-.256v-1.536c.499.107.973.223 1.42.347 1.336.37 2.471.824 3.291 1.36.788.515 1.47 1.234 1.47 2.176 0 .941-.682 1.66-1.47 2.176-.82.535-1.955.99-3.29 1.36-2.474.685-5.777 1.122-9.41 1.186l.668.748a.75.75 0 11-1.118.999l-1.716-1.921-.438-.491.43-.499 1.715-1.99a.75.75 0 011.136.98l-.579.671c3.49-.07 6.615-.492 8.911-1.129 1.264-.35 2.234-.754 2.87-1.17.668-.437.792-.764.792-.92 0-.157-.124-.484-.792-.92-.636-.417-1.606-.82-2.87-1.17z",
+                    fill: "#999"
+                }
+            }), _("path", {
+                attrs: {
+                    d: "M9.192 16.558c.455.299 1.34.585 2.366.585 2.093 0 3.29-1.131 3.29-2.561-.014-1.144-.833-1.911-1.86-2.106v-.026c1.04-.364 1.56-1.092 1.56-1.976 0-1.105-.884-2.067-2.639-2.067-1 0-1.95.325-2.43.65l.363 1.157c.351-.234 1.04-.533 1.73-.533.935 0 1.351.48 1.351 1.066 0 .832-.936 1.17-1.664 1.17h-.728v1.17h.728c.975 0 1.924.429 1.924 1.43 0 .663-.48 1.352-1.703 1.352-.806 0-1.599-.325-1.924-.52l-.364 1.209zM16.565 16.974c.533.065 1.235.117 2.158.117 1.703 0 3.094-.403 3.965-1.196.832-.754 1.365-1.911 1.365-3.484 0-1.482-.52-2.535-1.378-3.224-.806-.676-1.924-1.014-3.562-1.014-.949 0-1.833.078-2.548.182v8.619zm1.6-7.462c.233-.052.584-.091 1.091-.091 2.002 0 3.12 1.118 3.107 3.042 0 2.223-1.235 3.38-3.315 3.367-.325 0-.663 0-.884-.04V9.513z",
+                    fill: "#999"
+                }
+            })]), c._v(" "), _("span", {
+                class: ["text", c.$style.text]
+            }, [c._v("\n            View the model in 3D\n          ")])])]), c._v(" "), c.keyProductInfoResult && c.keyProductInfoResult.DownloadList && c.keyProductInfoResult.DownloadList.length > 0 ? _("div", {
+                class: ["downloadGroup", "downloadBox", "theme" + c.themeColor, c.$style.downloadGroup, c.$style.downloadBox, c.$style["theme" + c.themeColor]]
+            }, c._l(c.keyProductInfoResult.DownloadList, (function(e, t) {
+                return _("a", {
+                    key: t,
+                    class: ["downloadBtn", c.$style.downloadBtn],
+                    attrs: {
+                        href: e.Link
+                    },
+                    on: {
+                        click: function(t) {
+                            return c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "download_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "clicked",
+                                event_label_DL: e.Title + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        },
+                        touchend: function(t) {
+                            c.isTouchDevice() && c.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "download_n_gallery_pdc",
+                                event_category_DL: "n/gallery_pdc",
+                                event_action_DL: "clicked",
+                                event_label_DL: e.Title + "/n/gallery_pdc",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [_("div", {
+                    class: ["downloadBtnText", c.$style.downloadBtnText]
+                }, [c._v("\n          " + c._s(e.Title) + "\n      ")]), c._v(" "), _("svg", {
+                    class: ["downloadBtnIcon", c.$style.downloadBtnIcon],
+                    attrs: {
+                        viewBox: "0 0 24 24",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [_("path", {
+                    attrs: {
+                        d: "M16.5 9L12 13.5 7.5 9",
+                        stroke: "#F5F5F5",
+                        "stroke-width": "1.2",
+                        "stroke-miterlimit": "10",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M12 12.75V3",
+                        stroke: "#F5F5F5",
+                        "stroke-width": "1.2",
+                        "stroke-linecap": "round"
+                    }
+                }), _("path", {
+                    attrs: {
+                        d: "M3.75 12.75v6h16.5v-6",
+                        stroke: "#F5F5F5",
+                        "stroke-width": "1.2",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }
+                })])])
+            }
+            )), 0) : c._e()]), c._v(" "), c.isClick && !c.isPDC ? _("lightbox", {
+                ref: "lightbox",
+                staticClass: "lightbox",
+                attrs: {
+                    images: c.getCurrentColorProductImageArray,
+                    nThumbs: c.getCurrentColorProductImageArray.length,
+                    "show-light-box": !0,
+                    windowWidth: c.windowWidth
+                }
+            }) : c.isPDC ? _("GalleryLightboxPDC", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: c.isClick,
+                    expression: "isClick"
+                }],
+                attrs: {
+                    "trigger-show-image": c.triggerShowImage
+                }
+            }) : c._e()], 1) : c._e()
+        }
+        ), [], !1, (function(e) {
+            this.$style = T.default.locals || T.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    880: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNNSAyLjVMMTAuNyA3Ljk5OTk5TDUgMTMuNSIgc3Ryb2tlPSIjMTgxODE4IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+DQo="
+    },
+    881: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyAgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPHBhdGggZD0iTTExIDEzLjVMNS4zIDguMDAwMDFMMTEgMi41IiBzdHJva2U9IiMxODE4MTgiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8L3N2Zz4NCg=="
+    }
+}]);
