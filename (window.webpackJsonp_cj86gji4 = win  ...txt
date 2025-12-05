@@ -1,0 +1,560 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[47], {
+    1049: function(e, t, o) {
+        "use strict";
+        var r = o(752)
+          , n = o.n(r);
+        t.default = n.a
+    },
+    1221: function(e, t, o) {
+        "use strict";
+        o.r(t);
+        var r = o(749).a
+          , n = o(1049)
+          , c = o(10);
+        var component = Object(c.a)(r, (function() {
+            var e = this
+              , t = e.$createElement
+              , o = e._self._c || t;
+            return e.getMDADataGetter ? o("div", {
+                class: [e.$style.wrapper, e.$style["theme" + e.themeColor]]
+            }, [o("Popup", {
+                attrs: {
+                    isOpen: e.isHealthcarePopOpen,
+                    buttonText: {
+                        confirm: e.healthcarePopData.ActionYes,
+                        cancel: e.healthcarePopData.ActionNo
+                    },
+                    buttonLink: {
+                        confirm: "",
+                        cancel: ""
+                    },
+                    theme: {
+                        hasCloseBtn: !1,
+                        zIndex: 12001
+                    },
+                    header: e.healthcarePopData.Header
+                },
+                on: {
+                    yes: e.yes,
+                    no: e.no
+                }
+            }, [o("div", [e._v(e._s(e.healthcarePopData.Copy))]), e._v(" "), o("div", [e._v(e._s(e.healthcarePopData.Ask))])]), e._v(" "), e.getPDOverviewSettingGetter && 1 === e.getPDOverviewSettingGetter.PurchaseModule ? [o("LevelFourProductPageHeaderPurchase")] : [o("LevelFourProductPageHeader", {
+                attrs: {
+                    windowWidth: e.windowWidth
+                }
+            })], e._v(" "), e.$route.params.levelOneTopMenuName && e.getMDADataGetter.MDANameHtml ? o("div", {
+                class: e.$style.MDA,
+                style: [0 !== e.windowWidth && e.windowWidth < 1023 && {
+                    "margin-top": "46px"
+                }]
+            }, [o("div", {
+                class: e.$style.MDANameHtml,
+                domProps: {
+                    innerHTML: e._s(e.getMDADataGetter.MDANameHtml)
+                }
+            })]) : e._e(), e._v(" "), o("router-view", {
+                style: [!(e.$route.params.levelOneTopMenuName && e.getMDADataGetter.MDANameHtml || 0 === e.windowWidth) && e.windowWidth < 1023 && "Review" !== e.$route.name && "Overview" !== e.$route.name && {
+                    "margin-top": "46px"
+                }]
+            }), e._v(" "), e.getIsScrollToTop ? o("ScrollTop", {
+                ref: "refScrollTop"
+            }) : e._e(), e._v(" "), o("OnlineChat", {
+                ref: "OnlineChat"
+            })], 2) : e._e()
+        }
+        ), [], !1, (function(e) {
+            this.$style = n.default.locals || n.default
+        }
+        ), null, null);
+        t.default = component.exports
+    },
+    749: function(e, t, o) {
+        "use strict";
+        (function(e) {
+            o(48),
+            o(56),
+            o(57),
+            o(36),
+            o(43),
+            o(29),
+            o(11),
+            o(68),
+            o(14),
+            o(15),
+            o(16),
+            o(39),
+            o(38),
+            o(27),
+            o(37),
+            o(44);
+            var r, n = o(4), c = o(0), l = o(40), h = o.n(l), d = o(898), v = o(899), f = o(598), P = o(597), m = o(143), w = o(1), y = o(623), O = o(345), T = (r = function(e, b) {
+                return (r = Object.setPrototypeOf || {
+                    __proto__: []
+                }instanceof Array && function(e, b) {
+                    e.__proto__ = b
+                }
+                || function(e, b) {
+                    for (var p in b)
+                        b.hasOwnProperty(p) && (e[p] = b[p])
+                }
+                )(e, b)
+            }
+            ,
+            function(e, b) {
+                function t() {
+                    this.constructor = e
+                }
+                r(e, b),
+                e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+                new t)
+            }
+            ), D = function(e, t, o, desc) {
+                var r, c = arguments.length, l = c < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, o) : desc;
+                if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                    l = Reflect.decorate(e, t, o, desc);
+                else
+                    for (var i = e.length - 1; i >= 0; i--)
+                        (r = e[i]) && (l = (c < 3 ? r(l) : c > 3 ? r(t, o, l) : r(t, o)) || l);
+                return c > 3 && l && Object.defineProperty(t, o, l),
+                l
+            }, C = function(e, t, o, r) {
+                return new (o || (o = Promise))((function(n, c) {
+                    function l(e) {
+                        try {
+                            d(r.next(e))
+                        } catch (e) {
+                            c(e)
+                        }
+                    }
+                    function h(e) {
+                        try {
+                            d(r.throw(e))
+                        } catch (e) {
+                            c(e)
+                        }
+                    }
+                    function d(e) {
+                        var t;
+                        e.done ? n(e.value) : (t = e.value,
+                        t instanceof o ? t : new o((function(e) {
+                            e(t)
+                        }
+                        ))).then(l, h)
+                    }
+                    d((r = r.apply(e, t || [])).next())
+                }
+                ))
+            }, S = function(e, body) {
+                var t, o, r, g, n = {
+                    label: 0,
+                    sent: function() {
+                        if (1 & r[0])
+                            throw r[1];
+                        return r[1]
+                    },
+                    trys: [],
+                    ops: []
+                };
+                return g = {
+                    next: c(0),
+                    throw: c(1),
+                    return: c(2)
+                },
+                "function" == typeof Symbol && (g[Symbol.iterator] = function() {
+                    return this
+                }
+                ),
+                g;
+                function c(c) {
+                    return function(l) {
+                        return function(c) {
+                            if (t)
+                                throw new TypeError("Generator is already executing.");
+                            for (; n; )
+                                try {
+                                    if (t = 1,
+                                    o && (r = 2 & c[0] ? o.return : c[0] ? o.throw || ((r = o.return) && r.call(o),
+                                    0) : o.next) && !(r = r.call(o, c[1])).done)
+                                        return r;
+                                    switch (o = 0,
+                                    r && (c = [2 & c[0], r.value]),
+                                    c[0]) {
+                                    case 0:
+                                    case 1:
+                                        r = c;
+                                        break;
+                                    case 4:
+                                        return n.label++,
+                                        {
+                                            value: c[1],
+                                            done: !1
+                                        };
+                                    case 5:
+                                        n.label++,
+                                        o = c[1],
+                                        c = [0];
+                                        continue;
+                                    case 7:
+                                        c = n.ops.pop(),
+                                        n.trys.pop();
+                                        continue;
+                                    default:
+                                        if (!(r = n.trys,
+                                        (r = r.length > 0 && r[r.length - 1]) || 6 !== c[0] && 2 !== c[0])) {
+                                            n = 0;
+                                            continue
+                                        }
+                                        if (3 === c[0] && (!r || c[1] > r[0] && c[1] < r[3])) {
+                                            n.label = c[1];
+                                            break
+                                        }
+                                        if (6 === c[0] && n.label < r[1]) {
+                                            n.label = r[1],
+                                            r = c;
+                                            break
+                                        }
+                                        if (r && n.label < r[2]) {
+                                            n.label = r[2],
+                                            n.ops.push(c);
+                                            break
+                                        }
+                                        r[2] && n.ops.pop(),
+                                        n.trys.pop();
+                                        continue
+                                    }
+                                    c = body.call(e, n)
+                                } catch (e) {
+                                    c = [6, e],
+                                    o = 0
+                                } finally {
+                                    t = r = 0
+                                }
+                            if (5 & c[0])
+                                throw c[1];
+                            return {
+                                value: c[0] ? c[1] : void 0,
+                                done: !0
+                            }
+                        }([c, l])
+                    }
+                }
+            }, L = function(e) {
+                function t() {
+                    var t = null !== e && e.apply(this, arguments) || this;
+                    return t.websiteCode = "",
+                    t.windowWidth = 0,
+                    t.isShowScrollTop = !0,
+                    t.pathArray = [],
+                    t.productTabList = {},
+                    t.onlineChat = {
+                        URL: "TEST"
+                    },
+                    t.isOverviewPage = !0,
+                    t.isHealthcarePage = !1,
+                    t.isHealthcarePopOpen = !1,
+                    t.healthcarePopData = {},
+                    t
+                }
+                return T(t, e),
+                t.prototype.asyncData = function(e) {
+                    return C(this, void 0, Promise, (function() {
+                        var t, o, r, n, c, l, h, d, v, f, P, y, O, T, D;
+                        return S(this, (function(C) {
+                            switch (C.label) {
+                            case 0:
+                                if (t = e.params,
+                                o = e.route,
+                                r = e.env,
+                                n = e.error,
+                                c = e.store,
+                                l = e.redirect,
+                                e.res,
+                                h = Object(m.b)(t.region),
+                                d = [],
+                                v = "",
+                                -1 !== r.baseUrl.indexOf("odinviewapi.asus.com") || -1 !== r.baseUrl.indexOf("stage-asgardapi.asus.com"))
+                                    try {
+                                        v = e.req.headers.authorization ? e.req.headers.authorization.split(" ")[1] : "",
+                                        c.commit("setNDAAuth", v)
+                                    } catch (e) {
+                                        console.error(e)
+                                    }
+                                return d.push(e.store.dispatch("getBreadcrumbData", {
+                                    params: {
+                                        SystemCode: "asus",
+                                        WebsiteCode: h,
+                                        URL: "https://www.asus.com" + o.fullPath
+                                    },
+                                    routePath: o.fullPath
+                                })),
+                                [4, Promise.all(d)];
+                            case 1:
+                                return C.sent(),
+                                f = "",
+                                f = "Overview" === o.name ? "o" : "Review" === o.name || "ReviewSingle" === o.name ? "r" : "",
+                                [4, w.a.getPDReview({
+                                    params: {
+                                        SystemCode: "asus",
+                                        WebsiteCode: h,
+                                        ProductWebpath: t.productModel,
+                                        PageType: f
+                                    },
+                                    headers: {
+                                        NDAAuth: v
+                                    },
+                                    routePath: o.fullPath
+                                }).then((function(e) {
+                                    if (void 0 === e)
+                                        l(501, "");
+                                    else {
+                                        var t = e.data.Result.content;
+                                        "ReviewSingle" === o.name && "custom" !== o.params.reviewtype && (void 0 !== t[o.params.reviewtype] && void 0 !== t[o.params.reviewtype].list && 0 !== Object.keys(t).length && 0 !== t[o.params.reviewtype].list.length || n({
+                                            statusCode: 404,
+                                            message: "Page not found"
+                                        })),
+                                        c.commit("setProductReviewData", e)
+                                    }
+                                }
+                                ))];
+                            case 2:
+                                return C.sent(),
+                                P = t.productModel,
+                                y = P,
+                                -1 !== P.indexOf("(") && (y = y.replace("(", "（")),
+                                -1 !== P.indexOf(")") && (y = y.replace(")", "）")),
+                                [4, w.a.getPDOverviewSetting({
+                                    params: {
+                                        SystemCode: "asus",
+                                        WebsiteCode: h,
+                                        ProductLevel1Code: t.levelOneTopMenuName,
+                                        ProductLevel2Code: t.levelTwoProductLineName,
+                                        SeriesWebPath: "SupportOnly" === o.name ? "supportonly" : t.seriesName,
+                                        ProductWebPath: y,
+                                        ProductTabWebPath: "ProductTab" === o.name ? t.contentName : ""
+                                    },
+                                    headers: {
+                                        NDAAuth: v
+                                    },
+                                    routePath: o.fullPath
+                                }).then((function(e) {
+                                    void 0 === e ? l(501, "") : c.commit("setPDOverviewSetting", e)
+                                }
+                                ))];
+                            case 3:
+                                return C.sent(),
+                                [4, w.a.getPDTabList({
+                                    params: {
+                                        SystemCode: "asus",
+                                        WebsiteCode: h,
+                                        ProductLevel1Code: t.levelOneTopMenuName,
+                                        ProductLevel2Code: t.levelTwoProductLineName,
+                                        SeriesWebPath: "SupportOnly" === o.name ? "supportonly" : t.seriesName,
+                                        ProductWebPath: y,
+                                        ProductTabWebPath: "ProductTab" === o.name ? t.contentName : ""
+                                    },
+                                    headers: {
+                                        NDAAuth: v
+                                    },
+                                    routePath: o.fullPath
+                                }).then((function(e) {
+                                    if (void 0 === e)
+                                        l(501, "");
+                                    else {
+                                        var t = e.data.Result.TabList;
+                                        if ("Review" === o.name) {
+                                            var r = !0;
+                                            t.forEach((function(e, t) {
+                                                "review" === e.Webpath && (r = !1)
+                                            }
+                                            )),
+                                            r && n({
+                                                statusCode: 404,
+                                                message: "Page not found"
+                                            })
+                                        }
+                                        if ("TechSpec" === o.name) {
+                                            var h = !0;
+                                            t.forEach((function(e, t) {
+                                                "specifications" === e.Webpath && (h = !1)
+                                            }
+                                            )),
+                                            h && (c.commit("setProductTabListData", e),
+                                            n({
+                                                statusCode: 404,
+                                                message: "Page not found"
+                                            }))
+                                        }
+                                        c.commit("setProductTabListData", e)
+                                    }
+                                }
+                                ))];
+                            case 4:
+                                return C.sent(),
+                                O = !1,
+                                T = {},
+                                [4, w.a.getHealthCarePageCheck({
+                                    params: {
+                                        SystemCode: "asus",
+                                        WebsiteCode: h,
+                                        ProductLevel1Code: t.levelOneTopMenuName,
+                                        ProductLevel2Code: t.levelTwoProductLineName,
+                                        SeriesWebpath: t.seriesName
+                                    },
+                                    routePath: o.fullPath
+                                }).then((function(e) {
+                                    var t;
+                                    e && (null === (t = e.data.Result) || void 0 === t ? void 0 : t.IsHealthCare) && (O = !0,
+                                    T = e.data.Result)
+                                }
+                                ))];
+                            case 5:
+                                return C.sent(),
+                                D = "global" === h ? "/" : "/" + h + "/",
+                                c.getters.productTabListGetter && null === c.getters.productTabListGetter.ProductID && l(301, {
+                                    path: "" + D
+                                }),
+                                [2, {
+                                    isHealthcarePage: O,
+                                    healthcarePopData: T
+                                }]
+                            }
+                        }
+                        ))
+                    }
+                    ))
+                }
+                ,
+                t.prototype.created = function() {
+                    this.websiteCode = Object(m.b)(this.$route.params.region),
+                    this.$route.query.apilist
+                }
+                ,
+                t.prototype.mounted = function() {
+                    var e = this;
+                    window.addEventListener("resize", h()(this.setWindowWidth, 100, {
+                        trailing: !0
+                    })),
+                    this.setWindowWidth(),
+                    this.$nextTick((function() {
+                        "Overview" === e.$route.name ? e.isOverviewPage = !0 : e.isOverviewPage = !1,
+                        e.isHealthcarePage && (null === sessionStorage.getItem("healthcareCheck") || "No" === sessionStorage.getItem("healthcareCheck") ? e.isHealthcarePopOpen = !0 : "Yes" === sessionStorage.getItem("healthcareCheck") && (e.isHealthcarePopOpen = !1))
+                    }
+                    ))
+                }
+                ,
+                t.prototype.beforeDestroy = function() {
+                    window.removeEventListener("resize", this.setWindowWidth),
+                    this.MutationProductTabListData({
+                        data: {
+                            Result: {}
+                        }
+                    })
+                }
+                ,
+                Object.defineProperty(t.prototype, "getMDADataGetter", {
+                    get: function() {
+                        return this.$store.state.MDA.MDA
+                    },
+                    enumerable: !0,
+                    configurable: !0
+                }),
+                Object.defineProperty(t.prototype, "getIsScrollToTop", {
+                    get: function() {
+                        return this.$store.getters.productTabListGetter.IsShowGoToTop
+                    },
+                    enumerable: !0,
+                    configurable: !0
+                }),
+                t.prototype.windowReload = function() {
+                    "Overview" === this.$route.name ? this.isOverviewPage = !0 : this.isOverviewPage = !1
+                }
+                ,
+                t.prototype.setIsShowScrollTop = function() {
+                    this.isOverviewPage ? this.isShowScrollTop = this.getIsScrollToTop : this.isShowScrollTop = !0
+                }
+                ,
+                t.prototype.setWindowWidth = function() {
+                    this.windowWidth = window.innerWidth
+                }
+                ,
+                t.prototype.yes = function() {
+                    this.switchHealthcarePopAction("Yes")
+                }
+                ,
+                t.prototype.no = function() {
+                    this.switchHealthcarePopAction("No")
+                }
+                ,
+                t.prototype.switchHealthcarePopAction = function(e) {
+                    this.isHealthcarePopOpen = !this.isHealthcarePopOpen,
+                    sessionStorage.setItem("healthcareCheck", e),
+                    this.postHealthCareLog(e)
+                }
+                ,
+                t.prototype.postHealthCareLog = function(e) {
+                    return C(this, void 0, Promise, (function() {
+                        var t = this;
+                        return S(this, (function(o) {
+                            switch (o.label) {
+                            case 0:
+                                return [4, w.a.postHealthCareLog({
+                                    data: {
+                                        SystemCode: "asus",
+                                        WebsiteCode: this.websiteCode,
+                                        ProductLevel1Code: this.$route.params.levelOneTopMenuName,
+                                        ProductLevel2Code: this.$route.params.levelTwoProductLineName,
+                                        SeriesWebpath: this.$route.params.seriesName,
+                                        Option: e
+                                    },
+                                    routePath: this.$route.fullPath
+                                }).then((function(o) {
+                                    void 0 === o ? console.log("error") : "No" === e && t.$router.push({
+                                        name: "Index"
+                                    })
+                                }
+                                ))];
+                            case 1:
+                                return o.sent(),
+                                [2]
+                            }
+                        }
+                        ))
+                    }
+                    ))
+                }
+                ,
+                D([Object(c.Getter)("onlineChatDataGetter")], t.prototype, "onlineChatDataGetter", void 0),
+                D([Object(c.Getter)("themeColorGetter")], t.prototype, "themeColor", void 0),
+                D([Object(c.Getter)("getPDOverviewSettingGetter")], t.prototype, "getPDOverviewSettingGetter", void 0),
+                D([Object(c.Mutation)("setProductTabListData")], t.prototype, "MutationProductTabListData", void 0),
+                D([Object(c.Watch)("$route")], t.prototype, "windowReload", null),
+                D([Object(c.Watch)("getIsScrollToTop", {
+                    immediate: !0
+                })], t.prototype, "setIsShowScrollTop", null),
+                t = D([Object(c.Component)({
+                    components: {
+                        LevelFourProductPageHeader: d.a,
+                        LevelFourProductPageHeaderPurchase: v.a,
+                        OnlineChat: P.a,
+                        ScrollTop: f.a,
+                        Popup: y.a
+                    }
+                })], t)
+            }(Object(c.mixins)(O.a));
+            t.a = L
+        }
+        ).call(this, o(61))
+    },
+    752: function(e, t, o) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "LevelFourProductPage__wrapper__1C9P7",
+            MDA: "LevelFourProductPage__MDA__sKq1k",
+            themeWhite: "LevelFourProductPage__themeWhite__1M-qy"
+        }
+    }
+}]);

@@ -1,0 +1,3822 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[0], {
+    1010: function(e, t, n) {
+        e.exports = n.p + "img/comparison.bc31f76.png"
+    },
+    1018: function(e, t, n) {
+        "use strict";
+        var o = n(720)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    1129: function(e, t, n) {
+        "use strict";
+        var o = n(837)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    1134: function(e, t, n) {
+        "use strict";
+        var o = n(842)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    591: function(e, t, n) {
+        "use strict";
+        n(11),
+        n(14);
+        var o, r = n(4), l = n(0), c = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), d = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, h = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.isRTL = !1,
+                t
+            }
+            return c(t, e),
+            t.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            t.prototype.callEvent = function(e) {
+                "" === this.href && e.preventDefault(),
+                this.$emit("click", e)
+            }
+            ,
+            d([Object(l.Getter)("AIStatusGetter")], t.prototype, "AIStatusGetter", void 0),
+            d([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "href", void 0),
+            d([Object(l.Prop)({
+                default: "_self"
+            })], t.prototype, "target", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "needCallEvent", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "noHover", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "disabled", void 0),
+            d([Object(l.Prop)()], t.prototype, "fontw", void 0),
+            d([Object(l.Prop)({
+                default: "White"
+            })], t.prototype, "theme", void 0),
+            d([Object(l.Prop)()], t.prototype, "className", void 0),
+            d([Object(l.Prop)()], t.prototype, "color", void 0),
+            t = d([Object(l.Component)({})], t)
+        }(l.Vue), m = n(909), _ = n(10);
+        var component = Object(_.a)(h, (function() {
+            var e, t, n, o, r, l, c = this, d = c.$createElement, h = c._self._c || d;
+            return h("a", {
+                class: [(e = {},
+                e[c.$style.disabled] = c.disabled,
+                e), (t = {},
+                t[c.$style.normal] = !c.disabled,
+                t), (n = {},
+                n[c.$style.specificColor] = c.color,
+                n), (o = {},
+                o[c.$style.noHover] = c.noHover,
+                o), c.$style.link, c.$style[c.className]],
+                style: {
+                    color: !!c.color && c.color
+                },
+                attrs: {
+                    href: c.href && !c.disabled ? c.href : "#",
+                    "data-theme": !c.color && c.theme,
+                    target: c.AIStatusGetter && -1 === c.href.indexOf("www.asus.com") ? "_Blank" : c.target,
+                    rel: "_blank" === c.target ? "noreferrer noopener" : ""
+                },
+                on: {
+                    click: function(e) {
+                        !c.disabled && c.needCallEvent && c.callEvent(e)
+                    }
+                }
+            }, [h("span", {
+                class: [c.$style.LinkText, (r = {},
+                r[c.$style.fontw300] = 300 === c.fontw,
+                r), (l = {},
+                l[c.$style.fontw600] = 600 === c.fontw,
+                l)]
+            }, [c._t("default"), c._v(" "), h("svg", {
+                class: c.$style.arrowRightSVG,
+                style: [!1 === c.isRTL ? {} : {
+                    transform: "rotateY(180deg)"
+                }],
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "12",
+                    height: "12",
+                    fill: "none",
+                    viewBox: "0 0 9 9",
+                    "svg-inline": "",
+                    tabindex: "",
+                    role: "presentation",
+                    focusable: "false"
+                }
+            }, [h("path", {
+                attrs: {
+                    stroke: "#006ce1",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-miterlimit": "10",
+                    d: "M3.375 1.406L6.581 4.5 3.375 7.594"
+                }
+            })])], 2)])
+        }
+        ), [], !1, (function(e) {
+            this.$style = m.default.locals || m.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    594: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgNDAgNTQiPg0KICAgIDxyZWN0IHdpZHRoPSIzOSIgaGVpZ2h0PSI1MyIgeD0iLjUiIHk9Ii41IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii40IiBzdHJva2U9IiMxODE4MTgiIHJ4PSIzLjUiLz4NCiAgICA8cGF0aCBzdHJva2U9IiMxODE4MTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTE1LjUgMTcuMDI1TDI1LjQ3NSAyNyAxNS41IDM2Ljk3NSIvPg0KPC9zdmc+DQo="
+    },
+    595: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA0MCA1NCI+DQogICAgPHJlY3Qgd2lkdGg9IjM5IiBoZWlnaHQ9IjUzIiB4PSIuNSIgeT0iLjUiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjQiIHN0cm9rZT0iIzE4MTgxOCIgcng9IjMuNSIvPg0KICAgIDxwYXRoIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMjQuNSAzNi45NzVMMTQuNTI1IDI3bDkuOTc1LTkuOTc1Ii8+DQo8L3N2Zz4NCg=="
+    },
+    604: function(e, t, n) {
+        "use strict";
+        n(43),
+        n(11),
+        n(14);
+        var o, r = n(4), l = n(0), c = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), d = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, h = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.hover = !1,
+                t.hoverTextColor = "white",
+                t
+            }
+            return c(t, e),
+            Object.defineProperty(t.prototype, "hexToRGB", {
+                get: function() {
+                    var e = this.color
+                      , t = 0
+                      , g = 0
+                      , b = 0;
+                    return e && 0 === e.indexOf("#") ? (3 === (e = e.substr(e.indexOf("#") + 1)).length ? (t = parseInt(e.substr(0, 1) + e.substr(0, 1), 16),
+                    g = parseInt(e.substr(1, 1) + e.substr(1, 1), 16),
+                    b = parseInt(e.substr(2, 1) + e.substr(2, 1), 16)) : 6 === e.length && (t = parseInt(e.substr(0, 2), 16),
+                    g = parseInt(e.substr(2, 2), 16),
+                    b = parseInt(e.substr(4, 2), 16)),
+                    [t, g, b]) : []
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.getSpecificHoverTextColor = function() {
+                if (this.hexToRGB && this.hexToRGB.length > 0) {
+                    var e = Math.round((299 * this.hexToRGB[0] + 587 * this.hexToRGB[1] + 114 * this.hexToRGB[2]) / 1e3);
+                    this.hoverTextColor = e > 200 ? "black" : "white"
+                }
+            }
+            ,
+            t.prototype.isTouchDevice = function() {
+                return "ontouchstart"in window || navigator.maxTouchPoints > 0
+            }
+            ,
+            t.prototype.callEvent = function(e) {
+                "" === this.href && e.preventDefault(),
+                this.$emit("click", e)
+            }
+            ,
+            d([Object(l.Getter)("AIStatusGetter")], t.prototype, "AIStatusGetter", void 0),
+            d([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "href", void 0),
+            d([Object(l.Prop)({
+                default: "_self"
+            })], t.prototype, "target", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "needCallEvent", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "disabled", void 0),
+            d([Object(l.Prop)({
+                default: "White"
+            })], t.prototype, "theme", void 0),
+            d([Object(l.Prop)()], t.prototype, "color", void 0),
+            d([Object(l.Prop)()], t.prototype, "className", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "isDownload", void 0),
+            d([Object(l.Prop)({
+                default: "link"
+            })], t.prototype, "role", void 0),
+            d([Object(l.Watch)("color", {
+                immediate: !0
+            })], t.prototype, "getSpecificHoverTextColor", null),
+            t = d([Object(l.Component)({})], t)
+        }(l.Vue), m = n(908), _ = n(10);
+        var component = Object(_.a)(h, (function() {
+            var e, t = this, n = t.$createElement, o = t._self._c || n;
+            return o("a", {
+                class: ["btn", [t.className], t.$style[t.className], t.$style.btn, (e = {
+                    disabled: t.disabled,
+                    normal: !t.disabled,
+                    specificColor: t.color
+                },
+                e[t.$style.disabled] = t.disabled,
+                e[t.$style.normal] = !t.disabled,
+                e[t.$style.specificColor] = t.color,
+                e)],
+                style: {
+                    color: !!t.color && t.color
+                },
+                attrs: {
+                    href: t.href && !t.disabled ? t.href : "#",
+                    "data-theme": !t.color && t.theme,
+                    target: t.AIStatusGetter && -1 === t.href.indexOf("www.asus.com") ? "_Blank" : t.target,
+                    rel: "_blank" === t.target ? "noreferrer noopener" : "",
+                    role: t.role
+                },
+                on: {
+                    mouseover: function(e) {
+                        t.hover = !0
+                    },
+                    mouseleave: function(e) {
+                        t.hover = !1
+                    },
+                    click: function(e) {
+                        !t.disabled && t.needCallEvent && t.callEvent(e)
+                    },
+                    touchend: function(e) {
+                        t.isTouchDevice() && t.callEvent(e)
+                    }
+                }
+            }, [o("span", {
+                class: ["btnText", t.$style.btnText],
+                style: {
+                    color: !!t.color && (t.hover ? t.hoverTextColor : t.color)
+                }
+            }, [t._t("default")], 2), t._v(" "), t.isDownload ? o("svg", {
+                class: ["arrowDownloadSVG", t.$style.arrowDownloadSVG],
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "24",
+                    height: "24",
+                    fill: "none",
+                    viewBox: "0 0 24 24",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    stroke: "#F5F5F5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-miterlimit": "10",
+                    "stroke-width": "1.2",
+                    d: "M16.5 9L12 13.5 7.5 9"
+                }
+            }), o("path", {
+                attrs: {
+                    stroke: "#F5F5F5",
+                    "stroke-linecap": "round",
+                    "stroke-width": "1.2",
+                    d: "M12 12.75V3"
+                }
+            }), o("path", {
+                attrs: {
+                    stroke: "#F5F5F5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-width": "1.2",
+                    d: "M3.75 12.75v6h16.5v-6"
+                }
+            })]) : t._e()])
+        }
+        ), [], !1, (function(e) {
+            this.$style = m.default.locals || m.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    609: function(e, t, n) {
+        "use strict";
+        n(36),
+        n(599),
+        n(11),
+        n(14),
+        n(37),
+        n(47);
+        var o, r = n(4), l = n(0), c = n(40), d = n.n(c), h = n(604), m = n(591), _ = n(903), f = n(861), v = n.n(f), y = n(600), I = n(32), w = n(601), B = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), x = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, P = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.currentImageIndex = 1,
+                t.widthData = 0,
+                t.itemWidth = 0,
+                t.itemHeight = 0,
+                t.totalItem = 0,
+                t.totalSlide = 0,
+                t.totalSlideMax = 6,
+                t.currentTimer = 0,
+                t.isPlay = !0,
+                t.indicatorTimer = 5e3,
+                t.pagesize = 0,
+                t.pagesizeDefault = 0,
+                t.movesize = 1,
+                t.autoPlay = !0,
+                t.percentageHeight = !1,
+                t.loop = !0,
+                t.firstTiming = !0,
+                t.LayoutType = "",
+                t.backgroundSize = 2560,
+                t.hero2bannerResult = [{
+                    Banners: [],
+                    Layout: ""
+                }],
+                t.hero2bannerData = [],
+                t.heroBannerData = [],
+                t.rwdState = "",
+                t.autoPlayInterval = null,
+                t.fadeInAnimation = !1,
+                t.fontFamilyRegular = v.a.fontFamilyRegular,
+                t.fontFamilyBold = v.a.fontFamilyBold,
+                t.isRTL = !1,
+                t.windowWidth = 0,
+                t
+            }
+            return B(t, e),
+            t.prototype.created = function() {
+                this.getWebsiteCode({
+                    route: this.$route
+                }),
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            t.prototype.mounted = function() {
+                var e = this
+                  , element = this.$refs.image_carousel;
+                this.widthData = element.offsetWidth,
+                this.fadeInAnimation || this.$nextTick((function() {
+                    e.fadeInAnimation = !0,
+                    e.bindInterval(),
+                    setTimeout((function() {
+                        e.firstTiming = !1
+                    }
+                    ), 3e3)
+                }
+                )),
+                this.$nextTick((function() {
+                    window.addEventListener("resize", d()(e.resetCarousel, 100, {
+                        trailing: !0
+                    })),
+                    e.windowWidth = window.innerWidth,
+                    e.resetCarousel(),
+                    e.vtouch(".slimBanner")
+                }
+                ))
+            }
+            ,
+            t.prototype.setHeroBannerToData = function() {
+                var e = this;
+                if (this.heroBannerResult && void 0 !== this.heroBannerResult && (this.heroBannerResult && (this.totalSlide = Math.ceil(this.heroBannerResult.length / this.movesize),
+                this.totalSlide > this.totalSlideMax && (this.totalSlide = this.totalSlideMax),
+                this.reSetData()),
+                this.heroBannerData && 0 !== this.heroBannerData.length)) {
+                    var t = [];
+                    this.heroBannerData.length > 0 && (this.heroBannerData.forEach((function(element, n) {
+                        t.push({
+                            id: element.DesktopItems[0].BackgroudImage["1x"] || "",
+                            name: "" !== element.BannerName ? element.BannerName : element.DesktopItems[0].BackgroudImage["1x"] || "",
+                            position: e.gaPromoViewName + "_" + (n + 1)
+                        })
+                    }
+                    )),
+                    t.length > 0 && this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: t
+                            }
+                        }
+                    }))
+                }
+            }
+            ,
+            t.prototype.reloadState = function() {
+                this.reSetData()
+            }
+            ,
+            Object.defineProperty(t.prototype, "getLevelPath", {
+                get: function() {
+                    var path = "";
+                    return "L2" === this.gaEventPath || "L2.5" === this.gaEventPath ? path = this.$route.params.levelOneTopMenuName + "_" + this.$route.params.levelTwoProductLineName + "/" : "blog" === this.gaEventPath ? path = "overview/" : path
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.getEventLabel = function(e) {
+                return "blog" === this.gaEventPath && this.gaLabel ? this.gaPromoViewName + "_" + e + "/" + this.gaLabel + "/overview/blog" : "hero_banner/" + this.gaEventPath + "_" + e
+            }
+            ,
+            t.prototype.checkSwipe = function(e) {
+                switch (e) {
+                case "left":
+                    this.isRTL ? this.prevImg() : this.nextImg();
+                    break;
+                case "right":
+                    this.isRTL ? this.nextImg() : this.prevImg()
+                }
+            }
+            ,
+            t.prototype.resetCarousel = function() {
+                this.windowWidth = window.innerWidth;
+                var element = this.$refs.image_carousel;
+                element && element.hasChildNodes() && (this.widthData = element.childNodes[0].offsetWidth),
+                this.widthData = element.offsetWidth,
+                this.itemWidth = this.widthData,
+                this.windowWidth > 1279 ? (this.rwdState = "desktop",
+                this.itemHeight = 480,
+                this.backgroundSize = 2560,
+                this.isHero2banner && (this.itemHeight = 480)) : this.windowWidth > 730 && this.windowWidth < 1280 ? (this.rwdState = "tablet",
+                this.itemHeight = 480,
+                this.backgroundSize = 1280) : (this.rwdState = "mobile",
+                this.itemHeight = 480,
+                this.backgroundSize = 730)
+            }
+            ,
+            t.prototype.listItemStyle = function() {
+                var style = {};
+                return style.width = this.widthData + "px",
+                style.height = this.itemHeight + "px",
+                style
+            }
+            ,
+            t.prototype.reSetData = function() {
+                if (this.heroBannerResult) {
+                    for (var e in this.heroBannerResult)
+                        this.heroBannerResult[e].Banners && (this.heroBannerData[e] = this.heroBannerResult[e].Banners[0],
+                        this.windowWidth > 1279 ? this.heroBannerData[e].item = this.heroBannerResult[e].Banners[0].DesktopItems[0] : this.windowWidth > 730 && this.windowWidth < 1280 ? this.heroBannerData[e].item = this.heroBannerResult[e].Banners[0].TabletItems[0] : this.heroBannerData[e].item = this.heroBannerResult[e].Banners[0].MobileItems[0],
+                        "" === this.heroBannerData[e].Link ? this.heroBannerData[e].defaultLink = "" : this.heroBannerData[e].defaultLink = this.heroBannerData[e].Link);
+                    this.heroBannerData.splice(6)
+                }
+            }
+            ,
+            t.prototype.setImg = function(i) {
+                this.currentImageIndex = i,
+                this.restartInterval()
+            }
+            ,
+            t.prototype.vtouchLeft = function() {
+                this.nextImg()
+            }
+            ,
+            t.prototype.vtouchRight = function() {
+                this.prevImg()
+            }
+            ,
+            t.prototype.nextImg = function() {
+                this.currentImageIndex++,
+                this.currentImageIndex > this.totalSlide && (!0 === this.loop ? this.$set(this, "currentImageIndex", 1) : this.$set(this, "currentImageIndex", this.totalSlide)),
+                this.restartInterval()
+            }
+            ,
+            t.prototype.prevImg = function() {
+                this.currentImageIndex--,
+                this.currentImageIndex <= 0 && (!0 === this.loop ? this.currentImageIndex = this.totalSlide : this.currentImageIndex = 1),
+                this.restartInterval()
+            }
+            ,
+            t.prototype.restartInterval = function() {
+                var e = this;
+                this.firstTiming = !1,
+                this.currentTimer = 0,
+                this.autoPlay && this.autoPlayInterval && (clearInterval(this.autoPlayInterval),
+                this.autoPlayInterval = null),
+                this.autoPlayInterval = setInterval((function() {
+                    e.counter()
+                }
+                ), 100)
+            }
+            ,
+            t.prototype.counter = function() {
+                this.currentTimer = this.currentTimer + 100,
+                this.currentTimer >= this.indicatorTimer && (this.currentTimer = 0,
+                this.nextImg())
+            }
+            ,
+            t.prototype.bindInterval = function() {
+                var e = this;
+                this.$refs.heroIndicator.isPlay = !0,
+                this.autoPlay && this.autoPlayInterval && (clearInterval(this.autoPlayInterval),
+                this.autoPlayInterval = null),
+                this.autoPlayInterval = setInterval((function() {
+                    e.counter()
+                }
+                ), 100)
+            }
+            ,
+            t.prototype.stopInterval = function() {
+                this.$refs.heroIndicator.isPlay = !1,
+                this.autoPlay && this.autoPlayInterval && (clearInterval(this.autoPlayInterval),
+                this.autoPlayInterval = null)
+            }
+            ,
+            t.prototype.redirect = function(e) {
+                e && (window.location.href = e)
+            }
+            ,
+            x([Object(l.Getter)("dealsBannerGetter")], t.prototype, "slimBannerGetter", void 0),
+            x([Object(l.Getter)("heroBannerGetter")], t.prototype, "heroBannerGetter", void 0),
+            x([Object(l.Action)("getWebsiteCode")], t.prototype, "getWebsiteCode", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "anchorName", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "newsTitle", void 0),
+            x([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "isHero2banner", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "headerMargin", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "promotionBannerMargin", void 0),
+            x([Object(l.Prop)({
+                default: "hero_banner"
+            })], t.prototype, "gaPromoViewName", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "ga4EventPath", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "gaEventPath", void 0),
+            x([Object(l.Prop)({
+                default: !0
+            })], t.prototype, "isSEOTitleH1", void 0),
+            x([Object(l.Prop)()], t.prototype, "bannerData", void 0),
+            x([Object(l.Prop)()], t.prototype, "heroBannerResult", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "gaLabel", void 0),
+            x([Object(l.Watch)("heroBannerResult", {
+                immediate: !0
+            })], t.prototype, "setHeroBannerToData", null),
+            x([Object(l.Watch)("rwdState", {
+                immediate: !0
+            })], t.prototype, "reloadState", null),
+            t = x([Object(l.Component)({
+                components: {
+                    PromotionFlag: _.a,
+                    BorderButton: h.a,
+                    GhostButton: m.a,
+                    Indicator: y.a
+                }
+            })], t)
+        }(Object(l.mixins)(I.a, w.a)), k = n(960), T = n(10);
+        var component = Object(T.a)(P, (function() {
+            var e, t, o, r, l = this, c = l.$createElement, d = l._self._c || c;
+            return l.slimBannerGetter && l.heroBannerData && l.heroBannerData.length > 0 ? d("div", {
+                ref: "image_carousel",
+                staticClass: "slimBanner",
+                class: [l.$style.imageCarousel, l.$style.imageCarouselHeroBanner, (e = {},
+                e[l.$style.headerMargin] = 1 === l.headerMargin,
+                e), (t = {},
+                t[l.$style.promotionBannerMargin] = 1 === l.promotionBannerMargin,
+                t), (o = {},
+                o[l.$style.subHerobanner] = !0 === l.isHero2banner,
+                o)],
+                attrs: {
+                    id: "" !== l.anchorName && l.anchorName
+                },
+                on: {
+                    focus: function(e) {
+                        return e.stopPropagation(),
+                        l.stopInterval()
+                    },
+                    blur: function(e) {
+                        return e.stopPropagation(),
+                        l.bindInterval()
+                    },
+                    mouseenter: function(e) {
+                        return e.stopPropagation(),
+                        l.stopInterval()
+                    },
+                    mouseleave: function(e) {
+                        return e.stopPropagation(),
+                        l.bindInterval()
+                    }
+                }
+            }, [d("div", {
+                ref: "inner",
+                class: [l.$style.inner, (r = {},
+                r[l.$style.firstTiming] = !0 === l.firstTiming,
+                r)],
+                style: [l.isRTL ? {
+                    transform: "translateX(" + (l.currentImageIndex - 1) / l.totalSlide * 100 + "%)"
+                } : {
+                    transform: "translateX(" + (l.currentImageIndex - 1) / l.totalSlide * -100 + "%)"
+                }, {
+                    width: 100 * l.totalSlide + "%"
+                }]
+            }, l._l(l.heroBannerData, (function(e, t) {
+                var n, o, r, c, h, m, _, f, v, y;
+                return d("" !== e.Link ? "a" : "div", {
+                    key: t,
+                    tag: "div",
+                    class: [l.$style.item, (n = {},
+                    n[l.$style.noLink] = "" === e.Link,
+                    n)],
+                    style: "0" === e.item.pdimg.Show ? {
+                        backgroundColor: e.item.pdimg.Color
+                    } : {},
+                    attrs: {
+                        href: "" !== e.Link && e.Link,
+                        "aria-label": "" !== e.Link && e.BannerName,
+                        target: !(!e.LinkTarget || "" === e.Link) && e.LinkTarget,
+                        rel: "_blank" === e.LinkTarget ? "noreferrer noopener" : ""
+                    },
+                    on: {
+                        click: function(n) {
+                            return l.gaDataLayerPush({
+                                event: "promotionClick",
+                                ecommerce: {
+                                    promoClick: {
+                                        promotions: [{
+                                            id: e.DesktopItems[0].BackgroudImage["1x"],
+                                            name: "" !== e.BannerName ? e.BannerName : e.DesktopItems[0].BackgroudImage["1x"],
+                                            position: l.gaPromoViewName + "_" + ("blog" == l.gaEventPath ? "" : "hero_banner") + "_" + (t + 1)
+                                        }]
+                                    }
+                                }
+                            })
+                        }
+                    }
+                }, ["1" === e.item.pdimg.Show ? d("picture", [void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "(min-width: 1280px)",
+                        srcset: e.DesktopItems[0].BackgroudImage["1x"] + "?webp  1x, " + e.DesktopItems[0].BackgroudImage["2x"] + "?webp 2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "(min-width: 1280px)",
+                        srcset: e.DesktopItems[0].BackgroudImage["1x"] + " 1x, " + e.DesktopItems[0].BackgroudImage["2x"] + " 2x"
+                    }
+                }), l._v(" "), void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "(min-width: 731px) and (max-width:1279px)",
+                        srcset: e.TabletItems[0].BackgroudImage["1x"] + "?webp 1x, " + e.TabletItems[0].BackgroudImage["2x"] + "?webp 2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "(min-width: 731px) and (max-width:1279px)",
+                        srcset: e.TabletItems[0].BackgroudImage["1x"] + " 1x, " + e.TabletItems[0].BackgroudImage["2x"] + " 2x"
+                    }
+                }), l._v(" "), void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "(max-width: 730px)",
+                        srcset: e.MobileItems[0].BackgroudImage["1x"] + "?webp 1x, " + e.MobileItems[0].BackgroudImage["2x"] + "?webp 2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "(max-width: 730px)",
+                        srcset: e.MobileItems[0].BackgroudImage["1x"] + " 1x, " + e.MobileItems[0].BackgroudImage["2x"] + " 2x"
+                    }
+                }), l._v(" "), d("img", {
+                    class: l.$style.itemBackgroudImage,
+                    attrs: {
+                        loading: !l.isRTL && 0 !== t && "lazy",
+                        src: "" + e.DesktopItems[0].BackgroudImage["1x"],
+                        alt: e.Alt
+                    }
+                })]) : l._e(), l._v(" "), e && e.item && void 0 !== e.item ? d("div", {
+                    class: [l.$style.bannerInfo, (o = {},
+                    o[l.$style["BannerItem" + e.item.Position]] = !0 == (!1 === l.isRTL || !0 === l.isRTL && "Left" !== e.item.Position && "Right" !== e.item.Position),
+                    o), (r = {},
+                    r[l.$style.BannerItemLeft] = !0 == (!0 === l.isRTL && "Right" === e.item.Position),
+                    r), (c = {},
+                    c[l.$style.BannerItemRight] = !0 == (!0 === l.isRTL && "Left" === e.item.Position),
+                    c)]
+                }, ["1" === e.item.title.Show ? d("div", {
+                    class: [(h = {},
+                    h[l.$style.infoHead] = "text" === e.item.title.Type,
+                    h), (m = {},
+                    m[l.$style.infoHeadImg] = "pic" === e.item.title.Type,
+                    m)]
+                }, [d("" !== e.item.title.Link ? "a" : "div", {
+                    tag: "component",
+                    style: {
+                        color: e.item.title.Color
+                    },
+                    attrs: {
+                        href: "" !== e.item.title.Link && e.item.title.Link
+                    }
+                }, ["pic" === e.item.title.Type ? d(!0 === l.isSEOTitleH1 ? "h1" : "div", {
+                    tag: "component"
+                }, [d("picture", [void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "only screen and (-moz-min-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25/1), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25)",
+                        srcset: e.item.title.Content["1x"] + "?webp  1x, " + e.item.title.Content["2x"] + "?webp  2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "only screen and (-moz-min-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25/1), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25)",
+                        srcset: e.item.title.Content["1x"] + " 1x, " + e.item.title.Content["2x"] + " 2x"
+                    }
+                }), l._v(" "), d("img", {
+                    attrs: {
+                        loading: !l.isRTL && 0 !== t && "lazy",
+                        src: "" + e.item.title.Content["1x"],
+                        alt: e.Alt
+                    }
+                })])]) : l._e(), l._v(" "), "text" === e.item.title.Type ? d(!0 === l.isSEOTitleH1 ? "h1" : "div", {
+                    tag: "component",
+                    class: l.$style.titleText,
+                    style: [{
+                        "font-family": e.item.title.FontFamily || l.fontFamilyBold
+                    }, e.item.title.FontSize ? {
+                        "font-size": e.item.title.FontSize
+                    } : {}, {
+                        "line-height": "1.16em"
+                    }, {
+                        color: e.item.title.Color
+                    }],
+                    domProps: {
+                        innerHTML: l._s(e.item.title.Content.Text)
+                    }
+                }) : l._e()], 1)], 1) : l._e(), l._v(" "), "1" === e.item.slogan.Show ? d("div", {
+                    class: [l.$style.infoTag]
+                }, [d("" !== e.item.slogan.Link ? "a" : "div", {
+                    tag: "component",
+                    class: (_ = {},
+                    _[l.$style.noLink] = "" === e.item.slogan.Link && "" === e.defaultLink,
+                    _),
+                    style: {
+                        color: e.item.slogan.Color
+                    },
+                    attrs: {
+                        href: !!e.item.slogan.Link && e.item.slogan.Link
+                    }
+                }, ["pic" === e.item.slogan.Type ? d("img", {
+                    attrs: {
+                        src: e.item.slogan.Content,
+                        alt: e.item.title.Content.Text
+                    }
+                }) : l._e(), l._v(" "), "text" === e.item.slogan.Type ? d("span", {
+                    class: l.$style.taglineText,
+                    style: "font-family: " + (e.item.slogan.FontFamily || l.fontFamilyRegular),
+                    domProps: {
+                        innerHTML: l._s(e.item.slogan.Content)
+                    }
+                }) : l._e()])], 1) : l._e(), l._v(" "), e.item.price && "1" === e.item.price.Show ? d("div", {
+                    class: [l.$style.infoDesc]
+                }, [d("" !== e.item.price.Link ? "a" : "div", {
+                    tag: "component",
+                    class: (f = {},
+                    f[l.$style.noLink] = "" === e.item.price.Link && "" === e.defaultLink,
+                    f),
+                    style: {
+                        color: e.item.price.Color
+                    },
+                    attrs: {
+                        href: !!e.item.price.Link && e.item.price.Link
+                    }
+                }, ["pic" === e.item.price.Type ? d("img", {
+                    attrs: {
+                        src: e.item.price.Content,
+                        alt: e.item.title.Content.Text
+                    }
+                }) : l._e(), l._v(" "), "text" === e.item.price.Type ? d("span", {
+                    style: "font-family: " + (e.item.price.FontFamily || l.fontFamilyRegular),
+                    domProps: {
+                        innerHTML: l._s(e.item.price.Content)
+                    }
+                }) : l._e()])], 1) : l._e(), l._v(" "), "1" === e.item.buy.Show || "1" === e.item.learnmore.Show ? d("div", {
+                    class: [l.$style.infoBtn, (v = {},
+                    v[l.$style.borderButtonSpace] = "1" === e.item.buy.Show && "1" === e.item.learnmore.Show,
+                    v)]
+                }, ["1" === e.item.buy.Show ? d("border-button", {
+                    class: [l.$style.borderButton],
+                    attrs: {
+                        theme: e.ButtonTheme,
+                        color: e.item.buy.Color,
+                        className: "slimbanner",
+                        href: e.item.buy.Link ? e.item.buy.Link : e.defaultLink,
+                        needCallEvent: !0,
+                        "aria-label": "1" === e.item.title.Show && e.item.buy.Content + " - " + e.item.title.Content.Text
+                    },
+                    nativeOn: {
+                        click: function(n) {
+                            l.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "cta_banner_" + l.ga4EventPath + "_official",
+                                event_category_DL: l.gaPromoViewName + "_" + (t + 1) + "/" + l.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "Buy-" + e.item.buy.Content + "/" + e.BannerName + "/" + l.gaPromoViewName + "_" + (t + 1) + "/" + ("blog" === l.gaEventPath ? "" : "hero_banner/") + l.getLevelPath + l.gaEventPath + "/official",
+                                event_value_DL: "0"
+                            }),
+                            l.gaHmtPush(["_trackEvent", "buttons", "clicked", l.gaPromoViewName + "_" + (t + 1) + "/buyButton-" + e.item.buy.Content + "/" + e.BannerName])
+                        }
+                    }
+                }, [l._v("\n            " + l._s(e.item.buy.Content) + "\n          ")]) : l._e(), l._v(" "), "1" === e.item.learnmore.Show ? d("ghost-button", {
+                    class: l.$style.ghostButton,
+                    attrs: {
+                        theme: e.ButtonTheme,
+                        className: "slimbanner",
+                        color: e.item.learnmore.Color,
+                        href: e.item.learnmore.Link ? e.item.learnmore.Link : e.defaultLink,
+                        needCallEvent: !0,
+                        "aria-label": "1" === e.item.title.Show && e.item.learnmore.Content + " - " + e.item.title.Content.Text
+                    },
+                    nativeOn: {
+                        click: function(n) {
+                            l.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "cta_banner_" + l.ga4EventPath + "_official",
+                                event_category_DL: l.gaPromoViewName + "_" + (t + 1) + "/" + l.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "LearnMore-" + e.item.learnmore.Content + "/" + e.BannerName + "/" + l.gaPromoViewName + "_" + (t + 1) + "/" + ("blog" === l.gaEventPath ? "" : "hero_banner/") + l.getLevelPath + l.gaEventPath + "/official",
+                                event_value_DL: "0"
+                            }),
+                            l.gaHmtPush(["_trackEvent", "buttons", "clicked", "herobanner-" + (t + 1) + "/" + l.gaPromoViewName + "/LearnMore-" + e.item.learnmore.Content + "/" + e.BannerName])
+                        }
+                    }
+                }, [l._v("\n            " + l._s(e.item.learnmore.Content) + "\n          ")]) : l._e()], 1) : l._e()]) : l._e(), l._v(" "), d("div", {
+                    class: l.$style.promotionFlagContainer
+                }, [e && "1" === e.PromotionFlag ? d("PromotionFlag", {
+                    attrs: {
+                        "rwd-state": l.rwdState,
+                        title: e.PromotionTitle,
+                        PromoFontColorStart: e.PromoFontColorStart,
+                        PromoFontColorEnd: e.PromoFontColorEnd,
+                        headerMargin: l.headerMargin,
+                        promotionBannerMargin: l.promotionBannerMargin
+                    }
+                }, [l._v("\n          " + l._s(e.PromotionText) + "\n        ")]) : l._e()], 1), l._v(" "), e && "1" === e.MDAFlag ? d("div", {
+                    class: [l.$style.microsoftFlagContainer, (y = {},
+                    y[l.$style.tabletHeader] = l.windowWidth >= 1023 && "tablet" === l.LayoutType,
+                    y)]
+                }, [e.MDATagLine && e.MDATagLine.ImageLink ? d("div", [d("a", {
+                    attrs: {
+                        href: e.MDATagLine.Link,
+                        "aria-hidden": "true"
+                    }
+                }, [void 0 === e.MDATagLine.ImageLink_2x ? d("img", {
+                    attrs: {
+                        src: e.MDATagLine.ImageLink,
+                        alt: e.MDATagLine.Text
+                    }
+                }) : d("img", {
+                    attrs: {
+                        src: e.MDATagLine.ImageLink,
+                        srcset: e.MDATagLine.ImageLink + " 1x, " + e.MDATagLine.ImageLink_2x + " 2x",
+                        alt: e.MDATagLine.Text
+                    }
+                })])]) : l._e()]) : l._e()])
+            }
+            )), 1), l._v(" "), d("Indicator", {
+                ref: "heroIndicator",
+                class: l.$style.indicator,
+                attrs: {
+                    timerBtn: !0,
+                    autoPlay: l.autoPlay,
+                    windowWidth: l.windowWidth,
+                    currentSlide: l.currentImageIndex,
+                    totalSlide: l.totalSlide,
+                    currentTimer: l.currentTimer,
+                    indicatorTimer: l.indicatorTimer,
+                    typeStyle: "herobanner",
+                    isPlay: l.isPlay,
+                    heroBannerData: l.heroBannerData,
+                    gaEventPath: l.gaEventPath,
+                    ga4EventPath: l.ga4EventPath,
+                    gaPromoViewName: l.gaPromoViewName,
+                    gaLabel: l.gaLabel
+                },
+                on: {
+                    slideToEvent: l.setImg,
+                    indicatorPlay: l.bindInterval,
+                    indicatorStop: l.stopInterval
+                }
+            }), l._v(" "), l.windowWidth >= 1280 ? d("div", {
+                class: l.$style.prevDiv
+            }) : l._e(), l._v(" "), (l.currentImageIndex > 1 || l.loop) && l.totalSlide > 1 && l.windowWidth >= 1280 ? d("div", {
+                ref: "prev",
+                class: l.$style.prev,
+                attrs: {
+                    "aria-label": "Previous slide"
+                }
+            }, [d("img", {
+                attrs: {
+                    src: !1 === l.isRTL ? n(595) : n(594),
+                    alt: !1 === l.isRTL ? "previous image" : "next image"
+                },
+                on: {
+                    click: function(e) {
+                        l.prevImg(),
+                        l.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_l_" + ("blog" === l.gaEventPath ? "banner" : "hero_banner") + "_" + l.ga4EventPath + "_official",
+                            event_category_DL: l.gaPromoViewName + "_" + l.currentImageIndex + "/" + l.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "last_button/" + l.getEventLabel(l.currentImageIndex) + "/official",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            })]) : l._e(), l._v(" "), l.windowWidth >= 1280 ? d("div", {
+                class: l.$style.nextDiv
+            }) : l._e(), l._v(" "), (l.currentImageIndex !== l.totalSlide || l.loop) && l.totalSlide > 1 && l.windowWidth >= 1280 ? d("div", {
+                ref: "next",
+                class: l.$style.next,
+                attrs: {
+                    "aria-label": "Next slide"
+                }
+            }, [d("img", {
+                attrs: {
+                    src: !1 === l.isRTL ? n(594) : n(595),
+                    alt: !1 === l.isRTL ? "next image" : "previous image"
+                },
+                on: {
+                    click: function(e) {
+                        l.nextImg(),
+                        l.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_n_" + ("blog" === l.gaEventPath ? "banner" : "hero_banner") + "_" + l.ga4EventPath + "_official",
+                            event_category_DL: l.gaPromoViewName + "_" + l.currentImageIndex + "/" + l.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next_button/" + l.getEventLabel(l.currentImageIndex + 1) + "/official",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            })]) : l._e()], 1) : l._e()
+        }
+        ), [], !1, (function(e) {
+            this.$style = k.default.locals || k.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    614: function(e, t, n) {
+        "use strict";
+        n(48),
+        n(56),
+        n(57),
+        n(36),
+        n(11),
+        n(68),
+        n(14),
+        n(15),
+        n(39),
+        n(37),
+        n(44),
+        n(47);
+        var o, r = n(4), l = n(0), c = n(30), d = n.n(c), h = n(346), m = n(32), _ = (n(593),
+        o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), f = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, v = function(e, t, n, o) {
+            return new (n || (n = Promise))((function(r, l) {
+                function c(e) {
+                    try {
+                        h(o.next(e))
+                    } catch (e) {
+                        l(e)
+                    }
+                }
+                function d(e) {
+                    try {
+                        h(o.throw(e))
+                    } catch (e) {
+                        l(e)
+                    }
+                }
+                function h(e) {
+                    var t;
+                    e.done ? r(e.value) : (t = e.value,
+                    t instanceof n ? t : new n((function(e) {
+                        e(t)
+                    }
+                    ))).then(c, d)
+                }
+                h((o = o.apply(e, t || [])).next())
+            }
+            ))
+        }, y = function(e, body) {
+            var t, n, o, g, r = {
+                label: 0,
+                sent: function() {
+                    if (1 & o[0])
+                        throw o[1];
+                    return o[1]
+                },
+                trys: [],
+                ops: []
+            };
+            return g = {
+                next: l(0),
+                throw: l(1),
+                return: l(2)
+            },
+            "function" == typeof Symbol && (g[Symbol.iterator] = function() {
+                return this
+            }
+            ),
+            g;
+            function l(l) {
+                return function(c) {
+                    return function(l) {
+                        if (t)
+                            throw new TypeError("Generator is already executing.");
+                        for (; r; )
+                            try {
+                                if (t = 1,
+                                n && (o = 2 & l[0] ? n.return : l[0] ? n.throw || ((o = n.return) && o.call(n),
+                                0) : n.next) && !(o = o.call(n, l[1])).done)
+                                    return o;
+                                switch (n = 0,
+                                o && (l = [2 & l[0], o.value]),
+                                l[0]) {
+                                case 0:
+                                case 1:
+                                    o = l;
+                                    break;
+                                case 4:
+                                    return r.label++,
+                                    {
+                                        value: l[1],
+                                        done: !1
+                                    };
+                                case 5:
+                                    r.label++,
+                                    n = l[1],
+                                    l = [0];
+                                    continue;
+                                case 7:
+                                    l = r.ops.pop(),
+                                    r.trys.pop();
+                                    continue;
+                                default:
+                                    if (!(o = r.trys,
+                                    (o = o.length > 0 && o[o.length - 1]) || 6 !== l[0] && 2 !== l[0])) {
+                                        r = 0;
+                                        continue
+                                    }
+                                    if (3 === l[0] && (!o || l[1] > o[0] && l[1] < o[3])) {
+                                        r.label = l[1];
+                                        break
+                                    }
+                                    if (6 === l[0] && r.label < o[1]) {
+                                        r.label = o[1],
+                                        o = l;
+                                        break
+                                    }
+                                    if (o && r.label < o[2]) {
+                                        r.label = o[2],
+                                        r.ops.push(l);
+                                        break
+                                    }
+                                    o[2] && r.ops.pop(),
+                                    r.trys.pop();
+                                    continue
+                                }
+                                l = body.call(e, r)
+                            } catch (e) {
+                                l = [6, e],
+                                n = 0
+                            } finally {
+                                t = o = 0
+                            }
+                        if (5 & l[0])
+                            throw l[1];
+                        return {
+                            value: l[0] ? l[1] : void 0,
+                            done: !0
+                        }
+                    }([l, c])
+                }
+            }
+        }, I = n(596);
+        l.Vue.use(I);
+        var w = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.promotionBannerResult = [],
+                t.promotionBannerData = {},
+                t.promotionBannerSwiper = null,
+                t.clientPromotionShow = !1,
+                t
+            }
+            return _(t, e),
+            Object.defineProperty(t.prototype, "swiperOption", {
+                get: function() {
+                    return {
+                        slidesPerView: "auto",
+                        slidesPerGroup: 1,
+                        direction: "horizontal",
+                        loop: this.promotionBannerResult && this.promotionBannerResult.length > 1,
+                        navigation: {
+                            nextEl: ".swiper-promotion-button-next",
+                            prevEl: ".swiper-promotion-button-prev"
+                        }
+                    }
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.routeChange = function() {
+                this.clientPromotionShow = !0
+            }
+            ,
+            t.prototype.setPromotionBannerToData = function() {
+                var e = this;
+                if (this.promotionBannerGetter && Object.keys(this.promotionBannerGetter).length > 0 && (this.promotionBannerData = d()(this.promotionBannerGetter),
+                void 0 !== this.promotionBannerData && void 0 !== this.promotionBannerData.length && this.promotionBannerData.length > 0)) {
+                    var t = [];
+                    this.promotionBannerResult = this.promotionBannerData,
+                    this.promotionBannerResult.forEach((function(element, n) {
+                        t.push({
+                            id: element.Link,
+                            name: element.Content,
+                            position: e.gaPosition + "_" + (n + 1)
+                        })
+                    }
+                    )),
+                    this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: t
+                            }
+                        }
+                    })
+                }
+                this.setPromotionBannerProperty()
+            }
+            ,
+            t.prototype.setDealsBannerToData = function() {
+                var e = this
+                  , t = !!this.dealsBannerGetter.PromotionBanner && this.dealsBannerGetter.PromotionBanner;
+                if (t && Object.keys(t).length > 0 && (this.promotionBannerData = d()(t),
+                void 0 !== this.promotionBannerData && void 0 !== this.promotionBannerData.length && this.promotionBannerData.length > 0)) {
+                    var n = [];
+                    this.promotionBannerResult = this.promotionBannerData,
+                    this.promotionBannerResult.forEach((function(element, t) {
+                        n.push({
+                            id: element.Link,
+                            name: element.Content,
+                            position: e.gaPosition + "_" + (t + 1)
+                        })
+                    }
+                    )),
+                    this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: n
+                            }
+                        }
+                    })
+                }
+                this.setPromotionBannerProperty()
+            }
+            ,
+            t.prototype.setStorePromotionBannerToData = function() {
+                if (this.storePromotionBannerGetter && Object.keys(this.storePromotionBannerGetter).length > 0 && (this.promotionBannerData = d()(this.storePromotionBannerGetter),
+                void 0 !== this.promotionBannerData.PromotionBar.length && this.promotionBannerData.PromotionBar.length > 0)) {
+                    var e = [];
+                    this.promotionBannerResult = this.promotionBannerData.PromotionBar,
+                    this.promotionBannerResult.forEach((function(element, t) {
+                        e.push({
+                            id: element.Link,
+                            name: element.Content,
+                            position: "store_bar_banner"
+                        })
+                    }
+                    )),
+                    this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: e
+                            }
+                        }
+                    })
+                }
+            }
+            ,
+            t.prototype.mounted = function() {
+                var e = this;
+                this.$nextTick((function() {
+                    e.promotionBannerResult && e.promotionBannerResult.length >= 1 && (e.initSwiper(),
+                    e.setPromotionBannerProperty()),
+                    e.clientPromotionShow = !0
+                }
+                ))
+            }
+            ,
+            t.prototype.initSwiper = function() {
+                return v(this, void 0, void 0, (function() {
+                    var e, t, o = this;
+                    return y(this, (function(r) {
+                        switch (r.label) {
+                        case 0:
+                            return [4, Promise.all([n.e(0), n.e(5), n.e(8), n.e(3), n.e(2), n.e(7), n.e(1), n.e(6), n.e(4), n.e(10), n.e(9)]).then(n.bind(null, 906))];
+                        case 1:
+                            e = r.sent().default,
+                            t = this.$refs.promotionBannerSwiper,
+                            this.promotionBannerSwiper = new e(t,this.swiperOption),
+                            this.setArrowTabindex(),
+                            t.swiper.on("slideChange", (function() {
+                                o.setArrowTabindex()
+                            }
+                            )),
+                            r.label = 2;
+                        case 2:
+                            return [2]
+                        }
+                    }
+                    ))
+                }
+                ))
+            }
+            ,
+            t.prototype.setPromotionBannerProperty = function(e, t) {
+                var n;
+                void 0 === e && (e = 0),
+                void 0 === t && (t = !1);
+                var element = this.$refs.promotionBannerSwiper;
+                if (element) {
+                    var o = null === (n = this.promotionBannerResult[e]) || void 0 === n ? void 0 : n.Banners[0]
+                      , r = !!document && document.querySelector('div[data-icon="iconImage' + e + '"]')
+                      , l = function() {
+                        var e, t, n;
+                        null === (e = r.querySelector("source[type='image/webp']")) || void 0 === e || e.setAttribute("srcset", o.ImagePath_End + "?webp"),
+                        null === (t = r.querySelector("source[type='image']")) || void 0 === t || t.setAttribute("srcset", "" + o.ImagePath_End),
+                        null === (n = r.querySelector("img")) || void 0 === n || n.setAttribute("src", "" + o.ImagePath_End)
+                    };
+                    o.ColorChangeFlag ? (element.style.setProperty("--backgroundColor", o.BackgroundColor),
+                    element.style.setProperty("--textLinkColor", o.TextlinkColor),
+                    element.style.setProperty("--textColor", o.TextColor),
+                    element.style.setProperty("--navigationColor", o.NavigationColor),
+                    r && !t ? setTimeout((function() {
+                        l()
+                    }
+                    ), 1200) : r && l()) : (element.style.setProperty("--backgroundColor", o.BackgroundColor_End),
+                    element.style.setProperty("--textLinkColor", o.TextlinkColor_End),
+                    element.style.setProperty("--textColor", o.TextColor_End),
+                    element.style.setProperty("--navigationColor", o.NavigationColor_End),
+                    r && l()),
+                    element.style.setProperty("--backgroundEndColor", o.BackgroundColor_End),
+                    element.style.setProperty("--textEndColor", o.TextColor_End),
+                    element.style.setProperty("--textLinkEndColor", o.TextlinkColor_End),
+                    element.style.setProperty("--navigationEndColor", o.NavigationColor_End)
+                }
+            }
+            ,
+            t.prototype.clickButton = function(e) {
+                var t, n, o = null === (t = document.querySelector(".swiper-slide-active")) || void 0 === t ? void 0 : t.previousSibling.getAttribute("data-index");
+                "next" === e && (o = null === (n = document.querySelector(".swiper-slide-active")) || void 0 === n ? void 0 : n.nextSibling.getAttribute("data-index")),
+                this.setPromotionBannerProperty(o, !0)
+            }
+            ,
+            t.prototype.setArrowTabindex = function() {
+                document.querySelectorAll(".swiper-button-prev").length > 0 && document.querySelectorAll(".swiper-button-prev").forEach((function(element) {
+                    element.classList.contains("swiper-button-disabled") ? element.tabIndex = "-1" : element.tabIndex = "0"
+                }
+                ));
+                document.querySelectorAll(".swiper-button-next").length > 0 && document.querySelectorAll(".swiper-button-next").forEach((function(element) {
+                    element.classList.contains("swiper-button-disabled") ? element.tabIndex = "-1" : element.tabIndex = "0"
+                }
+                ));
+                setTimeout((function() {
+                    var e = document.querySelectorAll('[class*="swiper-slide-duplicate"] .swiper-slide-content')
+                      , t = document.querySelectorAll(".swiper-slide-active .swiper-slide-content");
+                    e.forEach((function(element) {
+                        element.tabIndex = "-1",
+                        element.children[0].tabIndex = "-1",
+                        element.ariaHidden = "true",
+                        element.children[0].ariaHidden = "true"
+                    }
+                    )),
+                    t.forEach((function(element) {
+                        element.tabIndex = "0",
+                        element.children[0].tabIndex = "0",
+                        element.ariaHidden = "false",
+                        element.children[0].ariaHidden = "false"
+                    }
+                    ))
+                }
+                ), 100)
+            }
+            ,
+            t.prototype.buttonTabClick = function(e) {
+                if (this.setArrowTabindex(),
+                13 === e.keyCode) {
+                    var t = this.$refs.promotionBannerSwiper
+                      , n = t.swiper.activeIndex
+                      , o = this.promotionBannerResult.length - 1
+                      , r = null;
+                    e.currentTarget.classList.contains("swiper-button-prev") && n > 0 ? r = setTimeout((function() {
+                        t.swiper.slideTo(0 === n ? 0 : n - 1),
+                        clearTimeout(r),
+                        r = null
+                    }
+                    ), 120) : e.currentTarget.classList.contains("swiper-button-next") && n < o && (r = setTimeout((function() {
+                        t.swiper.slideTo(n === o ? o : n + 1),
+                        clearTimeout(r),
+                        r = null
+                    }
+                    ), 120))
+                }
+            }
+            ,
+            t.prototype.tabClickEvent = function(e, t) {
+                var n;
+                (1 !== this.promotionBannerResult.length && t.preventDefault(),
+                e + 1 === this.promotionBannerResult.length) ? null === (n = document.querySelector(".swiper-promotion-button-prev")) || void 0 === n || n.focus() : (this.$refs.promotionBannerSwiper.swiper.slideNext(),
+                this.focusActiveSlideContent())
+            }
+            ,
+            t.prototype.tabShiftClickEvent = function(e, t) {
+                e > 0 && (t.preventDefault(),
+                this.$refs.promotionBannerSwiper.swiper.slidePrev(),
+                this.focusActiveSlideContent())
+            }
+            ,
+            t.prototype.focusActiveSlideContent = function() {
+                setTimeout((function() {
+                    var e;
+                    null === (e = document.querySelector(".swiper-slide-active .swiper-slide-content")) || void 0 === e || e.focus()
+                }
+                ), 200)
+            }
+            ,
+            f([Object(l.Getter)("promotionBannerGetter")], t.prototype, "promotionBannerGetter", void 0),
+            f([Object(l.Getter)("dealsBannerGetter")], t.prototype, "dealsBannerGetter", void 0),
+            f([Object(l.Getter)("storePromotionBannerGetter")], t.prototype, "storePromotionBannerGetter", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "page", void 0),
+            f([Object(l.Prop)({
+                default: "promotion_banner"
+            })], t.prototype, "gaPosition", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "gaEventPath", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "ga4EventPath", void 0),
+            f([Object(l.Watch)("$route")], t.prototype, "routeChange", null),
+            f([Object(l.Watch)("promotionBannerGetter", {
+                immediate: !0
+            })], t.prototype, "setPromotionBannerToData", null),
+            f([Object(l.Watch)("dealsBannerGetter", {
+                immediate: !0
+            })], t.prototype, "setDealsBannerToData", null),
+            f([Object(l.Watch)("storePromotionBannerGetter", {
+                immediate: !0
+            })], t.prototype, "setStorePromotionBannerToData", null),
+            t = f([Object(l.Component)({
+                components: {
+                    TextLink: h.a
+                }
+            })], t)
+        }(Object(l.mixins)(m.a))
+          , B = n(907)
+          , x = n(10);
+        var component = Object(x.a)(w, (function() {
+            var e, t = this, n = t.$createElement, o = t._self._c || n;
+            return t.promotionBannerResult && Object.keys(t.promotionBannerResult).length > 0 ? o("div", {
+                class: t.$style.wrapper
+            }, [o("div", {
+                ref: "promotionBannerSwiper",
+                class: [t.$style.sliderSection, (e = {},
+                e[t.$style.animated] = t.promotionBannerResult[0].Banners[0].SlideFlag,
+                e[t.$style.isShow] = t.clientPromotionShow,
+                e)]
+            }, [o("div", {
+                class: ["swiper-wrapper", t.$style.swiperWrapper],
+                attrs: {
+                    role: "tablist"
+                }
+            }, t._l(t.promotionBannerResult, (function(e, n) {
+                var r;
+                return o("div", {
+                    key: "promotionBanner_" + n,
+                    class: ["swiper-slide", t.$style.swiperSlide],
+                    attrs: {
+                        "data-index": n,
+                        role: "none"
+                    }
+                }, [o("div", {
+                    class: t.$style.swiperContainer
+                }, [e.Banners[0].ImagePath ? o("div", {
+                    class: [t.$style.icon, (r = {},
+                    r[t.$style.animated] = t.promotionBannerResult[0].Banners[0].ColorChangeFlag,
+                    r)],
+                    attrs: {
+                        "data-icon": "iconImage" + n
+                    }
+                }, [e.Banners[0].UsingWebp && 0 === n ? o("source", {
+                    attrs: {
+                        type: "image/webp",
+                        srcset: e.Banners[0].ImagePath + "?webp"
+                    }
+                }) : e.Banners[0].UsingWebp && 0 !== n ? o("source", {
+                    attrs: {
+                        type: "image/webp",
+                        srcset: (e.Banners[0].ImagePath_End ? e.Banners[0].ImagePath_End : e.Banners[0].ImagePath) + "?webp"
+                    }
+                }) : e.Banners[0].UsingWebp || 0 !== n ? e.Banners[0].UsingWebp || 0 === n ? t._e() : o("source", {
+                    attrs: {
+                        type: "image",
+                        srcset: "" + e.Banners[0].ImagePath_End
+                    }
+                }) : o("source", {
+                    attrs: {
+                        type: "image",
+                        srcset: "" + e.Banners[0].ImagePath
+                    }
+                }), t._v(" "), o("img", {
+                    attrs: {
+                        src: 0 !== n && e.Banners[0].ImagePath_End ? e.Banners[0].ImagePath_End : e.Banners[0].ImagePath,
+                        alt: "",
+                        role: "presentation",
+                        "aria-hidden": "true"
+                    }
+                })]) : t._e(), t._v(" "), o("div", {
+                    class: [t.$style.text, "swiper-slide-content"]
+                }, [t._v("\n            " + t._s(e.Banners[0].Content) + "\n            "), o("TextLink", {
+                    class: t.$style.link,
+                    attrs: {
+                        role: "tab",
+                        enableArrow: !0,
+                        href: e.Banners[0].Link,
+                        target: e.Banners[0].LinkTarget,
+                        rel: "_blank" === e.Banners[0].LinkTarget ? "noreferrer noopener" : "",
+                        needCallEvent: !0
+                    },
+                    on: {
+                        click: function(o) {
+                            return t.gaDataLayerPush({
+                                event: "promotionClick",
+                                ecommerce: {
+                                    promoClick: {
+                                        promotions: [{
+                                            id: e.Banners[0].ID,
+                                            name: e.Banners[0].LinkText,
+                                            position: t.gaPosition + "_" + (n + 1)
+                                        }]
+                                    }
+                                }
+                            })
+                        }
+                    }
+                }, [t._v("\n              " + t._s(e.Banners[0].LinkText) + "\n            ")])], 1)])])
+            }
+            )), 0), t._v(" "), t.promotionBannerResult && t.promotionBannerResult.length > 1 ? [o("div", {
+                class: ["swiper-button-prev", "swiper-promotion-button-prev", t.$style.swiperPrevButton],
+                attrs: {
+                    slot: "button-prev",
+                    "aria-label": "Previous slide"
+                },
+                on: {
+                    keydown: function(e) {
+                        return t.buttonTabClick(e)
+                    },
+                    click: function(e) {
+                        e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_l_ancm_bar_" + t.ga4EventPath + "_official",
+                            event_category_DL: "ancm_bar/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "last_button/ancm_bar/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        }),
+                        t.clickButton("prev")
+                    }
+                },
+                slot: "button-prev"
+            }, [o("svg", {
+                class: t.$style.buttonIcon,
+                attrs: {
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    "aria-hidden": "true",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M10.75 14.25l-5.5-6.5 5.5-6.5",
+                    stroke: "#181818",
+                    "stroke-width": "1.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), t._v(" "), o("div", {
+                class: ["swiper-button-next", "swiper-promotion-button-next", t.$style.swiperNextButton],
+                attrs: {
+                    slot: "button-next",
+                    "aria-label": "Next slide"
+                },
+                on: {
+                    keydown: function(e) {
+                        return t.buttonTabClick(e)
+                    },
+                    click: function(e) {
+                        e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_n_ancm_bar_" + t.ga4EventPath + "_official",
+                            event_category_DL: "ancm_bar/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next_button/ancm_bar/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        }),
+                        t.clickButton("next")
+                    }
+                },
+                slot: "button-next"
+            }, [o("svg", {
+                class: t.$style.buttonIcon,
+                attrs: {
+                    width: "16",
+                    height: "16",
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    "aria-hidden": "true",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M5.25 14.25l5.5-6.5-5.5-6.5",
+                    stroke: "#181818",
+                    "stroke-width": "1.5",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])])] : t._e()], 2)]) : t._e()
+        }
+        ), [], !1, (function(e) {
+            this.$style = B.default.locals || B.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    633: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2JfMTMwNl8xNDIzNjApIj4NCjxwYXRoIGQ9Ik0yNCA0OEMxMC43NDUyIDQ4IDAgMzcuMjU0OCAwIDI0QzAgMTAuNzQ1MiAxMC43NDUyIDAgMjQgMEMzNy4yNTQ4IDAgNDggMTAuNzQ1MiA0OCAyNEM0OCAzNy4yNTQ4IDM3LjI1NDggNDggMjQgNDhaIiBmaWxsPSIjNEQ0RDREIiBmaWxsLW9wYWNpdHk9IjAuNjQiLz4NCjwvZz4NCjxwYXRoIGQ9Ik0yNyAzNUwxOCAyNEwyNyAxMyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPGRlZnM+DQo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2JfMTMwNl8xNDIzNjAiIHg9Ii00IiB5PSItNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+DQo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPg0KPGZlR2F1c3NpYW5CbHVyIGluPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHN0ZERldmlhdGlvbj0iMiIvPg0KPGZlQ29tcG9zaXRlIGluMj0iU291cmNlQWxwaGEiIG9wZXJhdG9yPSJpbiIgcmVzdWx0PSJlZmZlY3QxX2JhY2tncm91bmRCbHVyXzEzMDZfMTQyMzYwIi8+DQo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfYmFja2dyb3VuZEJsdXJfMTMwNl8xNDIzNjAiIHJlc3VsdD0ic2hhcGUiLz4NCjwvZmlsdGVyPg0KPC9kZWZzPg0KPC9zdmc+DQo="
+    },
+    634: function(e, t, n) {
+        e.exports = n.p + "img/series_next.5217112.svg"
+    },
+    640: function(e, t, n) {
+        "use strict";
+        n(36),
+        n(599),
+        n(11),
+        n(14),
+        n(37),
+        n(47);
+        var o, r = n(4), l = n(0), c = n(30), d = n.n(c), h = n(604), m = n(591), _ = n(903), f = n(861), v = n.n(f), y = n(600), I = n(32), w = n(601), B = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), x = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, P = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.currentImageIndex = 1,
+                t.widthData = 0,
+                t.itemWidth = 0,
+                t.itemHeight = 0,
+                t.totalItem = 0,
+                t.totalSlide = 0,
+                t.totalSlideMax = 6,
+                t.currentTimer = 0,
+                t.isPlay = !0,
+                t.indicatorTimer = 5e3,
+                t.pagesize = 0,
+                t.pagesizeDefault = 0,
+                t.movesize = 1,
+                t.autoPlay = !0,
+                t.percentageHeight = !1,
+                t.loop = !0,
+                t.firstTiming = !0,
+                t.LayoutType = "",
+                t.backgroundSize = 2560,
+                t.heroBannerResult = [],
+                t.hero2bannerResult = [{
+                    Banners: [],
+                    Layout: ""
+                }],
+                t.hero2bannerData = [],
+                t.heroBannerData = [],
+                t.rwdState = "",
+                t.autoPlayInterval = null,
+                t.fadeInAnimation = !1,
+                t.fontFamilyRegular = v.a.fontFamilyRegular,
+                t.fontFamilyBold = v.a.fontFamilyBold,
+                t.isRTL = !1,
+                t
+            }
+            return B(t, e),
+            t.prototype.created = function() {
+                this.getWebsiteCode({
+                    route: this.$route
+                }),
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            t.prototype.mounted = function() {
+                var e = this
+                  , element = this.$refs.image_carousel;
+                this.widthData = element.offsetWidth,
+                this.fadeInAnimation || this.$nextTick((function() {
+                    e.fadeInAnimation = !0,
+                    e.bindInterval(),
+                    setTimeout((function() {
+                        e.firstTiming = !1
+                    }
+                    ), 3e3)
+                }
+                )),
+                this.$nextTick((function() {
+                    e.resetCarousel(),
+                    e.vtouch("#heroBanner")
+                }
+                ))
+            }
+            ,
+            t.prototype.setHeroBannerToData = function() {
+                var e = this;
+                if (!1 === this.isHero2banner && this.heroBannerGetter && (this.heroBannerResult = d()(this.heroBannerGetter),
+                this.heroBannerResult && (this.totalSlide = Math.ceil(this.heroBannerResult.length / this.movesize),
+                this.totalSlide > this.totalSlideMax && (this.totalSlide = this.totalSlideMax),
+                this.reSetData()),
+                this.heroBannerData && 0 !== this.heroBannerData.length)) {
+                    var t = [];
+                    this.heroBannerData.length > 0 && this.heroBannerData.forEach((function(element, n) {
+                        t.push({
+                            id: element.DesktopItems[0].BackgroudImage["1x"] || "",
+                            name: "" !== element.BannerName ? element.BannerName : element.DesktopItems[0].BackgroudImage["1x"] || "",
+                            position: e.gaPromoViewName + "_" + (n + 1)
+                        })
+                    }
+                    )),
+                    this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: t
+                            }
+                        }
+                    })
+                }
+            }
+            ,
+            t.prototype.setVideoBannerToData = function() {
+                var e = this;
+                if (this.isHero2banner && this.videoBannerGetter && this.hero2bannerResult[0].Banners && (this.hero2bannerData = [d()(this.videoBannerGetter)],
+                this.hero2bannerResult[0].Banners[0] = this.hero2bannerData[0].Banners.Banners,
+                this.hero2bannerResult && (this.heroBannerResult = this.hero2bannerResult,
+                this.totalSlide = Math.ceil(this.hero2bannerResult.length / this.movesize),
+                this.totalSlide > this.totalSlideMax && (this.totalSlide = this.totalSlideMax)),
+                this.heroBannerResult = this.hero2bannerResult,
+                this.reSetData(),
+                this.heroBannerData && 0 !== this.heroBannerData.length)) {
+                    var t = [];
+                    this.heroBannerData.length > 0 && this.heroBannerData.forEach((function(element, n) {
+                        t.push({
+                            id: element.DesktopItems[0].BackgroudImage["1x"] || "",
+                            name: "" !== element.BannerName ? element.BannerName : element.DesktopItems[0].BackgroudImage["1x"] || "",
+                            position: e.gaPromoViewName + "_" + (n + 1)
+                        })
+                    }
+                    )),
+                    this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: t
+                            }
+                        }
+                    })
+                }
+            }
+            ,
+            t.prototype.reloadSource = function() {
+                this.windowWidth >= 1280 ? this.rwdState = "desktop" : this.windowWidth >= 731 && this.windowWidth <= 1279 ? this.rwdState = "tablet" : this.rwdState = "mobile",
+                this.resetCarousel()
+            }
+            ,
+            t.prototype.reloadState = function() {
+                this.reSetData()
+            }
+            ,
+            t.prototype.judgeLayoutType = function() {
+                this.LayoutType = this.LayoutTypeGetter
+            }
+            ,
+            Object.defineProperty(t.prototype, "getLevelPath", {
+                get: function() {
+                    var path = "";
+                    return "L2" === this.gaEventPath || "L2.5" === this.gaEventPath ? path = this.$route.params.levelOneTopMenuName + "_" + this.$route.params.levelTwoProductLineName + "/" : path
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.vtouchLeft = function() {
+                this.checkSwipe("left")
+            }
+            ,
+            t.prototype.vtouchRight = function() {
+                this.checkSwipe("right")
+            }
+            ,
+            t.prototype.checkSwipe = function(e) {
+                switch (e) {
+                case "left":
+                    this.isRTL ? this.prevImg() : this.nextImg();
+                    break;
+                case "right":
+                    this.isRTL ? this.nextImg() : this.prevImg()
+                }
+            }
+            ,
+            t.prototype.resetCarousel = function() {
+                var element = this.$refs.image_carousel;
+                element && element.hasChildNodes() && (this.widthData = element.childNodes[0].offsetWidth),
+                this.widthData = element.offsetWidth,
+                this.itemWidth = this.widthData,
+                this.windowWidth >= 1280 ? (this.rwdState = "desktop",
+                this.itemHeight = 777,
+                this.backgroundSize = 2560,
+                this.isHero2banner && (this.itemHeight = 692)) : this.windowWidth >= 731 && this.windowWidth <= 1279 ? (this.rwdState = "tablet",
+                this.itemHeight = 698,
+                this.backgroundSize = 1280,
+                this.isHero2banner && (this.itemHeight = 650)) : (this.rwdState = "mobile",
+                this.itemHeight = 548,
+                this.backgroundSize = 730,
+                this.isHero2banner && (this.itemHeight = 500))
+            }
+            ,
+            t.prototype.listItemStyle = function() {
+                var style = {};
+                return style.width = this.widthData + "px",
+                style.height = this.itemHeight + "px",
+                style
+            }
+            ,
+            t.prototype.reSetData = function() {
+                if (this.heroBannerResult) {
+                    for (var e in this.heroBannerResult)
+                        this.heroBannerResult[e].Banners && (this.heroBannerData[e] = this.heroBannerResult[e].Banners[0],
+                        this.windowWidth >= 1280 ? this.heroBannerData[e].item = this.heroBannerResult[e].Banners[0].DesktopItems[0] : this.windowWidth >= 731 && this.windowWidth <= 1279 ? this.heroBannerData[e].item = this.heroBannerResult[e].Banners[0].TabletItems[0] : this.heroBannerData[e].item = this.heroBannerResult[e].Banners[0].MobileItems[0],
+                        "" === this.heroBannerData[e].Link ? this.heroBannerData[e].defaultLink = "" : this.heroBannerData[e].defaultLink = this.heroBannerData[e].Link);
+                    this.heroBannerData.splice(6)
+                }
+            }
+            ,
+            t.prototype.setImg = function(i) {
+                this.currentImageIndex = i,
+                this.currentTimer = 0,
+                this.restartInterval()
+            }
+            ,
+            t.prototype.nextImg = function() {
+                this.currentImageIndex++,
+                this.currentImageIndex > this.totalSlide && (!0 === this.loop ? this.currentImageIndex = 1 : this.currentImageIndex = this.totalSlide),
+                this.restartInterval()
+            }
+            ,
+            t.prototype.prevImg = function() {
+                this.currentImageIndex--,
+                this.currentImageIndex <= 0 && (!0 === this.loop ? this.currentImageIndex = this.totalSlide : this.currentImageIndex = 1),
+                this.restartInterval()
+            }
+            ,
+            t.prototype.restartInterval = function() {
+                var e = this;
+                this.firstTiming = !1,
+                this.currentTimer = 0,
+                this.autoPlay && this.autoPlayInterval && (clearInterval(this.autoPlayInterval),
+                this.autoPlayInterval = null),
+                this.autoPlayInterval = setInterval((function() {
+                    e.counter()
+                }
+                ), 100)
+            }
+            ,
+            t.prototype.bindInterval = function() {
+                var e = this;
+                this.$refs.heroIndicator.isPlay = !0,
+                this.autoPlay && this.autoPlayInterval && (clearInterval(this.autoPlayInterval),
+                this.autoPlayInterval = null),
+                this.autoPlayInterval = setInterval((function() {
+                    e.counter()
+                }
+                ), 100)
+            }
+            ,
+            t.prototype.counter = function() {
+                this.currentTimer = this.currentTimer + 100,
+                this.currentTimer >= this.indicatorTimer && (this.currentTimer = 0,
+                this.nextImg())
+            }
+            ,
+            t.prototype.stopInterval = function() {
+                this.$refs.heroIndicator.isPlay = !1,
+                this.autoPlay && this.autoPlayInterval && (clearInterval(this.autoPlayInterval),
+                this.autoPlayInterval = null)
+            }
+            ,
+            t.prototype.redirect = function(e) {
+                e && (window.location.href = e)
+            }
+            ,
+            x([Object(l.Getter)("heroBannerGetter")], t.prototype, "heroBannerGetter", void 0),
+            x([Object(l.Getter)("videoBannerGetter")], t.prototype, "videoBannerGetter", void 0),
+            x([Object(l.Getter)("getLayoutType")], t.prototype, "LayoutTypeGetter", void 0),
+            x([Object(l.Getter)("heroBannerAriaLabelGetter")], t.prototype, "heroBannerAriaLabelGetter", void 0),
+            x([Object(l.Action)("getWebsiteCode")], t.prototype, "getWebsiteCode", void 0),
+            x([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "isHero2banner", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "headerMargin", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "promotionBannerMargin", void 0),
+            x([Object(l.Prop)()], t.prototype, "windowWidth", void 0),
+            x([Object(l.Prop)({
+                default: "hero_banner"
+            })], t.prototype, "gaPromoViewName", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "ga4EventPath", void 0),
+            x([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "gaEventPath", void 0),
+            x([Object(l.Watch)("heroBannerGetter", {
+                immediate: !0
+            })], t.prototype, "setHeroBannerToData", null),
+            x([Object(l.Watch)("videoBannerGetter", {
+                immediate: !0
+            })], t.prototype, "setVideoBannerToData", null),
+            x([Object(l.Watch)("windowWidth")], t.prototype, "reloadSource", null),
+            x([Object(l.Watch)("rwdState", {
+                immediate: !0
+            })], t.prototype, "reloadState", null),
+            x([Object(l.Watch)("LayoutTypeGetter", {
+                immediate: !0
+            })], t.prototype, "judgeLayoutType", null),
+            t = x([Object(l.Component)({
+                components: {
+                    BorderButton: h.a,
+                    GhostButton: m.a,
+                    PromotionFlag: _.a,
+                    Indicator: y.a
+                }
+            })], t)
+        }(Object(l.mixins)(I.a, w.a)), k = n(917), T = n(10);
+        var component = Object(T.a)(P, (function() {
+            var e, t, o, r, l = this, c = l.$createElement, d = l._self._c || c;
+            return l.heroBannerGetter && l.heroBannerData && l.heroBannerData.length > 0 ? d("div", {
+                ref: "image_carousel",
+                staticClass: "heroBanner",
+                class: [l.$style.imageCarousel, l.$style.imageCarouselHeroBanner, (e = {},
+                e[l.$style.headerMargin] = 1 === l.headerMargin,
+                e), (t = {},
+                t[l.$style.promotionBannerMargin] = 1 === l.promotionBannerMargin,
+                t), (o = {},
+                o[l.$style.subHerobanner] = !0 === l.isHero2banner,
+                o)],
+                attrs: {
+                    id: "heroBanner",
+                    tabindex: "0"
+                },
+                on: {
+                    focus: function(e) {
+                        return e.stopPropagation(),
+                        l.stopInterval()
+                    },
+                    blur: function(e) {
+                        return e.stopPropagation(),
+                        l.bindInterval()
+                    },
+                    mouseenter: function(e) {
+                        return e.stopPropagation(),
+                        l.stopInterval()
+                    },
+                    mouseleave: function(e) {
+                        return e.stopPropagation(),
+                        l.bindInterval()
+                    }
+                }
+            }, [d("div", {
+                ref: "inner",
+                class: [l.$style.inner, (r = {},
+                r[l.$style.firstTiming] = !0 === l.firstTiming,
+                r)],
+                style: [l.isRTL ? {
+                    transform: "translateX(" + 100 / l.totalSlide * (l.currentImageIndex - 1) + "%)"
+                } : {
+                    transform: "translateX(" + -100 / l.totalSlide * (l.currentImageIndex - 1) + "%)"
+                }, {
+                    width: 100 * l.totalSlide + "%"
+                }]
+            }, l._l(l.heroBannerData, (function(e, t) {
+                var n, o, r, c, h, m, _, f, v, y, I;
+                return d("div", {
+                    key: t,
+                    ref: "itemBox",
+                    refInFor: !0,
+                    class: l.$style.item
+                }, [e && e.DesktopItems && e.DesktopItems[0].BackgroudImage && e.TabletItems[0].BackgroudImage && e.MobileItems[0].BackgroudImage ? d("a", {
+                    class: (n = {},
+                    n[l.$style.noLink] = "" === e.Link,
+                    n),
+                    attrs: {
+                        href: !!e.Link && e.Link,
+                        target: !(!e.LinkTarget || "" === e.Link) && e.LinkTarget,
+                        rel: "_blank" === e.LinkTarget ? "noreferrer noopener" : "",
+                        "aria-label": "" !== e.BannerName && "Learn more " + e.BannerName,
+                        tabindex: l.currentImageIndex === t + 1 ? 0 : -1,
+                        "aria-hidden": l.currentImageIndex === t + 1 ? "false" : "true"
+                    },
+                    on: {
+                        click: function(n) {
+                            l.gaDataLayerPush({
+                                event: "promotionClick",
+                                ecommerce: {
+                                    promoClick: {
+                                        promotions: [{
+                                            id: e.DesktopItems[0].BackgroudImage["1x"],
+                                            name: "" !== e.BannerName ? e.BannerName : e.DesktopItems[0].BackgroudImage["1x"],
+                                            position: l.gaPromoViewName + "_" + (t + 1)
+                                        }]
+                                    }
+                                }
+                            })
+                        }
+                    }
+                }, [d("picture", [void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "(min-width: 1280px)",
+                        srcset: e.DesktopItems[0].BackgroudImage["1x"] + "?webp  1x, " + e.DesktopItems[0].BackgroudImage["2x"] + "?webp 2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "(min-width: 1280px)",
+                        srcset: e.DesktopItems[0].BackgroudImage["1x"] + " 1x, " + e.DesktopItems[0].BackgroudImage["2x"] + " 2x"
+                    }
+                }), l._v(" "), void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "(min-width: 731px) and (max-width:1279px)",
+                        srcset: e.TabletItems[0].BackgroudImage["1x"] + "?webp 1x, " + e.TabletItems[0].BackgroudImage["2x"] + "?webp 2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "(min-width: 731px) and (max-width:1279px)",
+                        srcset: e.TabletItems[0].BackgroudImage["1x"] + " 1x, " + e.TabletItems[0].BackgroudImage["2x"] + " 2x"
+                    }
+                }), l._v(" "), void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "(max-width: 730px)",
+                        srcset: e.MobileItems[0].BackgroudImage["1x"] + "?webp 1x, " + e.MobileItems[0].BackgroudImage["2x"] + "?webp 2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "(max-width: 730px)",
+                        srcset: e.MobileItems[0].BackgroudImage["1x"] + " 1x, " + e.MobileItems[0].BackgroudImage["2x"] + " 2x"
+                    }
+                }), l._v(" "), d("img", {
+                    class: l.$style.itemBackgroudImage,
+                    attrs: {
+                        loading: !l.isRTL && 0 !== t && "lazy",
+                        src: e.DesktopItems[0].BackgroudImage["1x"],
+                        alt: "" !== e.Alt ? e.Alt : e.Description
+                    }
+                })])]) : l._e(), l._v(" "), e && e.item && void 0 !== e.item ? d("div", {
+                    class: [l.$style.bannerInfo, (o = {},
+                    o[l.$style["BannerItem" + e.item.Position]] = !0 == (!1 === l.isRTL || !0 === l.isRTL && "Left" !== e.item.Position && "Right" !== e.item.Position),
+                    o), (r = {},
+                    r[l.$style.BannerItemLeft] = !0 == (!0 === l.isRTL && "Right" === e.item.Position),
+                    r), (c = {},
+                    c[l.$style.BannerItemRight] = !0 == (!0 === l.isRTL && "Left" === e.item.Position),
+                    c)]
+                }, ["1" === e.item.title.Show ? d("div", {
+                    class: [(h = {},
+                    h[l.$style.infoHead] = "text" === e.item.title.Type,
+                    h), (m = {},
+                    m[l.$style.infoHeadImg] = "pic" === e.item.title.Type,
+                    m)],
+                    attrs: {
+                        tabindex: "-1"
+                    }
+                }, [d("a", {
+                    class: (_ = {},
+                    _[l.$style.noLink] = "" === e.item.title.Link && "" === e.defaultLink,
+                    _),
+                    style: {
+                        color: e.item.title.Color
+                    },
+                    attrs: {
+                        href: e.item.title.Link ? e.item.title.Link : e.defaultLink,
+                        "aria-label": "" + ("text" === e.item.title.Type && e.item.title.Content.Text)
+                    }
+                }, ["pic" === e.item.title.Type ? d("picture", [void 0 === e.UsingWebp || e.UsingWebp ? d("source", {
+                    attrs: {
+                        type: "image/webp",
+                        media: "only screen and (-moz-min-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25/1), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25)",
+                        srcset: e.item.title.Content["1x"] + "?webp  1x, " + e.item.title.Content["2x"] + "?webp  2x"
+                    }
+                }) : l._e(), l._v(" "), d("source", {
+                    attrs: {
+                        media: "only screen and (-moz-min-device-pixel-ratio: 1.25), only screen and (-o-min-device-pixel-ratio: 1.25/1), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25)",
+                        srcset: e.item.title.Content["1x"] + " 1x, " + e.item.title.Content["2x"] + " 2x"
+                    }
+                }), l._v(" "), d("img", {
+                    attrs: {
+                        loading: !l.isRTL && "lazy",
+                        src: e.item.title.Content["1x"],
+                        alt: e.Alt
+                    }
+                })]) : l._e(), l._v(" "), "text" === e.item.title.Type ? d("span", {
+                    style: [{
+                        "font-family": e.item.title.FontFamily || l.fontFamilyBold
+                    }, e.item.title.FontSize ? {
+                        "font-size": e.item.title.FontSize
+                    } : {}, {
+                        "line-height": "1.16em"
+                    }],
+                    domProps: {
+                        innerHTML: l._s(e.item.title.Content.Text)
+                    }
+                }) : l._e()])]) : l._e(), l._v(" "), "1" === e.item.slogan.Show ? d("div", {
+                    class: [l.$style.infoTag]
+                }, [d("a", {
+                    class: (f = {},
+                    f[l.$style.noLink] = "" === e.item.slogan.Link && "" === e.defaultLink,
+                    f),
+                    style: {
+                        color: e.item.slogan.Color
+                    },
+                    attrs: {
+                        href: e.item.slogan.Link ? e.item.slogan.Link : e.defaultLink
+                    }
+                }, ["pic" === e.item.slogan.Type ? d("img", {
+                    attrs: {
+                        src: e.item.slogan.Content,
+                        alt: e.item.title.Content.Text
+                    }
+                }) : l._e(), l._v(" "), "text" === e.item.slogan.Type ? d("span", {
+                    style: {
+                        "font-family": e.item.slogan.FontFamily || l.fontFamilyRegular,
+                        "font-size": e.item.slogan.FontSize ? e.item.slogan.FontSize : "inherit"
+                    },
+                    domProps: {
+                        innerHTML: l._s(e.item.slogan.Content)
+                    }
+                }) : l._e()])]) : l._e(), l._v(" "), e.item.price && "1" === e.item.price.Show ? d("div", {
+                    class: [l.$style.infoDesc]
+                }, [d("a", {
+                    class: (v = {},
+                    v[l.$style.noLink] = "" === e.item.price.Link && "" === e.defaultLink,
+                    v),
+                    style: {
+                        color: e.item.price.Color
+                    },
+                    attrs: {
+                        href: e.item.price.Link ? e.item.price.Link : e.defaultLink
+                    }
+                }, ["pic" === e.item.price.Type ? d("img", {
+                    attrs: {
+                        src: e.item.price.Content,
+                        alt: e.item.title.Content.Text
+                    }
+                }) : l._e(), l._v(" "), "text" === e.item.price.Type ? d("span", {
+                    style: "font-family: " + (e.item.price.FontFamily || l.fontFamilyRegular),
+                    domProps: {
+                        innerHTML: l._s(e.item.price.Content)
+                    }
+                }) : l._e()])]) : l._e(), l._v(" "), d("div", {
+                    class: [l.$style.infoBtn, (y = {},
+                    y[l.$style.borderButtonSpace] = "1" === e.item.buy.Show && "1" === e.item.learnmore.Show,
+                    y)]
+                }, ["1" === e.item.buy.Show ? d("border-button", {
+                    class: [l.$style.borderButton],
+                    attrs: {
+                        theme: e.ButtonTheme,
+                        color: e.item.buy.Color,
+                        className: "heroBanner",
+                        href: e.item.buy.Link ? e.item.buy.Link : e.defaultLink,
+                        needCallEvent: !0
+                    },
+                    nativeOn: {
+                        click: function(n) {
+                            l.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "cta_banner_L2_official",
+                                event_category_DL: l.gaPromoViewName + "/" + l.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "Buy_" + e.item.buy.Content + "/" + e.BannerName + "/" + l.gaPromoViewName + "/" + l.getLevelPath + l.gaEventPath + "/official",
+                                event_value_DL: "0"
+                            }),
+                            l.gaHmtPush(["_trackEvent", "buttons", "clicked", l.gaPromoViewName + "_" + (t + 1) + "/buyButton-" + e.item.buy.Content + "/" + e.BannerName])
+                        }
+                    }
+                }, [l._v("\n            " + l._s(e.item.buy.Content) + "\n          ")]) : l._e(), l._v(" "), "1" === e.item.learnmore.Show ? d("ghost-button", {
+                    class: l.$style.ghostButton,
+                    attrs: {
+                        theme: e.ButtonTheme,
+                        className: "herobanner",
+                        color: e.item.learnmore.Color,
+                        href: e.item.learnmore.Link ? e.item.learnmore.Link : e.defaultLink,
+                        needCallEvent: !0
+                    },
+                    nativeOn: {
+                        click: function(n) {
+                            l.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "cta_banner_L2_official",
+                                event_category_DL: l.gaPromoViewName + "/" + l.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "LearnMore-" + e.item.learnmore.Content + "/" + e.BannerName + "/hero_banner/" + l.getLevelPath + l.gaEventPath + "/official",
+                                event_value_DL: "0"
+                            }),
+                            l.gaHmtPush(["_trackEvent", "buttons", "clicked", l.gaPromoViewName + "_" + (t + 1) + "/LearnMore-" + e.item.learnmore.Content + "/" + e.BannerName])
+                        }
+                    }
+                }, [l._v("\n            " + l._s(e.item.learnmore.Content) + "\n          ")]) : l._e()], 1)]) : l._e(), l._v(" "), d("div", {
+                    class: l.$style.promotionFlagContainer
+                }, [e && "1" === e.PromotionFlag.toString() ? d("promotion-flag", {
+                    attrs: {
+                        "rwd-state": l.rwdState,
+                        title: e.PromotionTitle,
+                        PromoFontColorStart: e.PromoFontColorStart,
+                        PromoFontColorEnd: e.PromoFontColorEnd,
+                        headerMargin: l.headerMargin,
+                        promotionBannerMargin: l.promotionBannerMargin
+                    }
+                }, [l._v("\n          " + l._s(e.PromotionText) + "\n        ")]) : l._e()], 1), l._v(" "), e && "1" === e.MDAFlag.toString() ? d("div", {
+                    class: [l.$style.microsoftFlagContainer, (I = {},
+                    I[l.$style.tabletHeader] = l.windowWidth >= 1023 && "tablet" === l.LayoutType,
+                    I[l.$style.subHeroBanner] = l.isHero2banner,
+                    I)]
+                }, [e.MDATagLine && e.MDATagLine.ImageLink ? d("div", [d("a", {
+                    attrs: {
+                        href: e.MDATagLine.Link,
+                        "aria-hidden": "true"
+                    }
+                }, [void 0 === e.MDATagLine.ImageLink_2x ? d("img", {
+                    attrs: {
+                        src: e.MDATagLine.ImageLink,
+                        alt: e.MDATagLine.Text,
+                        "aria-hidden": "true"
+                    }
+                }) : d("img", {
+                    attrs: {
+                        src: e.MDATagLine.ImageLink,
+                        srcset: e.MDATagLine.ImageLink + " 1x, " + e.MDATagLine.ImageLink_2x + " 2x",
+                        alt: e.MDATagLine.Text,
+                        "aria-hidden": "true"
+                    }
+                })])]) : l._e()]) : l._e()])
+            }
+            )), 0), l._v(" "), d("Indicator", {
+                ref: "heroIndicator",
+                class: l.$style.indicator,
+                attrs: {
+                    timerBtn: !0,
+                    autoPlay: l.autoPlay,
+                    windowWidth: l.windowWidth,
+                    currentSlide: l.currentImageIndex,
+                    totalSlide: l.totalSlide,
+                    currentTimer: l.currentTimer,
+                    indicatorTimer: l.indicatorTimer,
+                    typeStyle: "herobanner",
+                    isPlay: l.isPlay,
+                    heroBannerData: l.heroBannerData,
+                    gaEventPath: l.gaEventPath,
+                    ga4EventPath: l.ga4EventPath,
+                    gaPromoViewName: l.gaPromoViewName
+                },
+                on: {
+                    slideToEvent: l.setImg,
+                    indicatorPlay: l.bindInterval,
+                    indicatorStop: l.stopInterval
+                }
+            }), l._v(" "), l.windowWidth >= 1280 ? d("div", {
+                class: l.$style.prevDiv
+            }) : l._e(), l._v(" "), (l.currentImageIndex > 1 || l.loop) && l.totalSlide > 1 && l.windowWidth >= 1280 ? d("div", {
+                ref: "prev",
+                class: l.$style.prev
+            }, [d("img", {
+                attrs: {
+                    src: !1 === l.isRTL ? n(595) : n(594),
+                    alt: !1 === l.isRTL ? "previous image" : "next image",
+                    role: "button",
+                    tabindex: "0",
+                    "aria-label": l.heroBannerAriaLabelGetter.PreviousSlide,
+                    "aria-disabled": (l.currentImageIndex > 1 || l.loop) && l.totalSlide > 1 && l.windowWidth >= 1280 ? "false" : "true"
+                },
+                on: {
+                    click: function(e) {
+                        l.prevImg(),
+                        l.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_l_banner_" + l.ga4EventPath + "_official",
+                            event_category_DL: l.gaPromoViewName + "/" + l.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "last_button/hero_banner/" + l.getLevelPath + l.gaEventPath + "/official",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            })]) : l._e(), l._v(" "), l.windowWidth >= 1280 ? d("div", {
+                class: l.$style.nextDiv
+            }) : l._e(), l._v(" "), (l.currentImageIndex !== l.totalSlide || l.loop) && l.totalSlide > 1 && l.windowWidth >= 1280 ? d("div", {
+                ref: "next",
+                class: l.$style.next
+            }, [d("img", {
+                attrs: {
+                    src: !1 === l.isRTL ? n(594) : n(595),
+                    alt: !1 === l.isRTL ? "next image" : "previous image",
+                    role: "button",
+                    tabindex: "0",
+                    "aria-label": l.heroBannerAriaLabelGetter.NextSlide,
+                    "aria-disabled": (l.currentImageIndex !== l.totalSlide || l.loop) && l.totalSlide > 1 && l.windowWidth >= 1280 ? "false" : "true"
+                },
+                on: {
+                    click: function(e) {
+                        l.nextImg(),
+                        l.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_n_banner_" + l.ga4EventPath + "_official",
+                            event_category_DL: l.gaPromoViewName + "/" + l.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next_button/hero_banner/" + l.getLevelPath + l.gaEventPath + "/official",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            })]) : l._e()], 1) : l._e()
+        }
+        ), [], !1, (function(e) {
+            this.$style = k.default.locals || k.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    644: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "PromotionBanner__wrapper__boR2j",
+            sliderSection: "PromotionBanner__sliderSection__3ZS_w",
+            swiperWrapper: "PromotionBanner__swiperWrapper__3Zvm4",
+            text: "PromotionBanner__text__1HGpW",
+            animated: "PromotionBanner__animated__e8lKX",
+            slideDown: "PromotionBanner__slideDown__vUBpS",
+            isShow: "PromotionBanner__isShow__2Y1XK",
+            swiperSlide: "PromotionBanner__swiperSlide__2X56Y",
+            changeBGColor: "PromotionBanner__changeBGColor__3ujJb",
+            swiperContainer: "PromotionBanner__swiperContainer__2irjI",
+            icon: "PromotionBanner__icon__LGgKl",
+            fadein: "PromotionBanner__fadein__PLrtS",
+            changeTextColor: "PromotionBanner__changeTextColor__pNTb5",
+            changeTextLinkColor: "PromotionBanner__changeTextLinkColor__35XTO",
+            changeSVGColor: "PromotionBanner__changeSVGColor__3DbD0",
+            swiperPrevButton: "PromotionBanner__swiperPrevButton__7nnEy",
+            swiperNextButton: "PromotionBanner__swiperNextButton__1LjvT",
+            changeIconColor: "PromotionBanner__changeIconColor__3gcdo"
+        }
+    },
+    645: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            btn: "BorderButton__btn__1TkBO",
+            normal: "BorderButton__normal__1JqS5",
+            btnText: "BorderButton__btnText__co1Jf",
+            specificColor: "BorderButton__specificColor__7wRTu",
+            slimbanner: "BorderButton__slimbanner__PxWMA",
+            disabled: "BorderButton__disabled__1rmrW",
+            heroBanner: "BorderButton__heroBanner__1JzzG",
+            arrowDownloadSVG: "BorderButton__arrowDownloadSVG__1VFiv"
+        }
+    },
+    646: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            link: "GhostButton__link__xTS-3",
+            normal: "GhostButton__normal__MPeDn",
+            LinkText: "GhostButton__LinkText__1DiK4",
+            fontw300: "GhostButton__fontw300__CmtBq",
+            disabled: "GhostButton__disabled__269WV",
+            fontw600: "GhostButton__fontw600__2LzcK",
+            arrowRightSVG: "GhostButton__arrowRightSVG__eqY5j",
+            specificColor: "GhostButton__specificColor__1m_6e",
+            btn: "GhostButton__btn__3AOxn",
+            btnText: "GhostButton__btnText__2id1e",
+            noHover: "GhostButton__noHover__1Cp1H",
+            slimbanner: "GhostButton__slimbanner__2hxwn"
+        }
+    },
+    654: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            imgDrp: "HeroBanner__imgDrp__1V5_X",
+            imageCarousel: "HeroBanner__imageCarousel__36Rvp",
+            inner: "HeroBanner__inner__1Ym3L",
+            itemImg: "HeroBanner__itemImg__2GHNj",
+            item: "HeroBanner__item__3nU6C",
+            itemBackgroudImage: "HeroBanner__itemBackgroudImage__2lBz_",
+            bannerInfo: "HeroBanner__bannerInfo__djQPV",
+            prevDiv: "HeroBanner__prevDiv__1uS2Q",
+            nextDiv: "HeroBanner__nextDiv__3NPN6",
+            prev: "HeroBanner__prev__1Zio4",
+            next: "HeroBanner__next__1CVoi",
+            headerMargin: "HeroBanner__headerMargin__30p2_",
+            promotionBannerMargin: "HeroBanner__promotionBannerMargin__3swBt",
+            borderButtonSpace: "HeroBanner__borderButtonSpace__ziNbE",
+            promotion: "HeroBanner__promotion__2kGGx",
+            noItemImage: "HeroBanner__noItemImage__3fnYY",
+            infoHead: "HeroBanner__infoHead__16Zhu",
+            infoHeadImg: "HeroBanner__infoHeadImg__24Wyw",
+            infoTag: "HeroBanner__infoTag__2jbKP",
+            infoDesc: "HeroBanner__infoDesc__EVGSR",
+            infoBtn: "HeroBanner__infoBtn__FQazy",
+            disabled: "HeroBanner__disabled__3z3A4",
+            microsoftFlagContainer: "HeroBanner__microsoftFlagContainer__2uQAU",
+            microsoftFlagContent: "HeroBanner__microsoftFlagContent__pWQj1",
+            imageCarouselHeroBanner: "HeroBanner__imageCarouselHeroBanner__3ELYr",
+            subHerobanner: "HeroBanner__subHerobanner__2T1BQ",
+            asusContainer: "HeroBanner__asusContainer__lrfF8",
+            BannerItemTop: "HeroBanner__BannerItemTop__19Bty",
+            BannerItemBottom: "HeroBanner__BannerItemBottom__1BdC2",
+            BannerItemLeft: "HeroBanner__BannerItemLeft__3Z5bM",
+            BannerItemRight: "HeroBanner__BannerItemRight__2E4nW",
+            ghostButton: "HeroBanner__ghostButton__1wHb6",
+            BannerItemCenter: "HeroBanner__BannerItemCenter__2Zl59",
+            BannerItemNoitems: "HeroBanner__BannerItemNoitems__1Q4i_",
+            indicator: "HeroBanner__indicator__1Gm1o",
+            firstTiming: "HeroBanner__firstTiming__2nUpz",
+            noLink: "HeroBanner__noLink__3Y9rl"
+        }
+    },
+    657: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            imageCarousel: "ContentHub__imageCarousel__1Odv4",
+            inner: "ContentHub__inner__trMnZ",
+            itemImg: "ContentHub__itemImg__3U6TH",
+            item: "ContentHub__item__iYT1p",
+            prevDiv: "ContentHub__prevDiv__2cfMl",
+            nextDiv: "ContentHub__nextDiv__36dBx",
+            bannerInfo: "ContentHub__bannerInfo__3XNGh",
+            promotion: "ContentHub__promotion___9KN_",
+            contentHub: "ContentHub__contentHub__fBXRj",
+            contentHubInner: "ContentHub__contentHubInner__3QQc8",
+            contentHubItem: "ContentHub__contentHubItem__1YZ4v",
+            contentHubItemImg: "ContentHub__contentHubItemImg__3V7d-",
+            scenarioImg: "ContentHub__scenarioImg__11Wh9",
+            scenarioContent: "ContentHub__scenarioContent__epC2V",
+            contentTitle: "ContentHub__contentTitle__1b-IK",
+            contentInfo: "ContentHub__contentInfo__A-qoS",
+            indicator: "ContentHub__indicator__2VVtG"
+        }
+    },
+    679: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            imageCarousel: "SlimBanner__imageCarousel__1WYpS",
+            inner: "SlimBanner__inner__2Yb1V",
+            itemImg: "SlimBanner__itemImg__Ebpba",
+            item: "SlimBanner__item__1V1hw",
+            itemBackgroudImage: "SlimBanner__itemBackgroudImage__2buI3",
+            bannerInfo: "SlimBanner__bannerInfo__3uGpE",
+            titleText: "SlimBanner__titleText__jcx4o",
+            taglineText: "SlimBanner__taglineText__16G7k",
+            prevDiv: "SlimBanner__prevDiv__2NL7a",
+            nextDiv: "SlimBanner__nextDiv__2alLf",
+            prev: "SlimBanner__prev__B3Hej",
+            next: "SlimBanner__next__3V_Ju",
+            headerMargin: "SlimBanner__headerMargin__odO3J",
+            promotionBannerMargin: "SlimBanner__promotionBannerMargin__1zTpc",
+            borderButtonSpace: "SlimBanner__borderButtonSpace__23hQR",
+            promotion: "SlimBanner__promotion__KhXmS",
+            noItemImage: "SlimBanner__noItemImage__13xiO",
+            infoHead: "SlimBanner__infoHead__K7r-X",
+            infoHeadImg: "SlimBanner__infoHeadImg__CRQmP",
+            infoTag: "SlimBanner__infoTag__10iWi",
+            infoDesc: "SlimBanner__infoDesc__1ANew",
+            infoBtn: "SlimBanner__infoBtn__3jWRR",
+            disabled: "SlimBanner__disabled__2YCMy",
+            microsoftFlagContainer: "SlimBanner__microsoftFlagContainer__utbJT",
+            microsoftFlagContent: "SlimBanner__microsoftFlagContent__1zHIC",
+            imageCarouselHeroBanner: "SlimBanner__imageCarouselHeroBanner__2c-OI",
+            asusContainer: "SlimBanner__asusContainer__10Z3H",
+            BannerItemTop: "SlimBanner__BannerItemTop__2pS0e",
+            BannerItemLeft: "SlimBanner__BannerItemLeft__1cSFx",
+            BannerItemRight: "SlimBanner__BannerItemRight__2smir",
+            indicator: "SlimBanner__indicator__3blX5",
+            firstTiming: "SlimBanner__firstTiming__19j7j",
+            noLink: "SlimBanner__noLink__1XDFv"
+        }
+    },
+    720: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            headingWrapper: "AnchorPoint__headingWrapper__123VS",
+            headingContainer: "AnchorPoint__headingContainer__jO04-",
+            headingTitleGroup: "AnchorPoint__headingTitleGroup__20EWH",
+            headingTabs: "AnchorPoint__headingTabs__3ZVWC",
+            headingTab: "AnchorPoint__headingTab__15nn3",
+            fixed: "AnchorPoint__fixed__36OAz",
+            twoFixed: "AnchorPoint__twoFixed__1QriL",
+            twoFadeIn: "AnchorPoint__twoFadeIn__iF1Ap",
+            headingTabsContainer: "AnchorPoint__headingTabsContainer__2EeyC",
+            active: "AnchorPoint__active__1Qw0j",
+            swiperPrevButton: "AnchorPoint__swiperPrevButton__LBg16",
+            swiperNextButton: "AnchorPoint__swiperNextButton__JUdNT"
+        }
+    },
+    837: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            sliderSection: "CardSection__sliderSection__W2q-s",
+            swiperWrapper: "CardSection__swiperWrapper__iDf1T",
+            swiperSlide: "CardSection__swiperSlide__3yIgC",
+            slideDescription: "CardSection__slideDescription__-mxle",
+            slideTitle: "CardSection__slideTitle__3ITrr",
+            swiperNextButton: "CardSection__swiperNextButton__1lBu3",
+            swiperPrevButton: "CardSection__swiperPrevButton__3yKS2",
+            card: "CardSection__card__1t4jI",
+            swiperMainSlide: "CardSection__swiperMainSlide__2FEbg",
+            slideInfo: "CardSection__slideInfo__3VAGi",
+            ghostButton: "CardSection__ghostButton__8F9ic",
+            sectionWrapper: "CardSection__sectionWrapper__1VuH7",
+            single: "CardSection__single__1paR7",
+            isGallery: "CardSection__isGallery__1QWkD",
+            cardBox: "CardSection__cardBox__3A2qL"
+        }
+    },
+    842: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            seeMoreBar: "SeeMoreBar__seeMoreBar__3oWnM",
+            seeMoreBarContent: "SeeMoreBar__seeMoreBarContent__2VUmk",
+            showMore: "SeeMoreBar__showMore__1P_2b",
+            line: "SeeMoreBar__line__33Jw7",
+            expandIcon: "SeeMoreBar__expandIcon__3hQ3l",
+            expanded: "SeeMoreBar__expanded__3aHGY"
+        }
+    },
+    845: function(e, t, n) {
+        "use strict";
+        n(36),
+        n(62),
+        n(11),
+        n(14),
+        n(37);
+        var o, r = n(4), l = n(0), c = n(30), d = n.n(c), h = n(622), m = n(627), _ = n(600), f = n(32), v = n(601), y = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), I = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, w = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.currentImageIndex = 1,
+                t.widthData = 0,
+                t.widthIndicator = 0,
+                t.paddingIndicator = 30,
+                t.itemWidth = 0,
+                t.itemHeight = 0,
+                t.carouselHeight = 0,
+                t.carouselInnerHeight = 0,
+                t.totalItem = 0,
+                t.totalSlide = 1,
+                t.pagesize = 3,
+                t.movesize = 1,
+                t.moveMaxIndex = 0,
+                t.moveLeft = 0,
+                t.moveLeftIndicator = 0,
+                t.loop = !1,
+                t.rwdState = "",
+                t.contentHubResult = [],
+                t.propVideoUrl = "",
+                t.isRTL = !0,
+                t
+            }
+            return y(t, e),
+            t.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            t.prototype.mounted = function() {
+                var element = this.$refs.image_carousel;
+                this.widthData = element.offsetWidth;
+                var e = this.$refs.indicator;
+                this.widthIndicator = e.offsetWidth - 2 * this.paddingIndicator,
+                this.itemWidth = this.widthData / 4,
+                this.itemHeight = .625 * this.itemWidth,
+                this.windowWidth >= 1200 ? this.rwdState = "desktop" : this.windowWidth >= 731 && this.windowWidth <= 1279 ? this.rwdState = "tablet" : this.rwdState = "mobile",
+                this.resetCarousel(),
+                this.resetTotalSlide(),
+                this.vtouch("#contentHub")
+            }
+            ,
+            t.prototype.setContentHubToData = function() {
+                var e = this;
+                this.contentHubResult = d()(this.contentHubGetter),
+                this.totalItem = this.contentHubResult ? this.contentHubResult.length : 0,
+                this.moveMaxIndex = Math.ceil((this.totalItem - 1) / 2) + 2,
+                this.windowWidth >= 1280 ? this.totalSlide = Math.ceil((this.totalItem - 5) / 8) + 1 : (this.totalSlide = this.totalItem,
+                this.moveMaxIndex = this.totalItem),
+                this.totalItem > 0 && this.$nextTick((function() {
+                    e.resetCarousel();
+                    var t = Array.prototype.slice.call(document.querySelectorAll(".blockbackground"));
+                    if (window.IntersectionObserver) {
+                        var n = new IntersectionObserver((function(e) {
+                            e.forEach((function(e) {
+                                e.isIntersecting && (e.target.classList.remove("blockbackground"),
+                                n.unobserve(e.target))
+                            }
+                            ))
+                        }
+                        ));
+                        t.forEach((function(e) {
+                            return n.observe(e)
+                        }
+                        ))
+                    } else
+                        t.forEach((function(e) {
+                            return e.classList.remove("blockbackground")
+                        }
+                        ))
+                }
+                ))
+            }
+            ,
+            t.prototype.reloadSource = function() {
+                this.windowWidth >= 1280 ? this.rwdState = "desktop" : this.windowWidth >= 731 && this.windowWidth <= 1279 ? this.rwdState = "tablet" : this.rwdState = "mobile",
+                this.currentImageIndex = 1,
+                this.resetCarousel()
+            }
+            ,
+            t.prototype.listItemStyle = function(i, e) {
+                var style = {};
+                return style.height = this.itemHeight + "px",
+                style.width = this.itemWidth + "px",
+                this.windowWidth >= 1280 && 0 === i && (style.height = 2 * this.itemHeight + "px",
+                style.width = 2 * this.itemWidth + "px"),
+                style
+            }
+            ,
+            t.prototype.setImg = function(i) {
+                this.currentImageIndex = i,
+                this.resetCarousel()
+            }
+            ,
+            t.prototype.nextImg = function() {
+                this.currentImageIndex++,
+                this.currentImageIndex > this.totalSlide && (!0 === this.loop ? this.currentImageIndex = 1 : this.currentImageIndex = this.totalSlide),
+                this.resetCarousel()
+            }
+            ,
+            t.prototype.prevImg = function() {
+                this.currentImageIndex--,
+                this.currentImageIndex <= 0 && (!0 === this.loop ? this.currentImageIndex = this.totalSlide : this.currentImageIndex = 1),
+                this.resetCarousel()
+            }
+            ,
+            t.prototype.resetCarousel = function() {
+                var element = this.$refs.image_carousel;
+                this.widthData = element.offsetWidth;
+                var e = this.$refs.indicator;
+                this.widthIndicator = e.offsetWidth - 2 * this.paddingIndicator,
+                this.moveMaxIndex = Math.ceil((this.totalItem - 1) / 2) + 2,
+                this.windowWidth >= 1280 ? (this.pagesize = 4,
+                this.movesize = 4) : (this.pagesize = 1,
+                this.movesize = 1,
+                this.moveMaxIndex = this.totalItem),
+                this.itemWidth = this.widthData / this.pagesize,
+                this.windowWidth >= 731 ? this.itemHeight = .625 * this.itemWidth : this.itemHeight = 457,
+                this.resetTotalSlide()
+            }
+            ,
+            t.prototype.resetTotalSlide = function() {
+                this.windowWidth >= 1280 ? this.totalSlide = Math.ceil((this.totalItem - 5) / 8) + 1 : this.totalSlide = this.totalItem,
+                this.itemWidth = this.widthData / this.pagesize,
+                this.windowWidth >= 731 ? this.itemHeight = .625 * this.itemWidth : this.itemHeight = 457,
+                this.windowWidth >= 1280 ? this.carouselHeight = 2 * this.itemHeight : this.carouselHeight = this.itemHeight,
+                this.carouselInnerHeight = this.carouselHeight + 70,
+                1 === this.currentImageIndex ? (this.moveLeft = 0,
+                this.moveLeftIndicator = 0) : this.moveMaxIndex - (this.currentImageIndex - 1) * this.pagesize > this.pagesize ? this.moveLeft = (this.currentImageIndex - 1) * this.pagesize * this.itemWidth : this.moveLeft = (this.moveMaxIndex - this.pagesize) * this.itemWidth,
+                1 === this.currentImageIndex ? this.moveLeftIndicator = this.paddingIndicator : this.moveLeftIndicator = (this.currentImageIndex - 1) * (this.widthIndicator / this.totalSlide) + this.paddingIndicator
+            }
+            ,
+            t.prototype.LinkTrans = function(e, t) {
+                "2" === e ? this.$refs.lightbox.LinkTransChild(t) : window.open(t, "_blank")
+            }
+            ,
+            t.prototype.vtouchLeft = function() {
+                this.nextImg()
+            }
+            ,
+            t.prototype.vtouchRight = function() {
+                this.prevImg()
+            }
+            ,
+            I([Object(l.Getter)("contentHubGetter")], t.prototype, "contentHubGetter", void 0),
+            I([Object(l.Prop)()], t.prototype, "windowWidth", void 0),
+            I([Object(l.Watch)("contentHubGetter")], t.prototype, "setContentHubToData", null),
+            I([Object(l.Watch)("windowWidth")], t.prototype, "reloadSource", null),
+            t = I([Object(l.Component)({
+                components: {
+                    LightboxYouTube: h.a,
+                    CarouselArrows: m.a,
+                    Indicator: _.a
+                }
+            })], t)
+        }(Object(l.mixins)(f.a, v.a)), B = n(919), x = n(10);
+        var component = Object(x.a)(w, (function() {
+            var e = this
+              , t = e.$createElement
+              , n = e._self._c || t;
+            return n("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: void 0 !== e.contentHubResult && e.contentHubResult && e.contentHubResult.length > 0,
+                    expression: "contentHubResult !== undefined && contentHubResult && contentHubResult.length > 0"
+                }],
+                ref: "image_carousel",
+                class: [e.$style.imageCarousel, e.$style.contentHub],
+                style: {
+                    height: e.carouselHeight + "px"
+                },
+                attrs: {
+                    id: "contentHub"
+                }
+            }, [n("div", {
+                ref: "inner",
+                class: e.$style.contentHubInner,
+                style: [{
+                    height: e.carouselInnerHeight + "px"
+                }, (e.isRTL,
+                {
+                    left: -e.moveLeft + "px"
+                })]
+            }, [e._l(e.contentHubResult, (function(t, o) {
+                return [n("div", {
+                    key: o,
+                    attrs: {
+                        tabindex: "0"
+                    },
+                    on: {
+                        click: function(n) {
+                            e.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_category_DL: "internal-links",
+                                event_action_DL: "clicked",
+                                event_label_DL: "content_hub/" + t.Title,
+                                event_value_DL: "0"
+                            }),
+                            e.gaHmtPush(["_trackEvent", "internal-links", "clicked", "content_hub/" + t.Title]),
+                            e.LinkTrans(t.Type, t.Link)
+                        }
+                    }
+                }, [n("div", {
+                    key: o,
+                    class: e.$style.contentHubItem,
+                    style: e.listItemStyle(o, t.ImgUrl)
+                }, [t.ImgUrl ? n("img", {
+                    staticStyle: {
+                        display: "none"
+                    },
+                    attrs: {
+                        loading: !e.isRTL && "lazy",
+                        src: t.ImgUrl.pc,
+                        alt: t.Title
+                    }
+                }) : e._e(), e._v(" "), t.ImgUrl ? n("div", {
+                    class: [e.$style.contentHubItemImg, "blockbackground"],
+                    style: [e.windowWidth >= 731 ? {
+                        backgroundImage: "url(" + t.ImgUrl.pc + ")"
+                    } : {
+                        backgroundImage: "url(" + t.ImgUrl.mobile + ")"
+                    }, e.listItemStyle(o, t.ImgUrl)]
+                }) : e._e(), e._v(" "), n("div", {
+                    class: e.$style.scenarioContent
+                }, [n("div", {
+                    class: e.$style.contentTitle
+                }, [e._v("\n              " + e._s(t.Title) + "\n            ")]), e._v(" "), n("div", {
+                    class: e.$style.contentInfo
+                }, [n("span", {
+                    domProps: {
+                        innerHTML: e._s(t.Description)
+                    }
+                })])])])])]
+            }
+            ))], 2), e._v(" "), n("CarouselArrows", {
+                attrs: {
+                    isRTL: e.isRTL,
+                    enableControllButton: e.windowWidth >= 1280,
+                    enablePrevButton: (e.currentImageIndex > 1 || e.loop) && e.totalSlide > 1,
+                    enableNextButton: (e.currentImageIndex !== e.totalSlide || e.loop) && e.totalSlide > 1
+                },
+                on: {
+                    clickPrev: e.prevImg,
+                    clickNext: e.nextImg
+                }
+            }), e._v(" "), n("Indicator", {
+                ref: "indicator",
+                class: e.$style.indicator,
+                attrs: {
+                    autoPlay: !1,
+                    currentSlide: e.currentImageIndex,
+                    totalSlide: e.totalSlide,
+                    windowWidth: e.windowWidth
+                },
+                on: {
+                    slideToEvent: e.setImg
+                }
+            }), e._v(" "), n("LightboxYouTube", {
+                ref: "lightbox",
+                attrs: {
+                    propVideoUrl: e.propVideoUrl,
+                    "show-light-box": !0,
+                    windowWidth: e.windowWidth
+                }
+            })], 1)
+        }
+        ), [], !1, (function(e) {
+            this.$style = B.default.locals || B.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    852: function(e, t, n) {
+        "use strict";
+        n(11),
+        n(14);
+        var o, r = n(4), l = n(0), c = n(32), d = n(641), h = n(626), m = n(143), _ = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), f = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, v = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.pageClick = 1,
+                t.count = 0,
+                t.swiperEl = null,
+                t.swiperOption = {
+                    observer: !0,
+                    observeParents: !0,
+                    spaceBetween: 20,
+                    slidesPerView: t.isGallery ? "auto" : t.slidesPerView[0],
+                    slidesPerGroup: t.slidesPerView[0],
+                    direction: "horizontal",
+                    navigation: {
+                        nextEl: ".swiper-" + t.sectionKey + "-button-next",
+                        prevEl: ".swiper-" + t.sectionKey + "-button-prev"
+                    },
+                    breakpoints: {
+                        1279: {
+                            spaceBetween: t.isGallery ? 12 : 20,
+                            slidesPerView: t.isGallery ? "auto" : t.slidesPerView[1],
+                            slidesPerGroup: t.slidesPerView[1]
+                        },
+                        731: {
+                            slidesPerView: t.isGallery ? "auto" : t.slidesPerView[2],
+                            slidesPerGroup: t.slidesPerView[2]
+                        }
+                    }
+                },
+                t
+            }
+            return _(t, e),
+            t.prototype.mounted = function() {
+                var e = this;
+                this.count = this.featuredList.length,
+                this.$nextTick((function() {
+                    e.swiperEl = e.$refs.relatedArticleSwiper
+                }
+                ))
+            }
+            ,
+            t.prototype.reloadSource = function() {
+                "undefined" != typeof window && this.swiperEl && this.swiperEl.swiper && this.swiperEl.swiper.slideTo(0)
+            }
+            ,
+            Object.defineProperty(t.prototype, "getCardWidth", {
+                get: function() {
+                    if (this.isGallery)
+                        switch (this.rwdState) {
+                        case "mobile":
+                            return "260px";
+                        case "tablet":
+                            return "300px";
+                        default:
+                            return "100%"
+                        }
+                    return "calc((100% - " + 20 * (this.pageSize - 1) + "px) / " + this.pageSize + ")"
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            t.prototype.slideChange = function() {
+                this.pageClick = Math.ceil((this.swiperEl.swiper.activeIndex + 1) / this.pageSize)
+            }
+            ,
+            t.prototype.slideTo = function(e) {
+                if (this.pageClick = e,
+                this.swiperEl && this.swiperEl.swiper && void 0 !== this.swiperEl.swiper && this.swiperEl.swiper.slideTo((e - 1) * this.pageSize),
+                this.gaLabel) {
+                    var t = "indicator_" + this.sectionKey + "_blog_official"
+                      , n = this.sectionKey + "/blog/official"
+                      , o = e + "/indicator/" + this.sectionKey + "/" + this.gaLabel + "/overview/blog/official";
+                    "related-article" === this.sectionKey && (t = "indicator_" + this.sectionKey + "_" + this.gaLabel + "_blog_official",
+                    n = this.sectionKey + "/" + this.gaLabel + "/blog/official",
+                    o = e + "/indicator/" + this.sectionKey + "/" + this.articleTitle + "/" + this.gaLabel + "/blog/official"),
+                    this.gaDataLayerPush({
+                        event: "data_layer_event",
+                        event_name_ga4: t,
+                        event_category_DL: n,
+                        event_action_DL: "clicked",
+                        event_label_DL: o,
+                        event_value_DL: ""
+                    })
+                }
+            }
+            ,
+            t.prototype.cardClick = function(e) {
+                var t = Object(m.a)(this.$route.params.region);
+                window.location.href = t + "/blog/" + e.WebPath + "/";
+                var n = "article_" + this.sectionKey + "_blog_official"
+                  , o = this.sectionKey + "/blog/official"
+                  , r = e.Title + "/" + this.sectionKey + "/" + this.gaLabel + "/overview/blog/official";
+                "article" === this.sectionKey && (n = "article_related_article_article_blog_official",
+                o = "related-article/article/blog/official",
+                r = e.Title + "/related-article/" + (this.articleTitle ? this.articleTitle : e.Title) + "/article/blog/official"),
+                this.gaDataLayerPush({
+                    event: "data_layer_event",
+                    event_name_ga4: n,
+                    event_category_DL: o,
+                    event_action_DL: "clicked",
+                    event_label_DL: r,
+                    event_value_DL: ""
+                })
+            }
+            ,
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "sectionKey", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "theme", void 0),
+            f([Object(l.Prop)()], t.prototype, "pageSize", void 0),
+            f([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "isSingle", void 0),
+            f([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "noBackground", void 0),
+            f([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "isGallery", void 0),
+            f([Object(l.Prop)()], t.prototype, "slidesPerView", void 0),
+            f([Object(l.Prop)()], t.prototype, "featuredList", void 0),
+            f([Object(l.Prop)({
+                default: !1
+            })], t.prototype, "imgFixHeight", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "gaLabel", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "websiteCode", void 0),
+            f([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "articleTitle", void 0),
+            f([Object(l.Getter)("windowWidthGetter")], t.prototype, "windowWidth", void 0),
+            f([Object(l.Getter)("rwdStateGetter")], t.prototype, "rwdState", void 0),
+            f([Object(l.Watch)("windowWidth")], t.prototype, "reloadSource", null),
+            t = f([Object(l.Component)({
+                components: {
+                    ArticleCard: d.a,
+                    Pagination: h.a
+                }
+            })], t)
+        }(Object(l.mixins)(c.a)), y = n(1129), I = n(10);
+        var component = Object(I.a)(v, (function() {
+            var e, t, n = this, o = n.$createElement, r = n._self._c || o;
+            return r("div", {
+                class: n.$style.sectionWrapper
+            }, [r("div", {
+                class: [(e = {},
+                e[n.$style.single] = n.isSingle,
+                e), (t = {},
+                t[n.$style.isGallery] = n.isGallery,
+                t)]
+            }, [r("div", {
+                directives: [{
+                    name: "swiper",
+                    rawName: "v-swiper:relatedArticleSwiper",
+                    value: n.swiperOption,
+                    expression: "swiperOption",
+                    arg: "relatedArticleSwiper"
+                }],
+                ref: "relatedArticleSwiper",
+                class: n.$style.sliderSection,
+                on: {
+                    slideChange: n.slideChange
+                }
+            }, [r("div", {
+                class: ["swiper-wrapper", n.$style.swiperWrapper]
+            }, [n._l(n.featuredList, (function(e, t) {
+                var o;
+                return r("div", {
+                    key: e.Id,
+                    class: ["swiper-slide", n.$style.card, n.$style.swiperSlide, n.$style.articleCard, (o = {},
+                    o[n.$style.noBackground] = n.noBackground,
+                    o)],
+                    style: {
+                        "--cardWidth": n.getCardWidth
+                    }
+                }, [r("div", {
+                    class: n.$style.cardBox,
+                    on: {
+                        click: function(t) {
+                            return n.cardClick(e)
+                        }
+                    }
+                }, [r("ArticleCard", {
+                    class: n.$style.card,
+                    attrs: {
+                        type: "news",
+                        isSingle: 1 == +n.count,
+                        theme: n.theme,
+                        isGallery: n.isGallery,
+                        cardData: e,
+                        imgFixHeight: n.imgFixHeight,
+                        sectionKey: n.sectionKey,
+                        gaLabel: n.gaLabel,
+                        websiteCode: n.websiteCode
+                    }
+                })], 1)])
+            }
+            )), n._v(" "), n._l(n.pageSize - n.count % n.pageSize, (function(e) {
+                return r("div", {
+                    directives: [{
+                        name: "show",
+                        rawName: "v-show",
+                        value: !n.isGallery && n.count / n.pageSize > 0 && n.count % n.pageSize != 0,
+                        expression: "!isGallery && count / pageSize > 0 && count % pageSize !== 0"
+                    }],
+                    key: "blank-" + e,
+                    class: ["swiper-slide"],
+                    style: {
+                        "--cardWidth": n.getCardWidth
+                    }
+                })
+            }
+            ))], 2)]), n._v(" "), r("div", {
+                class: ["swiper-button-prev", "swiper-" + n.sectionKey + "-button-prev", n.$style.swiperPrevButton],
+                attrs: {
+                    slot: "button-prev"
+                },
+                on: {
+                    click: function(e) {
+                        return n.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_l_" + n.sectionKey + "_blog_official",
+                            event_category_DL: n.sectionKey + "/blog/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "last_button/" + n.sectionKey + "/" + n.gaLabel + "/overview/blog/official",
+                            event_value_DL: ""
+                        })
+                    }
+                },
+                slot: "button-prev"
+            }, [r("svg", {
+                class: n.$style.icon,
+                attrs: {
+                    width: "30",
+                    height: "30",
+                    viewBox: "0 0 30 30",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [r("path", {
+                attrs: {
+                    d: "M19 26l-9-11 9-11",
+                    stroke: "#fff",
+                    "stroke-width": "3",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), n._v(" "), r("div", {
+                class: ["swiper-button-next", "swiper-" + n.sectionKey + "-button-next", n.$style.swiperNextButton],
+                attrs: {
+                    slot: "button-next"
+                },
+                on: {
+                    click: function(e) {
+                        return n.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_n_" + n.sectionKey + "_blog_official",
+                            event_category_DL: n.sectionKey + "/blog/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next_button/" + n.sectionKey + "/" + n.gaLabel + "/overview/blog/official",
+                            event_value_DL: ""
+                        })
+                    }
+                },
+                slot: "button-next"
+            }, [r("svg", {
+                class: n.$style.icon,
+                attrs: {
+                    width: "30",
+                    height: "30",
+                    viewBox: "0 0 30 30",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [r("path", {
+                attrs: {
+                    d: "M11 26l9-11-9-11",
+                    stroke: "#fff",
+                    "stroke-width": "3",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])])]), n._v(" "), !n.isGallery && n.count > 0 ? r("Pagination", {
+                class: n.$style.pagination,
+                attrs: {
+                    pageCount: n.count,
+                    pageSize: n.pageSize,
+                    pageClick: n.pageClick,
+                    preFive: !1,
+                    gaLabel: n.gaLabel,
+                    sectionKey: n.sectionKey
+                },
+                on: {
+                    "change-page": n.slideTo
+                }
+            }) : n._e()], 1)
+        }
+        ), [], !1, (function(e) {
+            this.$style = y.default.locals || y.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    859: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAgMCA0MCA1NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxyZWN0IHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iMzkiIGhlaWdodD0iNTMiIHJ4PSIzLjUiIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjAuMiIgc3Ryb2tlPSIjNjY2NjY2Ii8+DQo8cGF0aCBkPSJNMTUuNSAxNy4wMjVMMjUuNDc1IDI3TDE1LjUgMzYuOTc1IiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+DQo="
+    },
+    860: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAgMCA0MCA1NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxyZWN0IHg9IjAuNSIgeT0iMC41IiB3aWR0aD0iMzkiIGhlaWdodD0iNTMiIHJ4PSIzLjUiIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjAuMiIgc3Ryb2tlPSIjNjY2NjY2Ii8+DQo8cGF0aCBkPSJNMjQuNSAzNi45NzVMMTQuNTI1IDI3TDI0LjUgMTcuMDI1IiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPC9zdmc+DQo="
+    },
+    861: function(e, t, n) {
+        e.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif'
+        }
+    },
+    862: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCA0MCA1NCI+DQogICAgPHJlY3Qgd2lkdGg9IjM5IiBoZWlnaHQ9IjUzIiB4PSIuNSIgeT0iLjUiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjQiIHN0cm9rZT0iI2RjZGNkYyIgcng9IjMuNSIvPg0KICAgIDxwYXRoIHN0cm9rZT0iI2RjZGNkYyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMjQuNSAzNi45NzVMMTQuNTI1IDI3bDkuOTc1LTkuOTc1Ii8+DQo8L3N2Zz4NCg=="
+    },
+    863: function(e, t) {
+        e.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgNDAgNTQiPg0KICAgIDxyZWN0IHdpZHRoPSIzOSIgaGVpZ2h0PSI1MyIgeD0iLjUiIHk9Ii41IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9Ii40IiBzdHJva2U9IiNkY2RjZGMiIHJ4PSIzLjUiLz4NCiAgICA8cGF0aCBzdHJva2U9IiNkY2RjZGMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTE1LjUgMTcuMDI1TDI1LjQ3NSAyNyAxNS41IDM2Ljk3NSIvPg0KPC9zdmc+DQo="
+    },
+    894: function(e, t, n) {
+        "use strict";
+        n(36),
+        n(11),
+        n(14),
+        n(37),
+        n(47);
+        var o, r = n(4), l = n(0), c = n(32), d = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), h = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, m = n(596);
+        l.Vue.use(m);
+        var _ = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.scrollYValue = 0,
+                t.documentHeight = 0,
+                t.isFixedTab = !1,
+                t.twoFixed = !1,
+                t.tabTop = 0,
+                t.activeDataName = "",
+                t.clickElement = "",
+                t.swiperOption = {
+                    slidesPerView: "auto",
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                    direction: "horizontal",
+                    navigation: {
+                        nextEl: ".swiper-anchorBar-button-next",
+                        prevEl: ".swiper-anchorBar-button-prev"
+                    }
+                },
+                t
+            }
+            return d(t, e),
+            t.prototype.mounted = function() {
+                var e = this;
+                this.$nextTick((function() {
+                    var t;
+                    e.tabTop = null === (t = document.getElementById("anchorBar")) || void 0 === t ? void 0 : t.getBoundingClientRect().top,
+                    e.setSectionInfo(),
+                    e.fixTab(),
+                    window.addEventListener("scroll", e.getInViewSection),
+                    window.addEventListener("keydown", e.logKey)
+                }
+                ))
+            }
+            ,
+            t.prototype.beforeDestroy = function() {
+                window.removeEventListener("scroll", this.getInViewSection),
+                window.removeEventListener("keydown", this.logKey)
+            }
+            ,
+            t.prototype.logKey = function(e) {
+                this.clickElement && "Tab" === e.key && this.focusSection(this.clickElement)
+            }
+            ,
+            t.prototype.scrollTo = function(e) {
+                this.clickElement = e;
+                var t = document.documentElement.scrollTop
+                  , n = document.querySelector("#" + e + "Section").getBoundingClientRect().top + window.scrollY
+                  , o = document.getElementsByClassName("sortFixed")[0]
+                  , r = 0;
+                if (this.isFixedTab)
+                    o && (r = 60),
+                    n = t >= n ? n - 120 - r : n - 30 - r;
+                else {
+                    var l = document.querySelectorAll('[class*="headingWrapper"]')[0];
+                    this.windowWidth < 731 && (r = 120),
+                    n = n - 100 - (null == l ? void 0 : l.clientHeight) - r
+                }
+                window.scrollTo({
+                    top: n,
+                    behavior: "smooth"
+                })
+            }
+            ,
+            t.prototype.fixTab = function() {
+                window.scrollY >= this.tabTop ? (this.isFixedTab = !0,
+                document.getElementsByClassName("pageBarWrapperFixed")[0] && window.scrollY < this.scrollYValue ? this.twoFixed = !0 : this.twoFixed = !1) : (this.isFixedTab = !1,
+                this.twoFixed = !1);
+                this.scrollYValue = window.scrollY
+            }
+            ,
+            t.prototype.setSectionInfo = function() {
+                var e = this;
+                if (null === document.querySelector(".anchor.active")) {
+                    var t = document.getElementsByClassName("anchor")[0]
+                      , n = t.getAttribute("data-key");
+                    t.classList.add("active"),
+                    this.activeDataName = n || ""
+                }
+                for (var o = new IntersectionObserver((function(t) {
+                    t.forEach((function(t) {
+                        var n, o;
+                        if (t.isIntersecting) {
+                            var r = t.target.getAttribute("data-key");
+                            null === (n = document.querySelector(".anchor.active")) || void 0 === n || n.classList.remove("active"),
+                            null === (o = document.querySelector(".anchor[data-name='" + r + "']")) || void 0 === o || o.classList.add("active"),
+                            e.activeDataName = r || ""
+                        }
+                    }
+                    ))
+                }
+                ),{
+                    rootMargin: "-20% 0px -80% 0px",
+                    threshold: 0
+                }), r = document.querySelectorAll(".anchor"), l = 0; l < r.length; l++) {
+                    var c = r[l].getAttribute("data-name")
+                      , d = document.getElementById(c + "Section");
+                    null !== c && null !== d && (d.setAttribute("data-key", c),
+                    o.observe(d))
+                }
+            }
+            ,
+            t.prototype.getInViewSection = function() {
+                var e = document.getElementsByTagName("html")[0].scrollHeight;
+                e > this.documentHeight && (this.documentHeight = e,
+                this.setSectionInfo()),
+                this.fixTab()
+            }
+            ,
+            t.prototype.focusSection = function(e) {
+                var section = document.getElementById(e + "Section");
+                this.clickElement && section && (document.activeElement instanceof HTMLElement && document.activeElement.blur(),
+                setTimeout((function() {
+                    section.querySelector('a[href], button, input, textarea, select, [tabindex]:not([tabindex="-1"])').focus()
+                }
+                ), 5),
+                this.clickElement = "")
+            }
+            ,
+            h([Object(l.Prop)()], t.prototype, "anchorList", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "page", void 0),
+            h([Object(l.Prop)({
+                default: 2
+            })], t.prototype, "minLength", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "gaEventPath", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], t.prototype, "ga4EventPath", void 0),
+            h([Object(l.Prop)()], t.prototype, "windowWidth", void 0),
+            t = h([Object(l.Component)({
+                components: {}
+            })], t)
+        }(Object(l.mixins)(c.a))
+          , f = n(1018)
+          , v = n(10);
+        var component = Object(v.a)(_, (function() {
+            var e, t = this, n = t.$createElement, o = t._self._c || n;
+            return o("div", {
+                class: [t.$style.headingWrapper, (e = {
+                    anchorPointFixed: t.isFixedTab
+                },
+                e[t.$style.fixed] = t.isFixedTab,
+                e[t.$style.twoFixed] = t.twoFixed,
+                e[t.$style.twoFadeIn] = t.twoFixed,
+                e)]
+            }, [t.anchorList && t.anchorList.length >= t.minLength ? o("div", {
+                class: t.$style.headingContainer
+            }, [o("div", [o("div", {
+                directives: [{
+                    name: "swiper",
+                    rawName: "v-swiper:anchorBarSwiper",
+                    value: t.swiperOption,
+                    expression: "swiperOption",
+                    arg: "anchorBarSwiper"
+                }],
+                ref: "anchorBarSwiper",
+                class: ["anchorBar", t.$style.anchorBar, t.$style.headingTabs],
+                attrs: {
+                    id: "anchorBar"
+                }
+            }, [o("div", {
+                class: ["swiper-wrapper", t.$style.headingTabsContainer],
+                attrs: {
+                    role: "tablist"
+                }
+            }, [t._l(t.anchorList, (function(e) {
+                return [o("div", {
+                    key: e.name,
+                    class: ["swiper-slide", "anchor", t.$style.headingTab],
+                    attrs: {
+                        "data-name": e.id,
+                        role: "tab",
+                        tabindex: "0",
+                        id: e.id,
+                        "aria-selected": t.activeDataName === e.name ? "true" : "false",
+                        "aria-disabled": t.activeDataName === e.name
+                    },
+                    on: {
+                        click: function(n) {
+                            t.scrollTo(e.id),
+                            t.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "anchor_" + t.ga4EventPath + "_official",
+                                event_category_DL: t.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: e.name + "/" + t.gaEventPath + "/official",
+                                event_value_DL: ""
+                            })
+                        },
+                        keydown: function(n) {
+                            return !n.type.indexOf("key") && t._k(n.keyCode, "enter", 13, n.key, "Enter") || n.ctrlKey || n.shiftKey || n.altKey || n.metaKey ? null : t.clickElement = e.id
+                        },
+                        focusout: function(n) {
+                            return t.focusSection(e.id)
+                        }
+                    }
+                }, [o("span", [t._v(t._s(e.name))])])]
+            }
+            ))], 2)]), t._v(" "), [o("div", {
+                class: ["swiper-button-prev", "swiper-anchorBar-button-prev", t.$style.swiperPrevButton],
+                attrs: {
+                    slot: "button-prev",
+                    "aria-label": "Previous slide"
+                },
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_l_ancm_bar_" + t.ga4EventPath + "_official",
+                            event_category_DL: "ancm_bar/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "last_button/ancm_bar/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        })
+                    }
+                },
+                slot: "button-prev"
+            }, [o("svg", {
+                class: t.$style.buttonIcon,
+                attrs: {
+                    width: "30",
+                    height: "30",
+                    viewBox: "0 0 30 30",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M18 26L9 15l9-11",
+                    stroke: "#fff",
+                    "stroke-width": "3",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), t._v(" "), o("div", {
+                class: ["swiper-button-next", "swiper-anchorBar-button-next", t.$style.swiperNextButton],
+                attrs: {
+                    slot: "button-next",
+                    "aria-label": "Next slide"
+                },
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_n_ancm_bar_" + t.ga4EventPath + "_official",
+                            event_category_DL: "ancm_bar/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next_button/ancm_bar/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        })
+                    }
+                },
+                slot: "button-next"
+            }, [o("svg", {
+                class: t.$style.buttonIcon,
+                attrs: {
+                    width: "30",
+                    height: "30",
+                    viewBox: "0 0 30 30",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M12 26l9-11-9-11",
+                    stroke: "#fff",
+                    "stroke-width": "3",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])])]], 2)]) : t._e()])
+        }
+        ), [], !1, (function(e) {
+            this.$style = f.default.locals || f.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    902: function(e, t, n) {
+        "use strict";
+        n(11),
+        n(14);
+        var o, r = n(4), l = n(0), c = n(32), d = (o = function(e, b) {
+            return (o = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(e, b) {
+                e.__proto__ = b
+            }
+            || function(e, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (e[p] = b[p])
+            }
+            )(e, b)
+        }
+        ,
+        function(e, b) {
+            function t() {
+                this.constructor = e
+            }
+            o(e, b),
+            e.prototype = null === b ? Object.create(b) : (t.prototype = b.prototype,
+            new t)
+        }
+        ), h = function(e, t, n, desc) {
+            var o, l = arguments.length, c = l < 3 ? t : null === desc ? desc = Object.getOwnPropertyDescriptor(t, n) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(e, t, n, desc);
+            else
+                for (var i = e.length - 1; i >= 0; i--)
+                    (o = e[i]) && (c = (l < 3 ? o(c) : l > 3 ? o(t, n, c) : o(t, n)) || c);
+            return l > 3 && c && Object.defineProperty(t, n, c),
+            c
+        }, m = function(e) {
+            function t() {
+                var t = null !== e && e.apply(this, arguments) || this;
+                return t.isMore = !1,
+                t
+            }
+            return d(t, e),
+            t.prototype.handleMore = function() {
+                this.isMore = !this.isMore,
+                this.$emit("handleMore", this.isMore)
+            }
+            ,
+            t = h([Object(l.Component)({
+                components: {}
+            })], t)
+        }(Object(l.mixins)(c.a)), _ = n(1134), f = n(10);
+        var component = Object(f.a)(m, (function() {
+            var e, t = this, n = t.$createElement, o = t._self._c || n;
+            return o("div", {
+                class: t.$style.seeMoreBar
+            }, [o("div", {
+                class: t.$style.seeMoreBarContent
+            }, [o("div", {
+                class: t.$style.line
+            }), t._v(" "), o("div", {
+                class: t.$style.showMore,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": t.isMore ? "show less" : "show more"
+                },
+                on: {
+                    click: t.handleMore
+                }
+            }, [t._v("\n      " + t._s(t.isMore ? "Show less" : "Show more") + "\n      "), o("svg", {
+                class: [t.$style.expandIcon, (e = {},
+                e[t.$style.expanded] = t.isMore,
+                e)],
+                attrs: {
+                    width: "8",
+                    height: "5",
+                    viewBox: "0 0 8 5",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M7.236.566a.496.496 0 01.159.356.505.505 0 01-.121.368l-.038.038-3.06 3.066a.527.527 0 01-.387.159.52.52 0 01-.38-.16L.341 1.329a.52.52 0 01-.158-.38.52.52 0 01.158-.382.52.52 0 01.381-.158c.152 0 .282.052.387.158l2.68 2.679L6.473.566l.038-.038a.505.505 0 01.368-.12c.14.004.259.057.356.158z",
+                    fill: "#4D4D4D"
+                }
+            })])]), t._v(" "), o("div", {
+                class: t.$style.line
+            })])])
+        }
+        ), [], !1, (function(e) {
+            this.$style = _.default.locals || _.default
+        }
+        ), null, null);
+        t.a = component.exports
+    },
+    907: function(e, t, n) {
+        "use strict";
+        var o = n(644)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    908: function(e, t, n) {
+        "use strict";
+        var o = n(645)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    909: function(e, t, n) {
+        "use strict";
+        var o = n(646)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    917: function(e, t, n) {
+        "use strict";
+        var o = n(654)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    919: function(e, t, n) {
+        "use strict";
+        var o = n(657)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    960: function(e, t, n) {
+        "use strict";
+        var o = n(679)
+          , r = n.n(o);
+        t.default = r.a
+    },
+    965: function(e, t) {
+        e.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABlSURBVHgB7ZHBCYAwDEWjmSGQMVzFSV3FDRwgMwQkh0L5fsHite8UXppPQ0QmD9z9MrMNfbnqoV9RZOauqkcfUnW56uH7RQg40OqIOD8F9CHtV2yYrjDK7xXoMF6CuVdGzzgRuQF9kzNI2ZDCmgAAAABJRU5ErkJggg=="
+    }
+}]);

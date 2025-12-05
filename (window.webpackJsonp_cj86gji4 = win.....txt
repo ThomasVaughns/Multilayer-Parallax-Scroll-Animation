@@ -1,0 +1,771 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[2], {
+    597: function(t, e, o) {
+        "use strict";
+        o(29),
+        o(11),
+        o(14),
+        o(47);
+        var n, r = o(4), l = o(0), c = o(32), d = o(345), h = o(143), f = (n = function(t, b) {
+            return (n = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            n(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), m = function(t, e, o, desc) {
+            var n, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (n = t[i]) && (c = (l < 3 ? n(c) : l > 3 ? n(e, o, c) : n(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, y = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.expandWrpper = !0,
+                e.onlineChat = {
+                    URL: "TEST"
+                },
+                e.classType = "",
+                e.websiteCode = "",
+                e.fcWidgetInit = {},
+                e.topMenuData = {},
+                e.isShowTime = !1,
+                e.onlineChatUrl = "",
+                e.itemTop = 0,
+                e.itemSpace = 16,
+                e.itemWidth = 60,
+                e.itemBottomSpace = 16,
+                e.onlineChatText = {
+                    co: "Asistente Virtual",
+                    cl: "Asistente Virtual"
+                },
+                e
+            }
+            return f(e, t),
+            e.prototype.mounted = function() {
+                var t = this;
+                this.websiteCode = Object(h.b)(this.$route.params.region),
+                this.$nextTick((function() {
+                    if (!("za" !== t.websiteCode && "me-en" !== t.websiteCode || "Store" !== t.$route.name && "StoreWebPath" !== t.$route.name && "Deals" !== t.$route.name && "DealsWebPath" !== t.$route.name && "DealsEvent" !== t.$route.name)) {
+                        var e = new Date
+                          , o = e.getUTCFullYear()
+                          , n = e.getUTCMonth()
+                          , r = e.getUTCDate()
+                          , l = e.getUTCHours()
+                          , c = e.getUTCMinutes()
+                          , s = e.getUTCSeconds()
+                          , d = (new Date(o,n,r,l,c,s),
+                        new Date(o,n,r,l,c,s).getTime())
+                          , h = void 0
+                          , f = void 0
+                          , m = void 0;
+                        "za" !== t.websiteCode && "me-en" !== t.websiteCode || (m = (h = new Date(d + 288e5)).getDay(),
+                        f = 100 * h.getHours() + h.getMinutes()),
+                        m > 0 && m < 6 && ("za" === t.websiteCode && f >= 1400 && f <= 2300 && (t.onlineChatUrl = "https://livechat-eu.asus.com/chat/#/?country=ZAEC&skill=STORE",
+                        t.$set(t, "isShowTime", !0)),
+                        "me-en" === t.websiteCode && f >= 1200 && f <= 2300 && (t.onlineChatUrl = "https://livechat-eu.asus.com/chat/#/?country=ae&skill=STORE",
+                        t.$set(t, "isShowTime", !0)))
+                    }
+                    ("undefined" != typeof window && window.fcWidget && "cl" === t.websiteCode || "co" === t.websiteCode || "pe" === t.websiteCode) && (t.$set(t, "isShowTime", !0),
+                    window.fcWidget.on("widget:opened", (function(t) {
+                        document.getElementById("pingpongchat").style.visibility = "hidden"
+                    }
+                    )),
+                    window.fcWidget.on("widget:closed", (function(t) {
+                        document.getElementById("pingpongchat").style.visibility = "visible"
+                    }
+                    ))),
+                    (t.isShowTime || "in" === t.websiteCode) && (t.isOnlineChatSet(1),
+                    t.autoPlayInterval = setInterval((function() {
+                        t.OnlineChatPosition()
+                    }
+                    ), 250));
+                    var y = t;
+                    "undefined" != typeof window && window.fcWidget && window.fcWidget.on("widget:loaded", (function(t) {
+                        y.isOnlineChatSet(1),
+                        y.$set(y, "isShowTime", !0),
+                        document.getElementById("pingpongchat").style.display = "flex",
+                        y.$nextTick((function() {
+                            y.OnlineChatPosition()
+                        }
+                        ))
+                    }
+                    ))
+                }
+                )),
+                window && (window.addEventListener("scroll", this.collapseWrapperWhenScroll),
+                window.addEventListener("resize", this.setWindowWidth)),
+                "" === this.classType && (this.classType = this.$route.name),
+                this.$nextTick((function() {
+                    t.OnlineChatPosition()
+                }
+                ))
+            }
+            ,
+            e.prototype.setTopMenuData = function() {
+                this.topMenuDataGetter && this.topMenuDataGetter.ProductLine && (this.topMenuData = this.topMenuDataGetter)
+            }
+            ,
+            e.prototype.OnlineChatPosition = function() {
+                if ("undefined" != typeof window) {
+                    if (this.windowWidth = window.innerWidth,
+                    this.windowWidth > 731 ? (this.itemWidth = 60,
+                    this.itemSpace = 16,
+                    this.itemBottomSpace = 69 - this.itemSpace) : (this.itemWidth = 44,
+                    this.itemSpace = 12,
+                    this.itemBottomSpace = 16 - this.itemSpace),
+                    1 === this.isCompareGetter && "undefined" != typeof window && document.getElementById("comparisonMenu")) {
+                        var t = document.getElementById("comparisonMenu");
+                        this.compareMenuHeightSet(t.offsetHeight),
+                        this.itemBottomSpace = t.offsetHeight
+                    }
+                    var e = this.itemSpace;
+                    1 === this.isAIAChatGetter && (e += this.itemWidth + this.itemSpace),
+                    e += this.itemBottomSpace,
+                    this.$set(this, "itemTop", e);
+                    var o = this.$refs.onlineChat;
+                    if (null != o && o.style && (o.style.bottom = this.itemTop + "px"),
+                    "in" === this.websiteCode) {
+                        if (null !== document.getElementById("oriDefaultTrigger"))
+                            document.getElementById("oriDefaultTrigger").style.bottom = this.itemTop + "px";
+                        if (null !== document.querySelectorAll(".closeTrigger")[0]) {
+                            var n = document.querySelectorAll(".closeTrigger")[0];
+                            null != n && n.style && (n.style.bottom = this.itemTop + "px")
+                        }
+                        if (null !== document.querySelectorAll(".oriAppContainer .containerWeb")) {
+                            var r = document.querySelectorAll(".oriAppContainer .containerWeb")[0];
+                            null != r && r.style && (r.style.bottom = this.itemTop + 80 + "px")
+                        }
+                    }
+                }
+            }
+            ,
+            e.prototype.open = function() {
+                window.fcWidget.open()
+            }
+            ,
+            e.prototype.collapseWrapperWhenScroll = function() {
+                window.scrollY > 300 || window.pageYOffset > 300 ? this.expandWrpper = !1 : this.expandWrpper = !0
+            }
+            ,
+            e.prototype.setAIStatus = function() {
+                !0 === this.AIStatusGetter ? (this.$set(this, "isShowTime", !1),
+                this.isOnlineChatSet(0)) : this.isShowTime && this.isOnlineChatSet(1)
+            }
+            ,
+            Object.defineProperty(e.prototype, "getItemTop", {
+                get: function() {
+                    return this.OnlineChatPosition(),
+                    this.itemTop
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.setItemTop = function() {
+                this.OnlineChatPosition()
+            }
+            ,
+            e.prototype.setMenuShowItemTop = function() {
+                this.OnlineChatPosition()
+            }
+            ,
+            e.prototype.setWindowWidth = function() {
+                var t = this;
+                "undefined" != typeof window && (this.windowWidth = window.innerWidth,
+                this.$nextTick((function() {
+                    t.OnlineChatPosition()
+                }
+                )))
+            }
+            ,
+            Object.defineProperty(e.prototype, "getShowTime", {
+                get: function() {
+                    return this.isShowTime
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            m([Object(l.Getter)("topMenuDataGetter")], e.prototype, "topMenuDataGetter", void 0),
+            m([Object(l.Getter)("onlineChatDataGetter")], e.prototype, "onlineChatDataGetter", void 0),
+            m([Object(l.Getter)("AIStatusGetter")], e.prototype, "AIStatusGetter", void 0),
+            m([Object(l.Prop)()], e.prototype, "compareMenuShowState", void 0),
+            m([Object(l.Prop)()], e.prototype, "compareNum", void 0),
+            m([Object(l.Watch)("topMenuDataGetter", {
+                immediate: !0
+            })], e.prototype, "setTopMenuData", null),
+            m([Object(l.Watch)("AIStatusGetter", {
+                immediate: !0
+            })], e.prototype, "setAIStatus", null),
+            m([Object(l.Watch)("compareMenuHeightGetter")], e.prototype, "setItemTop", null),
+            m([Object(l.Watch)("isCompareMenuShowGetter")], e.prototype, "setMenuShowItemTop", null),
+            e = m([Object(l.Component)({})], e)
+        }(Object(l.mixins)(c.a, d.a)), v = o(951), w = o(10);
+        var component = Object(w.a)(y, (function() {
+            var t, e = this, o = e.$createElement, n = e._self._c || o;
+            return n("" !== e.onlineChatUrl ? "a" : "div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: e.getShowTime && 1 === e.isOnlineChatGetter && !1 === e.AIStatusGetter,
+                    expression: "getShowTime && isOnlineChatGetter === 1 && AIStatusGetter === false"
+                }],
+                ref: "onlineChat",
+                tag: "component",
+                class: [e.$style.wrapper, e.$style.onlineChatUrl, (t = {},
+                t[e.$style.expand] = !!e.expandWrpper && e.expandWrpper,
+                t)],
+                style: [e.itemTop > 0 ? {
+                    bottom: e.itemTop + "px"
+                } : {
+                    bottom: e.itemSpace + "px"
+                }],
+                attrs: {
+                    tabindex: "0",
+                    id: "pingpongchat",
+                    href: "" !== e.onlineChatUrl && e.onlineChatUrl,
+                    target: "" !== e.onlineChatUrl && "_blank",
+                    rel: "" !== e.onlineChatUrl && "noreferrer noopener",
+                    "aria-label": "online chat" !== e.onlineChatUrl && "_blank"
+                },
+                on: {
+                    click: function(t) {
+                        e.open(),
+                        e.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_category_DL: "buttons",
+                            event_action_DL: "clicked",
+                            event_label_DL: "online_chat",
+                            event_value_DL: "0"
+                        })
+                    }
+                }
+            }, [n("svg", {
+                class: e.$style.icon,
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    fill: "none",
+                    viewBox: "0 0 36 36",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [n("path", {
+                attrs: {
+                    fill: "#fff",
+                    "fill-rule": "evenodd",
+                    d: "M21.97 4.275c-6.162 0-10.913 4.255-10.913 9.225s4.75 9.225 10.913 9.225c.445 0 .884-.023 1.314-.066l.292-.03 4.806 2.804v-4.459l.396-.267c2.536-1.716 4.104-4.328 4.104-7.207 0-4.97-4.75-9.225-10.912-9.225zM9.257 13.5c0-6.214 5.827-11.025 12.713-11.025 6.886 0 12.712 4.81 12.712 11.025 0 3.409-1.776 6.419-4.5 8.419v6.648l-7.012-4.09c-.395.032-.796.048-1.2.048-6.886 0-12.713-4.811-12.713-11.025z",
+                    "clip-rule": "evenodd"
+                }
+            }), n("path", {
+                attrs: {
+                    fill: "#fff",
+                    d: "M18 13.5a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 0118 13.5zm6 0a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 0124 13.5zm6 0a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 0130 13.5z"
+                }
+            }), n("path", {
+                attrs: {
+                    fill: "#fff",
+                    "fill-rule": "evenodd",
+                    d: "M8.275 11.068c-3.542 1.399-6.081 4.485-6.081 8.205 0 2.766 1.425 5.203 3.604 6.834v5.547l5.838-3.405c.303.023.61.035.92.035 2.783 0 5.365-.97 7.255-2.575a14.57 14.57 0 01-2.488-.444c-1.347.765-2.978 1.219-4.767 1.219-.35 0-.696-.018-1.035-.053l-.291-.03-3.632 2.12v-3.356l-.395-.267c-1.99-1.347-3.21-3.388-3.21-5.625 0-2.523 1.584-4.831 4.04-6.125.02-.704.101-1.399.242-2.08z",
+                    "clip-rule": "evenodd"
+                }
+            })]), e._v(" "), n("div", {
+                class: e.$style.text
+            }, [e._v("\n    " + e._s("co" === e.websiteCode || "cl" === e.websiteCode ? e.onlineChatText[e.websiteCode] : "Need Help?") + "\n  ")])])
+        }
+        ), [], !1, (function(t) {
+            this.$style = v.default.locals || v.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    622: function(t, e, o) {
+        "use strict";
+        o(43),
+        o(11),
+        o(14),
+        o(16),
+        o(38),
+        o(47);
+        var n, r = o(4), l = o(0), c = o(655), d = (n = function(t, b) {
+            return (n = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            n(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var n, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (n = t[i]) && (c = (l < 3 ? n(c) : l > 3 ? n(e, o, c) : n(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, f = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.rwdState = "",
+                e.lightBoxOn = !1,
+                e.videoUrl = "",
+                e.videoImg = "",
+                e
+            }
+            return d(e, t),
+            e.prototype.isTouchDevice = function() {
+                return "ontouchstart"in window || navigator.maxTouchPoints > 0
+            }
+            ,
+            e.prototype.LinkTransChild = function(t) {
+                var e = this
+                  , o = "" + (-1 === t.indexOf("/shorts/") ? t : t.replace("/shorts/", "/embed/"));
+                this.videoUrl = o,
+                this.videoImg = this.youtubeIDHandler(o),
+                this.lightBoxOn = !0,
+                setTimeout((function() {
+                    window.triggerVideoMask && window.triggerVideoMask(document.querySelector(".asusCB-video-lightbox"), e.videoUrl)
+                }
+                ), 100),
+                null != document && this.onToggleLightBox(t),
+                this.$nextTick((function() {
+                    e.focusCloseLightboxButton()
+                }
+                ))
+            }
+            ,
+            e.prototype.addKeyEvent = function(t) {
+                27 === t.keyCode && this.closeLightBox()
+            }
+            ,
+            e.prototype.closeLightBox = function() {
+                if (this.closable) {
+                    this.$set(this, "lightBoxOn", !1),
+                    document.querySelector("html").classList.remove("no-scroll"),
+                    this.videoUrl = "";
+                    var t = document.getElementById("lightboxYouTubePDC");
+                    t && (t.style.display = "none")
+                }
+            }
+            ,
+            e.prototype.onToggleLightBox = function(t) {
+                document && (this.disableScroll && (t ? document.querySelector("html").classList.add("no-scroll") : document.querySelector("html").classList.remove("no-scroll")),
+                t ? document.addEventListener("keydown", this.addKeyEvent) : document.removeEventListener("keydown", this.addKeyEvent))
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.onToggleLightBox(this.lightBoxOn)
+            }
+            ,
+            e.prototype.focusElement = function(element) {
+                setTimeout((function() {
+                    var t = document.querySelector(element);
+                    t && t.focus()
+                }
+                ), 500)
+            }
+            ,
+            e.prototype.focusCloseLightboxButton = function() {
+                var t = this.$refs.closeLightboxButton;
+                t && t.focus()
+            }
+            ,
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "isPDC", void 0),
+            h([Object(l.Prop)()], e.prototype, "propVideoUrl", void 0),
+            h([Object(l.Prop)()], e.prototype, "windowWidth", void 0),
+            h([Object(l.Prop)()], e.prototype, "videoWidth", void 0),
+            h([Object(l.Prop)()], e.prototype, "videoheight", void 0),
+            h([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "disableScroll", void 0),
+            h([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "closable", void 0),
+            h([Object(l.Prop)({
+                default: "Close (Esc)"
+            })], e.prototype, "closeText", void 0),
+            e = h([Object(l.Component)({
+                components: {}
+            })], e)
+        }(Object(l.mixins)(c.a)), m = o(918), y = o(10);
+        var component = Object(y.a)(f, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return o("div", [o("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: t.lightBoxOn && !t.isPDC || t.isPDC,
+                    expression: "lightBoxOn && !isPDC || isPDC"
+                }],
+                ref: "container",
+                class: ["asusCB-video-lightbox", ["lb-yt-container"], t.$style["lb-yt-container"]],
+                on: {
+                    click: function(e) {
+                        return e.target !== e.currentTarget ? null : t.closeLightBox(e)
+                    },
+                    touchend: function(e) {
+                        t.isTouchDevice() && t.closeLightBox()
+                    }
+                }
+            }, [o("div", {
+                class: ["lb-yt-content", t.$style["lb-yt-content"]]
+            }, [t.closable ? o("button", {
+                ref: "closeLightboxButton",
+                class: ["close-lightbox", t.$style["close-lightbox"]],
+                attrs: {
+                    tabindex: "0",
+                    type: "button",
+                    title: t.closeText,
+                    "aria-label": "Close LightBox button"
+                },
+                on: {
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.closeLightBox(e)
+                    },
+                    touchend: function(e) {
+                        t.isTouchDevice() && t.closeLightBox()
+                    },
+                    keydown: [function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "tab", 9, e.key, "Tab") || e.ctrlKey || e.shiftKey || e.altKey || e.metaKey ? null : t.focusElement(".lightboxYouTube")
+                    }
+                    , function(e) {
+                        return !e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : t.closeLightBox(e)
+                    }
+                    ]
+                }
+            }, [t._t("close", [o("svg", {
+                attrs: {
+                    viewBox: "0 0 26 26",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M7.68 6.83a.6.6 0 10-.85.85l.85-.85zM18.32 19.17a.6.6 0 00.849-.849l-.849.849zm-11.49-.849a.6.6 0 10.848.849l-.848-.849zM19.17 7.68a.6.6 0 00-.849-.848l.849.848zm-12.34 0l11.491 11.49.849-.848L7.68 6.831l-.85.848zm.85 11.49L19.17 7.68l-.849-.848-11.49 11.49.848.849z",
+                    fill: "#181818"
+                }
+            })])])], 2) : t._e(), t._v(" "), o("div", {
+                staticClass: "lightboxYouTube",
+                class: [["video-container"], t.$style["video-container"]],
+                attrs: {
+                    "aria-label": "LightBox Container"
+                }
+            }, [o("div", {
+                class: ["video", t.$style.video]
+            }, [o("a", {
+                staticClass: "asusCB-video",
+                attrs: {
+                    href: t.videoUrl,
+                    target: "_blank"
+                }
+            }, [o("img", {
+                attrs: {
+                    src: t.videoImg
+                }
+            })])])])])])])
+        }
+        ), [], !1, (function(t) {
+            this.$style = m.default.locals || m.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    656: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            "lb-yt-container": "LightboxYouTube__lb-yt-container__HHRKN",
+            "lb-yt-content": "LightboxYouTube__lb-yt-content__rrY6C",
+            "video-container": "LightboxYouTube__video-container__QFYm4",
+            video: "LightboxYouTube__video__2GU19",
+            "close-lightbox": "LightboxYouTube__close-lightbox__1IINc",
+            "lb-figure": "LightboxYouTube__lb-figure__9waDw",
+            arrowButton: "LightboxYouTube__arrowButton__S1fsY",
+            "lb-container": "LightboxYouTube__lb-container__MmvUY",
+            "lb-content": "LightboxYouTube__lb-content__2G7b9",
+            imgWrapper: "LightboxYouTube__imgWrapper__kbdZJ"
+        }
+    },
+    669: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "OnlineChat__wrapper__14rUZ",
+            text: "OnlineChat__text__34VpN",
+            textDisplay: "OnlineChat__textDisplay__85FnQ",
+            icon: "OnlineChat__icon__mpKGT",
+            TabletAndMobile: "OnlineChat__TabletAndMobile__2IcKK",
+            textDisplayDown: "OnlineChat__textDisplayDown__3L5VX"
+        }
+    },
+    680: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            "lb-container": "LightboxVideo__lb-container__EtqjO",
+            closeBtn: "LightboxVideo__closeBtn__pFZf0",
+            "lb-content": "LightboxVideo__lb-content__3Sewk",
+            "video-container": "LightboxVideo__video-container__AIkyd",
+            video: "LightboxVideo__video__2oIvC"
+        }
+    },
+    904: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14),
+        o(47);
+        var n, r = o(4), l = o(0), c = o(32), d = o(655), h = (n = function(t, b) {
+            return (n = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            n(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), f = function(t, e, o, desc) {
+            var n, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(r.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (n = t[i]) && (c = (l < 3 ? n(c) : l > 3 ? n(e, o, c) : n(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, m = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.videoImg = "",
+                e.hostname = "",
+                e.videoPath = "",
+                e
+            }
+            return h(e, t),
+            e.prototype.watchShowLightbox = function() {
+                this.hostname = window.location.hostname,
+                this.onToggleLightBox(this.showLightBox)
+            }
+            ,
+            e.prototype.addKeyEvent = function(t) {
+                27 === t.keyCode && this.closeLightBox()
+            }
+            ,
+            e.prototype.closeLightBox = function() {
+                this.$emit("closeLightbox"),
+                document.querySelector("html").classList.remove("no-scroll")
+            }
+            ,
+            e.prototype.onToggleLightBox = function(t) {
+                var e = this;
+                document && (this.disableScroll && (t ? document.querySelector("html").classList.add("no-scroll") : document.querySelector("html").classList.remove("no-scroll")),
+                t ? (document.addEventListener("keydown", this.addKeyEvent),
+                this.showLightBox && ("Youtube" == this.videoType ? (this.videoImg = this.youtubeIDHandler(this.videoUrl),
+                setTimeout((function() {
+                    window.triggerVideoMask && window.triggerVideoMask(document.querySelector(".asusCB-video-lightbox"), e.videoUrl)
+                }
+                ), 100)) : "Twitch" == this.videoType ? this.videoPath = this.twitchIDHandler(this.videoUrl) : "Bilibili" == this.videoType && (this.videoPath = this.bilibiliIDHandler(this.videoUrl)))) : document.removeEventListener("keydown", this.addKeyEvent))
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.onToggleLightBox(this.showLightBox)
+            }
+            ,
+            f([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "videoUrl", void 0),
+            f([Object(l.Prop)({
+                default: "Youtube"
+            })], e.prototype, "videoType", void 0),
+            f([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "disableScroll", void 0),
+            f([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "showLightBox", void 0),
+            f([Object(l.Watch)("showLightBox")], e.prototype, "watchShowLightbox", null),
+            e = f([Object(l.Component)({
+                components: {}
+            })], e)
+        }(Object(l.mixins)(c.a, d.a)), y = o(961), v = o(10);
+        var component = Object(v.a)(m, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return t.showLightBox ? o("div", [o("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: t.showLightBox,
+                    expression: "showLightBox"
+                }],
+                ref: "container",
+                class: ["asusCB-video-lightbox", t.$style["lb-container"]],
+                on: {
+                    click: function(e) {
+                        return e.target !== e.currentTarget ? null : t.closeLightBox()
+                    }
+                }
+            }, [o("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: t.showLightBox,
+                    expression: "showLightBox"
+                }],
+                class: t.$style.closeBtn,
+                on: {
+                    click: function(e) {
+                        return t.closeLightBox()
+                    }
+                }
+            }, [o("svg", {
+                attrs: {
+                    width: "36",
+                    height: "36",
+                    viewBox: "0 0 36 36",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("rect", {
+                attrs: {
+                    width: "36",
+                    height: "36",
+                    rx: "18",
+                    fill: "#666"
+                }
+            }), o("path", {
+                attrs: {
+                    d: "M24 12L12 24m0-12l12 12",
+                    stroke: "#fff",
+                    "stroke-width": "2",
+                    "stroke-linecap": "round"
+                }
+            })])]), t._v(" "), o("div", {
+                class: t.$style["lb-content"]
+            }, [o("div", {
+                class: t.$style["video-container"]
+            }, ["Youtube" == t.videoType ? o("div", {
+                class: t.$style.video,
+                on: {
+                    click: function(e) {
+                        return t.gaDataLayerPush({
+                            event: "promotionClick",
+                            ecommerce: {
+                                promoClick: {
+                                    promotions: [{
+                                        id: t.videoUrl,
+                                        name: "live stream - Gamescom",
+                                        position: "homepage_Pop-up"
+                                    }]
+                                }
+                            }
+                        })
+                    }
+                }
+            }, [o("a", {
+                staticClass: "asusCB-video",
+                attrs: {
+                    href: t.videoUrl,
+                    target: "_blank"
+                }
+            }, [o("img", {
+                attrs: {
+                    src: t.videoImg
+                }
+            })])]) : o("iframe", {
+                attrs: {
+                    src: t.videoPath,
+                    allowfullscreen: ""
+                }
+            })])])])]) : t._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = y.default.locals || y.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    918: function(t, e, o) {
+        "use strict";
+        var n = o(656)
+          , r = o.n(n);
+        e.default = r.a
+    },
+    951: function(t, e, o) {
+        "use strict";
+        var n = o(669)
+          , r = o.n(n);
+        e.default = r.a
+    },
+    961: function(t, e, o) {
+        "use strict";
+        var n = o(680)
+          , r = o.n(n);
+        e.default = r.a
+    }
+}]);

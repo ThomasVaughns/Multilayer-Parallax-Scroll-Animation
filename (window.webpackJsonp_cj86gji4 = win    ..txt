@@ -1,0 +1,4096 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[8], {
+    1141: function(t, e, o) {
+        "use strict";
+        o(36),
+        o(11),
+        o(14),
+        o(37);
+        var r, n = o(4), l = o(0), c = o(890), d = (o(29),
+        o(15),
+        o(28),
+        o(872)), h = o.n(d), f = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), v = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, y = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.uniqueId = null,
+                e
+            }
+            return f(e, t),
+            Object.defineProperty(e.prototype, "isEnableCheck", {
+                get: function() {
+                    return null !== this.enableResult.ItemIdList && (this.enableResult && this.enableResult.ItemIdList && h()(this.enableResult.ItemIdList, this.currentInputVal))
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "checked", {
+                get: function() {
+                    return this.checkedList
+                },
+                set: function(t) {
+                    this.$emit("emitCheckedListUpdate", t),
+                    this.$emit("triggerHelpMeChooseEnable"),
+                    this.$emit("triggerSendGA")
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.resetRadio = function(t) {
+                "radio" === this.type && this.checked && this.checked.toString() === t.target.value && (this.checked = null)
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.uniqueId = this.$parent.$options.name + "_checkbox_" + this.currentInputVal
+            }
+            ,
+            v([Object(l.Prop)()], e.prototype, "progressState", void 0),
+            v([Object(l.Prop)()], e.prototype, "enableResult", void 0),
+            v([Object(l.Prop)()], e.prototype, "currentInputVal", void 0),
+            v([Object(l.Prop)()], e.prototype, "name", void 0),
+            v([Object(l.Prop)()], e.prototype, "checkedList", void 0),
+            v([Object(l.Prop)({
+                default: "checkbox"
+            })], e.prototype, "type", void 0),
+            e = v([l.Component], e)
+        }(l.Vue), _ = o(972), m = o(10);
+        var P = Object(m.a)(y, (function() {
+            var t, e, o = this, r = o.$createElement, n = o._self._c || r;
+            return n("label", {
+                class: o.$style.checkBoxContainer,
+                attrs: {
+                    for: o.uniqueId,
+                    tabindex: !1 === (o.progressState || o.isEnableCheck) ? -1 : 0
+                }
+            }, ["checkbox" === o.type ? n("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: o.checked,
+                    expression: "checked"
+                }],
+                ref: o.uniqueId,
+                class: [o.$style["custom-control-input"], (t = {},
+                t[o.$style.notInEnableList] = !1 === o.isEnableCheck,
+                t)],
+                attrs: {
+                    id: o.uniqueId,
+                    type: "checkbox",
+                    disabled: o.progressState || !1 === o.isEnableCheck || null === o.enableResult.ItemIdList,
+                    name: "radio" === o.type && o.name,
+                    tabindex: "-1"
+                },
+                domProps: {
+                    value: o.currentInputVal,
+                    checked: Array.isArray(o.checked) ? o._i(o.checked, o.currentInputVal) > -1 : o.checked
+                },
+                on: {
+                    click: o.resetRadio,
+                    change: function(t) {
+                        var e = o.checked
+                          , r = t.target
+                          , n = !!r.checked;
+                        if (Array.isArray(e)) {
+                            var l = o.currentInputVal
+                              , c = o._i(e, l);
+                            r.checked ? c < 0 && (o.checked = e.concat([l])) : c > -1 && (o.checked = e.slice(0, c).concat(e.slice(c + 1)))
+                        } else
+                            o.checked = n
+                    }
+                }
+            }) : o._e(), o._v(" "), "radio" === o.type ? n("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: o.checked,
+                    expression: "checked"
+                }],
+                ref: o.uniqueId,
+                class: [o.$style["custom-control-input"], (e = {},
+                e[o.$style.notInEnableList] = !1 === o.isEnableCheck,
+                e)],
+                attrs: {
+                    id: o.uniqueId,
+                    type: "radio",
+                    disabled: o.progressState || !1 === o.isEnableCheck,
+                    name: "radio" === o.type && o.name,
+                    tabindex: "-1"
+                },
+                domProps: {
+                    value: o.currentInputVal,
+                    checked: o._q(o.checked, o.currentInputVal)
+                },
+                on: {
+                    click: o.resetRadio,
+                    change: function(t) {
+                        o.checked = o.currentInputVal
+                    }
+                }
+            }) : o._e(), o._v(" "), n("span", {
+                class: o.$style["custom-control-label"]
+            }, [o._t("default")], 2)])
+        }
+        ), [], !1, (function(t) {
+            this.$style = _.default.locals || _.default
+        }
+        ), null, null).exports
+          , S = function() {
+            var t = function(e, b) {
+                return (t = Object.setPrototypeOf || {
+                    __proto__: []
+                }instanceof Array && function(t, b) {
+                    t.__proto__ = b
+                }
+                || function(t, b) {
+                    for (var p in b)
+                        b.hasOwnProperty(p) && (t[p] = b[p])
+                }
+                )(e, b)
+            };
+            return function(e, b) {
+                function o() {
+                    this.constructor = e
+                }
+                t(e, b),
+                e.prototype = null === b ? Object.create(b) : (o.prototype = b.prototype,
+                new o)
+            }
+        }()
+          , w = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }
+          , x = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.selectedItems = [],
+                e.isCollapseOpen = !0,
+                e.answerOptionsMaxHeight = 0,
+                e
+            }
+            return S(e, t),
+            Object.defineProperty(e.prototype, "isSelectedPart", {
+                get: function() {
+                    return !!this.optionObjList && (this.selectedItems.length < this.optionObjList.length && this.selectedItems.length > 0)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "selectAll", {
+                get: function() {
+                    return !!this.optionObjList && this.selectedItems.length === this.optionObjList.length
+                },
+                set: function(t) {
+                    var e = [];
+                    t && this.optionObjList.forEach((function(t) {
+                        e.push(t.val)
+                    }
+                    )),
+                    this.selectedItems = e
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.created = function() {
+                0 === this.index && (this.isCollapseOpen = !1)
+            }
+            ,
+            e.prototype.onWindowWidthChange = function() {
+                var t = this.$refs.answerOptionsDiv;
+                t && (this.isCollapseOpen || "desktop" === this.rwdState) && (this.answerOptionsMaxHeight = t.scrollHeight)
+            }
+            ,
+            e.prototype.changeIsCollapseOpen = function() {
+                this.$emit("triggerCollapseStatusChange")
+            }
+            ,
+            e.prototype.emitCheckedListUpdate = function(t) {
+                this.selectedItems = t,
+                this.$emit("expandNext", this.index + 1)
+            }
+            ,
+            e.prototype.removeAllSelected = function() {
+                this.selectedItems = []
+            }
+            ,
+            e.prototype.getSelectedItems = function() {
+                return this.selectedItems
+            }
+            ,
+            e.prototype.getCollapseStatus = function() {
+                return this.isCollapseOpen
+            }
+            ,
+            e.prototype.triggerHelpMeChooseEnable = function(t) {
+                this.$emit("triggerHelpMeChooseEnable")
+            }
+            ,
+            e.prototype.triggerSendGA = function(t) {
+                this.$emit("triggerSendGA", t)
+            }
+            ,
+            e.prototype.toggleCollapse = function(t) {
+                void 0 === t && (t = !1);
+                var e = this.$refs.answerOptionsDiv;
+                e && (t || this.isCollapseOpen && "desktop" != this.rwdState ? (this.answerOptionsMaxHeight = 0,
+                this.isCollapseOpen = !1) : (this.answerOptionsMaxHeight = e.scrollHeight,
+                this.isCollapseOpen = !0))
+            }
+            ,
+            e.prototype.expand = function() {
+                var t = this.$refs.answerOptionsDiv;
+                t && (this.answerOptionsMaxHeight = t.scrollHeight,
+                this.isCollapseOpen = !0)
+            }
+            ,
+            w([Object(l.Prop)()], e.prototype, "optionObjList", void 0),
+            w([Object(l.Prop)()], e.prototype, "progressState", void 0),
+            w([Object(l.Prop)()], e.prototype, "rwdState", void 0),
+            w([Object(l.Prop)()], e.prototype, "windowWidth", void 0),
+            w([Object(l.Prop)()], e.prototype, "enableResult", void 0),
+            w([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "enableSelectAll", void 0),
+            w([Object(l.Prop)()], e.prototype, "questionType", void 0),
+            w([Object(l.Prop)()], e.prototype, "questionId", void 0),
+            w([Object(l.Prop)()], e.prototype, "index", void 0),
+            w([Object(l.Watch)("windowWidth", {
+                immediate: !0
+            })], e.prototype, "onWindowWidthChange", null),
+            w([Object(l.Watch)("isCollapseOpen", {
+                immediate: !0
+            })], e.prototype, "changeIsCollapseOpen", null),
+            e = w([Object(l.Component)({
+                components: {
+                    SingleCheckBox: c.a,
+                    CheckBoxGroupItem: P
+                }
+            })], e)
+        }(l.Vue)
+          , C = o(973);
+        var k = Object(m.a)(x, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return o("div", {
+                class: t.$style.collapseWrapper
+            }, [o("div", {
+                ref: "collapsibleDiv",
+                staticClass: "equal-heigh",
+                class: t.$style.collapsible,
+                attrs: {
+                    tabindex: "desktop" === t.rwdState ? -1 : 0
+                },
+                on: {
+                    click: function(e) {
+                        "desktop" !== t.rwdState && t.toggleCollapse()
+                    }
+                }
+            }, [t.enableSelectAll ? o("SingleCheckBox", {
+                attrs: {
+                    isSelectedPart: t.isSelectedPart
+                },
+                model: {
+                    value: t.selectAll,
+                    callback: function(e) {
+                        t.selectAll = e
+                    },
+                    expression: "selectAll"
+                }
+            }) : t._e(), t._v(" "), t._t("default"), t._v(" "), "desktop" !== t.rwdState ? [o("div", {
+                class: t.$style.svgBox
+            }, [!0 === t.isCollapseOpen ? o("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    fill: "none",
+                    viewBox: "0 0 12 12",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    stroke: "#666",
+                    "stroke-linecap": "round",
+                    d: "M2.5 5.5h8"
+                }
+            })]) : o("svg", {
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    fill: "none",
+                    viewBox: "0 0 12 12",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    stroke: "#666",
+                    "stroke-linecap": "round",
+                    d: "M2.5 5.5h8m-4-4v8"
+                }
+            })])])] : t._e()], 2), t._v(" "), o("div", {
+                ref: "answerOptionsDiv",
+                class: t.$style.answerOptions,
+                style: t.answerOptionsMaxHeight && t.answerOptionsMaxHeight > 0 ? {
+                    maxHeight: t.answerOptionsMaxHeight.toString() + "px"
+                } : null
+            }, t._l(t.optionObjList, (function(e, r) {
+                return o("CheckBoxGroupItem", {
+                    key: r,
+                    attrs: {
+                        checkedList: t.selectedItems,
+                        currentInputVal: e.val,
+                        progressState: t.progressState,
+                        enableResult: t.enableResult,
+                        type: t.questionType,
+                        name: t.questionId
+                    },
+                    on: {
+                        triggerHelpMeChooseEnable: t.triggerHelpMeChooseEnable,
+                        triggerSendGA: function(o) {
+                            return t.triggerSendGA(e)
+                        },
+                        emitCheckedListUpdate: function(e) {
+                            return t.emitCheckedListUpdate(e)
+                        }
+                    }
+                }, [t._v("\n      " + t._s(e.content) + "\n    ")])
+            }
+            )), 1)])
+        }
+        ), [], !1, (function(t) {
+            this.$style = C.default.locals || C.default
+        }
+        ), null, null);
+        e.a = k.exports
+    },
+    1179: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14),
+        o(47);
+        var r, n = o(4), l = o(0), c = o(80), d = o.n(c), h = o(627), f = o(600), v = o(1189), y = o(601), _ = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), m = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, P = function() {
+            for (var s = 0, i = 0, t = arguments.length; i < t; i++)
+                s += arguments[i].length;
+            var e = Array(s)
+              , o = 0;
+            for (i = 0; i < t; i++)
+                for (var a = arguments[i], r = 0, n = a.length; r < n; r++,
+                o++)
+                    e[o] = a[r];
+            return e
+        }, S = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.currentSlide = 1,
+                e.pageSize = 1,
+                e.rwdState = "",
+                e.oneCardDisplacement = 0,
+                e.enableControllButton = !0,
+                e.autoPlayInterval = null,
+                e.slideStyleObject = {},
+                e.totalCardsCountEd = 0,
+                e.spotlightArray = [],
+                e.cardInlineStyleObject = {
+                    marginRight: e.spaceBetween + "px",
+                    flexGrow: "0",
+                    flexShrink: "0",
+                    maxWidth: "none"
+                },
+                e
+            }
+            return _(e, t),
+            e.prototype.created = function() {
+                this.totalCardsCountEd = this.totalCardsCount
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.spotlightArray = this.spotlightData,
+                this.vtouch("#cardCarouselSpotlight")
+            }
+            ,
+            Object.defineProperty(e.prototype, "totalSlide", {
+                get: function() {
+                    return Math.ceil(this.spotlightArray.length / this.pageSize)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "visibleWidth", {
+                get: function() {
+                    var t = this.pageSize > this.totalCardsCount ? this.totalCardsCount : this.pageSize;
+                    return this.oneCardDisplacement * t - this.spaceBetween
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "isVisibleWidthOutOfViewport", {
+                get: function() {
+                    return this.visibleWidth >= this.maxVisibleWidth
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "maxVisibleWidth", {
+                get: function() {
+                    return this.maxContainerWidth > 0 ? this.maxContainerWidth : this.windowWidth
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "innerSlidesDisplacement", {
+                get: function() {
+                    var t = this.visibleWidth + this.spaceBetween
+                      , e = t * (this.currentSlide - 1)
+                      , o = this.oneCardDisplacement * (this.totalCardsCount - this.pageSize);
+                    return "mobile" === this.rwdState ? e < 0 && (e = 0) : (e < 0 ? e = 0 : e > o && this.currentSlide >= this.totalSlide && 1 !== this.totalSlide && (e = o),
+                    t * this.totalCardsCount - e < this.windowWidth - 20 && 0 !== e && (e = t * this.totalCardsCount - (this.windowWidth - 20))),
+                    -e
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "getProgressPercent", {
+                get: function() {
+                    return this.totalCardsCount > 0 ? this.currentSlide * this.pageSize >= this.totalCardsCount ? 100 : Math.floor(this.currentSlide * this.pageSize / this.totalCardsCount * 100) : 0
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.bindProgressPercent = function() {
+                this.$emit("getProgressPercentEvent", this.getProgressPercent)
+            }
+            ,
+            e.prototype.bindInlieStyle = function() {
+                this.bindSlideStyle(this.cardInlineStyleObject)
+            }
+            ,
+            e.prototype.reloadSource = function() {
+                this.currentSlide = 1,
+                this.windowWidth >= this.rwdBreakPointMedium && this.spotlightData && this.spotlightArray ? (this.rwdState = "desktop",
+                this.pageSize = this.pageSizeList[0],
+                this.spotlightData.length !== this.spotlightArray.length && (this.spotlightArray = P(this.spotlightData)),
+                this.enableControllButton = 1 === this.showControllButtonList[0],
+                this.spotlightArray = this.spotlightData) : this.windowWidth > this.rwdBreakPointSmall ? (this.rwdState = "tablet",
+                this.pageSize = this.pageSizeList[1],
+                this.spotlightData.length !== this.spotlightArray.length && (this.spotlightArray = P(this.spotlightData)),
+                this.enableControllButton = 1 === this.showControllButtonList[1],
+                this.spotlightArray = this.spotlightData) : (this.rwdState = "mobile",
+                this.pageSize = this.pageSizeList[2],
+                this.spotlightArray = P(this.spotlightData),
+                this.enableControllButton = 1 === this.showControllButtonList[2])
+            }
+            ,
+            e.prototype.autoPlayBind = function() {
+                this.autoPlay ? this.bindInterval() : this.autoPlayInterval && clearInterval(this.autoPlayInterval)
+            }
+            ,
+            e.prototype.restartInterval = function() {
+                this.autoPlay && (this.autoPlayInterval && clearInterval(this.autoPlayInterval),
+                this.bindInterval())
+            }
+            ,
+            e.prototype.bindInterval = function() {
+                var t = this;
+                this.autoPlayInterval = setInterval((function() {
+                    t.next(null, !0)
+                }
+                ), this.autoPlayDelay)
+            }
+            ,
+            e.prototype.slideTo = function(t) {
+                this.restartInterval(),
+                this.currentSlide = t
+            }
+            ,
+            e.prototype.next = function(t, e) {
+                void 0 === e && (e = !1),
+                "mobile" === this.rwdState && this.totalSlide - this.currentSlide < 2 * this.totalCardsCountEd && (this.spotlightArray = P(this.spotlightArray, this.spotlightData)),
+                this.currentSlide++,
+                this.currentSlide > this.totalSlide && (!0 === this.loop ? this.currentSlide = 1 : this.currentSlide = this.totalSlide),
+                !1 === e && this.restartInterval()
+            }
+            ,
+            e.prototype.prev = function(t, e) {
+                void 0 === e && (e = !1),
+                this.currentSlide--,
+                this.currentSlide <= 0 && (!0 === this.loop ? this.currentSlide = this.totalSlide : this.currentSlide = 1),
+                !1 === e && this.restartInterval()
+            }
+            ,
+            e.prototype.updateSlideWidth = function() {
+                var t = this.$refs.innerSlides;
+                if (t && t.hasChildNodes()) {
+                    var e = t.childNodes[0].offsetWidth;
+                    this.oneCardDisplacement = e + this.spaceBetween
+                }
+                this.$set(this.cardInlineStyleObject, "maxWidth", (this.maxVisibleWidth - this.spaceBetween * (this.pageSize - 1)) / this.pageSize + "px")
+            }
+            ,
+            e.prototype.updated = function() {
+                this.updateSlideWidth()
+            }
+            ,
+            e.prototype.bindSlideStyle = function(t) {
+                this.slideStyleObject = t
+            }
+            ,
+            e.prototype.vtouchLeft = function() {
+                this.next
+            }
+            ,
+            e.prototype.vtouchRight = function() {
+                this.prev
+            }
+            ,
+            m([Object(l.Prop)()], e.prototype, "spotlightData", void 0),
+            m([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "spaceBetween", void 0),
+            m([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "autoPlay", void 0),
+            m([Object(l.Prop)({
+                default: 5e3
+            })], e.prototype, "autoPlayDelay", void 0),
+            m([Object(l.Prop)({
+                default: function() {
+                    return [3, 2, 1]
+                }
+            })], e.prototype, "pageSizeList", void 0),
+            m([Object(l.Prop)({
+                default: function() {
+                    return [1, 1, 1]
+                }
+            })], e.prototype, "showControllButtonList", void 0),
+            m([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "loop", void 0),
+            m([Object(l.Prop)({
+                default: parseInt(d.a.breakPointSmall, 10)
+            })], e.prototype, "rwdBreakPointSmall", void 0),
+            m([Object(l.Prop)({
+                default: parseInt(d.a.breakPointMedium, 10)
+            })], e.prototype, "rwdBreakPointMedium", void 0),
+            m([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "maxContainerWidth", void 0),
+            m([Object(l.Prop)()], e.prototype, "windowWidth", void 0),
+            m([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "totalCardsCount", void 0),
+            m([Object(l.Watch)("getProgressPercent", {
+                immediate: !0
+            })], e.prototype, "bindProgressPercent", null),
+            m([Object(l.Watch)("cardInlineStyleObject", {
+                deep: !0,
+                immediate: !0
+            })], e.prototype, "bindInlieStyle", null),
+            m([Object(l.Watch)("windowWidth", {
+                immediate: !0
+            })], e.prototype, "reloadSource", null),
+            m([Object(l.Watch)("autoPlay", {
+                immediate: !0
+            })], e.prototype, "autoPlayBind", null),
+            e = m([Object(l.Component)({
+                components: {
+                    CarouselArrows: h.a,
+                    ProductCardSpotlight: v.a,
+                    Indicator: f.a
+                }
+            })], e)
+        }(Object(l.mixins)(y.a)), w = o(995), x = o(10);
+        var component = Object(x.a)(S, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return o("div", {
+                class: t.$style.carouselContainer,
+                attrs: {
+                    id: "cardCarouselSpotlight"
+                }
+            }, [o("div", {
+                ref: "visibleDiv",
+                class: t.$style.visibleDiv,
+                style: [t.windowWidth >= 731 ? {
+                    width: t.visibleWidth + "px"
+                } : {
+                    width: t.windowWidth - 20 + "px"
+                }, t.windowWidth >= 731 ? {
+                    maxWidth: t.maxVisibleWidth + "px"
+                } : {}]
+            }, [o("div", {
+                ref: "innerSlides",
+                class: t.$style.innerSlides,
+                style: {
+                    transform: "translateX(" + t.innerSlidesDisplacement + "px)"
+                }
+            }, t._l(t.spotlightArray, (function(e, r) {
+                return o("ProductCardSpotlight", {
+                    key: e.ProductID,
+                    style: t.slideStyleObject,
+                    attrs: {
+                        "product-card-item": e,
+                        "card-index": r
+                    }
+                })
+            }
+            )), 1)]), t._v(" "), o("CarouselArrows", {
+                attrs: {
+                    enableControllButton: t.enableControllButton,
+                    enablePrevButton: t.currentSlide > 1 && t.totalSlide > 1,
+                    enableNextButton: t.currentSlide !== t.totalSlide && t.totalSlide > 1
+                },
+                on: {
+                    clickPrev: t.prev,
+                    clickNext: t.next
+                }
+            }), t._v(" "), o("Indicator", {
+                attrs: {
+                    autoPlay: t.autoPlay,
+                    windowWidth: t.windowWidth,
+                    currentSlide: t.currentSlide % t.totalCardsCountEd != 0 ? t.currentSlide % t.totalCardsCountEd : t.totalCardsCountEd,
+                    totalSlide: "mobile" != t.rwdState ? t.totalSlide : t.totalCardsCountEd,
+                    transitionDuration: t.autoPlayDelay
+                },
+                on: {
+                    slideToEvent: t.slideTo
+                }
+            })], 1)
+        }
+        ), [], !1, (function(t) {
+            this.$style = w.default.locals || w.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    600: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = o(32), d = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, f = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.isPlay = !1,
+                e.activeInit = !1,
+                e.indicatorWidth = 0,
+                e.setBarMargin = {},
+                e.indicatorMaxWidth = 0,
+                e.indicatorBarMargin = 0,
+                e.indicatorBarWidth = 0,
+                e.isRTL = !1,
+                e.isPlayBtnHover = !1,
+                e.isStopBtnHover = !1,
+                e
+            }
+            return d(e, t),
+            e.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.totalSlide > 0 && this.resetIndicator()
+            }
+            ,
+            e.prototype.changeIsPlayBtnHover = function() {
+                this.isPlayBtnHover = !0
+            }
+            ,
+            e.prototype.changeNotPlayBtnHover = function() {
+                this.isPlayBtnHover = !1
+            }
+            ,
+            e.prototype.changeIsStopBtnHover = function() {
+                this.isStopBtnHover = !0
+            }
+            ,
+            e.prototype.changeNotStopBtnHover = function() {
+                this.isStopBtnHover = !1
+            }
+            ,
+            Object.defineProperty(e.prototype, "getSlideBarMovesNumber", {
+                get: function() {
+                    return (this.currentSlide - 1) * (this.indicatorBarWidth + 2 * this.indicatorBarMargin)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "getLevelPath", {
+                get: function() {
+                    var path = "";
+                    return "L2" === this.gaEventPath || "L2.5" === this.gaEventPath ? path = this.$route.params.levelOneTopMenuName + "_" + this.$route.params.levelTwoProductLineName + "/" : path
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.beforeUpdate = function() {
+                var element = this.$refs.indicator_width;
+                this.indicatorWidth = null == element ? void 0 : element.clientWidth
+            }
+            ,
+            e.prototype.slideTo = function(t) {
+                this.$set(this, "isPlay", !0),
+                this.$emit("slideToEvent", t + 1)
+            }
+            ,
+            e.prototype.indicatorPlay = function() {
+                this.$emit("indicatorPlay"),
+                this.$set(this, "isPlay", !0)
+            }
+            ,
+            e.prototype.indicatorStop = function() {
+                this.$emit("indicatorStop"),
+                this.$set(this, "isPlay", !1)
+            }
+            ,
+            e.prototype.initActive = function() {
+                var t = this;
+                this.activeInit = !1,
+                this.$nextTick((function() {
+                    t.activeInit = !0,
+                    t.resetIndicator()
+                }
+                ))
+            }
+            ,
+            e.prototype.reloadWidth = function() {
+                this.resetIndicator()
+            }
+            ,
+            e.prototype.resetIndicator = function() {
+                var element = this.$refs.indicator_width;
+                if (this.indicatorWidth = null == element ? void 0 : element.clientWidth,
+                this.totalSlide > 4 && (this.indicatorMaxWidth = 284,
+                this.indicatorBarWidth = this.indicatorMaxWidth / this.totalSlide),
+                this.totalSlide <= 4 && (this.windowWidth >= 1279 ? (this.indicatorBarMargin = 10,
+                this.indicatorBarWidth = 80) : (this.indicatorBarMargin = 6,
+                this.indicatorBarWidth = 62),
+                this.indicatorMaxWidth = this.indicatorBarWidth * this.totalSlide + 2 * (this.totalSlide - 1) * this.indicatorBarMargin),
+                "herobanner" === this.typeStyle && this.totalSlide > 1) {
+                    this.indicatorWidth > 380 ? this.indicatorMaxWidth = 380 : this.indicatorMaxWidth = this.indicatorWidth,
+                    this.indicatorBarMargin = 16;
+                    this.indicatorBarWidth = (this.indicatorWidth - 40 - this.indicatorBarMargin * (this.totalSlide - 1) - 32) / this.totalSlide,
+                    this.indicatorBarWidth > 80 && (this.indicatorBarWidth = 80)
+                }
+            }
+            ,
+            e.prototype.getEventLabel = function() {
+                return "blog" === this.gaEventPath && this.gaLabel ? this.gaLabel + "/overview/blog" : this.gaEventPath
+            }
+            ,
+            h([Object(l.Getter)("themeColorGetter")], e.prototype, "themeColor", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "autoPlay", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "timerBtn", void 0),
+            h([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "currentTimer", void 0),
+            h([Object(l.Prop)({
+                default: 5e3
+            })], e.prototype, "indicatorTimer", void 0),
+            h([Object(l.Prop)({
+                default: 5e3
+            })], e.prototype, "transitionDuration", void 0),
+            h([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "totalSlide", void 0),
+            h([Object(l.Prop)({
+                default: 1
+            })], e.prototype, "currentSlide", void 0),
+            h([Object(l.Prop)({
+                default: 4
+            })], e.prototype, "singleLineBreakPoint", void 0),
+            h([Object(l.Prop)()], e.prototype, "type", void 0),
+            h([Object(l.Prop)()], e.prototype, "windowWidth", void 0),
+            h([Object(l.Prop)()], e.prototype, "heroBannerData", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "typeStyle", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "gaEventPath", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "ga4EventPath", void 0),
+            h([Object(l.Prop)({
+                default: "hero_banner"
+            })], e.prototype, "gaPromoViewName", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "gaLabel", void 0),
+            h([Object(l.Watch)("totalSlide", {
+                immediate: !0
+            })], e.prototype, "initActive", null),
+            h([Object(l.Watch)("windowWidth")], e.prototype, "reloadWidth", null),
+            e = h([Object(l.Component)({})], e)
+        }(Object(l.mixins)(c.a)), v = o(913), y = o(10);
+        var component = Object(y.a)(f, (function() {
+            var t, e = this, o = e.$createElement, r = e._self._c || o;
+            return void 0 !== e.totalSlide && void 0 !== e.currentSlide && e.totalSlide > 1 ? r("div", {
+                ref: "indicator_width",
+                class: ["indicator", e.$style.indicator, (t = {},
+                t.herobanner = "herobanner" === e.typeStyle,
+                t.themeDark = "White" !== e.themeColor,
+                t[e.$style.herobanner] = "herobanner" === e.typeStyle,
+                t[e.$style.themeDark] = "White" !== e.themeColor,
+                t)],
+                style: ["herobanner" !== e.typeStyle ? {
+                    width: e.indicatorMaxWidth + "px"
+                } : {}],
+                attrs: {
+                    role: "herobanner" === e.typeStyle && "tablist",
+                    "aria-label": "herobanner" === e.typeStyle && "banner nav"
+                }
+            }, ["herobanner" === e.typeStyle ? [e._l(e.totalSlide, (function(t, o) {
+                var n, l, c;
+                return r("div", {
+                    key: t,
+                    class: ["indicatorArea", e.$style.indicatorArea, (n = {},
+                    n.active = e.currentSlide == o + 1,
+                    n[e.$style.active] = e.currentSlide == o + 1,
+                    n)],
+                    attrs: {
+                        tabindex: "0",
+                        role: "tab",
+                        "aria-label": "Slide " + (o + 1),
+                        "aria-selected": e.currentSlide === o + 1 ? "true" : "false"
+                    },
+                    on: {
+                        click: function(t) {
+                            e.slideTo(o),
+                            e.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "indicator_banner_" + e.ga4EventPath + "_official",
+                                event_category_DL: e.gaPromoViewName + "_" + e.currentSlide + "/" + e.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: o + 1 + "/indicator/" + e.gaPromoViewName + "_" + e.currentSlide + "/" + e.getEventLabel() + "/official",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [r("div", {
+                    class: ["indicatorDiv", e.$style.indicatorDiv]
+                }, [r("div", {
+                    class: ["touchRange", e.$style.touchRange]
+                }), e._v(" "), !1 === e.timerBtn ? r("div", {
+                    class: ["bar", e.$style.bar, (l = {},
+                    l.initRadius = e.totalSlide <= 6,
+                    l.barLeftRadius = 0 === o && e.totalSlide > 6,
+                    l.barRightRadius = o === e.totalSlide - 1 && e.totalSlide > 6,
+                    l[e.$style.initRadius] = e.totalSlide <= 6,
+                    l[e.$style.barLeftRadius] = 0 === o && e.totalSlide > 6,
+                    l[e.$style.barRightRadius] = o === e.totalSlide - 1 && e.totalSlide > 6,
+                    l)]
+                }, [r("span", {
+                    class: ["progress", e.$style.progress, (c = {},
+                    c.active = e.currentSlide == o + 1 && e.activeInit,
+                    c.notActive = e.currentSlide != o + 1 || !e.activeInit,
+                    c[e.$style.active] = e.currentSlide == o + 1 && e.activeInit,
+                    c[e.$style.notActive] = e.currentSlide != o + 1 || !e.activeInit,
+                    c)],
+                    style: [e.autoPlay && e.totalSlide <= 6 ? {} : {
+                        transition: "none"
+                    }, {
+                        transitionDuration: (e.transitionDuration / 1e3).toString() + "s"
+                    }]
+                })]) : e._e(), e._v(" "), !0 === e.timerBtn ? r("div", {
+                    class: ["timerBtnDiv", e.$style.timerBtnDiv]
+                }, [r("div", {
+                    class: ["timerBtn", e.$style.timerBtn],
+                    style: [e.currentSlide == o + 1 && e.activeInit ? {
+                        width: (e.currentTimer / e.indicatorTimer * 100).toString() + "%"
+                    } : {}]
+                })]) : e._e()])])
+            }
+            )), e._v(" "), r("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: !e.isPlay,
+                    expression: "!isPlay"
+                }],
+                class: ["slideController", e.$style.slideController],
+                attrs: {
+                    tabindex: "0",
+                    role: "tab",
+                    "aria-label": "Play the carousel"
+                },
+                on: {
+                    click: function(t) {
+                        t.stopPropagation(),
+                        e.indicatorPlay(),
+                        e.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "indicator_banner_" + e.ga4EventPath + "_official",
+                            event_category_DL: e.gaPromoViewName + "_" + e.currentSlide + "/" + e.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "play/indicator/" + e.gaPromoViewName + "_" + e.currentSlide + "/" + e.getEventLabel() + "/official",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [!1 === e.isPlayBtnHover ? r("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [r("path", {
+                attrs: {
+                    d: "M18 12l-9 5.196V6.804L18 12z",
+                    fill: "#505050",
+                    "fill-opacity": ".7"
+                }
+            })]) : r("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [r("rect", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    rx: "12",
+                    fill: "#505050",
+                    "fill-opacity": ".7"
+                }
+            }), r("path", {
+                attrs: {
+                    d: "M18 12l-9 5.196V6.804L18 12z",
+                    fill: "#C7C7C7"
+                }
+            })])]), e._v(" "), r("div", {
+                directives: [{
+                    name: "show",
+                    rawName: "v-show",
+                    value: e.isPlay,
+                    expression: "isPlay"
+                }],
+                class: ["slideController", e.$style.slideController],
+                attrs: {
+                    tabindex: "0",
+                    role: "tab",
+                    "aria-label": "Pause the carousel"
+                },
+                on: {
+                    click: function(t) {
+                        t.stopPropagation(),
+                        e.indicatorStop(),
+                        e.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "indicator_banner_" + e.ga4EventPath + "_official",
+                            event_category_DL: e.gaPromoViewName + "_" + e.currentSlide + "/" + e.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "pause/indicator/" + e.gaPromoViewName + "_" + e.currentSlide + "/" + e.getEventLabel() + "/official",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [!1 === e.isStopBtnHover ? r("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [r("rect", {
+                attrs: {
+                    x: "13.5",
+                    y: "7",
+                    width: "2.5",
+                    height: "10",
+                    rx: "1.25",
+                    fill: "#505050",
+                    "fill-opacity": ".7"
+                }
+            }), r("rect", {
+                attrs: {
+                    x: "8",
+                    y: "7",
+                    width: "2.5",
+                    height: "10",
+                    rx: "1.25",
+                    fill: "#505050",
+                    "fill-opacity": ".7"
+                }
+            })]) : r("svg", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [r("rect", {
+                attrs: {
+                    width: "24",
+                    height: "24",
+                    rx: "12",
+                    fill: "#505050",
+                    "fill-opacity": ".7"
+                }
+            }), r("rect", {
+                attrs: {
+                    x: "13.5",
+                    y: "7",
+                    width: "2.5",
+                    height: "10",
+                    rx: "1.25",
+                    fill: "#C7C7C7"
+                }
+            }), r("rect", {
+                attrs: {
+                    x: "8",
+                    y: "7",
+                    width: "2.5",
+                    height: "10",
+                    rx: "1.25",
+                    fill: "#C7C7C7"
+                }
+            })])])] : e._e(), e._v(" "), "herobanner" !== e.typeStyle ? [e._l(e.totalSlide, (function(t, o) {
+                var n, l, c;
+                return r("div", {
+                    key: t,
+                    class: ["indicatorDiv", e.$style.indicatorDiv],
+                    style: [o !== e.totalSlide - 1 && 0 !== o && e.totalSlide <= 4 ? {
+                        margin: "0px " + e.indicatorBarMargin + "px"
+                    } : {}, 0 === o && e.totalSlide <= 4 ? e.isRTL ? {
+                        margin: "0px 0px 0px " + e.indicatorBarMargin + "px"
+                    } : {
+                        margin: "0px " + e.indicatorBarMargin + "px 0px 0px"
+                    } : {}, o === e.totalSlide - 1 && e.totalSlide <= 4 ? e.isRTL ? {
+                        margin: "0px " + e.indicatorBarMargin + "px 0px 0px"
+                    } : {
+                        margin: "0px 0px 0px " + e.indicatorBarMargin + "px"
+                    } : {}, {
+                        width: e.indicatorBarWidth + "px"
+                    }],
+                    attrs: {
+                        tabindex: "0"
+                    },
+                    on: {
+                        click: function(t) {
+                            e.slideTo(o),
+                            e.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "indicator_banner_" + e.ga4EventPath + "_official",
+                                event_category_DL: e.gaPromoViewName + "_" + e.currentSlide + "/" + e.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: o + 1 + "/indicator/" + e.gaPromoViewName + "_" + e.currentSlide + "/" + e.getEventLabel() + "/official",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [r("div", {
+                    class: ["touchRange", e.$style.touchRange],
+                    style: [{
+                        width: e.indicatorBarWidth + "px"
+                    }]
+                }), e._v(" "), !1 === e.timerBtn ? r("div", {
+                    class: ["bar", e.$style.bar, (n = {},
+                    n.initRadius = e.totalSlide <= 4,
+                    n.barLeftRadius = 0 === o && e.totalSlide > 4,
+                    n.barRightRadius = o === e.totalSlide - 1 && e.totalSlide > 4,
+                    n[e.$style.initRadius] = e.totalSlide <= 4,
+                    n[e.$style.barLeftRadius] = 0 === o && e.totalSlide > 4,
+                    n[e.$style.barRightRadius] = o === e.totalSlide - 1 && e.totalSlide > 4,
+                    n)]
+                }, [r("span", {
+                    class: ["progress", e.$style.progress, (l = {},
+                    l.active = e.currentSlide == o + 1 && e.activeInit,
+                    l.notActive = e.currentSlide != o + 1 || !e.activeInit,
+                    l[e.$style.active] = e.currentSlide == o + 1 && e.activeInit,
+                    l[e.$style.notActive] = e.currentSlide != o + 1 || !e.activeInit,
+                    l)],
+                    style: [e.autoPlay && e.totalSlide <= 4 ? {} : {
+                        transition: "none"
+                    }, {
+                        transitionDuration: (e.transitionDuration / 1e3).toString() + "s"
+                    }]
+                })]) : e._e(), e._v(" "), !0 === e.timerBtn ? r("div", {
+                    class: ["timerBtnDiv", e.$style.timerBtnDiv]
+                }, [r("div", {
+                    class: ["timerBtn", e.$style.timerBtn, (c = {},
+                    c[e.$style.activeTimer] = e.currentSlide == o + 1 && e.activeInit,
+                    c[e.$style.notActiveTimer] = e.currentSlide != o + 1 || !e.activeInit,
+                    c)]
+                })]) : e._e()])
+            }
+            )), e._v(" "), !1 === e.timerBtn ? r("div", {
+                class: ["indicatorDiv", "slideBarIndicatorDiv", e.$style.indicatorDiv, e.$style.slideBarIndicatorDiv],
+                style: [e.totalSlide > e.singleLineBreakPoint && !1 === e.isRTL ? {
+                    width: e.indicatorWidth / e.totalSlide + "px",
+                    left: (e.currentSlide - 1) * (e.indicatorWidth / e.totalSlide) + "px"
+                } : {
+                    left: e.getSlideBarMovesNumber + "px",
+                    width: e.indicatorBarWidth + "px"
+                }, e.totalSlide > e.singleLineBreakPoint && e.isRTL ? {
+                    width: e.indicatorWidth / e.totalSlide + "px",
+                    right: (e.currentSlide - 1) * (e.indicatorWidth / e.totalSlide) + "px"
+                } : {
+                    right: e.getSlideBarMovesNumber + "px",
+                    width: e.indicatorBarWidth + "px"
+                }]
+            }, [r("div", {
+                class: ["bar", "slideBar", e.$style.bar, e.$style.slideBar]
+            }, [r("span", {
+                class: ["progress", "active", "slideBarActive", e.$style.progress, e.$style.active, e.$style.slideBarActive],
+                style: [e.autoPlay ? {} : {
+                    transition: "none"
+                }, {
+                    transitionDuration: (e.transitionDuration / 1e3).toString() + "s"
+                }]
+            })])]) : e._e()] : e._e()], 2) : e._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = v.default.locals || v.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    610: function(t, e, o) {
+        "use strict";
+        o(36),
+        o(11),
+        o(68),
+        o(14),
+        o(37);
+        var r, n = o(4), l = o(0), c = o(632), d = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, f = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.uniqueId = null,
+                e.isDisabled = !1,
+                e
+            }
+            return d(e, t),
+            e.prototype.mounted = function() {
+                this.uniqueId = this.getComponentId("checkbox")
+            }
+            ,
+            Object.defineProperty(e.prototype, "filterChecked", {
+                get: function() {
+                    return this.value
+                },
+                set: function(t) {
+                    this.$emit("input", t)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.enableCheck = function() {
+                var t = this
+                  , e = !0;
+                null === this.enableList || void 0 === this.enableList ? e = !1 : this.enableList && 0 === this.enableList.length ? e = !0 : this.enableList && Object.keys(this.enableList).length > 0 && this.enableList.forEach((function(o) {
+                    o === t.filterID && (e = !1)
+                }
+                )),
+                this.isDisabled = e
+            }
+            ,
+            e.prototype.handleFocus = function() {
+                if (!this.isDisabled) {
+                    var t = this.$refs["" + this.uniqueId];
+                    t && t.click()
+                }
+            }
+            ,
+            h([Object(l.Prop)()], e.prototype, "value", void 0),
+            h([Object(l.Prop)()], e.prototype, "checkBoxName", void 0),
+            h([Object(l.Prop)()], e.prototype, "filterID", void 0),
+            h([Object(l.Prop)()], e.prototype, "enableList", void 0),
+            h([Object(l.Prop)()], e.prototype, "isPartialChecked", void 0),
+            h([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "isTabindex", void 0),
+            h([Object(l.Watch)("enableList", {
+                immediate: !0
+            })], e.prototype, "enableCheck", null),
+            e = h([l.Component], e)
+        }(Object(l.mixins)(c.a)), v = o(989), y = o(10);
+        var component = Object(y.a)(f, (function() {
+            var t, e, o = this, r = o.$createElement, n = o._self._c || r;
+            return n("div", {
+                class: [o.$style.wrapper, (t = {},
+                t[o.$style.disabled] = o.isDisabled,
+                t)],
+                attrs: {
+                    role: "checkbox",
+                    "aria-checked": !0 === o.isPartialChecked ? "mixed" : -1 !== o.filterChecked.indexOf(o.filterID) ? "true" : "false",
+                    tabindex: o.isTabindex && !o.isDisabled ? 0 : -1,
+                    "aria-hidden": !(o.isTabindex && !o.isDisabled)
+                },
+                on: {
+                    keydown: function(t) {
+                        return !t.type.indexOf("key") && o._k(t.keyCode, "enter", 13, t.key, "Enter") ? null : o.handleFocus(t)
+                    }
+                }
+            }, [n("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: o.filterChecked,
+                    expression: "filterChecked"
+                }],
+                class: [o.$style.defaultInput, (e = {},
+                e[o.$style.partialChecked] = o.isPartialChecked,
+                e)],
+                attrs: {
+                    id: o.uniqueId,
+                    type: "checkbox",
+                    "aria-hidden": "true",
+                    tabindex: "-1",
+                    disabled: !!o.isDisabled && (-1 === o.filterChecked.indexOf(o.filterID) && o.isDisabled)
+                },
+                domProps: {
+                    value: o.filterID,
+                    checked: Array.isArray(o.filterChecked) ? o._i(o.filterChecked, o.filterID) > -1 : o.filterChecked
+                },
+                on: {
+                    change: function(t) {
+                        var e = o.filterChecked
+                          , r = t.target
+                          , n = !!r.checked;
+                        if (Array.isArray(e)) {
+                            var l = o.filterID
+                              , c = o._i(e, l);
+                            r.checked ? c < 0 && (o.filterChecked = e.concat([l])) : c > -1 && (o.filterChecked = e.slice(0, c).concat(e.slice(c + 1)))
+                        } else
+                            o.filterChecked = n
+                    }
+                }
+            }), o._v(" "), n("label", {
+                ref: o.uniqueId,
+                class: o.$style.customCheckBox,
+                attrs: {
+                    for: o.uniqueId
+                }
+            }, [o._t("default")], 2)])
+        }
+        ), [], !1, (function(t) {
+            this.$style = v.default.locals || v.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    612: function(t, e, o) {
+        "use strict";
+        o(36),
+        o(599),
+        o(11),
+        o(14),
+        o(16),
+        o(38),
+        o(37),
+        o(47);
+        var r, n = o(4), l = o(0), c = o(143), d = o(345), h = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), f = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, v = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.compareMenuList = {},
+                e.productIDApi = "",
+                e.isChecked = "false",
+                e.comparedProductLimit = 4,
+                e.compareData = "",
+                e.websiteCode = "",
+                e
+            }
+            return h(e, t),
+            e.prototype.created = function() {
+                this.websiteCode = Object(c.b)(this.$route.params.region)
+            }
+            ,
+            e.prototype.mounted = function() {
+                if (this.compareMenuList = JSON.parse(sessionStorage.getItem("compareMenuList")),
+                this.compareMenuList && this.compareMenuList.result[this.LevelId])
+                    for (var i = 0; i < this.comparedProductLimit; i++)
+                        this.compareMenuList.result[this.LevelId][i] === this.ProductID && this.$set(this, "isChecked", this.ProductID)
+            }
+            ,
+            e.prototype.setCompareData = function() {
+                if (this.compareMenuList = JSON.parse(sessionStorage.getItem("compareMenuList")),
+                this.compareMenuList && this.compareMenuList.result[this.LevelId] && this.ProductID) {
+                    this.$set(this, "isChecked", "false");
+                    for (var i = 0; i < this.comparedProductLimit; i++)
+                        String(this.compareMenuList.result[this.LevelId][i]) === String(this.ProductID) && this.$set(this, "isChecked", this.ProductID)
+                }
+                this.compareData = this.getCompareData
+            }
+            ,
+            e.prototype.isTouchDevice = function() {
+                return "ontouchstart"in window || navigator.maxTouchPoints > 0
+            }
+            ,
+            e.prototype.handleChange = function() {
+                var t = this;
+                if (null === sessionStorage.getItem("compareMenuList") || "" === sessionStorage.getItem("compareMenuList") ? (this.compareMenuList = {
+                    result: {},
+                    currentID: ""
+                },
+                sessionStorage.setItem("compareMenuList", JSON.stringify(this.compareMenuList))) : this.compareMenuList = JSON.parse(sessionStorage.getItem("compareMenuList")),
+                "" !== this.ProductID)
+                    if ("false" === this.isChecked) {
+                        this.$emit("gaClickTrigger", !0),
+                        this.$set(this, "isChecked", this.ProductID);
+                        var e = !1;
+                        this.compareMenuList.result[this.LevelId] || (this.compareMenuList.result[this.LevelId] = []);
+                        for (var i = 0; i < this.comparedProductLimit; i++)
+                            String(this.compareMenuList.result[this.LevelId][i]) === String(this.ProductID) && (e = !0);
+                        !1 === e && (this.compareMenuList.result[this.LevelId].length >= this.comparedProductLimit ? (this.isAlertErrorSet(this.compareData.CompareFullWording),
+                        this.$nextTick((function() {
+                            setTimeout((function() {
+                                t.isAlertErrorSet("")
+                            }
+                            ), 5e3)
+                        }
+                        )),
+                        this.$set(this, "isChecked", "false")) : (this.$set(this.compareMenuList.result[this.LevelId], this.compareMenuList.result[this.LevelId].length, String(this.ProductID)),
+                        sessionStorage.setItem("compareMenuList", JSON.stringify(this.compareMenuList)),
+                        this.changeMenu(this.compareMenuList.result[this.LevelId]))),
+                        this.setCompareMenu(this.compareMenuList.result[this.LevelId].length)
+                    } else {
+                        this.$emit("gaClickTrigger", !1),
+                        this.$set(this, "isChecked", "false");
+                        var o = []
+                          , r = !1
+                          , n = 0;
+                        for (i = 0; i < this.comparedProductLimit; i++)
+                            String(this.compareMenuList.result[this.LevelId][i]) !== String(this.ProductID) && "" !== this.compareMenuList.result[this.LevelId][i] ? (o[n] = this.compareMenuList.result[this.LevelId][i],
+                            n++) : r = !0;
+                        if (r) {
+                            this.compareMenuList.result[this.LevelId] = [];
+                            for (i = 0; i < this.comparedProductLimit; i++)
+                                o[i] && void 0 !== o[i] && this.$set(this.compareMenuList.result[this.LevelId], i, o[i]);
+                            sessionStorage.setItem("compareMenuList", JSON.stringify(this.compareMenuList));
+                            var l = this;
+                            this.compareData && this.compareData.ProductList && this.compareData.ProductList.length && this.compareData.ProductList.forEach((function(i, t) {
+                                i.ProductID == l.ProductID && l.compareData.ProductList.splice(t, 1)
+                            }
+                            )),
+                            0 === this.compareData.ProductList.length && this.cleanCompareMenu(),
+                            this.updateCompare(this.compareData)
+                        }
+                    }
+            }
+            ,
+            e.prototype.changeMenu = function(t) {
+                this.productIDApi = JSON.stringify(t).replace(/\[|\]|"/g, ""),
+                this.getCompare({
+                    params: {
+                        SystemCode: "asus",
+                        WebsiteCode: this.websiteCode,
+                        ProductIDList: this.productIDApi
+                    }
+                })
+            }
+            ,
+            f([Object(l.Getter)("compareDataGetter")], e.prototype, "getCompareData", void 0),
+            f([Object(l.Action)("updateCompare")], e.prototype, "updateCompare", void 0),
+            f([Object(l.Action)("getCompare")], e.prototype, "getCompare", void 0),
+            f([Object(l.Mutation)("isAlertErrorSet")], e.prototype, "isAlertErrorSet", void 0),
+            f([Object(l.Prop)()], e.prototype, "LevelId", void 0),
+            f([Object(l.Prop)()], e.prototype, "ProductID", void 0),
+            f([Object(l.Prop)()], e.prototype, "gaProductName", void 0),
+            f([Object(l.Prop)()], e.prototype, "classType", void 0),
+            f([Object(l.Prop)()], e.prototype, "ariaLabel", void 0),
+            f([Object(l.Prop)()], e.prototype, "themeColor", void 0),
+            f([Object(l.Watch)("getCompareData")], e.prototype, "setCompareData", null),
+            e = f([l.Component], e)
+        }(Object(l.mixins)(d.a)), y = o(945), _ = o(10);
+        var component = Object(_.a)(v, (function() {
+            var t, e = this, o = e.$createElement, r = e._self._c || o;
+            return r("div", {
+                class: ["wrapper", "wrapperCenter", e.classType, e.themeColor, e.$style.wrapper, e.$style.wrapperCenter, e.$style[e.classType], e.$style[e.themeColor]],
+                attrs: {
+                    tabindex: "0",
+                    role: "checkbox",
+                    "aria-label": e.ariaLabel,
+                    "aria-checked": "false" !== e.isChecked ? "true" : "false"
+                },
+                on: {
+                    click: function(t) {
+                        return e.handleChange()
+                    },
+                    touchend: function(t) {
+                        e.isTouchDevice() && e.handleChange()
+                    }
+                }
+            }, [r("div", {
+                class: ["divCheckBox", e.$style.divCheckBox, (t = {},
+                t.checked = "false" !== e.isChecked,
+                t[e.$style.checked] = "false" !== e.isChecked,
+                t)]
+            }), e._v(" "), r("div", {
+                class: ["customCheckBox", e.$style.customCheckBox]
+            }, [r("span", {
+                class: ["labelText", e.$style.labelText]
+            }, [e._t("default")], 2)])])
+        }
+        ), [], !1, (function(t) {
+            this.$style = y.default.locals || y.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    627: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), d = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, h = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.isRTL = !1,
+                e.iconSVG = "",
+                e
+            }
+            return c(e, t),
+            e.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            Object.defineProperty(e.prototype, "isWhiteTheme", {
+                get: function() {
+                    return "White" === this.themeColor
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.prev = function() {
+                this.$emit("clickPrev")
+            }
+            ,
+            e.prototype.next = function() {
+                this.$emit("clickNext")
+            }
+            ,
+            e.prototype.IconSVG = function(t) {
+                var e = "";
+                switch (t) {
+                case "previous":
+                    e = this.isRTL ? this.isWhiteTheme ? o(594) : o(859) : this.isWhiteTheme ? o(595) : o(860);
+                    break;
+                case "next":
+                    e = this.isRTL ? this.isWhiteTheme ? o(595) : o(860) : this.isWhiteTheme ? o(594) : o(859)
+                }
+                return e
+            }
+            ,
+            d([Object(l.Getter)("themeColorGetter")], e.prototype, "themeColor", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "enableControllButton", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "enablePrevButton", void 0),
+            d([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "enableNextButton", void 0),
+            e = d([Object(l.Component)({})], e)
+        }(l.Vue), f = o(912), v = o(10);
+        var component = Object(v.a)(h, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return t.enableControllButton ? o("div", {
+                class: ["carouselArrows", t.$style.carouselArrows]
+            }, [t.enablePrevButton ? o("div", {
+                class: ["prev", t.$style.prev],
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Previous slide",
+                    "aria-disabled": t.enablePrevButton ? "false" : "true"
+                },
+                on: {
+                    click: t.prev
+                }
+            }, [t._t("prevButton", [o("img", {
+                attrs: {
+                    "svg-inline": "",
+                    src: t.IconSVG("previous"),
+                    alt: "previous button"
+                }
+            })])], 2) : t._e(), t._v(" "), t.enableNextButton ? o("div", {
+                class: ["next", t.$style.next],
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Next slide",
+                    "aria-disabled": t.enableNextButton ? "false" : "true"
+                },
+                on: {
+                    click: t.next
+                }
+            }, [t._t("nextButton", [o("img", {
+                attrs: {
+                    "svg-inline": "",
+                    src: t.IconSVG("next"),
+                    alt: "next button"
+                }
+            })])], 2) : t._e()]) : t._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = f.default.locals || f.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    628: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14),
+        o(47);
+        var r, n = o(4), l = o(0), c = o(80), d = o.n(c), h = o(32), f = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), v = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, y = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.currentSlide = 1,
+                e.pageSize = 1,
+                e.rwdState = "",
+                e.oneSlideDisplacement = 0,
+                e.controlButtonWidth = 20,
+                e.timeoutId = null,
+                e.mouseovered = !1,
+                e.enableControllButton = !0,
+                e.isRTL = !1,
+                e.inlineStyleObject = {
+                    flexGrow: "0",
+                    flexShrink: "0",
+                    maxWidth: "none"
+                },
+                e.isTranslateX = !0,
+                e
+            }
+            return f(e, t),
+            e.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            Object.defineProperty(e.prototype, "styleTranslate", {
+                get: function() {
+                    return this.isTranslateX ? {
+                        transition: "transform 200ms ease-out",
+                        transform: "translateX(" + this.innerSlidesDisplacement + "px)"
+                    } : {
+                        transition: "transform 0ms ease-out",
+                        transform: "translateX(" + this.innerSlidesDisplacement + "px)"
+                    }
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "visibleWidth", {
+                get: function() {
+                    return this.oneSlideDisplacement
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "getControlButtonWidth", {
+                get: function() {
+                    return this.enableControllButton ? this.controlButtonWidth : 10
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "getMaxContainerWidth", {
+                get: function() {
+                    return this.maxContainerWidth > 0 ? this.maxContainerWidth : this.windowWidth
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "maxVisibleWidth", {
+                get: function() {
+                    return this.getMaxContainerWidth - 2 * this.getControlButtonWidth
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "innerSlidesDisplacement", {
+                get: function() {
+                    var t = this.visibleWidth * (this.currentSlide - 1)
+                      , e = this.visibleWidth * this.totalSlide;
+                    return this.currentSlide >= this.totalSlide && this.AddMainImageArray(this.currentSlide),
+                    t < 0 ? t = 0 : t > e && this.currentSlide >= this.totalSlide && 1 !== this.totalSlide && (t = e),
+                    this.isRTL ? t : -t
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "enablePrevButton", {
+                get: function() {
+                    return this.enableControllButton && (this.currentSlide > 1 || this.loop) && this.totalSlide > 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "enableNextButton", {
+                get: function() {
+                    return this.enableControllButton && (this.currentSlide !== this.totalSlide || this.loop) && this.totalSlide > 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.reloadSource = function() {
+                this.windowWidth >= this.rwdBreakPointMedium ? (this.rwdState = "desktop",
+                this.enableControllButton = 1 === this.showControllButtonList[0]) : this.windowWidth > this.rwdBreakPointSmall ? (this.rwdState = "tablet",
+                this.enableControllButton = 1 === this.showControllButtonList[1]) : (this.rwdState = "mobile",
+                this.enableControllButton = 1 === this.showControllButtonList[2])
+            }
+            ,
+            e.prototype.hover2Seounds = function() {
+                var t = this;
+                this.mouseovered = !0,
+                this.timeoutId || (this.isTranslateX = !0,
+                this.$forceUpdate(),
+                this.next(),
+                this.timeoutId = window.setInterval((function() {
+                    t.next()
+                }
+                ), 2e3))
+            }
+            ,
+            e.prototype.hover2SeoundsOut = function() {
+                this.timeoutId && (this.isTranslateX = !1,
+                window.clearInterval(this.timeoutId),
+                this.timeoutId = null,
+                this.$forceUpdate(),
+                this.currentSlide = 1)
+            }
+            ,
+            e.prototype.slideTo = function(t) {
+                this.currentSlide = t + 1
+            }
+            ,
+            e.prototype.slideReset = function() {
+                var t = this.$refs.innerSlides;
+                t.style.transition = "transform 0ms ease-out",
+                t.style.transform = "translateX(0px)",
+                this.currentSlide = 1
+            }
+            ,
+            e.prototype.next = function() {
+                this.$refs.innerSlides.style.transition = "transform 200ms ease-out",
+                this.mouseovered = !0,
+                this.currentSlide++,
+                this.currentSlide > this.totalSlide && (!0 === this.loop ? this.currentSlide = 1 : this.currentSlide = this.totalSlide)
+            }
+            ,
+            e.prototype.prev = function() {
+                this.$refs.innerSlides.style.transition = "transform 200ms ease-out",
+                this.mouseovered = !0,
+                this.currentSlide--,
+                this.currentSlide <= 0 && (!0 === this.loop ? this.currentSlide = this.totalSlide : this.currentSlide = 1)
+            }
+            ,
+            e.prototype.updateSlideWidth = function() {
+                var t = this.$refs.innerSlides;
+                if (t && t.hasChildNodes()) {
+                    var e = t.childNodes[0].offsetWidth;
+                    this.oneSlideDisplacement = e
+                }
+                this.$set(this.inlineStyleObject, "maxWidth", this.maxVisibleWidth + "px")
+            }
+            ,
+            e.prototype.AddMainImageArray = function(t) {
+                this.$emit("AddMainImageArray", t)
+            }
+            ,
+            e.prototype.updated = function() {
+                this.updateSlideWidth()
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.updateSlideWidth()
+            }
+            ,
+            v([Object(l.Prop)({
+                default: function() {
+                    return [1, 1, 1]
+                }
+            })], e.prototype, "showControllButtonList", void 0),
+            v([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "showType", void 0),
+            v([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "gaProductName", void 0),
+            v([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "loop", void 0),
+            v([Object(l.Prop)({
+                default: parseInt(d.a.breakPointSmall, 10)
+            })], e.prototype, "rwdBreakPointSmall", void 0),
+            v([Object(l.Prop)({
+                default: parseInt(d.a.breakPointMedium, 10)
+            })], e.prototype, "rwdBreakPointMedium", void 0),
+            v([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "maxContainerWidth", void 0),
+            v([Object(l.Prop)()], e.prototype, "windowWidth", void 0),
+            v([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "totalSlide", void 0),
+            v([Object(l.Watch)("windowWidth", {
+                immediate: !0
+            })], e.prototype, "reloadSource", null),
+            e = v([l.Component], e)
+        }(Object(l.mixins)(h.a)), _ = o(948), m = o(10);
+        var component = Object(m.a)(y, (function() {
+            var t, e, o = this, r = o.$createElement, n = o._self._c || r;
+            return n("div", {
+                class: [o.$style.carouselContainer, (t = {},
+                t[o.$style.productCard] = "ProductCard" === o.showType,
+                t)],
+                style: {
+                    paddingRight: o.getControlButtonWidth.toString() + "px",
+                    paddingLeft: o.getControlButtonWidth.toString() + "px"
+                }
+            }, [n("div", {
+                ref: "visibleDiv",
+                class: [o.$style.visibleDiv, (e = {},
+                e[o.$style.notmouseover] = !o.mouseovered,
+                e)],
+                style: {
+                    width: o.visibleWidth + "px",
+                    maxWidth: o.maxVisibleWidth + "px"
+                }
+            }, [n("div", {
+                ref: "innerSlides",
+                class: o.$style.innerSlides,
+                style: o.styleTranslate
+            }, [o._t("default", null, {
+                inlineStyleObject: o.inlineStyleObject
+            })], 2)]), o._v(" "), !o.enablePrevButton || "desktop" === o.rwdState && "ProductCard" !== o.showType ? o._e() : n("div", {
+                class: o.$style.prev,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Previous slide"
+                },
+                on: {
+                    click: function(t) {
+                        t.stopPropagation(),
+                        t.preventDefault(),
+                        o.prev(),
+                        o.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "img_nvgt_product_card",
+                            event_category_DL: "product_card",
+                            event_action_DL: "click",
+                            event_label_DL: o.gaProductName + "/nvgt/last",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [o._t("prevButton", [n("svg", {
+                style: [!1 === o.isRTL ? {} : {
+                    transform: "rotateY(180deg)"
+                }],
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    fill: "none",
+                    viewBox: "0 0 40 54",
+                    "svg-inline": "",
+                    tabindex: "",
+                    role: "presentation",
+                    focusable: "false"
+                }
+            }, [n("rect", {
+                attrs: {
+                    width: "39",
+                    height: "53",
+                    x: ".5",
+                    y: ".5",
+                    fill: "#fff",
+                    "fill-opacity": ".4",
+                    stroke: "#181818",
+                    rx: "3.5"
+                }
+            }), n("path", {
+                attrs: {
+                    stroke: "#000",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-miterlimit": "10",
+                    "stroke-width": "1.5",
+                    d: "M24.5 36.975L14.525 27l9.975-9.975"
+                }
+            })])])], 2), o._v(" "), !o.enableNextButton || "desktop" === o.rwdState && "ProductCard" !== o.showType ? o._e() : n("div", {
+                class: o.$style.next,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Next slide"
+                },
+                on: {
+                    click: function(t) {
+                        t.stopPropagation(),
+                        t.preventDefault(),
+                        o.next(),
+                        o.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "img_nvgt_product_card",
+                            event_category_DL: "product_card",
+                            event_action_DL: "click",
+                            event_label_DL: o.gaProductName + "/nvgt/next",
+                            event_value_DL: ""
+                        })
+                    }
+                }
+            }, [o._t("nextButton", [n("svg", {
+                style: [!1 === o.isRTL ? {} : {
+                    transform: "rotateY(180deg)"
+                }],
+                attrs: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    fill: "none",
+                    viewBox: "0 0 40 54",
+                    "svg-inline": "",
+                    tabindex: "",
+                    role: "presentation",
+                    focusable: "false"
+                }
+            }, [n("rect", {
+                attrs: {
+                    width: "39",
+                    height: "53",
+                    x: ".5",
+                    y: ".5",
+                    fill: "#fff",
+                    "fill-opacity": ".4",
+                    stroke: "#181818",
+                    rx: "3.5"
+                }
+            }), n("path", {
+                attrs: {
+                    stroke: "#181818",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round",
+                    "stroke-miterlimit": "10",
+                    "stroke-width": "1.5",
+                    d: "M15.5 17.025L25.475 27 15.5 36.975"
+                }
+            })])])], 2)])
+        }
+        ), [], !1, (function(t) {
+            this.$style = _.default.locals || _.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    642: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = o(32), d = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, f = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.activeInit = !1,
+                e.indicatorWidth = 0,
+                e.setBarMargin = {},
+                e.indicatorMaxWidth = 0,
+                e.indicatorBarMargin = 0,
+                e.indicatorBarWidth = 0,
+                e.isRTL = !1,
+                e.isPlayBtnHover = !1,
+                e.isStopBtnHover = !1,
+                e
+            }
+            return d(e, t),
+            e.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.totalSlide > 0 && this.resetIndicator()
+            }
+            ,
+            Object.defineProperty(e.prototype, "themeColor", {
+                get: function() {
+                    return this.$store.getters.themeColorGetter
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.isTouchDevice = function() {
+                return "ontouchstart"in window || navigator.maxTouchPoints > 0
+            }
+            ,
+            e.prototype.changeIsPlayBtnHover = function() {
+                this.isPlayBtnHover = !0
+            }
+            ,
+            e.prototype.changeNotPlayBtnHover = function() {
+                this.isPlayBtnHover = !1
+            }
+            ,
+            e.prototype.changeIsStopBtnHover = function() {
+                this.isStopBtnHover = !0
+            }
+            ,
+            e.prototype.changeNotStopBtnHover = function() {
+                this.isStopBtnHover = !1
+            }
+            ,
+            Object.defineProperty(e.prototype, "getSlideBarMovesNumber", {
+                get: function() {
+                    return (this.currentSlide - 1) * (this.indicatorBarWidth + 2 * this.indicatorBarMargin)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.beforeUpdate = function() {
+                var element = this.$refs.indicator_width;
+                this.indicatorWidth = null == element ? void 0 : element.clientWidth
+            }
+            ,
+            e.prototype.slideTo = function(t) {
+                this.$emit("slideToEvent", t + 1)
+            }
+            ,
+            e.prototype.indicatorPlay = function() {
+                this.$emit("indicatorPlay")
+            }
+            ,
+            e.prototype.indicatorStop = function() {
+                this.$emit("indicatorStop")
+            }
+            ,
+            e.prototype.initActive = function() {
+                var t = this;
+                this.activeInit = !1,
+                this.$nextTick((function() {
+                    t.activeInit = !0,
+                    t.resetIndicator()
+                }
+                ))
+            }
+            ,
+            e.prototype.reloadWidth = function() {
+                this.resetIndicator()
+            }
+            ,
+            e.prototype.resetIndicator = function() {
+                var element = this.$refs.indicator_width;
+                this.indicatorWidth = null == element ? void 0 : element.clientWidth,
+                this.totalSlide > 4 && (this.indicatorMaxWidth = 284,
+                this.indicatorBarWidth = this.indicatorMaxWidth / this.totalSlide),
+                this.totalSlide <= 4 && (this.windowWidth >= 1279 ? (this.indicatorBarMargin = 10,
+                this.indicatorBarWidth = 80) : (this.indicatorBarMargin = 6,
+                this.indicatorBarWidth = 62),
+                this.indicatorMaxWidth = this.indicatorBarWidth * this.totalSlide + 2 * (this.totalSlide - 1) * this.indicatorBarMargin)
+            }
+            ,
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "autoPlay", void 0),
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "timerBtn", void 0),
+            h([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "isPlay", void 0),
+            h([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "currentTimer", void 0),
+            h([Object(l.Prop)({
+                default: 5e3
+            })], e.prototype, "indicatorTimer", void 0),
+            h([Object(l.Prop)({
+                default: 5e3
+            })], e.prototype, "transitionDuration", void 0),
+            h([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "totalSlide", void 0),
+            h([Object(l.Prop)({
+                default: 1
+            })], e.prototype, "currentSlide", void 0),
+            h([Object(l.Prop)({
+                default: 4
+            })], e.prototype, "singleLineBreakPoint", void 0),
+            h([Object(l.Prop)({
+                default: !0
+            })], e.prototype, "showText", void 0),
+            h([Object(l.Prop)()], e.prototype, "type", void 0),
+            h([Object(l.Prop)()], e.prototype, "windowWidth", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "typeStyle", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "typeGA", void 0),
+            h([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "sectionTitle", void 0),
+            h([Object(l.Watch)("totalSlide", {
+                immediate: !0
+            })], e.prototype, "initActive", null),
+            h([Object(l.Watch)("windowWidth")], e.prototype, "reloadWidth", null),
+            e = h([Object(l.Component)({})], e)
+        }(Object(l.mixins)(c.a)), v = o(957), y = o(10);
+        var component = Object(y.a)(f, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return void 0 !== t.totalSlide && void 0 !== t.currentSlide && t.totalSlide > 1 ? o("div", {
+                ref: "indicator_width",
+                class: ["indicator", [t.typeStyle], ["theme" + t.themeColor], t.$style.indicator, t.$style[t.typeStyle], t.$style["theme" + t.themeColor]],
+                attrs: {
+                    role: "tablist"
+                }
+            }, [t._l(t.totalSlide, (function(e, r) {
+                var n;
+                return o("div", {
+                    key: e,
+                    class: ["indicatorDot", t.$style.indicatorDot, (n = {},
+                    n.indicatorDotActive = t.currentSlide === r + 1,
+                    n[t.$style.indicatorDotActive] = t.currentSlide === r + 1,
+                    n)],
+                    attrs: {
+                        tabindex: "0",
+                        role: "tab",
+                        "aria-label": t.sectionTitle ? "Slide " + (r + 1) + " of " + t.sectionTitle : "Slide " + (r + 1),
+                        "aria-selected": t.currentSlide === r + 1 ? "true" : "false"
+                    },
+                    on: {
+                        click: function(e) {
+                            t.slideTo(r),
+                            "" !== t.typeGA && t.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "'indicator_" + t.typeGA + "_pdc'",
+                                event_category_DL: "'" + t.typeGA + "_pdc'",
+                                event_action_DL: "clicked",
+                                event_label_DL: "'indicator/" + t.typeGA + "_pdc'",
+                                event_value_DL: ""
+                            })
+                        },
+                        keydown: function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : t.slideTo(r)
+                        },
+                        touchend: function(e) {
+                            t.isTouchDevice() && t.slideTo(r),
+                            "" !== t.typeGA && t.isTouchDevice() && t.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "'indicator_" + t.typeGA + "_pdc'",
+                                event_category_DL: "'" + t.typeGA + "_pdc'",
+                                event_action_DL: "clicked",
+                                event_label_DL: "'indicator/" + t.typeGA + "_pdc'",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [o("div", {
+                    class: ["touchRange", t.$style.touchRange]
+                })])
+            }
+            )), t._v(" "), t.showText ? o("div", {
+                class: ["indicatorText", t.$style.indicatorText]
+            }, [t._v("\n    " + t._s(t.currentSlide) + " / " + t._s(t.totalSlide) + "\n  ")]) : t._e()], 2) : t._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = v.default.locals || v.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    649: function(t, e, o) {
+        t.exports = {
+            carouselArrows: "CarouselArrows__carouselArrows__UqyPk",
+            next: "CarouselArrows__next__MFuuz",
+            prev: "CarouselArrows__prev__16nvn"
+        }
+    },
+    650: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            indicator: "Indicator__indicator__1nUx-",
+            indicatorSingleline: "Indicator__indicatorSingleline__ZnYtD",
+            herobanner: "Indicator__herobanner__Q1B0K",
+            indicatorArea: "Indicator__indicatorArea__8eEhs",
+            indicatorDiv: "Indicator__indicatorDiv__WkYXS",
+            slideController: "Indicator__slideController__37NSM",
+            themeDark: "Indicator__themeDark__sPm3H",
+            active: "Indicator__active__3gXhs",
+            timerBtn: "Indicator__timerBtn__1QqEw",
+            slideBarIndicatorDiv: "Indicator__slideBarIndicatorDiv__hzA4c",
+            touchRange: "Indicator__touchRange__foYfm",
+            bar: "Indicator__bar__1hZV0",
+            progress: "Indicator__progress__3EQZ0",
+            notActive: "Indicator__notActive__1AgCL",
+            slideBar: "Indicator__slideBar__3iO82",
+            slideBarActive: "Indicator__slideBarActive__1vHY8",
+            initRadius: "Indicator__initRadius__EMyoz",
+            barRightRadius: "Indicator__barRightRadius__QWHeE",
+            barLeftRadius: "Indicator__barLeftRadius__2M12Y",
+            timerBtnDiv: "Indicator__timerBtnDiv__38Adf",
+            activeTimer: "Indicator__activeTimer__3rtGz",
+            run: "Indicator__run__VloDY",
+            pause: "Indicator__pause__n-mQv",
+            indicatorPlay: "Indicator__indicatorPlay__Cojfk",
+            indicatorStop: "Indicator__indicatorStop__1sqO4"
+        }
+    },
+    651: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            carouselContainer: "CardCarousel__carouselContainer__22EKB",
+            visibleDiv: "CardCarousel__visibleDiv__OTlco",
+            innerSlides: "CardCarousel__innerSlides__3foyp",
+            bottomIndicator: "CardCarousel__bottomIndicator__17NMJ"
+        }
+    },
+    664: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "CompareCheckBox__wrapper__320u6",
+            White: "CompareCheckBox__White__D43jZ",
+            defaultInput: "CompareCheckBox__defaultInput__8WD6R",
+            divCheckBox: "CompareCheckBox__divCheckBox__VSl5G",
+            checked: "CompareCheckBox__checked__32Lt7",
+            customCheckBox: "CompareCheckBox__customCheckBox__2BBVU",
+            labelText: "CompareCheckBox__labelText__2PsDG",
+            wrapperCenter: "CompareCheckBox__wrapperCenter__1nHp1",
+            KvSummary: "CompareCheckBox__KvSummary__3OReY",
+            Dark: "CompareCheckBox__Dark__1_eiZ",
+            galleryShowType: "CompareCheckBox__galleryShowType__2i9mZ",
+            text: "CompareCheckBox__text__1CduL"
+        }
+    },
+    666: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            carouselContainer: "SingleSlideCarousel__carouselContainer__3iM-u",
+            visibleDiv: "SingleSlideCarousel__visibleDiv__3aWnx",
+            innerSlides: "SingleSlideCarousel__innerSlides__1lHTK",
+            next: "SingleSlideCarousel__next__hpULD",
+            prev: "SingleSlideCarousel__prev__3Qy4C",
+            notmouseover: "SingleSlideCarousel__notmouseover__2fUQ-",
+            productCard: "SingleSlideCarousel__productCard__2Lkh1"
+        }
+    },
+    676: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            indicator: "IndicatorDot__indicator__29xpO",
+            reviewType: "IndicatorDot__reviewType__1XO_V",
+            indicatorText: "IndicatorDot__indicatorText__2Gb6E",
+            leftType: "IndicatorDot__leftType__18DNH",
+            indicatorDot: "IndicatorDot__indicatorDot__vCTPG",
+            themeDark: "IndicatorDot__themeDark__3o2JL",
+            indicatorDotActive: "IndicatorDot__indicatorDotActive__26hm7",
+            touchRange: "IndicatorDot__touchRange__19J1M",
+            themeWhite: "IndicatorDot__themeWhite__2PJte"
+        }
+    },
+    681: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "VideoCarousel__wrapper__mFY1d",
+            sliderSection: "VideoCarousel__sliderSection__P57ut",
+            swiperWrapper: "VideoCarousel__swiperWrapper__-bYBq",
+            swiperSlide: "VideoCarousel__swiperSlide__1tTlD",
+            videoCard: "VideoCarousel__videoCard__ND2_c",
+            videoCardInfo: "VideoCarousel__videoCardInfo__3mKy7",
+            videoCardDescription: "VideoCarousel__videoCardDescription__3GEKB",
+            singleVideoBanner: "VideoCarousel__singleVideoBanner__TE788",
+            videoBannerInfo: "VideoCarousel__videoBannerInfo__2Sp37",
+            videoBannerDescription: "VideoCarousel__videoBannerDescription__1En6K",
+            videoCardTitle: "VideoCarousel__videoCardTitle__1jkmg",
+            videoBannerTitle: "VideoCarousel__videoBannerTitle__1CaqN",
+            section: "VideoCarousel__section__3JZlC",
+            sectionTitle: "VideoCarousel__sectionTitle__3xy-N",
+            videoLearnMore: "VideoCarousel__videoLearnMore__1rS3p",
+            imageBG: "VideoCarousel__imageBG__2cBZ9",
+            videoBox: "VideoCarousel__videoBox__35DMt",
+            video: "VideoCarousel__video___Tj57",
+            videoButton: "VideoCarousel__videoButton__3H0JY",
+            circle: "VideoCarousel__circle__1iFlj",
+            videoBannerBtn: "VideoCarousel__videoBannerBtn__3VYPD",
+            videoWatchButton: "VideoCarousel__videoWatchButton__ftz9B",
+            videoCarouselSection: "VideoCarousel__videoCarouselSection__1dvSo",
+            videoCardOverlay: "VideoCarousel__videoCardOverlay__2hZQd",
+            videoCardImageBG: "VideoCarousel__videoCardImageBG__2CWpv",
+            videoButtonGroup: "VideoCarousel__videoButtonGroup__1MJpR",
+            swiperPrevButton: "VideoCarousel__swiperPrevButton__2sXJ-",
+            swiperNextButton: "VideoCarousel__swiperNextButton__1BMiP",
+            swiperPagination: "VideoCarousel__swiperPagination__MRciJ"
+        }
+    },
+    684: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            checkBoxContainer: "SingleCheckBox__checkBoxContainer__5DTcW",
+            "custom-control-input": "SingleCheckBox__custom-control-input__1WRHO",
+            "custom-control-label": "SingleCheckBox__custom-control-label__1PSFi"
+        }
+    },
+    685: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            checkBoxContainer: "CheckBoxGroupItem__checkBoxContainer__1GW0X",
+            "custom-control-input": "CheckBoxGroupItem__custom-control-input__1JUTj",
+            "custom-control-label": "CheckBoxGroupItem__custom-control-label__2MhGH",
+            notInEnableList: "CheckBoxGroupItem__notInEnableList__2PG1o"
+        }
+    },
+    686: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            collapseWrapper: "CheckBoxGroup__collapseWrapper__2JvEz",
+            collapsible: "CheckBoxGroup__collapsible__3msxd",
+            answerOptions: "CheckBoxGroup__answerOptions__2f0E8",
+            svgBox: "CheckBoxGroup__svgBox__1QZTE"
+        }
+    },
+    692: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            wrapper: "FilterCheckBox__wrapper__2QsXG",
+            customCheckBox: "FilterCheckBox__customCheckBox__1mjkE",
+            disabled: "FilterCheckBox__disabled__1zgRT",
+            defaultInput: "FilterCheckBox__defaultInput__26Sn0",
+            partialChecked: "FilterCheckBox__partialChecked__18Ia9",
+            wrapperCenter: "FilterCheckBox__wrapperCenter__1aXoR"
+        }
+    },
+    698: function(t, e, o) {
+        t.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif',
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px",
+            section: "CardCarouselSpotlight__section__3VrYP",
+            productCardWraper: "CardCarouselSpotlight__productCardWraper__cwMuN",
+            Heading: "CardCarouselSpotlight__Heading__1f54g",
+            carouselContainer: "CardCarouselSpotlight__carouselContainer__286uE",
+            visibleDiv: "CardCarouselSpotlight__visibleDiv__2uRII",
+            innerSlides: "CardCarouselSpotlight__innerSlides__2a5U0",
+            bottomIndicator: "CardCarouselSpotlight__bottomIndicator__LXJA0"
+        }
+    },
+    853: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14),
+        o(47);
+        var r, n = o(4), l = o(0), c = o(80), d = o.n(c), h = o(627), f = o(600), v = o(601), y = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), _ = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, m = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.bodyClientWidth = 0,
+                e.currentSlide = 1,
+                e.pageSize = 1,
+                e.rwdState = "",
+                e.oneCardDisplacement = 0,
+                e.enableControllButton = !0,
+                e.autoPlayInterval = null,
+                e.isRTL = !1,
+                e.cardInlineStyleObject = {
+                    flexGrow: "0",
+                    flexShrink: "0",
+                    maxWidth: "none"
+                },
+                e
+            }
+            return y(e, t),
+            e.prototype.created = function() {
+                this.isRTL = this.$store.getters.RTLGetter,
+                this.isRTL ? this.cardInlineStyleObject.marginLeft = this.spaceBetween + "px" : this.cardInlineStyleObject.marginRight = this.spaceBetween + "px"
+            }
+            ,
+            Object.defineProperty(e.prototype, "totalSlide", {
+                get: function() {
+                    return Math.ceil(this.totalCardsCount / this.pageSize)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "visibleWidth", {
+                get: function() {
+                    var t = this.pageSize > this.totalCardsCount ? this.totalCardsCount : this.pageSize;
+                    return this.oneCardDisplacement * t - this.spaceBetween
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "enablePrevButton", {
+                get: function() {
+                    return this.currentSlide > 1 && this.totalSlide > 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "enableNextButton", {
+                get: function() {
+                    return this.currentSlide !== this.totalSlide && this.totalSlide > 1
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "maxVisibleWidth", {
+                get: function() {
+                    return this.propMaxContainerWidth > 0 ? this.propMaxContainerWidth : this.bodyClientWidth
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "innerSlidesDisplacement", {
+                get: function() {
+                    var t = (this.visibleWidth + this.spaceBetween) * (this.currentSlide - 1)
+                      , e = this.oneCardDisplacement * (this.totalCardsCount - this.pageSize);
+                    return t < 0 ? t = 0 : t > e && this.currentSlide >= this.totalSlide && 1 !== this.totalSlide && (t = e),
+                    -t
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            Object.defineProperty(e.prototype, "getProgressPercent", {
+                get: function() {
+                    return this.totalCardsCount > 0 ? this.currentSlide * this.pageSize >= this.totalCardsCount ? 100 : Math.floor(this.currentSlide * this.pageSize / this.totalCardsCount * 100) : 0
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.bindProgressPercent = function() {
+                this.$emit("getProgressPercentEvent", this.getProgressPercent)
+            }
+            ,
+            e.prototype.reloadSource = function() {
+                var t = this;
+                this.windowWidth > this.rwdBreakPointMedium ? (this.rwdState = "desktop",
+                this.pageSize = this.pageSizeList[0],
+                this.enableControllButton = 1 === this.showControllButtonList[0]) : this.windowWidth > this.rwdBreakPointSmall ? (this.rwdState = "tablet",
+                this.pageSize = this.pageSizeList[1],
+                this.enableControllButton = 1 === this.showControllButtonList[1]) : (this.rwdState = "mobile",
+                this.pageSize = this.pageSizeList[2],
+                this.enableControllButton = 1 === this.showControllButtonList[2]),
+                this.$nextTick((function() {
+                    t.getBodyClientWidth()
+                }
+                ))
+            }
+            ,
+            e.prototype.autoPlayBind = function() {
+                this.autoPlay ? this.bindInterval() : this.autoPlayInterval && clearInterval(this.autoPlayInterval)
+            }
+            ,
+            e.prototype.restartInterval = function() {
+                this.autoPlay && (this.autoPlayInterval && clearInterval(this.autoPlayInterval),
+                this.bindInterval())
+            }
+            ,
+            e.prototype.bindInterval = function() {
+                var t = this;
+                this.autoPlayInterval = setInterval((function() {
+                    t.next(null, !0)
+                }
+                ), this.autoPlayDelay)
+            }
+            ,
+            e.prototype.slideTo = function(t) {
+                this.restartInterval(),
+                this.currentSlide = t
+            }
+            ,
+            e.prototype.next = function(t, e) {
+                void 0 === e && (e = !1),
+                this.currentSlide++,
+                this.currentSlide > this.totalSlide && (!0 === this.loop ? this.currentSlide = 1 : this.currentSlide = this.totalSlide),
+                !1 === e && this.restartInterval()
+            }
+            ,
+            e.prototype.prev = function(t, e) {
+                void 0 === e && (e = !1),
+                this.currentSlide--,
+                this.currentSlide <= 0 && (!0 === this.loop ? this.currentSlide = this.totalSlide : this.currentSlide = 1),
+                !1 === e && this.restartInterval()
+            }
+            ,
+            e.prototype.updateSlideWidth = function() {
+                var t = this.$refs.innerSlides;
+                if (t && t.hasChildNodes()) {
+                    var e = t.childNodes[0].offsetWidth;
+                    this.oneCardDisplacement = e + this.spaceBetween
+                }
+                this.$set(this.cardInlineStyleObject, "maxWidth", (this.maxVisibleWidth - this.spaceBetween * (this.pageSize - 1)) / this.pageSize + "px")
+            }
+            ,
+            e.prototype.updated = function() {
+                this.updateSlideWidth()
+            }
+            ,
+            e.prototype.mounted = function() {
+                this.updateSlideWidth(),
+                this.getBodyClientWidth(),
+                "undefined" != typeof window && this.vtouch("#cardCarousel")
+            }
+            ,
+            e.prototype.beforeDestroy = function() {}
+            ,
+            e.prototype.getBodyClientWidth = function() {
+                document && (this.bodyClientWidth = document.body.clientWidth)
+            }
+            ,
+            e.prototype.vtouchLeft = function() {
+                this.next(null, !1)
+            }
+            ,
+            e.prototype.vtouchRight = function() {
+                this.prev(null, !1)
+            }
+            ,
+            _([Object(l.Getter)("themeColorGetter")], e.prototype, "themeColor", void 0),
+            _([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "spaceBetween", void 0),
+            _([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "spaceBetweenIndicator", void 0),
+            _([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "autoPlay", void 0),
+            _([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "isBottomIndicator", void 0),
+            _([Object(l.Prop)({
+                default: 5e3
+            })], e.prototype, "autoPlayDelay", void 0),
+            _([Object(l.Prop)({
+                default: function() {
+                    return [3, 2, 1]
+                }
+            })], e.prototype, "pageSizeList", void 0),
+            _([Object(l.Prop)({
+                default: function() {
+                    return [1, 1, 1]
+                }
+            })], e.prototype, "showControllButtonList", void 0),
+            _([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "loop", void 0),
+            _([Object(l.Prop)({
+                default: parseInt(d.a.breakPointSmall, 10)
+            })], e.prototype, "rwdBreakPointSmall", void 0),
+            _([Object(l.Prop)({
+                default: parseInt(d.a.breakPointMedium, 10)
+            })], e.prototype, "rwdBreakPointMedium", void 0),
+            _([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "propMaxContainerWidth", void 0),
+            _([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "windowWidth", void 0),
+            _([Object(l.Prop)({
+                default: 0
+            })], e.prototype, "totalCardsCount", void 0),
+            _([Object(l.Watch)("getProgressPercent", {
+                immediate: !0
+            })], e.prototype, "bindProgressPercent", null),
+            _([Object(l.Watch)("windowWidth", {
+                immediate: !0
+            })], e.prototype, "reloadSource", null),
+            _([Object(l.Watch)("autoPlay", {
+                immediate: !0
+            })], e.prototype, "autoPlayBind", null),
+            e = _([Object(l.Component)({
+                components: {
+                    CarouselArrows: h.a,
+                    Indicator: f.a
+                }
+            })], e)
+        }(Object(l.mixins)(v.a)), P = o(914), S = o(10);
+        var component = Object(S.a)(m, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return o("div", {
+                class: t.$style.carouselContainer,
+                attrs: {
+                    id: "cardCarousel"
+                }
+            }, [o("div", {
+                class: t.$style.visibleDiv,
+                style: [{
+                    width: t.visibleWidth + "px"
+                }, {
+                    maxWidth: t.maxVisibleWidth + "px"
+                }, t.spaceBetweenIndicator > 0 ? {
+                    "margin-bottom": t.spaceBetweenIndicator + "px"
+                } : {}]
+            }, [o("div", {
+                ref: "innerSlides",
+                class: t.$style.innerSlides,
+                style: [t.isRTL ? {
+                    transform: "translateX(" + -1 * t.innerSlidesDisplacement + "px)"
+                } : {
+                    transform: "translateX(" + t.innerSlidesDisplacement + "px)"
+                }]
+            }, [t._t("default", null, {
+                cardInlineStyleObject: t.cardInlineStyleObject
+            })], 2)]), t._v(" "), o("CarouselArrows", {
+                attrs: {
+                    enableControllButton: t.enableControllButton,
+                    enablePrevButton: t.enablePrevButton,
+                    enableNextButton: t.enableNextButton
+                },
+                on: {
+                    clickPrev: t.prev,
+                    clickNext: t.next
+                }
+            }), t._v(" "), t.isBottomIndicator ? o("div", {
+                class: t.$style.bottomIndicator
+            }, [o("Indicator", {
+                attrs: {
+                    autoPlay: t.autoPlay,
+                    currentSlide: t.currentSlide,
+                    windowWidth: t.windowWidth,
+                    totalSlide: t.totalSlide,
+                    transitionDuration: t.autoPlayDelay
+                },
+                on: {
+                    slideToEvent: t.slideTo
+                }
+            })], 1) : t._e(), t._v(" "), t.isBottomIndicator ? t._e() : o("Indicator", {
+                attrs: {
+                    autoPlay: t.autoPlay,
+                    currentSlide: t.currentSlide,
+                    windowWidth: t.windowWidth,
+                    totalSlide: t.totalSlide,
+                    transitionDuration: t.autoPlayDelay
+                },
+                on: {
+                    slideToEvent: t.slideTo
+                }
+            })], 1)
+        }
+        ), [], !1, (function(t) {
+            this.$style = P.default.locals || P.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    887: function(t, e, o) {
+        "use strict";
+        o(48),
+        o(56),
+        o(57),
+        o(36),
+        o(43),
+        o(11),
+        o(68),
+        o(14),
+        o(15),
+        o(16),
+        o(39),
+        o(38),
+        o(144),
+        o(37),
+        o(44),
+        o(47),
+        o(439);
+        var r, n = o(4), l = o(0), c = o(40), d = o.n(c), h = o(30), f = o.n(h), v = o(904), y = o(343), _ = o(346), m = o(32), P = (o(593),
+        r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), S = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, w = function(t, e, o, r) {
+            return new (o || (o = Promise))((function(n, l) {
+                function c(t) {
+                    try {
+                        h(r.next(t))
+                    } catch (t) {
+                        l(t)
+                    }
+                }
+                function d(t) {
+                    try {
+                        h(r.throw(t))
+                    } catch (t) {
+                        l(t)
+                    }
+                }
+                function h(t) {
+                    var e;
+                    t.done ? n(t.value) : (e = t.value,
+                    e instanceof o ? e : new o((function(t) {
+                        t(e)
+                    }
+                    ))).then(c, d)
+                }
+                h((r = r.apply(t, e || [])).next())
+            }
+            ))
+        }, x = function(t, body) {
+            var e, o, r, g, n = {
+                label: 0,
+                sent: function() {
+                    if (1 & r[0])
+                        throw r[1];
+                    return r[1]
+                },
+                trys: [],
+                ops: []
+            };
+            return g = {
+                next: l(0),
+                throw: l(1),
+                return: l(2)
+            },
+            "function" == typeof Symbol && (g[Symbol.iterator] = function() {
+                return this
+            }
+            ),
+            g;
+            function l(l) {
+                return function(c) {
+                    return function(l) {
+                        if (e)
+                            throw new TypeError("Generator is already executing.");
+                        for (; n; )
+                            try {
+                                if (e = 1,
+                                o && (r = 2 & l[0] ? o.return : l[0] ? o.throw || ((r = o.return) && r.call(o),
+                                0) : o.next) && !(r = r.call(o, l[1])).done)
+                                    return r;
+                                switch (o = 0,
+                                r && (l = [2 & l[0], r.value]),
+                                l[0]) {
+                                case 0:
+                                case 1:
+                                    r = l;
+                                    break;
+                                case 4:
+                                    return n.label++,
+                                    {
+                                        value: l[1],
+                                        done: !1
+                                    };
+                                case 5:
+                                    n.label++,
+                                    o = l[1],
+                                    l = [0];
+                                    continue;
+                                case 7:
+                                    l = n.ops.pop(),
+                                    n.trys.pop();
+                                    continue;
+                                default:
+                                    if (!(r = n.trys,
+                                    (r = r.length > 0 && r[r.length - 1]) || 6 !== l[0] && 2 !== l[0])) {
+                                        n = 0;
+                                        continue
+                                    }
+                                    if (3 === l[0] && (!r || l[1] > r[0] && l[1] < r[3])) {
+                                        n.label = l[1];
+                                        break
+                                    }
+                                    if (6 === l[0] && n.label < r[1]) {
+                                        n.label = r[1],
+                                        r = l;
+                                        break
+                                    }
+                                    if (r && n.label < r[2]) {
+                                        n.label = r[2],
+                                        n.ops.push(l);
+                                        break
+                                    }
+                                    r[2] && n.ops.pop(),
+                                    n.trys.pop();
+                                    continue
+                                }
+                                l = body.call(t, n)
+                            } catch (t) {
+                                l = [6, t],
+                                o = 0
+                            } finally {
+                                e = r = 0
+                            }
+                        if (5 & l[0])
+                            throw l[1];
+                        return {
+                            value: l[0] ? l[1] : void 0,
+                            done: !0
+                        }
+                    }([l, c])
+                }
+            }
+        }, C = o(596);
+        l.Vue.use(C);
+        var k = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.promotionBannerResult = [],
+                e.promotionBannerData = {},
+                e.videoCarouselSwiper = null,
+                e.isVideoPlay = !0,
+                e.lightboxVideoOpen = !1,
+                e.videoSingleUrl = "",
+                e.videoSingle = {},
+                e.windowWidth = 0,
+                e.watchVideoLink = "",
+                e.currentIndex = 0,
+                e.videoType = "",
+                e.swiperOption = {
+                    observer: !0,
+                    observeParents: !0,
+                    slidesPerView: "auto",
+                    loop: !0,
+                    centeredSlides: !0,
+                    navigation: {
+                        nextEl: ".swiper-videoCarousel-button-next",
+                        prevEl: ".swiper-videoCarousel-button-prev"
+                    },
+                    pagination: {
+                        el: ".swiper-videoCarousel-pagination",
+                        clickable: !0
+                    },
+                    on: {
+                        click: function(t) {
+                            var o = t.target.closest(".videoWatchButton");
+                            o && e.watchVideo(o.dataset.videolink, o.dataset.videotype)
+                        }
+                    }
+                },
+                e
+            }
+            return P(e, t),
+            Object.defineProperty(e.prototype, "getImgWidth", {
+                get: function() {
+                    return this.windowWidth >= 1280 ? "w800" : this.windowWidth > 730 && this.windowWidth < 1280 ? "w672" : "w320"
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.routeChange = function() {}
+            ,
+            e.prototype.setVideoData = function() {
+                var t, e = this;
+                this.videoSingle = this.videoData.Video[0],
+                this.$set(this, "videoSingleUrl", null === (t = this.videoSingle) || void 0 === t ? void 0 : t.ImageLinkPC),
+                this.$nextTick((function() {
+                    e.setWindowWidthAndVideo()
+                }
+                ))
+            }
+            ,
+            e.prototype.setPromotionBannerToData = function() {
+                var t = this;
+                if (this.promotionBannerGetter && Object.keys(this.promotionBannerGetter).length > 0 && (this.promotionBannerData = f()(this.promotionBannerGetter),
+                void 0 !== this.promotionBannerData && void 0 !== this.promotionBannerData.length && this.promotionBannerData.length > 0)) {
+                    var e = [];
+                    this.promotionBannerResult = this.promotionBannerData,
+                    this.promotionBannerResult.forEach((function(element, o) {
+                        e.push({
+                            id: element.Link,
+                            name: element.Content,
+                            position: t.gaPosition + "_" + (o + 1)
+                        })
+                    }
+                    )),
+                    this.gaDataLayerPush({
+                        event: "promotionView",
+                        ecommerce: {
+                            promoView: {
+                                promotions: e
+                            }
+                        }
+                    })
+                }
+            }
+            ,
+            e.prototype.mounted = function() {
+                var t = this;
+                this.$nextTick((function() {
+                    t.initSwiper(),
+                    window.addEventListener("resize", d()(t.setWindowWidthAndVideo, 100, {
+                        trailing: !0
+                    })),
+                    t.setWindowWidthAndVideo()
+                }
+                ))
+            }
+            ,
+            e.prototype.setWindowWidthAndVideo = function() {
+                this.windowWidth = window.innerWidth,
+                1 === this.videoData.IsSingleVideo && this.videoSingle && Object.keys(this.videoSingle).length > 0 && (this.$set(this, "videoSingleUrl", this.videoSingle.ImageLinkPC),
+                this.$refs.videoBG.load(),
+                this.$refs.videoBG.play())
+            }
+            ,
+            e.prototype.getURLParams = function(t, e) {
+                var o = new URLSearchParams(t).get(e);
+                return "" !== o && null !== o ? o : ""
+            }
+            ,
+            e.prototype.watchVideo = function(t, e) {
+                if (null != t && "" !== t && "" !== t) {
+                    if (-1 !== t.indexOf("https://youtu.be/") && -1 !== t.indexOf("si=")) {
+                        var o = t.replace("https://youtu.be/", "https://www.youtube.com/embed/");
+                        t = o
+                    } else if (-1 !== t.indexOf("youtube") && -1 !== t.indexOf("v=")) {
+                        var r = new URL(t);
+                        t = "https://www.youtube.com/embed/" + this.getURLParams(r.search, "v")
+                    }
+                    this.$set(this, "watchVideoLink", t),
+                    this.$set(this, "videoType", e),
+                    this.lightboxVideoOpen = !0
+                }
+            }
+            ,
+            e.prototype.closeLightbox = function() {
+                this.lightboxVideoOpen = !1
+            }
+            ,
+            e.prototype.playVideo = function() {
+                this.isVideoPlay = !0,
+                this.$refs.videoBG.play()
+            }
+            ,
+            e.prototype.pauseVideo = function() {
+                this.isVideoPlay = !1,
+                this.$refs.videoBG.pause()
+            }
+            ,
+            e.prototype.initSwiper = function() {
+                return w(this, void 0, void 0, (function() {
+                    var t, e, r = this;
+                    return x(this, (function(n) {
+                        switch (n.label) {
+                        case 0:
+                            return [4, Promise.all([o.e(0), o.e(5), o.e(8), o.e(3), o.e(2), o.e(7), o.e(1), o.e(6), o.e(4), o.e(10), o.e(9)]).then(o.bind(null, 906))];
+                        case 1:
+                            t = n.sent().default,
+                            e = this.$refs.videoCarouselSwiper,
+                            this.videoCarouselSwiper = new t(e,this.swiperOption),
+                            this.setArrowTabindex(),
+                            this.paginationClick(),
+                            null == e || e.swiper.on("slideChange", (function() {
+                                r.setArrowTabindex(),
+                                r.currentIndex = e.swiper.realIndex
+                            }
+                            )),
+                            n.label = 2;
+                        case 2:
+                            return [2]
+                        }
+                    }
+                    ))
+                }
+                ))
+            }
+            ,
+            e.prototype.setArrowTabindex = function() {
+                document.querySelectorAll(".swiper-button-prev").length > 0 && document.querySelectorAll(".swiper-button-prev").forEach((function(element) {
+                    element.classList.contains("swiper-button-disabled") ? element.tabIndex = "-1" : element.tabIndex = "0"
+                }
+                ));
+                document.querySelectorAll(".swiper-button-next").length > 0 && document.querySelectorAll(".swiper-button-next").forEach((function(element) {
+                    element.classList.contains("swiper-button-disabled") ? element.tabIndex = "-1" : element.tabIndex = "0"
+                }
+                ))
+            }
+            ,
+            e.prototype.paginationClick = function() {
+                var t = this;
+                document.querySelectorAll(".swiper-pagination-bullet").forEach((function(e) {
+                    e.onclick = function() {
+                        setTimeout((function() {
+                            var e = t.currentIndex + 1;
+                            t.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "indicator_videos_" + t.ga4EventPath + "_official",
+                                event_category_DL: "videos/" + t.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "indicator_" + e + "/indicator/videos/" + t.$route.params.levelOneTopMenuName + "_" + t.$route.params.levelTwoProductLineName + "/" + t.gaEventPath + "/official",
+                                event_value_DL: ""
+                            })
+                        }
+                        ), 50)
+                    }
+                }
+                ))
+            }
+            ,
+            e.prototype.buttonTabClick = function(t) {
+                if (13 === t.keyCode) {
+                    var e = this.$refs.videoCarouselSwiper
+                      , o = e.swiper.activeIndex
+                      , r = this.promotionBannerResult.length - 1
+                      , n = null;
+                    t.currentTarget.classList.contains("swiper-button-prev") && o > 0 ? n = setTimeout((function() {
+                        e.swiper.slideTo(0 === o ? 0 : o - 1),
+                        clearTimeout(n),
+                        n = null
+                    }
+                    ), 120) : t.currentTarget.classList.contains("swiper-button-next") && o < r && (n = setTimeout((function() {
+                        e.swiper.slideTo(o === r ? r : o + 1),
+                        clearTimeout(n),
+                        n = null
+                    }
+                    ), 120))
+                }
+            }
+            ,
+            S([Object(l.Getter)("promotionBannerGetter")], e.prototype, "promotionBannerGetter", void 0),
+            S([Object(l.Prop)({
+                default: "video_banner"
+            })], e.prototype, "gaPosition", void 0),
+            S([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "gaEventPath", void 0),
+            S([Object(l.Prop)({
+                default: ""
+            })], e.prototype, "ga4EventPath", void 0),
+            S([Object(l.Prop)()], e.prototype, "videoData", void 0),
+            S([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "hideTitle", void 0),
+            S([Object(l.Watch)("$route")], e.prototype, "routeChange", null),
+            S([Object(l.Watch)("videoData", {
+                immediate: !0
+            })], e.prototype, "setVideoData", null),
+            S([Object(l.Watch)("promotionBannerGetter", {
+                immediate: !0
+            })], e.prototype, "setPromotionBannerToData", null),
+            e = S([Object(l.Component)({
+                components: {
+                    LightboxVideo: v.a,
+                    SolidButton: y.a,
+                    TextLink: _.a
+                }
+            })], e)
+        }(Object(l.mixins)(m.a))
+          , O = o(962)
+          , B = o(10);
+        var component = Object(B.a)(k, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return t.videoData && Object.keys(t.videoData).length > 0 && t.videoData.Video && t.videoData.Video.length > 0 ? o("div", {
+                class: t.$style.wrapper
+            }, ["" !== t.watchVideoLink ? o("LightboxVideo", {
+                ref: "lightbox",
+                attrs: {
+                    videoUrl: t.watchVideoLink,
+                    showLightBox: t.lightboxVideoOpen,
+                    videoType: t.videoType
+                },
+                on: {
+                    closeLightbox: t.closeLightbox
+                }
+            }) : t._e(), t._v(" "), t.videoData && 1 === t.videoData.IsSingleVideo && t.videoSingle && Object.keys(t.videoSingle).length > 0 ? o("div", {
+                class: t.$style.singleVideoBanner
+            }, [o("picture", {
+                class: t.$style.imageBG
+            }, [t.videoSingle.ImageLinkPC && t.videoSingle.ImageLinkPC.includes("mediawebimg") ? o("source", {
+                attrs: {
+                    srcset: "" + t.videoSingle.ImageLinkPC + t.getImgWidth + " 1x, " + t.videoSingle.ImageLinkPC + " 2x"
+                }
+            }) : t._e(), t._v(" "), t.videoSingle.ImageLinkPC && !t.videoSingle.ImageLinkPC.includes("mediawebimg") ? o("source", {
+                attrs: {
+                    srcset: t.videoSingle.ImageLinkPC + " 1x, " + t.videoSingle.ImageLinkPC + " 2x"
+                }
+            }) : t._e(), t._v(" "), o("img", {
+                attrs: {
+                    loading: "lazy",
+                    src: t.videoSingle.ImageLinkPC,
+                    alt: "",
+                    role: "presentation"
+                }
+            })]), t._v(" "), o("div", {
+                class: t.$style.videoBox
+            }, [o("video", {
+                ref: "videoBG",
+                class: t.$style.video,
+                attrs: {
+                    alt: t.videoSingle.Description,
+                    tabindex: "0",
+                    autoplay: "",
+                    muted: "",
+                    loop: "",
+                    playsinline: "true"
+                },
+                domProps: {
+                    muted: !0
+                }
+            }, [o("source", {
+                attrs: {
+                    src: t.videoSingleUrl,
+                    type: "video/mp4"
+                }
+            }), t._v("\n        Your browser does not support HTML5 video.\n      ")])]), t._v(" "), "Dynamic" === t.videoSingle.DisplayImageType ? o("div", {
+                class: t.$style.videoButton
+            }, [t.isVideoPlay ? o("div", {
+                class: t.$style.circle,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Pause the video"
+                },
+                on: {
+                    click: function(e) {
+                        return t.pauseVideo()
+                    }
+                }
+            }, [o("svg", {
+                class: "svg-icon",
+                attrs: {
+                    width: "32",
+                    height: "32",
+                    viewBox: "0 0 32 32",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("g", {
+                attrs: {
+                    filter: "url(#filter0_b_1351_145227)"
+                }
+            }, [o("circle", {
+                attrs: {
+                    cx: "16",
+                    cy: "16",
+                    r: "16",
+                    fill: "#070707",
+                    "fill-opacity": ".5"
+                }
+            }), o("circle", {
+                attrs: {
+                    cx: "16",
+                    cy: "16",
+                    r: "15.5",
+                    stroke: "#fff"
+                }
+            })]), o("rect", {
+                attrs: {
+                    x: "11.6",
+                    y: "10",
+                    width: ".8",
+                    height: "12",
+                    rx: ".4",
+                    fill: "#fff",
+                    stroke: "#fff",
+                    "stroke-width": ".8"
+                }
+            }), o("rect", {
+                attrs: {
+                    x: "19.6",
+                    y: "10",
+                    width: ".8",
+                    height: "12",
+                    rx: ".4",
+                    fill: "#fff",
+                    stroke: "#fff",
+                    "stroke-width": ".8"
+                }
+            }), o("defs", [o("filter", {
+                attrs: {
+                    id: "filter0_b_1351_145227",
+                    x: "-10",
+                    y: "-10",
+                    width: "52",
+                    height: "52",
+                    filterUnits: "userSpaceOnUse",
+                    "color-interpolation-filters": "sRGB"
+                }
+            }, [o("feFlood", {
+                attrs: {
+                    "flood-opacity": "0",
+                    result: "BackgroundImageFix"
+                }
+            }), o("feGaussianBlur", {
+                attrs: {
+                    in: "BackgroundImageFix",
+                    stdDeviation: "5"
+                }
+            }), o("feComposite", {
+                attrs: {
+                    in2: "SourceAlpha",
+                    operator: "in",
+                    result: "effect1_backgroundBlur_1351_145227"
+                }
+            }), o("feBlend", {
+                attrs: {
+                    in: "SourceGraphic",
+                    in2: "effect1_backgroundBlur_1351_145227",
+                    result: "shape"
+                }
+            })], 1)])])]) : o("div", {
+                class: t.$style.circle,
+                attrs: {
+                    tabindex: "0",
+                    role: "button",
+                    "aria-label": "Play the video"
+                },
+                on: {
+                    click: function(e) {
+                        return t.playVideo()
+                    }
+                }
+            }, [o("svg", {
+                class: "svg-icon",
+                attrs: {
+                    width: "32",
+                    height: "32",
+                    viewBox: "0 0 32 32",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("g", {
+                attrs: {
+                    filter: "url(#filter0_b_1358_152491)"
+                }
+            }, [o("circle", {
+                attrs: {
+                    cx: "16",
+                    cy: "16",
+                    r: "16",
+                    fill: "#070707",
+                    "fill-opacity": ".5"
+                }
+            }), o("circle", {
+                attrs: {
+                    cx: "16",
+                    cy: "16",
+                    r: "15.5",
+                    stroke: "#fff"
+                }
+            })]), o("path", {
+                attrs: {
+                    d: "M22.52 15.136a1 1 0 010 1.728l-9.016 5.259A1 1 0 0112 21.259V10.741a1 1 0 011.504-.864l9.015 5.26z",
+                    fill: "#fff"
+                }
+            }), o("defs", [o("filter", {
+                attrs: {
+                    id: "filter0_b_1358_152491",
+                    x: "-10",
+                    y: "-10",
+                    width: "52",
+                    height: "52",
+                    filterUnits: "userSpaceOnUse",
+                    "color-interpolation-filters": "sRGB"
+                }
+            }, [o("feFlood", {
+                attrs: {
+                    "flood-opacity": "0",
+                    result: "BackgroundImageFix"
+                }
+            }), o("feGaussianBlur", {
+                attrs: {
+                    in: "BackgroundImageFix",
+                    stdDeviation: "5"
+                }
+            }), o("feComposite", {
+                attrs: {
+                    in2: "SourceAlpha",
+                    operator: "in",
+                    result: "effect1_backgroundBlur_1358_152491"
+                }
+            }), o("feBlend", {
+                attrs: {
+                    in: "SourceGraphic",
+                    in2: "effect1_backgroundBlur_1358_152491",
+                    result: "shape"
+                }
+            })], 1)])])])]) : t._e(), t._v(" "), o("div", {
+                class: t.$style.videoBannerInfo
+            }, [o("div", {
+                class: t.$style.videoBannerTitle
+            }, [t._v(t._s(t.videoSingle.Title))]), t._v(" "), o("div", {
+                class: t.$style.videoBannerDescription
+            }, [t._v(t._s(t.videoSingle.Description))]), t._v(" "), o("div", {
+                class: t.$style.videoBannerBtn
+            }, [o("SolidButton", {
+                class: t.$style.videoWatchButton,
+                attrs: {
+                    label: "Watch the video now",
+                    needCallEvent: !0,
+                    divType: !0
+                },
+                on: {
+                    click: function(e) {
+                        e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "cta_videos_" + t.ga4EventPath + "_official",
+                            event_category_DL: "videos/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "undefined-" + t.videoData.WatchNow + "/" + t.videoSingle.Title + "/videos/" + t.$route.params.levelOneTopMenuName + "_" + t.$route.params.levelTwoProductLineName + "/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        }),
+                        t.watchVideo(t.videoSingle.VideoLink, t.videoSingle.VideoType)
+                    }
+                }
+            }, [t._v("\n          " + t._s(t.videoData.WatchNow) + "\n          "), o("svg", {
+                class: "svg-icon",
+                attrs: {
+                    width: "21",
+                    height: "20",
+                    viewBox: "0 0 21 20",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("rect", {
+                attrs: {
+                    x: ".5",
+                    width: "20",
+                    height: "20",
+                    rx: "10",
+                    fill: "#fff"
+                }
+            }), o("path", {
+                attrs: {
+                    d: "M15 9.134a1 1 0 010 1.732L9 14.33a1 1 0 01-1.5-.866V6.536A1 1 0 019 5.67l6 3.464z",
+                    fill: "#006CE1"
+                }
+            })])]), t._v(" "), t.videoSingle.LearnMoreText && "" !== t.videoSingle.LearnMoreLink && null !== t.videoSingle.LearnMoreLink && void 0 !== t.videoSingle.LearnMoreLink ? o("TextLink", {
+                class: t.$style.videoLearnMore,
+                attrs: {
+                    href: t.videoSingle.LearnMoreLink,
+                    target: "_blank",
+                    enableArrow: !0,
+                    "aria-label": "Learn more about " + t.videoSingle.Title
+                }
+            }, [t._v("\n          " + t._s(t.videoSingle.LearnMoreText) + "\n        ")]) : t._e()], 1)])]) : t._e(), t._v(" "), t.videoData && 0 === t.videoData.IsSingleVideo && t.videoData.Video.length >= 3 ? o("div", {
+                class: [t.$style.videoCarouselSection, t.$style.section]
+            }, [t.hideTitle ? t._e() : o("h3", {
+                class: t.$style.sectionTitle
+            }, [t._v(t._s(t.videoData.Title))]), t._v(" "), o("div", {
+                ref: "videoCarouselSwiper",
+                class: [t.$style.sliderSection]
+            }, [o("div", {
+                class: ["swiper-wrapper", t.$style.swiperWrapper]
+            }, [t._l(t.videoData.Video, (function(video, e) {
+                return [o("div", {
+                    key: e,
+                    class: ["swiper-slide", t.$style.swiperSlide]
+                }, [o("div", {
+                    class: t.$style.videoCard
+                }, [o("div", {
+                    class: t.$style.videoCardOverlay
+                }), t._v(" "), o("picture", {
+                    class: t.$style.videoCardImageBG
+                }, [video.ImageLinkPC && video.ImageLinkPC.includes("mediawebimg") ? o("source", {
+                    attrs: {
+                        srcset: "" + video.ImageLinkPC + t.getImgWidth + " 1x, " + video.ImageLinkPC + " 2x"
+                    }
+                }) : t._e(), t._v(" "), video.ImageLinkPC && !video.ImageLinkPC.includes("mediawebimg") ? o("source", {
+                    attrs: {
+                        srcset: video.ImageLinkPC + " 1x, " + video.ImageLinkPC + " 2x"
+                    }
+                }) : t._e(), t._v(" "), o("img", {
+                    attrs: {
+                        loading: "lazy",
+                        src: video.ImageLinkPC,
+                        alt: "background image"
+                    }
+                })]), t._v(" "), o("div", {
+                    class: t.$style.videoCardInfo
+                }, [o("div", {
+                    class: t.$style.videoCardTitle
+                }, [t._v(t._s(video.Title))]), t._v(" "), o("div", {
+                    class: t.$style.videoCardDescription
+                }, [t._v(t._s(video.Description))]), t._v(" "), o("div", {
+                    class: t.$style.videoButtonGroup
+                }, [o("SolidButton", {
+                    staticClass: "videoWatchButton",
+                    class: t.$style.videoWatchButton,
+                    attrs: {
+                        label: "Watch the video now",
+                        needCallEvent: !0,
+                        divType: !0,
+                        "data-videolink": video.VideoLink,
+                        "data-videotype": video.VideoType
+                    },
+                    on: {
+                        keydown: function(e) {
+                            return !e.type.indexOf("key") && t._k(e.keyCode, "enter", 13, e.key, "Enter") ? null : t.watchVideo(video.VideoLink, video.VideoType)
+                        },
+                        click: function(e) {
+                            return e.stopPropagation(),
+                            t.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "cta_videos_" + t.ga4EventPath + "_official",
+                                event_category_DL: "videos/" + t.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "undefined-" + t.videoData.WatchNow + "/" + t.videoSingle.Title + "/" + t.$route.params.levelOneTopMenuName + "_" + t.$route.params.levelTwoProductLineName + "/videos/" + t.gaEventPath + "/official",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [t._v("\n                  " + t._s(t.videoData.WatchNow) + "\n                  "), o("svg", {
+                    class: "svg-icon",
+                    attrs: {
+                        width: "21",
+                        height: "20",
+                        viewBox: "0 0 21 20",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        "svg-inline": "",
+                        role: "presentation",
+                        focusable: "false",
+                        tabindex: "-1"
+                    }
+                }, [o("rect", {
+                    attrs: {
+                        x: ".5",
+                        width: "20",
+                        height: "20",
+                        rx: "10",
+                        fill: "#fff"
+                    }
+                }), o("path", {
+                    attrs: {
+                        d: "M15 9.134a1 1 0 010 1.732L9 14.33a1 1 0 01-1.5-.866V6.536A1 1 0 019 5.67l6 3.464z",
+                        fill: "#006CE1"
+                    }
+                })])]), t._v(" "), t.videoSingle.LearnMoreText && "" !== video.LearnMoreLink && null !== video.LearnMoreLink && void 0 !== video.LearnMoreLink ? o("TextLink", {
+                    class: t.$style.videoLearnMore,
+                    attrs: {
+                        href: video.LearnMoreLink,
+                        target: "_blank",
+                        enableArrow: !0
+                    },
+                    nativeOn: {
+                        click: function(e) {
+                            return t.gaDataLayerPush({
+                                event: "data_layer_event",
+                                event_name_ga4: "cta_videos_" + t.ga4EventPath + "_official",
+                                event_category_DL: "videos/" + t.gaEventPath + "/official",
+                                event_action_DL: "clicked",
+                                event_label_DL: "undefined-" + video.LearnMoreText + "/" + t.videoSingle.Title + "/" + t.$route.params.levelOneTopMenuName + "_" + t.$route.params.levelTwoProductLineName + "/videos/" + t.gaEventPath + "/official",
+                                event_value_DL: ""
+                            })
+                        }
+                    }
+                }, [t._v("\n                  " + t._s(video.LearnMoreText) + "\n                ")]) : t._e()], 1)])])])]
+            }
+            ))], 2), t._v(" "), [o("div", {
+                class: ["swiper-button-prev", "swiper-videoCarousel-button-prev", t.$style.swiperPrevButton],
+                attrs: {
+                    slot: "button-prev",
+                    "aria-label": "Previous slide"
+                },
+                on: {
+                    keydown: function(e) {
+                        return t.buttonTabClick(e)
+                    },
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_l_videos_" + t.ga4EventPath + "_official",
+                            event_category_DL: "videos/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "last_button/videos/" + t.$route.params.levelOneTopMenuName + "_" + t.$route.params.levelTwoProductLineName + "/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        })
+                    }
+                },
+                slot: "button-prev"
+            }, [o("svg", {
+                class: t.$style.buttonIcon,
+                attrs: {
+                    viewBox: "0 0 16 16",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M11 13.5L5.3 8 11 2.5",
+                    stroke: "#181818",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), t._v(" "), o("div", {
+                class: ["swiper-button-next", "swiper-videoCarousel-button-next", t.$style.swiperNextButton],
+                attrs: {
+                    slot: "button-next",
+                    "aria-label": "Next slide"
+                },
+                on: {
+                    keydown: function(e) {
+                        return t.buttonTabClick(e)
+                    },
+                    click: function(e) {
+                        return e.stopPropagation(),
+                        t.gaDataLayerPush({
+                            event: "data_layer_event",
+                            event_name_ga4: "nvgt_n_videos_" + t.ga4EventPath + "_official",
+                            event_category_DL: "videos/" + t.gaEventPath + "/official",
+                            event_action_DL: "clicked",
+                            event_label_DL: "next_button/videos/" + t.$route.params.levelOneTopMenuName + "_" + t.$route.params.levelTwoProductLineName + "/" + t.gaEventPath + "/official",
+                            event_value_DL: ""
+                        })
+                    }
+                },
+                slot: "button-next"
+            }, [o("svg", {
+                class: t.$style.buttonIcon,
+                attrs: {
+                    width: "30",
+                    height: "30",
+                    viewBox: "0 0 30 30",
+                    fill: "none",
+                    xmlns: "http://www.w3.org/2000/svg",
+                    "svg-inline": "",
+                    role: "presentation",
+                    focusable: "false",
+                    tabindex: "-1"
+                }
+            }, [o("path", {
+                attrs: {
+                    d: "M12 26l9-11-9-11",
+                    stroke: "#fff",
+                    "stroke-width": "3",
+                    "stroke-miterlimit": "10",
+                    "stroke-linecap": "round",
+                    "stroke-linejoin": "round"
+                }
+            })])]), t._v(" "), o("div", {
+                class: ["swiper-videoCarousel-pagination", t.$style.swiperPagination]
+            })]], 2)]) : t._e()], 1) : t._e()
+        }
+        ), [], !1, (function(t) {
+            this.$style = O.default.locals || O.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    890: function(t, e, o) {
+        "use strict";
+        o(11),
+        o(14);
+        var r, n = o(4), l = o(0), c = o(632), d = (r = function(t, b) {
+            return (r = Object.setPrototypeOf || {
+                __proto__: []
+            }instanceof Array && function(t, b) {
+                t.__proto__ = b
+            }
+            || function(t, b) {
+                for (var p in b)
+                    b.hasOwnProperty(p) && (t[p] = b[p])
+            }
+            )(t, b)
+        }
+        ,
+        function(t, b) {
+            function e() {
+                this.constructor = t
+            }
+            r(t, b),
+            t.prototype = null === b ? Object.create(b) : (e.prototype = b.prototype,
+            new e)
+        }
+        ), h = function(t, e, o, desc) {
+            var r, l = arguments.length, c = l < 3 ? e : null === desc ? desc = Object.getOwnPropertyDescriptor(e, o) : desc;
+            if ("object" === ("undefined" == typeof Reflect ? "undefined" : Object(n.a)(Reflect)) && "function" == typeof Reflect.decorate)
+                c = Reflect.decorate(t, e, o, desc);
+            else
+                for (var i = t.length - 1; i >= 0; i--)
+                    (r = t[i]) && (c = (l < 3 ? r(c) : l > 3 ? r(e, o, c) : r(e, o)) || c);
+            return l > 3 && c && Object.defineProperty(e, o, c),
+            c
+        }, f = function(t) {
+            function e() {
+                var e = null !== t && t.apply(this, arguments) || this;
+                return e.uniqueId = null,
+                e
+            }
+            return d(e, t),
+            e.prototype.mounted = function() {
+                this.uniqueId = this.getComponentId("checkbox")
+            }
+            ,
+            Object.defineProperty(e.prototype, "checked", {
+                get: function() {
+                    return this.value
+                },
+                set: function(t) {
+                    this.$emit("input", t),
+                    this.$emit("gaClickTrigger", t)
+                },
+                enumerable: !0,
+                configurable: !0
+            }),
+            e.prototype.handelIndeterminate = function() {
+                if (this.$refs && this.uniqueId && this.$refs[this.uniqueId]) {
+                    var t = this.$refs[this.uniqueId];
+                    t && (t.indeterminate = Boolean(this.isSelectedPart))
+                }
+            }
+            ,
+            h([Object(l.Prop)({
+                default: !1
+            })], e.prototype, "isSelectedPart", void 0),
+            h([Object(l.Prop)()], e.prototype, "value", void 0),
+            h([Object(l.Prop)()], e.prototype, "name", void 0),
+            h([Object(l.Prop)({
+                default: "checkbox"
+            })], e.prototype, "type", void 0),
+            h([Object(l.Watch)("isSelectedPart", {
+                immediate: !0
+            })], e.prototype, "handelIndeterminate", null),
+            e = h([l.Component], e)
+        }(Object(l.mixins)(c.a)), v = o(971), y = o(10);
+        var component = Object(y.a)(f, (function() {
+            var t = this
+              , e = t.$createElement
+              , o = t._self._c || e;
+            return o("div", {
+                class: t.$style.checkBoxContainer
+            }, ["checkbox" === t.type ? o("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: t.checked,
+                    expression: "checked"
+                }],
+                ref: t.uniqueId,
+                class: t.$style["custom-control-input"],
+                attrs: {
+                    id: t.uniqueId,
+                    "true-value": !0,
+                    "false-value": !1,
+                    name: t.name || !1,
+                    "aria-checked": t.checked,
+                    tabindex: "-1",
+                    type: "checkbox"
+                },
+                domProps: {
+                    checked: Array.isArray(t.checked) ? t._i(t.checked, null) > -1 : t.checked
+                },
+                on: {
+                    change: function(e) {
+                        var o = t.checked
+                          , r = e.target
+                          , n = !!r.checked;
+                        if (Array.isArray(o)) {
+                            var l = t._i(o, null);
+                            r.checked ? l < 0 && (t.checked = o.concat([null])) : l > -1 && (t.checked = o.slice(0, l).concat(o.slice(l + 1)))
+                        } else
+                            t.checked = n
+                    }
+                }
+            }) : "radio" === t.type ? o("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: t.checked,
+                    expression: "checked"
+                }],
+                ref: t.uniqueId,
+                class: t.$style["custom-control-input"],
+                attrs: {
+                    id: t.uniqueId,
+                    "true-value": !0,
+                    "false-value": !1,
+                    name: t.name || !1,
+                    "aria-checked": t.checked,
+                    tabindex: "-1",
+                    type: "radio"
+                },
+                domProps: {
+                    checked: t._q(t.checked, null)
+                },
+                on: {
+                    change: function(e) {
+                        t.checked = null
+                    }
+                }
+            }) : o("input", {
+                directives: [{
+                    name: "model",
+                    rawName: "v-model",
+                    value: t.checked,
+                    expression: "checked"
+                }],
+                ref: t.uniqueId,
+                class: t.$style["custom-control-input"],
+                attrs: {
+                    id: t.uniqueId,
+                    "true-value": !0,
+                    "false-value": !1,
+                    name: t.name || !1,
+                    "aria-checked": t.checked,
+                    tabindex: "-1",
+                    type: t.type
+                },
+                domProps: {
+                    value: t.checked
+                },
+                on: {
+                    input: function(e) {
+                        e.target.composing || (t.checked = e.target.value)
+                    }
+                }
+            }), t._v(" "), o("label", {
+                class: t.$style["custom-control-label"],
+                attrs: {
+                    for: t.uniqueId,
+                    tabindex: "0"
+                }
+            }, [t._t("default")], 2)])
+        }
+        ), [], !1, (function(t) {
+            this.$style = v.default.locals || v.default
+        }
+        ), null, null);
+        e.a = component.exports
+    },
+    912: function(t, e, o) {
+        "use strict";
+        var r = o(649)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    913: function(t, e, o) {
+        "use strict";
+        var r = o(650)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    914: function(t, e, o) {
+        "use strict";
+        var r = o(651)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    945: function(t, e, o) {
+        "use strict";
+        var r = o(664)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    948: function(t, e, o) {
+        "use strict";
+        var r = o(666)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    957: function(t, e, o) {
+        "use strict";
+        var r = o(676)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    962: function(t, e, o) {
+        "use strict";
+        var r = o(681)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    971: function(t, e, o) {
+        "use strict";
+        var r = o(684)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    972: function(t, e, o) {
+        "use strict";
+        var r = o(685)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    973: function(t, e, o) {
+        "use strict";
+        var r = o(686)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    989: function(t, e, o) {
+        "use strict";
+        var r = o(692)
+          , n = o.n(r);
+        e.default = n.a
+    },
+    995: function(t, e, o) {
+        "use strict";
+        var r = o(698)
+          , n = o.n(r);
+        e.default = n.a
+    }
+}]);

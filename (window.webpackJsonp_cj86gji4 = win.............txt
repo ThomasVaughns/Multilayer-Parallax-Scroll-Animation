@@ -1,0 +1,18 @@
+(window.webpackJsonp_cj86gji4 = window.webpackJsonp_cj86gji4 || []).push([[14], {
+    518: function(o, e, n) {
+        o.exports = {
+            fontFamilyRegular: '"TTNormsProRegular","Roboto",sans-serif',
+            fontFamilyBold: '"TTNormsProMedium","Roboto",sans-serif'
+        }
+    },
+    583: function(o, e, n) {
+        o.exports = n.p + "img/logoSaleNoti.f3d3b02.png"
+    },
+    80: function(o, e, n) {
+        o.exports = {
+            breakPointMedium: "1279px",
+            breakPointHeaderTablet: "1023px",
+            breakPointSmall: "731px"
+        }
+    }
+}]);
